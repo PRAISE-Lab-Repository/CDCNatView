@@ -1,0 +1,974 @@
+"""Notes""","""Number of Previous Cesareans""","""Number of Previous Cesareans Code""","""Year""","""Year Code""","""Mother's Single Race 6""","""Mother's Single Race 6 Code""","""Mother's Pre-pregnancy BMI""","""Mother's Pre-pregnancy BMI Code""","""Mother's Weight Gain Recode""","""Mother's Weight Gain Recode Code""","Births"
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Underweight <18.5""","""1""","""Less than 11 pounds""","""1""",30
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Underweight <18.5""","""1""","""11 to 20 pounds""","""2""",91
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Underweight <18.5""","""1""","""21 to 30 pounds""","""3""",161
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Underweight <18.5""","""1""","""31 to 40 pounds""","""4""",142
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Underweight <18.5""","""1""","""41 to 98 pounds""","""5""",193
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Underweight <18.5""","""1""","""Unknown or Not Stated""","""9""",14
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",572
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",1248
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",2278
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",2179
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",2557
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Normal 18.5-24.9""","""2""","""Unknown or Not Stated""","""9""",114
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",974
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",1494
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",1976
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",1661
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",1888
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Overweight 25.0-29.9""","""3""","""Unknown or Not Stated""","""9""",106
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",1092
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",1271
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",1341
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",948
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",986
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity I 30.0-34.9""","""4""","""Unknown or Not Stated""","""9""",95
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",853
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",735
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",665
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",424
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",431
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity II 35.0-39.9""","""5""","""Unknown or Not Stated""","""9""",69
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",681
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",434
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",384
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Extreme Obesity III > 39.9""","""6""","""31 to 40 pounds""","""4""",209
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",243
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Extreme Obesity III > 39.9""","""6""","""Unknown or Not Stated""","""9""",52
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Unknown or Not Stated""","""9""","""Less than 11 pounds""","""1""",14
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Unknown or Not Stated""","""9""","""21 to 30 pounds""","""3""",18
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",774
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Underweight <18.5""","""1""","""Less than 11 pounds""","""1""",179
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Underweight <18.5""","""1""","""11 to 20 pounds""","""2""",1530
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Underweight <18.5""","""1""","""21 to 30 pounds""","""3""",3894
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Underweight <18.5""","""1""","""31 to 40 pounds""","""4""",2809
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Underweight <18.5""","""1""","""41 to 98 pounds""","""5""",1350
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Underweight <18.5""","""1""","""Unknown or Not Stated""","""9""",63
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",3834
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",18303
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",39701
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",30822
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",15404
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""Unknown or Not Stated""","""9""",802
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",5084
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",11543
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",15059
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",9623
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",5536
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""Unknown or Not Stated""","""9""",390
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",3144
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",4811
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",4611
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",2482
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",1494
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Obesity I 30.0-34.9""","""4""","""Unknown or Not Stated""","""9""",165
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",1112
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",1300
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",1129
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",532
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",329
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Obesity II 35.0-39.9""","""5""","""Unknown or Not Stated""","""9""",46
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",430
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",410
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",318
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Extreme Obesity III > 39.9""","""6""","""31 to 40 pounds""","""4""",155
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",110
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Extreme Obesity III > 39.9""","""6""","""Unknown or Not Stated""","""9""",37
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Unknown or Not Stated""","""9""","""Less than 11 pounds""","""1""",42
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Unknown or Not Stated""","""9""","""11 to 20 pounds""","""2""",89
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Unknown or Not Stated""","""9""","""21 to 30 pounds""","""3""",122
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Unknown or Not Stated""","""9""","""31 to 40 pounds""","""4""",96
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Unknown or Not Stated""","""9""","""41 to 98 pounds""","""5""",42
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Asian""","""A""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",3652
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Underweight <18.5""","""1""","""Less than 11 pounds""","""1""",478
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Underweight <18.5""","""1""","""11 to 20 pounds""","""2""",1996
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Underweight <18.5""","""1""","""21 to 30 pounds""","""3""",3987
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Underweight <18.5""","""1""","""31 to 40 pounds""","""4""",3535
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Underweight <18.5""","""1""","""41 to 98 pounds""","""5""",3583
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Underweight <18.5""","""1""","""Unknown or Not Stated""","""9""",94
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",8639
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",23734
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",39511
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",35087
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",38289
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""Unknown or Not Stated""","""9""",1126
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",14052
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",25546
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",32692
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",25317
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",28099
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""Unknown or Not Stated""","""9""",1118
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",15345
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",20343
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",21521
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",14958
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",15237
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""Unknown or Not Stated""","""9""",955
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",11749
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",11604
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",10645
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",6673
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",6643
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""Unknown or Not Stated""","""9""",827
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",12107
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",9179
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",7606
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""31 to 40 pounds""","""4""",4414
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",4506
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""Unknown or Not Stated""","""9""",1357
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Unknown or Not Stated""","""9""","""Less than 11 pounds""","""1""",176
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Unknown or Not Stated""","""9""","""11 to 20 pounds""","""2""",206
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Unknown or Not Stated""","""9""","""21 to 30 pounds""","""3""",239
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Unknown or Not Stated""","""9""","""31 to 40 pounds""","""4""",144
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Unknown or Not Stated""","""9""","""41 to 98 pounds""","""5""",164
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Black or African American""","""2054-5""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",10910
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Underweight <18.5""","""1""","""11 to 20 pounds""","""2""",24
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Underweight <18.5""","""1""","""21 to 30 pounds""","""3""",58
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Underweight <18.5""","""1""","""31 to 40 pounds""","""4""",44
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Underweight <18.5""","""1""","""41 to 98 pounds""","""5""",41
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",241
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",437
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",740
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",575
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",640
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Normal 18.5-24.9""","""2""","""Unknown or Not Stated""","""9""",40
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",455
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",547
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",679
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",533
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",650
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Overweight 25.0-29.9""","""3""","""Unknown or Not Stated""","""9""",46
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",467
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",471
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",492
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",317
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",426
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity I 30.0-34.9""","""4""","""Unknown or Not Stated""","""9""",35
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",344
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",282
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",274
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",182
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",209
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity II 35.0-39.9""","""5""","""Unknown or Not Stated""","""9""",35
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",298
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",190
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",176
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Extreme Obesity III > 39.9""","""6""","""31 to 40 pounds""","""4""",110
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",143
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Extreme Obesity III > 39.9""","""6""","""Unknown or Not Stated""","""9""",18
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Unknown or Not Stated""","""9""","""Less than 11 pounds""","""1""",17
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Unknown or Not Stated""","""9""","""11 to 20 pounds""","""2""",10
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Unknown or Not Stated""","""9""","""31 to 40 pounds""","""4""",10
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",631
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""Less than 11 pounds""","""1""",1213
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""11 to 20 pounds""","""2""",7122
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""21 to 30 pounds""","""3""",18766
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""31 to 40 pounds""","""4""",17463
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""41 to 98 pounds""","""5""",15577
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""Unknown or Not Stated""","""9""",462
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",26761
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",115213
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",283652
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",278850
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",227443
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""Unknown or Not Stated""","""9""",7247
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",46066
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",110393
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",173846
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",147541
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",141188
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""Unknown or Not Stated""","""9""",4612
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",51517
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",80445
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",92386
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",65367
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",59900
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""Unknown or Not Stated""","""9""",3201
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",38679
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",42830
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",40251
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",24489
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",21752
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""Unknown or Not Stated""","""9""",2282
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",34931
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",27570
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",22748
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""31 to 40 pounds""","""4""",12908
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",11333
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""Unknown or Not Stated""","""9""",3135
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Unknown or Not Stated""","""9""","""Less than 11 pounds""","""1""",693
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Unknown or Not Stated""","""9""","""11 to 20 pounds""","""2""",1044
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Unknown or Not Stated""","""9""","""21 to 30 pounds""","""3""",1428
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Unknown or Not Stated""","""9""","""31 to 40 pounds""","""4""",1078
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Unknown or Not Stated""","""9""","""41 to 98 pounds""","""5""",816
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""White""","""2106-3""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",36352
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Underweight <18.5""","""1""","""Less than 11 pounds""","""1""",79
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Underweight <18.5""","""1""","""11 to 20 pounds""","""2""",288
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Underweight <18.5""","""1""","""21 to 30 pounds""","""3""",816
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Underweight <18.5""","""1""","""31 to 40 pounds""","""4""",831
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Underweight <18.5""","""1""","""41 to 98 pounds""","""5""",893
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Underweight <18.5""","""1""","""Unknown or Not Stated""","""9""",29
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",1268
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",3719
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",8843
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",9401
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",10013
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""Unknown or Not Stated""","""9""",348
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",2058
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",3593
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",5693
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",5188
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",6533
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""Unknown or Not Stated""","""9""",217
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",2299
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",2835
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",3305
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",2758
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",3044
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""Unknown or Not Stated""","""9""",181
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",1813
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",1670
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",1706
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",1156
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",1161
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Obesity II 35.0-39.9""","""5""","""Unknown or Not Stated""","""9""",123
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",1813
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",1267
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",1116
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""31 to 40 pounds""","""4""",676
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",717
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""Unknown or Not Stated""","""9""",205
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Unknown or Not Stated""","""9""","""Less than 11 pounds""","""1""",16
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Unknown or Not Stated""","""9""","""11 to 20 pounds""","""2""",23
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Unknown or Not Stated""","""9""","""21 to 30 pounds""","""3""",31
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Unknown or Not Stated""","""9""","""31 to 40 pounds""","""4""",18
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Unknown or Not Stated""","""9""","""41 to 98 pounds""","""5""",30
+NA,"""0 previous cesareans""","""0""","""2021""","""2021""","""More than one race""","""M""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",1744
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Underweight <18.5""","""1""","""21 to 30 pounds""","""3""",13
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Underweight <18.5""","""1""","""31 to 40 pounds""","""4""",11
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Underweight <18.5""","""1""","""41 to 98 pounds""","""5""",14
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",43
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",97
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",175
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",158
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",166
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",83
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",167
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",211
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",191
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",156
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",134
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",181
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",177
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",127
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",125
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",96
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",130
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",112
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",63
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",58
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",106
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",88
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",95
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Extreme Obesity III > 39.9""","""6""","""31 to 40 pounds""","""4""",47
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",51
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",68
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Underweight <18.5""","""1""","""Less than 11 pounds""","""1""",17
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Underweight <18.5""","""1""","""11 to 20 pounds""","""2""",106
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Underweight <18.5""","""1""","""21 to 30 pounds""","""3""",327
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Underweight <18.5""","""1""","""31 to 40 pounds""","""4""",223
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Underweight <18.5""","""1""","""41 to 98 pounds""","""5""",101
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",495
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",2380
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",4922
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",3631
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",1774
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""Unknown or Not Stated""","""9""",77
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",894
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",2153
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",2775
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",1614
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",854
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""Unknown or Not Stated""","""9""",42
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",578
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",1002
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",932
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",508
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",271
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Obesity I 30.0-34.9""","""4""","""Unknown or Not Stated""","""9""",24
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",220
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",261
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",237
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",130
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",78
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Obesity II 35.0-39.9""","""5""","""Unknown or Not Stated""","""9""",10
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",118
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",104
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",70
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Extreme Obesity III > 39.9""","""6""","""31 to 40 pounds""","""4""",24
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",24
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Unknown or Not Stated""","""9""","""11 to 20 pounds""","""2""",11
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Unknown or Not Stated""","""9""","""21 to 30 pounds""","""3""",16
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Unknown or Not Stated""","""9""","""31 to 40 pounds""","""4""",12
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Asian""","""A""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",471
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Underweight <18.5""","""1""","""Less than 11 pounds""","""1""",37
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Underweight <18.5""","""1""","""11 to 20 pounds""","""2""",144
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Underweight <18.5""","""1""","""21 to 30 pounds""","""3""",252
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Underweight <18.5""","""1""","""31 to 40 pounds""","""4""",243
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Underweight <18.5""","""1""","""41 to 98 pounds""","""5""",223
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",779
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",2291
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",3719
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",3292
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",3459
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""Unknown or Not Stated""","""9""",97
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",1708
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",3447
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",4459
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",3382
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",3648
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""Unknown or Not Stated""","""9""",119
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",2358
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",3208
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",3377
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",2460
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",2418
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""Unknown or Not Stated""","""9""",103
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",2030
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",2147
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",1921
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",1238
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",1161
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""Unknown or Not Stated""","""9""",117
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",2714
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",2062
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",1732
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""31 to 40 pounds""","""4""",1029
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",974
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""Unknown or Not Stated""","""9""",271
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Unknown or Not Stated""","""9""","""Less than 11 pounds""","""1""",30
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Unknown or Not Stated""","""9""","""11 to 20 pounds""","""2""",40
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Unknown or Not Stated""","""9""","""21 to 30 pounds""","""3""",29
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Unknown or Not Stated""","""9""","""31 to 40 pounds""","""4""",17
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Unknown or Not Stated""","""9""","""41 to 98 pounds""","""5""",23
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",1416
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",20
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",40
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",71
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",59
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",46
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",57
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",79
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",94
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",60
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",73
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",71
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",81
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",80
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",49
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",51
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",44
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",71
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",47
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",33
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",38
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",54
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",27
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",34
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Extreme Obesity III > 39.9""","""6""","""31 to 40 pounds""","""4""",28
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",25
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",70
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""Less than 11 pounds""","""1""",99
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""11 to 20 pounds""","""2""",538
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""21 to 30 pounds""","""3""",1290
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""31 to 40 pounds""","""4""",1127
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""41 to 98 pounds""","""5""",963
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""Unknown or Not Stated""","""9""",28
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",2396
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",10673
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",26952
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",26037
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",20740
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""Unknown or Not Stated""","""9""",523
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",5415
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",13953
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",22186
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",18467
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",16504
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""Unknown or Not Stated""","""9""",461
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",6969
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",12165
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",14278
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",9703
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",8713
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""Unknown or Not Stated""","""9""",381
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",6272
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",7383
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",7189
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",4267
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",3634
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""Unknown or Not Stated""","""9""",283
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",7347
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",5906
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",4996
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""31 to 40 pounds""","""4""",2763
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",2486
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""Unknown or Not Stated""","""9""",555
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Unknown or Not Stated""","""9""","""Less than 11 pounds""","""1""",82
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Unknown or Not Stated""","""9""","""11 to 20 pounds""","""2""",134
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Unknown or Not Stated""","""9""","""21 to 30 pounds""","""3""",157
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Unknown or Not Stated""","""9""","""31 to 40 pounds""","""4""",125
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Unknown or Not Stated""","""9""","""41 to 98 pounds""","""5""",95
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""White""","""2106-3""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",4224
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""More than one race""","""M""","""Underweight <18.5""","""1""","""11 to 20 pounds""","""2""",18
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""More than one race""","""M""","""Underweight <18.5""","""1""","""21 to 30 pounds""","""3""",49
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""More than one race""","""M""","""Underweight <18.5""","""1""","""31 to 40 pounds""","""4""",47
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""More than one race""","""M""","""Underweight <18.5""","""1""","""41 to 98 pounds""","""5""",39
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",92
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",320
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",739
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",726
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",715
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""Unknown or Not Stated""","""9""",21
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",187
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",414
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",724
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",542
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",654
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""Unknown or Not Stated""","""9""",30
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",257
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",396
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",464
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",343
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",394
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""Unknown or Not Stated""","""9""",17
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""More than one race""","""M""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",214
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""More than one race""","""M""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",260
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""More than one race""","""M""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",301
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""More than one race""","""M""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",176
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""More than one race""","""M""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",176
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""More than one race""","""M""","""Obesity II 35.0-39.9""","""5""","""Unknown or Not Stated""","""9""",15
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",353
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",273
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",240
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""31 to 40 pounds""","""4""",130
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",134
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""Unknown or Not Stated""","""9""",41
+NA,"""1 previous cesareans""","""1""","""2021""","""2021""","""More than one race""","""M""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",182
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",15
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",43
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",55
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",52
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",67
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",42
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",69
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",82
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",78
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",76
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",57
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",88
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",79
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",64
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",67
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",45
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",54
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",43
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",32
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",31
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",70
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",52
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",32
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Extreme Obesity III > 39.9""","""6""","""31 to 40 pounds""","""4""",17
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",21
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",43
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Asian""","""A""","""Underweight <18.5""","""1""","""11 to 20 pounds""","""2""",28
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Asian""","""A""","""Underweight <18.5""","""1""","""21 to 30 pounds""","""3""",49
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Asian""","""A""","""Underweight <18.5""","""1""","""31 to 40 pounds""","""4""",34
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Asian""","""A""","""Underweight <18.5""","""1""","""41 to 98 pounds""","""5""",15
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",102
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",473
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",801
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",580
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",315
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""Unknown or Not Stated""","""9""",18
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",205
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",486
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",537
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",313
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",174
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Asian""","""A""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",148
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Asian""","""A""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",270
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Asian""","""A""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",252
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Asian""","""A""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",129
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Asian""","""A""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",64
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Asian""","""A""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",77
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Asian""","""A""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",65
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Asian""","""A""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",73
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Asian""","""A""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",39
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Asian""","""A""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",21
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Asian""","""A""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",36
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Asian""","""A""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",28
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Asian""","""A""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",20
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Asian""","""A""","""Extreme Obesity III > 39.9""","""6""","""31 to 40 pounds""","""4""",12
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Asian""","""A""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",18
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Asian""","""A""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",117
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Underweight <18.5""","""1""","""11 to 20 pounds""","""2""",55
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Underweight <18.5""","""1""","""21 to 30 pounds""","""3""",80
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Underweight <18.5""","""1""","""31 to 40 pounds""","""4""",62
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Underweight <18.5""","""1""","""41 to 98 pounds""","""5""",79
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",282
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",829
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",1264
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",1139
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",1218
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""Unknown or Not Stated""","""9""",31
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",641
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",1322
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",1695
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",1266
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",1412
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""Unknown or Not Stated""","""9""",37
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",974
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",1341
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",1515
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",988
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",993
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""Unknown or Not Stated""","""9""",54
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",899
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",948
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",864
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",492
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",579
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""Unknown or Not Stated""","""9""",63
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",1239
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",927
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",783
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""31 to 40 pounds""","""4""",438
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",513
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""Unknown or Not Stated""","""9""",111
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Unknown or Not Stated""","""9""","""Less than 11 pounds""","""1""",15
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Unknown or Not Stated""","""9""","""11 to 20 pounds""","""2""",10
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Unknown or Not Stated""","""9""","""21 to 30 pounds""","""3""",10
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Unknown or Not Stated""","""9""","""31 to 40 pounds""","""4""",13
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Unknown or Not Stated""","""9""","""41 to 98 pounds""","""5""",14
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",532
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",20
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",21
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",27
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",11
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",25
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",34
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",22
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",24
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",21
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",28
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",25
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",16
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",24
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",20
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",18
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",25
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",12
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",23
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",21
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",15
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Extreme Obesity III > 39.9""","""6""","""31 to 40 pounds""","""4""",17
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",19
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",26
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""Less than 11 pounds""","""1""",33
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""11 to 20 pounds""","""2""",170
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""21 to 30 pounds""","""3""",353
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""31 to 40 pounds""","""4""",281
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""41 to 98 pounds""","""5""",252
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",793
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",3330
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",7483
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",7034
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",6191
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""Unknown or Not Stated""","""9""",150
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",2069
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",5038
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",7182
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",5685
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",5497
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""Unknown or Not Stated""","""9""",135
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",2802
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",4463
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",5018
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",3357
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",2962
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""Unknown or Not Stated""","""9""",123
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",2510
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",2764
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",2614
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",1513
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",1296
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""Unknown or Not Stated""","""9""",88
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",2940
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",2333
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",1952
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""31 to 40 pounds""","""4""",1073
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",865
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""Unknown or Not Stated""","""9""",215
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Unknown or Not Stated""","""9""","""Less than 11 pounds""","""1""",42
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Unknown or Not Stated""","""9""","""11 to 20 pounds""","""2""",48
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Unknown or Not Stated""","""9""","""21 to 30 pounds""","""3""",62
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Unknown or Not Stated""","""9""","""31 to 40 pounds""","""4""",46
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Unknown or Not Stated""","""9""","""41 to 98 pounds""","""5""",25
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""White""","""2106-3""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",1502
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""More than one race""","""M""","""Underweight <18.5""","""1""","""21 to 30 pounds""","""3""",15
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""More than one race""","""M""","""Underweight <18.5""","""1""","""31 to 40 pounds""","""4""",15
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""More than one race""","""M""","""Underweight <18.5""","""1""","""41 to 98 pounds""","""5""",10
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",32
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",99
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",170
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",201
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",220
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""Unknown or Not Stated""","""9""",11
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",68
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",141
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",211
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",182
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",211
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",118
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",138
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",169
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",105
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",132
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""More than one race""","""M""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",124
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""More than one race""","""M""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",103
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""More than one race""","""M""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",102
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""More than one race""","""M""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",64
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""More than one race""","""M""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",77
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",150
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",118
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",97
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""31 to 40 pounds""","""4""",49
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",59
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""Unknown or Not Stated""","""9""",15
+NA,"""2 previous cesareans""","""2""","""2021""","""2021""","""More than one race""","""M""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",68
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",17
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",18
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",22
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",27
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",16
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",23
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",25
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",24
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",33
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",23
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",29
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",28
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",24
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",20
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",24
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",21
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",17
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",20
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",24
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",16
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",15
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",10
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Asian""","""A""","""Underweight <18.5""","""1""","""21 to 30 pounds""","""3""",10
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",15
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",70
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",116
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",83
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",55
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",40
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",84
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",99
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",54
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",39
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Asian""","""A""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",32
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Asian""","""A""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",54
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Asian""","""A""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",60
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Asian""","""A""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",25
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Asian""","""A""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",16
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Asian""","""A""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",14
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Asian""","""A""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",24
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Asian""","""A""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",15
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Asian""","""A""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",10
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Asian""","""A""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",11
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Asian""","""A""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",27
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Black or African American""","""2054-5""","""Underweight <18.5""","""1""","""11 to 20 pounds""","""2""",15
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Black or African American""","""2054-5""","""Underweight <18.5""","""1""","""21 to 30 pounds""","""3""",35
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Black or African American""","""2054-5""","""Underweight <18.5""","""1""","""31 to 40 pounds""","""4""",16
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Black or African American""","""2054-5""","""Underweight <18.5""","""1""","""41 to 98 pounds""","""5""",18
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",100
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",239
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",402
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",330
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",374
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""Unknown or Not Stated""","""9""",11
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",240
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",445
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",564
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",372
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",492
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""Unknown or Not Stated""","""9""",10
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",355
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",500
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",472
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",359
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",327
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""Unknown or Not Stated""","""9""",17
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",361
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",313
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",284
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",172
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",193
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""Unknown or Not Stated""","""9""",24
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",450
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",313
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",257
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""31 to 40 pounds""","""4""",149
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",182
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""Unknown or Not Stated""","""9""",52
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Black or African American""","""2054-5""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",189
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",10
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",16
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",16
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",15
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",10
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",10
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",13
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",12
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",14
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""11 to 20 pounds""","""2""",46
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""21 to 30 pounds""","""3""",87
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""31 to 40 pounds""","""4""",72
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""41 to 98 pounds""","""5""",90
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",214
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",866
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",1742
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",1568
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",1542
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""Unknown or Not Stated""","""9""",35
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",634
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",1437
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",1953
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",1479
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",1416
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""Unknown or Not Stated""","""9""",29
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",904
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",1357
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",1477
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",899
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",849
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""Unknown or Not Stated""","""9""",31
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",777
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",814
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",743
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",448
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",368
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""Unknown or Not Stated""","""9""",41
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",869
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",707
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",542
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""31 to 40 pounds""","""4""",303
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",285
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""Unknown or Not Stated""","""9""",78
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Unknown or Not Stated""","""9""","""11 to 20 pounds""","""2""",11
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Unknown or Not Stated""","""9""","""21 to 30 pounds""","""3""",17
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Unknown or Not Stated""","""9""","""31 to 40 pounds""","""4""",16
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""White""","""2106-3""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",496
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",11
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",35
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",57
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",58
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",64
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",23
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",40
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",58
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",69
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",62
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",44
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",47
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",49
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",40
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",52
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""More than one race""","""M""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",39
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""More than one race""","""M""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",38
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""More than one race""","""M""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",37
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""More than one race""","""M""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",17
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""More than one race""","""M""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",28
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",45
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",46
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",32
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""31 to 40 pounds""","""4""",13
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",29
+NA,"""3 previous cesareans""","""3""","""2021""","""2021""","""More than one race""","""M""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",29
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",11
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",11
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",10
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",17
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",10
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",13
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",20
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",13
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",12
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",11
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",12
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",14
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",10
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",12
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",16
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",10
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",12
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",21
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""Asian""","""A""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",13
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""Asian""","""A""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",13
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",42
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",107
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",165
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",87
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",147
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",96
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",127
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",172
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",131
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",158
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",138
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",173
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",165
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",120
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",133
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",98
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",129
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",106
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",66
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",79
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",154
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",119
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",113
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""31 to 40 pounds""","""4""",56
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",63
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""Unknown or Not Stated""","""9""",19
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""Black or African American""","""2054-5""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",99
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""21 to 30 pounds""","""3""",29
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""31 to 40 pounds""","""4""",16
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""41 to 98 pounds""","""5""",27
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",71
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",242
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",422
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",387
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",368
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""Unknown or Not Stated""","""9""",19
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",176
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",433
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",520
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",394
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",370
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""Unknown or Not Stated""","""9""",13
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",239
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",418
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",420
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",281
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",254
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""Unknown or Not Stated""","""9""",13
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",220
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",231
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",188
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",140
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",125
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""Unknown or Not Stated""","""9""",12
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",268
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",195
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",141
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""31 to 40 pounds""","""4""",87
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",99
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""Unknown or Not Stated""","""9""",17
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""White""","""2106-3""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",171
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",13
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",16
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",27
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",14
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",18
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",20
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",20
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",18
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",17
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",11
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",14
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",16
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""More than one race""","""M""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",12
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""More than one race""","""M""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",11
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""More than one race""","""M""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",22
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",28
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",12
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",11
+NA,"""4 or more previous cesareans""","""4""","""2021""","""2021""","""More than one race""","""M""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",13
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",14
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",10
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",25
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",21
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",12
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""Unknown or Not Stated""","""9""",39
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",15
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""Unknown or Not Stated""","""9""",18
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""Asian""","""A""","""Obesity I 30.0-34.9""","""4""","""Unknown or Not Stated""","""9""",10
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""Asian""","""A""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",86
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",29
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",32
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",50
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",46
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",35
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""Unknown or Not Stated""","""9""",29
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",30
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",35
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",38
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",32
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",23
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""Unknown or Not Stated""","""9""",24
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",22
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",22
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",18
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",10
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",19
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""Unknown or Not Stated""","""9""",16
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",12
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",12
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",12
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""Unknown or Not Stated""","""9""",11
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""Black or African American""","""2054-5""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",317
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""11 to 20 pounds""","""2""",19
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""21 to 30 pounds""","""3""",26
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""31 to 40 pounds""","""4""",29
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""41 to 98 pounds""","""5""",29
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""Unknown or Not Stated""","""9""",22
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",99
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",183
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",300
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",290
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",231
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""Unknown or Not Stated""","""9""",201
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",95
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",139
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",163
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",155
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",145
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""Unknown or Not Stated""","""9""",121
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",79
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",103
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",104
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",73
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",76
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""Unknown or Not Stated""","""9""",55
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",45
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",52
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",54
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",19
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",22
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""Unknown or Not Stated""","""9""",42
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",51
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",31
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",27
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""31 to 40 pounds""","""4""",14
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",16
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""Unknown or Not Stated""","""9""",22
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""White""","""2106-3""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",1201
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",13
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",11
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",12
+NA,"""Unknown or Not Stated""","""99""","""2021""","""2021""","""More than one race""","""M""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",21

@@ -1,0 +1,11 @@
+Condition,Weight_Gain,Counts
+Yes,Less than 11 pounds,6785
+Yes,11 to 20 pounds,8389
+Yes,21 to 30 pounds,9409
+Yes,31 to 40 pounds,6712
+Yes,41 to 98 pounds,7216
+No,Less than 11 pounds,350912
+No,11 to 20 pounds,636283
+No,21 to 30 pounds,986768
+No,31 to 40 pounds,822254
+No,41 to 98 pounds,725802

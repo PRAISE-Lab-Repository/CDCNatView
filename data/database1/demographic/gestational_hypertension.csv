@@ -1,0 +1,521 @@
+"""Notes""","""Gestational Hypertension""","""Gestational Hypertension Code""","""Year""","""Year Code""","""Mother's Single Race 6""","""Mother's Single Race 6 Code""","""Mother's Pre-pregnancy BMI""","""Mother's Pre-pregnancy BMI Code""","""Mother's Weight Gain Recode""","""Mother's Weight Gain Recode Code""","Births"
+NA,"""Yes""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Underweight <18.5""","""1""","""41 to 98 pounds""","""5""",16
+NA,"""Yes""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",43
+NA,"""Yes""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",55
+NA,"""Yes""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",150
+NA,"""Yes""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",159
+NA,"""Yes""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",233
+NA,"""Yes""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Normal 18.5-24.9""","""2""","""Unknown or Not Stated""","""9""",17
+NA,"""Yes""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",89
+NA,"""Yes""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",147
+NA,"""Yes""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",182
+NA,"""Yes""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",188
+NA,"""Yes""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",277
+NA,"""Yes""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",119
+NA,"""Yes""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",171
+NA,"""Yes""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",223
+NA,"""Yes""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",146
+NA,"""Yes""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",202
+NA,"""Yes""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity I 30.0-34.9""","""4""","""Unknown or Not Stated""","""9""",11
+NA,"""Yes""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",128
+NA,"""Yes""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",127
+NA,"""Yes""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",118
+NA,"""Yes""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",79
+NA,"""Yes""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",122
+NA,"""Yes""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",135
+NA,"""Yes""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",101
+NA,"""Yes""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",90
+NA,"""Yes""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Extreme Obesity III > 39.9""","""6""","""31 to 40 pounds""","""4""",54
+NA,"""Yes""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",71
+NA,"""Yes""","""1""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",101
+NA,"""Yes""","""1""","""2021""","""2021""","""Asian""","""A""","""Underweight <18.5""","""1""","""11 to 20 pounds""","""2""",47
+NA,"""Yes""","""1""","""2021""","""2021""","""Asian""","""A""","""Underweight <18.5""","""1""","""21 to 30 pounds""","""3""",103
+NA,"""Yes""","""1""","""2021""","""2021""","""Asian""","""A""","""Underweight <18.5""","""1""","""31 to 40 pounds""","""4""",71
+NA,"""Yes""","""1""","""2021""","""2021""","""Asian""","""A""","""Underweight <18.5""","""1""","""41 to 98 pounds""","""5""",64
+NA,"""Yes""","""1""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",179
+NA,"""Yes""","""1""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",838
+NA,"""Yes""","""1""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",1820
+NA,"""Yes""","""1""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",1585
+NA,"""Yes""","""1""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",1091
+NA,"""Yes""","""1""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""Unknown or Not Stated""","""9""",23
+NA,"""Yes""","""1""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",314
+NA,"""Yes""","""1""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",964
+NA,"""Yes""","""1""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",1335
+NA,"""Yes""","""1""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",969
+NA,"""Yes""","""1""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",643
+NA,"""Yes""","""1""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""Unknown or Not Stated""","""9""",23
+NA,"""Yes""","""1""","""2021""","""2021""","""Asian""","""A""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",338
+NA,"""Yes""","""1""","""2021""","""2021""","""Asian""","""A""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",632
+NA,"""Yes""","""1""","""2021""","""2021""","""Asian""","""A""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",682
+NA,"""Yes""","""1""","""2021""","""2021""","""Asian""","""A""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",385
+NA,"""Yes""","""1""","""2021""","""2021""","""Asian""","""A""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",276
+NA,"""Yes""","""1""","""2021""","""2021""","""Asian""","""A""","""Obesity I 30.0-34.9""","""4""","""Unknown or Not Stated""","""9""",12
+NA,"""Yes""","""1""","""2021""","""2021""","""Asian""","""A""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",160
+NA,"""Yes""","""1""","""2021""","""2021""","""Asian""","""A""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",232
+NA,"""Yes""","""1""","""2021""","""2021""","""Asian""","""A""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",220
+NA,"""Yes""","""1""","""2021""","""2021""","""Asian""","""A""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",95
+NA,"""Yes""","""1""","""2021""","""2021""","""Asian""","""A""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",85
+NA,"""Yes""","""1""","""2021""","""2021""","""Asian""","""A""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",91
+NA,"""Yes""","""1""","""2021""","""2021""","""Asian""","""A""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",96
+NA,"""Yes""","""1""","""2021""","""2021""","""Asian""","""A""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",78
+NA,"""Yes""","""1""","""2021""","""2021""","""Asian""","""A""","""Extreme Obesity III > 39.9""","""6""","""31 to 40 pounds""","""4""",44
+NA,"""Yes""","""1""","""2021""","""2021""","""Asian""","""A""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",38
+NA,"""Yes""","""1""","""2021""","""2021""","""Asian""","""A""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",279
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Underweight <18.5""","""1""","""Less than 11 pounds""","""1""",23
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Underweight <18.5""","""1""","""11 to 20 pounds""","""2""",113
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Underweight <18.5""","""1""","""21 to 30 pounds""","""3""",216
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Underweight <18.5""","""1""","""31 to 40 pounds""","""4""",243
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Underweight <18.5""","""1""","""41 to 98 pounds""","""5""",304
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",600
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",1485
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",2725
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",2822
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",4355
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""Unknown or Not Stated""","""9""",69
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",1142
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",2323
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",3332
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",3028
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",4538
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""Unknown or Not Stated""","""9""",74
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",1813
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",2707
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",3205
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",2560
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",3223
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""Unknown or Not Stated""","""9""",104
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",1747
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",2053
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",2130
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",1431
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",1731
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""Unknown or Not Stated""","""9""",110
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",2540
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",2232
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",2055
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""31 to 40 pounds""","""4""",1319
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",1440
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""Unknown or Not Stated""","""9""",266
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Unknown or Not Stated""","""9""","""Less than 11 pounds""","""1""",15
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Unknown or Not Stated""","""9""","""11 to 20 pounds""","""2""",19
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Unknown or Not Stated""","""9""","""21 to 30 pounds""","""3""",20
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Unknown or Not Stated""","""9""","""31 to 40 pounds""","""4""",14
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Unknown or Not Stated""","""9""","""41 to 98 pounds""","""5""",16
+NA,"""Yes""","""1""","""2021""","""2021""","""Black or African American""","""2054-5""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",1395
+NA,"""Yes""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",15
+NA,"""Yes""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",34
+NA,"""Yes""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",23
+NA,"""Yes""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",49
+NA,"""Yes""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",18
+NA,"""Yes""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",34
+NA,"""Yes""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",46
+NA,"""Yes""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",37
+NA,"""Yes""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",74
+NA,"""Yes""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",27
+NA,"""Yes""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",56
+NA,"""Yes""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",51
+NA,"""Yes""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",50
+NA,"""Yes""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",79
+NA,"""Yes""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",34
+NA,"""Yes""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",40
+NA,"""Yes""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",39
+NA,"""Yes""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",34
+NA,"""Yes""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",49
+NA,"""Yes""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",49
+NA,"""Yes""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",28
+NA,"""Yes""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",39
+NA,"""Yes""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Extreme Obesity III > 39.9""","""6""","""31 to 40 pounds""","""4""",27
+NA,"""Yes""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",50
+NA,"""Yes""","""1""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",53
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""Less than 11 pounds""","""1""",62
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""11 to 20 pounds""","""2""",278
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""21 to 30 pounds""","""3""",654
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""31 to 40 pounds""","""4""",766
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""41 to 98 pounds""","""5""",1105
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""Unknown or Not Stated""","""9""",14
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",1243
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",5292
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",14261
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",17110
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",22084
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""Unknown or Not Stated""","""9""",322
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",3137
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",8456
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",15460
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",15878
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",21026
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""Unknown or Not Stated""","""9""",336
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",5216
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",9792
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",12906
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",10535
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",12310
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""Unknown or Not Stated""","""9""",321
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",5651
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",7322
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",7999
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",5431
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",5790
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""Unknown or Not Stated""","""9""",286
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",7455
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",6700
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",6191
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""31 to 40 pounds""","""4""",3946
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",4091
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""Unknown or Not Stated""","""9""",569
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Unknown or Not Stated""","""9""","""Less than 11 pounds""","""1""",58
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Unknown or Not Stated""","""9""","""11 to 20 pounds""","""2""",75
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Unknown or Not Stated""","""9""","""21 to 30 pounds""","""3""",99
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Unknown or Not Stated""","""9""","""31 to 40 pounds""","""4""",80
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Unknown or Not Stated""","""9""","""41 to 98 pounds""","""5""",92
+NA,"""Yes""","""1""","""2021""","""2021""","""White""","""2106-3""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",3534
+NA,"""Yes""","""1""","""2021""","""2021""","""More than one race""","""M""","""Underweight <18.5""","""1""","""11 to 20 pounds""","""2""",14
+NA,"""Yes""","""1""","""2021""","""2021""","""More than one race""","""M""","""Underweight <18.5""","""1""","""21 to 30 pounds""","""3""",35
+NA,"""Yes""","""1""","""2021""","""2021""","""More than one race""","""M""","""Underweight <18.5""","""1""","""31 to 40 pounds""","""4""",41
+NA,"""Yes""","""1""","""2021""","""2021""","""More than one race""","""M""","""Underweight <18.5""","""1""","""41 to 98 pounds""","""5""",51
+NA,"""Yes""","""1""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",58
+NA,"""Yes""","""1""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",183
+NA,"""Yes""","""1""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",415
+NA,"""Yes""","""1""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",558
+NA,"""Yes""","""1""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",919
+NA,"""Yes""","""1""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""Unknown or Not Stated""","""9""",21
+NA,"""Yes""","""1""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",113
+NA,"""Yes""","""1""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",259
+NA,"""Yes""","""1""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",492
+NA,"""Yes""","""1""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",575
+NA,"""Yes""","""1""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",935
+NA,"""Yes""","""1""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""Unknown or Not Stated""","""9""",17
+NA,"""Yes""","""1""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",208
+NA,"""Yes""","""1""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",350
+NA,"""Yes""","""1""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",446
+NA,"""Yes""","""1""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",396
+NA,"""Yes""","""1""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",547
+NA,"""Yes""","""1""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""Unknown or Not Stated""","""9""",11
+NA,"""Yes""","""1""","""2021""","""2021""","""More than one race""","""M""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",225
+NA,"""Yes""","""1""","""2021""","""2021""","""More than one race""","""M""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",298
+NA,"""Yes""","""1""","""2021""","""2021""","""More than one race""","""M""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",317
+NA,"""Yes""","""1""","""2021""","""2021""","""More than one race""","""M""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",241
+NA,"""Yes""","""1""","""2021""","""2021""","""More than one race""","""M""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",288
+NA,"""Yes""","""1""","""2021""","""2021""","""More than one race""","""M""","""Obesity II 35.0-39.9""","""5""","""Unknown or Not Stated""","""9""",16
+NA,"""Yes""","""1""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",362
+NA,"""Yes""","""1""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",289
+NA,"""Yes""","""1""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",292
+NA,"""Yes""","""1""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""31 to 40 pounds""","""4""",180
+NA,"""Yes""","""1""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",241
+NA,"""Yes""","""1""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""Unknown or Not Stated""","""9""",41
+NA,"""Yes""","""1""","""2021""","""2021""","""More than one race""","""M""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",195
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Underweight <18.5""","""1""","""Less than 11 pounds""","""1""",32
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Underweight <18.5""","""1""","""11 to 20 pounds""","""2""",90
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Underweight <18.5""","""1""","""21 to 30 pounds""","""3""",171
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Underweight <18.5""","""1""","""31 to 40 pounds""","""4""",153
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Underweight <18.5""","""1""","""41 to 98 pounds""","""5""",197
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Underweight <18.5""","""1""","""Unknown or Not Stated""","""9""",15
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",600
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",1358
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",2389
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",2258
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",2595
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Normal 18.5-24.9""","""2""","""Unknown or Not Stated""","""9""",106
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",1037
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",1615
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",2129
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",1773
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",1886
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Overweight 25.0-29.9""","""3""","""Unknown or Not Stated""","""9""",108
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",1201
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",1418
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",1415
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",1021
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",1008
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity I 30.0-34.9""","""4""","""Unknown or Not Stated""","""9""",96
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",901
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",825
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",733
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",451
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",424
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Obesity II 35.0-39.9""","""5""","""Unknown or Not Stated""","""9""",78
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",753
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",493
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",441
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Extreme Obesity III > 39.9""","""6""","""31 to 40 pounds""","""4""",231
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",255
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Extreme Obesity III > 39.9""","""6""","""Unknown or Not Stated""","""9""",65
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Unknown or Not Stated""","""9""","""Less than 11 pounds""","""1""",11
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Unknown or Not Stated""","""9""","""21 to 30 pounds""","""3""",23
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Unknown or Not Stated""","""9""","""31 to 40 pounds""","""4""",12
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Unknown or Not Stated""","""9""","""41 to 98 pounds""","""5""",12
+NA,"""No""","""2""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",805
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Underweight <18.5""","""1""","""Less than 11 pounds""","""1""",196
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Underweight <18.5""","""1""","""11 to 20 pounds""","""2""",1621
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Underweight <18.5""","""1""","""21 to 30 pounds""","""3""",4177
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Underweight <18.5""","""1""","""31 to 40 pounds""","""4""",3001
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Underweight <18.5""","""1""","""41 to 98 pounds""","""5""",1408
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Underweight <18.5""","""1""","""Unknown or Not Stated""","""9""",69
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",4268
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",20401
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",43740
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",33544
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",16463
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""Unknown or Not Stated""","""9""",878
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",5917
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",13315
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",17157
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",10644
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",5969
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""Unknown or Not Stated""","""9""",422
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",3573
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",5520
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",5186
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",2765
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",1573
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Obesity I 30.0-34.9""","""4""","""Unknown or Not Stated""","""9""",188
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",1263
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",1423
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",1236
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",619
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",351
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Obesity II 35.0-39.9""","""5""","""Unknown or Not Stated""","""9""",56
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",507
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",460
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",337
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Extreme Obesity III > 39.9""","""6""","""31 to 40 pounds""","""4""",152
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",115
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Extreme Obesity III > 39.9""","""6""","""Unknown or Not Stated""","""9""",36
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Unknown or Not Stated""","""9""","""Less than 11 pounds""","""1""",48
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Unknown or Not Stated""","""9""","""11 to 20 pounds""","""2""",102
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Unknown or Not Stated""","""9""","""21 to 30 pounds""","""3""",137
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Unknown or Not Stated""","""9""","""31 to 40 pounds""","""4""",104
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Unknown or Not Stated""","""9""","""41 to 98 pounds""","""5""",45
+NA,"""No""","""2""","""2021""","""2021""","""Asian""","""A""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",3993
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Underweight <18.5""","""1""","""Less than 11 pounds""","""1""",504
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Underweight <18.5""","""1""","""11 to 20 pounds""","""2""",2099
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Underweight <18.5""","""1""","""21 to 30 pounds""","""3""",4146
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Underweight <18.5""","""1""","""31 to 40 pounds""","""4""",3621
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Underweight <18.5""","""1""","""41 to 98 pounds""","""5""",3607
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Underweight <18.5""","""1""","""Unknown or Not Stated""","""9""",103
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",9243
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",25717
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",42343
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",37119
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",39135
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""Unknown or Not Stated""","""9""",1201
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",15597
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",28565
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",36252
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",27445
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",29273
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""Unknown or Not Stated""","""9""",1216
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",17361
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",22862
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",23847
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",16326
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",15894
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""Unknown or Not Stated""","""9""",1034
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",13392
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",13090
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",11690
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",7214
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",6925
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""Unknown or Not Stated""","""9""",928
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",14127
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",10369
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",8436
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""31 to 40 pounds""","""4""",4769
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",4800
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""Unknown or Not Stated""","""9""",1546
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Unknown or Not Stated""","""9""","""Less than 11 pounds""","""1""",211
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Unknown or Not Stated""","""9""","""11 to 20 pounds""","""2""",243
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Unknown or Not Stated""","""9""","""21 to 30 pounds""","""3""",262
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Unknown or Not Stated""","""9""","""31 to 40 pounds""","""4""",163
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Unknown or Not Stated""","""9""","""41 to 98 pounds""","""5""",187
+NA,"""No""","""2""","""2021""","""2021""","""Black or African American""","""2054-5""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",11770
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Underweight <18.5""","""1""","""11 to 20 pounds""","""2""",27
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Underweight <18.5""","""1""","""21 to 30 pounds""","""3""",59
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Underweight <18.5""","""1""","""31 to 40 pounds""","""4""",42
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Underweight <18.5""","""1""","""41 to 98 pounds""","""5""",44
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",267
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",476
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",807
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",639
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",668
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Normal 18.5-24.9""","""2""","""Unknown or Not Stated""","""9""",42
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",509
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",629
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",779
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",594
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",681
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Overweight 25.0-29.9""","""3""","""Unknown or Not Stated""","""9""",45
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",549
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",549
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",555
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",338
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",434
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity I 30.0-34.9""","""4""","""Unknown or Not Stated""","""9""",40
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",391
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",342
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",321
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",203
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",220
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Obesity II 35.0-39.9""","""5""","""Unknown or Not Stated""","""9""",38
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",340
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",224
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",201
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Extreme Obesity III > 39.9""","""6""","""31 to 40 pounds""","""4""",137
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",139
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Extreme Obesity III > 39.9""","""6""","""Unknown or Not Stated""","""9""",23
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Unknown or Not Stated""","""9""","""Less than 11 pounds""","""1""",19
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Unknown or Not Stated""","""9""","""11 to 20 pounds""","""2""",11
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Unknown or Not Stated""","""9""","""21 to 30 pounds""","""3""",12
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Unknown or Not Stated""","""9""","""31 to 40 pounds""","""4""",10
+NA,"""No""","""2""","""2021""","""2021""","""Native Hawaiian or Other Pacific Islander""","""NHOPI""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",693
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""Less than 11 pounds""","""1""",1292
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""11 to 20 pounds""","""2""",7607
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""21 to 30 pounds""","""3""",19872
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""31 to 40 pounds""","""4""",18193
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""41 to 98 pounds""","""5""",15805
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""Unknown or Not Stated""","""9""",488
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",28998
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",125047
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",306013
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",296806
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",234231
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""Unknown or Not Stated""","""9""",7669
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",51228
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",122811
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",190260
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",157717
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",143985
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""Unknown or Not Stated""","""9""",4924
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",57228
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",89073
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",100696
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",69083
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",60383
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""Unknown or Not Stated""","""9""",3441
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",42818
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",46710
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",43000
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",25429
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",21392
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""Unknown or Not Stated""","""9""",2431
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",38916
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",30014
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",24196
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""31 to 40 pounds""","""4""",13193
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",10982
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""Unknown or Not Stated""","""9""",3438
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Unknown or Not Stated""","""9""","""Less than 11 pounds""","""1""",767
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Unknown or Not Stated""","""9""","""11 to 20 pounds""","""2""",1169
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Unknown or Not Stated""","""9""","""21 to 30 pounds""","""3""",1568
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Unknown or Not Stated""","""9""","""31 to 40 pounds""","""4""",1193
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Unknown or Not Stated""","""9""","""41 to 98 pounds""","""5""",859
+NA,"""No""","""2""","""2021""","""2021""","""White""","""2106-3""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",39260
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Underweight <18.5""","""1""","""Less than 11 pounds""","""1""",80
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Underweight <18.5""","""1""","""11 to 20 pounds""","""2""",298
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Underweight <18.5""","""1""","""21 to 30 pounds""","""3""",851
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Underweight <18.5""","""1""","""31 to 40 pounds""","""4""",858
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Underweight <18.5""","""1""","""41 to 98 pounds""","""5""",893
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Underweight <18.5""","""1""","""Unknown or Not Stated""","""9""",31
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",1347
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",3996
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",9407
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",9846
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",10120
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""Unknown or Not Stated""","""9""",363
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",2237
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",3948
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",6216
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",5426
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",6544
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Overweight 25.0-29.9""","""3""","""Unknown or Not Stated""","""9""",239
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",2527
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",3076
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",3552
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",2865
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",3092
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Obesity I 30.0-34.9""","""4""","""Unknown or Not Stated""","""9""",197
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",1977
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",1784
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",1852
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",1180
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",1160
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Obesity II 35.0-39.9""","""5""","""Unknown or Not Stated""","""9""",133
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",2029
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",1427
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",1202
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""31 to 40 pounds""","""4""",692
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",709
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Extreme Obesity III > 39.9""","""6""","""Unknown or Not Stated""","""9""",230
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Unknown or Not Stated""","""9""","""Less than 11 pounds""","""1""",13
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Unknown or Not Stated""","""9""","""11 to 20 pounds""","""2""",24
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Unknown or Not Stated""","""9""","""21 to 30 pounds""","""3""",36
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Unknown or Not Stated""","""9""","""31 to 40 pounds""","""4""",21
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Unknown or Not Stated""","""9""","""41 to 98 pounds""","""5""",30
+NA,"""No""","""2""","""2021""","""2021""","""More than one race""","""M""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",1845
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""American Indian or Alaska Native""","""1002-5""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",13
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",21
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",18
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",11
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""Asian""","""A""","""Normal 18.5-24.9""","""2""","""Unknown or Not Stated""","""9""",38
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",14
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""Asian""","""A""","""Overweight 25.0-29.9""","""3""","""Unknown or Not Stated""","""9""",17
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""Asian""","""A""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",85
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",28
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",30
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",43
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",40
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",32
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""Black or African American""","""2054-5""","""Normal 18.5-24.9""","""2""","""Unknown or Not Stated""","""9""",28
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",28
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",34
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",36
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",27
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",21
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""Black or African American""","""2054-5""","""Overweight 25.0-29.9""","""3""","""Unknown or Not Stated""","""9""",22
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",18
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",18
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",16
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",10
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity I 30.0-34.9""","""4""","""Unknown or Not Stated""","""9""",14
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",10
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""Black or African American""","""2054-5""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",10
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""Black or African American""","""2054-5""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",11
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""Black or African American""","""2054-5""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",298
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""11 to 20 pounds""","""2""",18
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""21 to 30 pounds""","""3""",25
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""31 to 40 pounds""","""4""",29
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""41 to 98 pounds""","""5""",28
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""White""","""2106-3""","""Underweight <18.5""","""1""","""Unknown or Not Stated""","""9""",20
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""Less than 11 pounds""","""1""",93
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""11 to 20 pounds""","""2""",168
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",277
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""31 to 40 pounds""","""4""",250
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",200
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""White""","""2106-3""","""Normal 18.5-24.9""","""2""","""Unknown or Not Stated""","""9""",184
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""Less than 11 pounds""","""1""",90
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""11 to 20 pounds""","""2""",126
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""21 to 30 pounds""","""3""",130
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""31 to 40 pounds""","""4""",126
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""41 to 98 pounds""","""5""",109
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""White""","""2106-3""","""Overweight 25.0-29.9""","""3""","""Unknown or Not Stated""","""9""",111
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""Less than 11 pounds""","""1""",66
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""11 to 20 pounds""","""2""",86
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""21 to 30 pounds""","""3""",81
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""31 to 40 pounds""","""4""",62
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""41 to 98 pounds""","""5""",61
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""White""","""2106-3""","""Obesity I 30.0-34.9""","""4""","""Unknown or Not Stated""","""9""",42
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""Less than 11 pounds""","""1""",34
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""11 to 20 pounds""","""2""",42
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""21 to 30 pounds""","""3""",40
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""31 to 40 pounds""","""4""",16
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""41 to 98 pounds""","""5""",15
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""White""","""2106-3""","""Obesity II 35.0-39.9""","""5""","""Unknown or Not Stated""","""9""",31
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""Less than 11 pounds""","""1""",35
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""11 to 20 pounds""","""2""",28
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""21 to 30 pounds""","""3""",19
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""41 to 98 pounds""","""5""",11
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""White""","""2106-3""","""Extreme Obesity III > 39.9""","""6""","""Unknown or Not Stated""","""9""",15
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""White""","""2106-3""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",1152
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""21 to 30 pounds""","""3""",13
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""More than one race""","""M""","""Normal 18.5-24.9""","""2""","""41 to 98 pounds""","""5""",12
+NA,"""Unknown or Not Stated""","""9""","""2021""","""2021""","""More than one race""","""M""","""Unknown or Not Stated""","""9""","""Unknown or Not Stated""","""9""",17

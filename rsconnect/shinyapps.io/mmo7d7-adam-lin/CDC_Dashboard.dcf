@@ -1,0 +1,13 @@
+name: CDC_Dashboard
+title: CDC_Dashboard
+username:
+account: mmo7d7-adam-lin
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 8732771
+bundleId: 7033776
+url: https://mmo7d7-adam-lin.shinyapps.io/CDC_Dashboard/
+when: 1680281491.18699
+lastSyncTime: 1680281491.187
+asMultiple: FALSE
+asStatic: FALSE

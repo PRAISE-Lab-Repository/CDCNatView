@@ -1,0 +1,10 @@
+	"Yes"	"1"	"American Indian or Alaska Native"	"1002-5"	51058
+	"Yes"	"1"	"Asian or Pacific Islander"	"A-PI"	364320
+	"Yes"	"1"	"Black or African American"	"2054-5"	447995
+	"Yes"	"1"	"White"	"2106-3"	2244776
+	"Yes"	"1"	"Not Reported"	"100"	663227
+	"No"	"2"	"American Indian or Alaska Native"	"1002-5"	538144
+	"No"	"2"	"Asian or Pacific Islander"	"A-PI"	3152407
+	"No"	"2"	"Black or African American"	"2054-5"	7909727
+	"No"	"2"	"White"	"2106-3"	36982795
+	"No"	"2"	"Not Reported"	"100"	6605444

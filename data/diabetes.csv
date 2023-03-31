@@ -1,0 +1,613 @@
+state_name,Condition,Year,Counts
+Alabama,Yes,2016,646
+Alabama,Yes,2017,727
+Alabama,Yes,2018,598
+Alabama,Yes,2019,701
+Alabama,Yes,2020,783
+Alabama,Yes,2021,772
+Alabama,No,2016,58502
+Alabama,No,2017,58211
+Alabama,No,2018,57159
+Alabama,No,2019,57910
+Alabama,No,2020,56862
+Alabama,No,2021,57282
+Alaska,Yes,2016,108
+Alaska,Yes,2017,96
+Alaska,Yes,2018,110
+Alaska,Yes,2019,98
+Alaska,Yes,2020,110
+Alaska,Yes,2021,127
+Alaska,No,2016,11026
+Alaska,No,2017,10246
+Alaska,No,2018,9857
+Alaska,No,2019,9642
+Alaska,No,2020,9280
+Alaska,No,2021,9183
+Arizona,Yes,2016,765
+Arizona,Yes,2017,856
+Arizona,Yes,2018,934
+Arizona,Yes,2019,880
+Arizona,Yes,2020,940
+Arizona,Yes,2021,983
+Arizona,No,2016,83755
+Arizona,No,2017,81016
+Arizona,No,2018,79789
+Arizona,No,2019,78493
+Arizona,No,2020,76006
+Arizona,No,2021,76933
+Arkansas,Yes,2016,324
+Arkansas,Yes,2017,358
+Arkansas,Yes,2018,345
+Arkansas,Yes,2019,351
+Arkansas,Yes,2020,306
+Arkansas,Yes,2021,381
+Arkansas,No,2016,37950
+Arkansas,No,2017,37159
+Arkansas,No,2018,36670
+Arkansas,No,2019,36212
+Arkansas,No,2020,34945
+Arkansas,No,2021,35583
+California,Yes,2016,2944
+California,Yes,2017,3143
+California,Yes,2018,3393
+California,Yes,2019,3437
+California,Yes,2020,3741
+California,Yes,2021,3797
+California,No,2016,485880
+California,No,2017,468512
+California,No,2018,451518
+California,No,2019,442697
+California,No,2020,416299
+California,No,2021,416570
+Colorado,Yes,2016,484
+Colorado,Yes,2017,474
+Colorado,Yes,2018,474
+Colorado,Yes,2019,524
+Colorado,Yes,2020,561
+Colorado,Yes,2021,559
+Colorado,No,2016,66117
+Colorado,No,2017,63899
+Colorado,No,2018,62403
+Colorado,No,2019,62335
+Colorado,No,2020,60918
+Colorado,No,2021,62381
+Connecticut,Yes,2016,313
+Connecticut,Yes,2017,330
+Connecticut,Yes,2018,293
+Connecticut,Yes,2019,321
+Connecticut,Yes,2020,325
+Connecticut,Yes,2021,377
+Connecticut,No,2016,35008
+Connecticut,No,2017,34618
+Connecticut,No,2018,34321
+Connecticut,No,2019,33816
+Connecticut,No,2020,32996
+Connecticut,No,2021,35268
+Delaware,Yes,2016,98
+Delaware,Yes,2017,104
+Delaware,Yes,2018,113
+Delaware,Yes,2019,108
+Delaware,Yes,2020,68
+Delaware,Yes,2021,104
+Delaware,No,2016,10893
+Delaware,No,2017,10750
+Delaware,No,2018,10504
+Delaware,No,2019,10439
+Delaware,No,2020,10292
+Delaware,No,2021,10352
+District of Columbia,Yes,2016,102
+District of Columbia,Yes,2017,71
+District of Columbia,Yes,2018,87
+District of Columbia,Yes,2019,98
+District of Columbia,Yes,2020,128
+District of Columbia,Yes,2021,109
+District of Columbia,No,2016,9741
+District of Columbia,No,2017,9488
+District of Columbia,No,2018,9123
+District of Columbia,No,2019,8977
+District of Columbia,No,2020,8742
+District of Columbia,No,2021,8545
+Florida,Yes,2016,1916
+Florida,Yes,2017,1930
+Florida,Yes,2018,1843
+Florida,Yes,2019,1956
+Florida,Yes,2020,2001
+Florida,Yes,2021,1992
+Florida,No,2016,222690
+Florida,No,2017,221196
+Florida,No,2018,219227
+Florida,No,2019,217729
+Florida,No,2020,207376
+Florida,No,2021,213589
+Georgia,Yes,2016,1300
+Georgia,Yes,2017,1397
+Georgia,Yes,2018,1194
+Georgia,Yes,2019,1356
+Georgia,Yes,2020,1365
+Georgia,Yes,2021,1402
+Georgia,No,2016,128394
+Georgia,No,2017,127464
+Georgia,No,2018,124717
+Georgia,No,2019,124814
+Georgia,No,2020,120965
+Georgia,No,2021,122502
+Hawaii,Yes,2016,225
+Hawaii,Yes,2017,185
+Hawaii,Yes,2018,179
+Hawaii,Yes,2019,189
+Hawaii,Yes,2020,123
+Hawaii,Yes,2021,121
+Hawaii,No,2016,17834
+Hawaii,No,2017,17332
+Hawaii,No,2018,16793
+Hawaii,No,2019,16608
+Hawaii,No,2020,15661
+Hawaii,No,2021,15499
+Idaho,Yes,2016,203
+Idaho,Yes,2017,195
+Idaho,Yes,2018,176
+Idaho,Yes,2019,164
+Idaho,Yes,2020,157
+Idaho,Yes,2021,215
+Idaho,No,2016,22255
+Idaho,No,2017,21969
+Idaho,No,2018,21206
+Idaho,No,2019,21886
+Idaho,No,2020,21358
+Idaho,No,2021,22193
+Illinois,Yes,2016,1411
+Illinois,Yes,2017,1460
+Illinois,Yes,2018,1432
+Illinois,Yes,2019,1368
+Illinois,Yes,2020,1378
+Illinois,Yes,2021,1467
+Illinois,No,2016,152808
+Illinois,No,2017,147565
+Illinois,No,2018,143130
+Illinois,No,2019,138638
+Illinois,No,2020,131752
+Illinois,No,2021,130599
+Indiana,Yes,2016,728
+Indiana,Yes,2017,809
+Indiana,Yes,2018,785
+Indiana,Yes,2019,884
+Indiana,Yes,2020,877
+Indiana,Yes,2021,1015
+Indiana,No,2016,82359
+Indiana,No,2017,81351
+Indiana,No,2018,80852
+Indiana,No,2019,79971
+Indiana,No,2020,77692
+Indiana,No,2021,78470
+Iowa,Yes,2016,407
+Iowa,Yes,2017,388
+Iowa,Yes,2018,435
+Iowa,Yes,2019,462
+Iowa,Yes,2020,424
+Iowa,Yes,2021,505
+Iowa,No,2016,38995
+Iowa,No,2017,38040
+Iowa,No,2018,37350
+Iowa,No,2019,37185
+Iowa,No,2020,35689
+Iowa,No,2021,36322
+Kansas,Yes,2016,287
+Kansas,Yes,2017,267
+Kansas,Yes,2018,293
+Kansas,Yes,2019,322
+Kansas,Yes,2020,309
+Kansas,Yes,2021,366
+Kansas,No,2016,37766
+Kansas,No,2017,36252
+Kansas,No,2018,35968
+Kansas,No,2019,35073
+Kansas,No,2020,34066
+Kansas,No,2021,34337
+Kentucky,Yes,2016,556
+Kentucky,Yes,2017,582
+Kentucky,Yes,2018,533
+Kentucky,Yes,2019,557
+Kentucky,Yes,2020,627
+Kentucky,Yes,2021,632
+Kentucky,No,2016,54612
+Kentucky,No,2017,53978
+Kentucky,No,2018,53249
+Kentucky,No,2019,52366
+Kentucky,No,2020,50498
+Kentucky,No,2021,51343
+Louisiana,Yes,2016,712
+Louisiana,Yes,2017,624
+Louisiana,Yes,2018,647
+Louisiana,Yes,2019,631
+Louisiana,Yes,2020,624
+Louisiana,Yes,2021,682
+Louisiana,No,2016,62466
+Louisiana,No,2017,60394
+Louisiana,No,2018,58968
+Louisiana,No,2019,58309
+Louisiana,No,2020,56703
+Louisiana,No,2021,56753
+Maine,Yes,2016,111
+Maine,Yes,2017,88
+Maine,Yes,2018,108
+Maine,Yes,2019,99
+Maine,Yes,2020,116
+Maine,Yes,2021,132
+Maine,No,2016,12579
+Maine,No,2017,12208
+Maine,No,2018,12202
+Maine,No,2019,11678
+Maine,No,2020,11423
+Maine,No,2021,11874
+Maryland,Yes,2016,719
+Maryland,Yes,2017,786
+Maryland,Yes,2018,751
+Maryland,Yes,2019,669
+Maryland,Yes,2020,750
+Maryland,Yes,2021,718
+Maryland,No,2016,72406
+Maryland,No,2017,70786
+Maryland,No,2018,70287
+Maryland,No,2019,69469
+Maryland,No,2020,67765
+Maryland,No,2021,67525
+Massachusetts,Yes,2016,576
+Massachusetts,Yes,2017,675
+Massachusetts,Yes,2018,650
+Massachusetts,Yes,2019,648
+Massachusetts,Yes,2020,609
+Massachusetts,Yes,2021,844
+Massachusetts,No,2016,70645
+Massachusetts,No,2017,69956
+Massachusetts,No,2018,68383
+Massachusetts,No,2019,68332
+Massachusetts,No,2020,65586
+Massachusetts,No,2021,68081
+Michigan,Yes,2016,974
+Michigan,Yes,2017,953
+Michigan,Yes,2018,943
+Michigan,Yes,2019,1008
+Michigan,Yes,2020,1020
+Michigan,Yes,2021,1043
+Michigan,No,2016,112073
+Michigan,No,2017,110161
+Michigan,No,2018,108820
+Michigan,No,2019,106639
+Michigan,No,2020,102872
+Michigan,No,2021,103792
+Minnesota,Yes,2016,611
+Minnesota,Yes,2017,640
+Minnesota,Yes,2018,605
+Minnesota,Yes,2019,641
+Minnesota,Yes,2020,730
+Minnesota,Yes,2021,771
+Minnesota,No,2016,69074
+Minnesota,No,2017,67852
+Minnesota,No,2018,66696
+Minnesota,No,2019,65307
+Minnesota,No,2020,62659
+Minnesota,No,2021,63609
+Mississippi,Yes,2016,277
+Mississippi,Yes,2017,313
+Mississippi,Yes,2018,317
+Mississippi,Yes,2019,351
+Mississippi,Yes,2020,359
+Mississippi,Yes,2021,393
+Mississippi,No,2016,37640
+Mississippi,No,2017,37034
+Mississippi,No,2018,36666
+Mississippi,No,2019,36274
+Mississippi,No,2020,35109
+Mississippi,No,2021,34754
+Missouri,Yes,2016,628
+Missouri,Yes,2017,670
+Missouri,Yes,2018,676
+Missouri,Yes,2019,754
+Missouri,Yes,2020,747
+Missouri,Yes,2021,857
+Missouri,No,2016,74076
+Missouri,No,2017,72364
+Missouri,No,2018,72593
+Missouri,No,2019,71370
+Missouri,No,2020,68536
+Missouri,No,2021,68594
+Montana,Yes,2016,95
+Montana,Yes,2017,122
+Montana,Yes,2018,96
+Montana,Yes,2019,112
+Montana,Yes,2020,113
+Montana,Yes,2021,115
+Montana,No,2016,12175
+Montana,No,2017,11670
+Montana,No,2018,11411
+Montana,No,2019,10965
+Montana,No,2020,10677
+Montana,No,2021,11116
+Nebraska,Yes,2016,248
+Nebraska,Yes,2017,270
+Nebraska,Yes,2018,274
+Nebraska,Yes,2019,299
+Nebraska,Yes,2020,311
+Nebraska,Yes,2021,311
+Nebraska,No,2016,26304
+Nebraska,No,2017,25525
+Nebraska,No,2018,25187
+Nebraska,No,2019,24426
+Nebraska,No,2020,23928
+Nebraska,No,2021,24261
+Nevada,Yes,2016,394
+Nevada,Yes,2017,344
+Nevada,Yes,2018,352
+Nevada,Yes,2019,412
+Nevada,Yes,2020,396
+Nevada,Yes,2021,381
+Nevada,No,2016,35866
+Nevada,No,2017,35412
+Nevada,No,2018,35328
+Nevada,No,2019,34659
+Nevada,No,2020,33257
+Nevada,No,2021,33305
+New Hampshire,Yes,2016,92
+New Hampshire,Yes,2017,84
+New Hampshire,Yes,2018,106
+New Hampshire,Yes,2019,93
+New Hampshire,Yes,2020,137
+New Hampshire,Yes,2021,151
+New Hampshire,No,2016,12068
+New Hampshire,No,2017,11985
+New Hampshire,No,2018,11842
+New Hampshire,No,2019,11702
+New Hampshire,No,2020,11618
+New Hampshire,No,2021,12437
+New Jersey,Yes,2016,1010
+New Jersey,Yes,2017,1002
+New Jersey,Yes,2018,949
+New Jersey,Yes,2019,852
+New Jersey,Yes,2020,956
+New Jersey,Yes,2021,1049
+New Jersey,No,2016,101630
+New Jersey,No,2017,100241
+New Jersey,No,2018,100267
+New Jersey,No,2019,98727
+New Jersey,No,2020,96990
+New Jersey,No,2021,100439
+New Mexico,Yes,2016,301
+New Mexico,Yes,2017,368
+New Mexico,Yes,2018,491
+New Mexico,Yes,2019,434
+New Mexico,Yes,2020,471
+New Mexico,Yes,2021,477
+New Mexico,No,2016,24391
+New Mexico,No,2017,23399
+New Mexico,No,2018,22548
+New Mexico,No,2019,22521
+New Mexico,No,2020,21430
+New Mexico,No,2021,20912
+New York,Yes,2016,1882
+New York,Yes,2017,2043
+New York,Yes,2018,2078
+New York,Yes,2019,2061
+New York,Yes,2020,2255
+New York,Yes,2021,2239
+New York,No,2016,232183
+New York,No,2017,227288
+New York,No,2018,223666
+New York,No,2019,218994
+New York,No,2020,206685
+New York,No,2021,208052
+North Carolina,Yes,2016,1283
+North Carolina,Yes,2017,1296
+North Carolina,Yes,2018,1340
+North Carolina,Yes,2019,1358
+North Carolina,Yes,2020,1338
+North Carolina,Yes,2021,1462
+North Carolina,No,2016,119480
+North Carolina,No,2017,118819
+North Carolina,No,2018,117594
+North Carolina,No,2019,117361
+North Carolina,No,2020,115383
+North Carolina,No,2021,118981
+North Dakota,Yes,2016,107
+North Dakota,Yes,2017,91
+North Dakota,Yes,2018,104
+North Dakota,Yes,2019,103
+North Dakota,Yes,2020,109
+North Dakota,Yes,2021,129
+North Dakota,No,2016,11276
+North Dakota,No,2017,10645
+North Dakota,No,2018,10530
+North Dakota,No,2019,10351
+North Dakota,No,2020,9950
+North Dakota,No,2021,9983
+Ohio,Yes,2016,1407
+Ohio,Yes,2017,1448
+Ohio,Yes,2018,1484
+Ohio,Yes,2019,1532
+Ohio,Yes,2020,1652
+Ohio,Yes,2021,1714
+Ohio,No,2016,136651
+Ohio,No,2017,135370
+Ohio,No,2018,133638
+Ohio,No,2019,132921
+Ohio,No,2020,127523
+Ohio,No,2021,128058
+Oklahoma,Yes,2016,449
+Oklahoma,Yes,2017,489
+Oklahoma,Yes,2018,604
+Oklahoma,Yes,2019,557
+Oklahoma,Yes,2020,638
+Oklahoma,Yes,2021,556
+Oklahoma,No,2016,52142
+Oklahoma,No,2017,49724
+Oklahoma,No,2018,49196
+Oklahoma,No,2019,48584
+Oklahoma,No,2020,46985
+Oklahoma,No,2021,47848
+Oregon,Yes,2016,428
+Oregon,Yes,2017,410
+Oregon,Yes,2018,403
+Oregon,Yes,2019,462
+Oregon,Yes,2020,423
+Oregon,Yes,2021,439
+Oregon,No,2016,45105
+Oregon,No,2017,43221
+Oregon,No,2018,41785
+Oregon,No,2019,41394
+Oregon,No,2020,39395
+Oregon,No,2021,40475
+Pennsylvania,Yes,2016,978
+Pennsylvania,Yes,2017,1113
+Pennsylvania,Yes,2018,1096
+Pennsylvania,Yes,2019,1229
+Pennsylvania,Yes,2020,1172
+Pennsylvania,Yes,2021,1363
+Pennsylvania,No,2016,138410
+Pennsylvania,No,2017,136604
+Pennsylvania,No,2018,134539
+Pennsylvania,No,2019,132969
+Pennsylvania,No,2020,129476
+Pennsylvania,No,2021,130986
+Rhode Island,Yes,2016,98
+Rhode Island,Yes,2017,108
+Rhode Island,Yes,2018,98
+Rhode Island,Yes,2019,105
+Rhode Island,Yes,2020,111
+Rhode Island,Yes,2021,117
+Rhode Island,No,2016,10693
+Rhode Island,No,2017,10527
+Rhode Island,No,2018,10403
+Rhode Island,No,2019,10056
+Rhode Island,No,2020,9973
+Rhode Island,No,2021,10333
+South Carolina,Yes,2016,610
+South Carolina,Yes,2017,636
+South Carolina,Yes,2018,656
+South Carolina,Yes,2019,661
+South Carolina,Yes,2020,767
+South Carolina,Yes,2021,737
+South Carolina,No,2016,56730
+South Carolina,No,2017,56390
+South Carolina,No,2018,56009
+South Carolina,No,2019,56373
+South Carolina,No,2020,54932
+South Carolina,No,2021,56381
+South Dakota,Yes,2016,119
+South Dakota,Yes,2017,141
+South Dakota,Yes,2018,119
+South Dakota,Yes,2019,106
+South Dakota,Yes,2020,132
+South Dakota,Yes,2021,104
+South Dakota,No,2016,12155
+South Dakota,No,2017,11989
+South Dakota,No,2018,11762
+South Dakota,No,2019,11340
+South Dakota,No,2020,10819
+South Dakota,No,2021,11260
+Tennessee,Yes,2016,964
+Tennessee,Yes,2017,987
+Tennessee,Yes,2018,1063
+Tennessee,Yes,2019,1077
+Tennessee,Yes,2020,1163
+Tennessee,Yes,2021,1245
+Tennessee,No,2016,79839
+Tennessee,No,2017,79961
+Tennessee,No,2018,79647
+Tennessee,No,2019,79369
+Tennessee,No,2020,77524
+Tennessee,No,2021,80467
+Texas,Yes,2016,2962
+Texas,Yes,2017,3071
+Texas,Yes,2018,3110
+Texas,Yes,2019,3148
+Texas,Yes,2020,3463
+Texas,Yes,2021,3490
+Texas,No,2016,395083
+Texas,No,2017,378978
+Texas,No,2018,375481
+Texas,No,2019,374051
+Texas,No,2020,364230
+Texas,No,2021,369546
+Utah,Yes,2016,326
+Utah,Yes,2017,409
+Utah,Yes,2018,417
+Utah,Yes,2019,332
+Utah,Yes,2020,365
+Utah,Yes,2021,373
+Utah,No,2016,50138
+Utah,No,2017,48175
+Utah,No,2018,46791
+Utah,No,2019,46494
+Utah,No,2020,45337
+Utah,No,2021,46339
+Vermont,Yes,2016,69
+Vermont,Yes,2017,76
+Vermont,Yes,2018,72
+Vermont,Yes,2019,56
+Vermont,Yes,2020,60
+Vermont,Yes,2021,84
+Vermont,No,2016,5687
+Vermont,No,2017,5579
+Vermont,No,2018,5358
+Vermont,No,2019,5304
+Vermont,No,2020,5073
+Vermont,No,2021,5300
+Virginia,Yes,2016,749
+Virginia,Yes,2017,834
+Virginia,Yes,2018,939
+Virginia,Yes,2019,1073
+Virginia,Yes,2020,1000
+Virginia,Yes,2021,932
+Virginia,No,2016,101707
+Virginia,No,2017,99556
+Virginia,No,2018,98903
+Virginia,No,2019,96350
+Virginia,No,2020,93746
+Virginia,No,2021,94889
+Washington,Yes,2016,851
+Washington,Yes,2017,900
+Washington,Yes,2018,861
+Washington,Yes,2019,856
+Washington,Yes,2020,820
+Washington,Yes,2021,864
+Washington,No,2016,89221
+Washington,No,2017,86285
+Washington,No,2018,85224
+Washington,No,2019,84012
+Washington,No,2020,81688
+Washington,No,2021,82066
+West Virginia,Yes,2016,296
+West Virginia,Yes,2017,261
+West Virginia,Yes,2018,276
+West Virginia,Yes,2019,263
+West Virginia,Yes,2020,280
+West Virginia,Yes,2021,240
+West Virginia,No,2016,18685
+West Virginia,No,2017,18318
+West Virginia,No,2018,17896
+West Virginia,No,2019,17782
+West Virginia,No,2020,16950
+West Virginia,No,2021,16863
+Wisconsin,Yes,2016,638
+Wisconsin,Yes,2017,651
+Wisconsin,Yes,2018,762
+Wisconsin,Yes,2019,747
+Wisconsin,Yes,2020,743
+Wisconsin,Yes,2021,761
+Wisconsin,No,2016,65764
+Wisconsin,No,2017,64150
+Wisconsin,No,2018,63148
+Wisconsin,No,2019,62312
+Wisconsin,No,2020,59785
+Wisconsin,No,2021,60925
+Wyoming,Yes,2016,48
+Wyoming,Yes,2017,61
+Wyoming,Yes,2018,71
+Wyoming,Yes,2019,61
+Wyoming,Yes,2020,40
+Wyoming,Yes,2021,39
+Wyoming,No,2016,7338
+Wyoming,No,2017,6841
+Wyoming,No,2018,6491
+Wyoming,No,2019,6504
+Wyoming,No,2020,6087
+Wyoming,No,2021,6196

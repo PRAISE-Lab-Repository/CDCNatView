@@ -1,0 +1,1713 @@
+"""Notes""","""State of Residence""","""State of Residence Code""","""Year""","""Year Code""","""Number of Previous Cesareans""","""Number of Previous Cesareans Code""","Births"
+NA,"""Alabama""","""01""","""2016""","""2016""","""0 previous cesareans""","""0""",50799
+NA,"""Alabama""","""01""","""2016""","""2016""","""1 previous cesareans""","""1""",5788
+NA,"""Alabama""","""01""","""2016""","""2016""","""2 previous cesareans""","""2""",1973
+NA,"""Alabama""","""01""","""2016""","""2016""","""3 previous cesareans""","""3""",475
+NA,"""Alabama""","""01""","""2016""","""2016""","""4 or more previous cesareans""","""4""",112
+NA,"""Alabama""","""01""","""2017""","""2017""","""0 previous cesareans""","""0""",50388
+NA,"""Alabama""","""01""","""2017""","""2017""","""1 previous cesareans""","""1""",5882
+NA,"""Alabama""","""01""","""2017""","""2017""","""2 previous cesareans""","""2""",2031
+NA,"""Alabama""","""01""","""2017""","""2017""","""3 previous cesareans""","""3""",506
+NA,"""Alabama""","""01""","""2017""","""2017""","""4 or more previous cesareans""","""4""",128
+NA,"""Alabama""","""01""","""2018""","""2018""","""0 previous cesareans""","""0""",49836
+NA,"""Alabama""","""01""","""2018""","""2018""","""1 previous cesareans""","""1""",5288
+NA,"""Alabama""","""01""","""2018""","""2018""","""2 previous cesareans""","""2""",1991
+NA,"""Alabama""","""01""","""2018""","""2018""","""3 previous cesareans""","""3""",510
+NA,"""Alabama""","""01""","""2018""","""2018""","""4 or more previous cesareans""","""4""",132
+NA,"""Alabama""","""01""","""2019""","""2019""","""0 previous cesareans""","""0""",50201
+NA,"""Alabama""","""01""","""2019""","""2019""","""1 previous cesareans""","""1""",5560
+NA,"""Alabama""","""01""","""2019""","""2019""","""2 previous cesareans""","""2""",2196
+NA,"""Alabama""","""01""","""2019""","""2019""","""3 previous cesareans""","""3""",516
+NA,"""Alabama""","""01""","""2019""","""2019""","""4 or more previous cesareans""","""4""",137
+NA,"""Alabama""","""01""","""2020""","""2020""","""0 previous cesareans""","""0""",49264
+NA,"""Alabama""","""01""","""2020""","""2020""","""1 previous cesareans""","""1""",5590
+NA,"""Alabama""","""01""","""2020""","""2020""","""2 previous cesareans""","""2""",2100
+NA,"""Alabama""","""01""","""2020""","""2020""","""3 previous cesareans""","""3""",539
+NA,"""Alabama""","""01""","""2020""","""2020""","""4 or more previous cesareans""","""4""",152
+NA,"""Alabama""","""01""","""2021""","""2021""","""0 previous cesareans""","""0""",49486
+NA,"""Alabama""","""01""","""2021""","""2021""","""1 previous cesareans""","""1""",5650
+NA,"""Alabama""","""01""","""2021""","""2021""","""2 previous cesareans""","""2""",2145
+NA,"""Alabama""","""01""","""2021""","""2021""","""3 previous cesareans""","""3""",606
+NA,"""Alabama""","""01""","""2021""","""2021""","""4 or more previous cesareans""","""4""",166
+NA,"""Alaska""","""02""","""2016""","""2016""","""0 previous cesareans""","""0""",9804
+NA,"""Alaska""","""02""","""2016""","""2016""","""1 previous cesareans""","""1""",917
+NA,"""Alaska""","""02""","""2016""","""2016""","""2 previous cesareans""","""2""",294
+NA,"""Alaska""","""02""","""2016""","""2016""","""3 previous cesareans""","""3""",72
+NA,"""Alaska""","""02""","""2016""","""2016""","""4 or more previous cesareans""","""4""",32
+NA,"""Alaska""","""02""","""2016""","""2016""","""Unknown or Not Stated""","""99""",90
+NA,"""Alaska""","""02""","""2017""","""2017""","""0 previous cesareans""","""0""",9167
+NA,"""Alaska""","""02""","""2017""","""2017""","""1 previous cesareans""","""1""",804
+NA,"""Alaska""","""02""","""2017""","""2017""","""2 previous cesareans""","""2""",266
+NA,"""Alaska""","""02""","""2017""","""2017""","""3 previous cesareans""","""3""",70
+NA,"""Alaska""","""02""","""2017""","""2017""","""4 or more previous cesareans""","""4""",21
+NA,"""Alaska""","""02""","""2017""","""2017""","""Unknown or Not Stated""","""99""",117
+NA,"""Alaska""","""02""","""2018""","""2018""","""0 previous cesareans""","""0""",8720
+NA,"""Alaska""","""02""","""2018""","""2018""","""1 previous cesareans""","""1""",854
+NA,"""Alaska""","""02""","""2018""","""2018""","""2 previous cesareans""","""2""",269
+NA,"""Alaska""","""02""","""2018""","""2018""","""3 previous cesareans""","""3""",77
+NA,"""Alaska""","""02""","""2018""","""2018""","""4 or more previous cesareans""","""4""",33
+NA,"""Alaska""","""02""","""2018""","""2018""","""Unknown or Not Stated""","""99""",133
+NA,"""Alaska""","""02""","""2019""","""2019""","""0 previous cesareans""","""0""",8621
+NA,"""Alaska""","""02""","""2019""","""2019""","""1 previous cesareans""","""1""",759
+NA,"""Alaska""","""02""","""2019""","""2019""","""2 previous cesareans""","""2""",234
+NA,"""Alaska""","""02""","""2019""","""2019""","""3 previous cesareans""","""3""",87
+NA,"""Alaska""","""02""","""2019""","""2019""","""4 or more previous cesareans""","""4""",19
+NA,"""Alaska""","""02""","""2019""","""2019""","""Unknown or Not Stated""","""99""",102
+NA,"""Alaska""","""02""","""2020""","""2020""","""0 previous cesareans""","""0""",8274
+NA,"""Alaska""","""02""","""2020""","""2020""","""1 previous cesareans""","""1""",743
+NA,"""Alaska""","""02""","""2020""","""2020""","""2 previous cesareans""","""2""",245
+NA,"""Alaska""","""02""","""2020""","""2020""","""3 previous cesareans""","""3""",72
+NA,"""Alaska""","""02""","""2020""","""2020""","""4 or more previous cesareans""","""4""",13
+NA,"""Alaska""","""02""","""2020""","""2020""","""Unknown or Not Stated""","""99""",122
+NA,"""Alaska""","""02""","""2021""","""2021""","""0 previous cesareans""","""0""",8217
+NA,"""Alaska""","""02""","""2021""","""2021""","""1 previous cesareans""","""1""",748
+NA,"""Alaska""","""02""","""2021""","""2021""","""2 previous cesareans""","""2""",226
+NA,"""Alaska""","""02""","""2021""","""2021""","""3 previous cesareans""","""3""",74
+NA,"""Alaska""","""02""","""2021""","""2021""","""4 or more previous cesareans""","""4""",28
+NA,"""Alaska""","""02""","""2021""","""2021""","""Unknown or Not Stated""","""99""",74
+NA,"""Arizona""","""04""","""2016""","""2016""","""0 previous cesareans""","""0""",72524
+NA,"""Arizona""","""04""","""2016""","""2016""","""1 previous cesareans""","""1""",7903
+NA,"""Arizona""","""04""","""2016""","""2016""","""2 previous cesareans""","""2""",2896
+NA,"""Arizona""","""04""","""2016""","""2016""","""3 previous cesareans""","""3""",883
+NA,"""Arizona""","""04""","""2016""","""2016""","""4 or more previous cesareans""","""4""",287
+NA,"""Arizona""","""04""","""2016""","""2016""","""Unknown or Not Stated""","""99""",27
+NA,"""Arizona""","""04""","""2017""","""2017""","""0 previous cesareans""","""0""",70502
+NA,"""Arizona""","""04""","""2017""","""2017""","""1 previous cesareans""","""1""",7519
+NA,"""Arizona""","""04""","""2017""","""2017""","""2 previous cesareans""","""2""",2701
+NA,"""Arizona""","""04""","""2017""","""2017""","""3 previous cesareans""","""3""",859
+NA,"""Arizona""","""04""","""2017""","""2017""","""4 or more previous cesareans""","""4""",269
+NA,"""Arizona""","""04""","""2017""","""2017""","""Unknown or Not Stated""","""99""",22
+NA,"""Arizona""","""04""","""2018""","""2018""","""0 previous cesareans""","""0""",68979
+NA,"""Arizona""","""04""","""2018""","""2018""","""1 previous cesareans""","""1""",7643
+NA,"""Arizona""","""04""","""2018""","""2018""","""2 previous cesareans""","""2""",2882
+NA,"""Arizona""","""04""","""2018""","""2018""","""3 previous cesareans""","""3""",911
+NA,"""Arizona""","""04""","""2018""","""2018""","""4 or more previous cesareans""","""4""",302
+NA,"""Arizona""","""04""","""2019""","""2019""","""0 previous cesareans""","""0""",67875
+NA,"""Arizona""","""04""","""2019""","""2019""","""1 previous cesareans""","""1""",7484
+NA,"""Arizona""","""04""","""2019""","""2019""","""2 previous cesareans""","""2""",2747
+NA,"""Arizona""","""04""","""2019""","""2019""","""3 previous cesareans""","""3""",968
+NA,"""Arizona""","""04""","""2019""","""2019""","""4 or more previous cesareans""","""4""",294
+NA,"""Arizona""","""04""","""2020""","""2020""","""0 previous cesareans""","""0""",66017
+NA,"""Arizona""","""04""","""2020""","""2020""","""1 previous cesareans""","""1""",7125
+NA,"""Arizona""","""04""","""2020""","""2020""","""2 previous cesareans""","""2""",2641
+NA,"""Arizona""","""04""","""2020""","""2020""","""3 previous cesareans""","""3""",856
+NA,"""Arizona""","""04""","""2020""","""2020""","""4 or more previous cesareans""","""4""",304
+NA,"""Arizona""","""04""","""2021""","""2021""","""0 previous cesareans""","""0""",66788
+NA,"""Arizona""","""04""","""2021""","""2021""","""1 previous cesareans""","""1""",7472
+NA,"""Arizona""","""04""","""2021""","""2021""","""2 previous cesareans""","""2""",2568
+NA,"""Arizona""","""04""","""2021""","""2021""","""3 previous cesareans""","""3""",818
+NA,"""Arizona""","""04""","""2021""","""2021""","""4 or more previous cesareans""","""4""",269
+NA,"""Arkansas""","""05""","""2016""","""2016""","""0 previous cesareans""","""0""",32453
+NA,"""Arkansas""","""05""","""2016""","""2016""","""1 previous cesareans""","""1""",3780
+NA,"""Arkansas""","""05""","""2016""","""2016""","""2 previous cesareans""","""2""",1481
+NA,"""Arkansas""","""05""","""2016""","""2016""","""3 previous cesareans""","""3""",426
+NA,"""Arkansas""","""05""","""2016""","""2016""","""4 or more previous cesareans""","""4""",118
+NA,"""Arkansas""","""05""","""2016""","""2016""","""Unknown or Not Stated""","""99""",16
+NA,"""Arkansas""","""05""","""2017""","""2017""","""0 previous cesareans""","""0""",31448
+NA,"""Arkansas""","""05""","""2017""","""2017""","""1 previous cesareans""","""1""",3950
+NA,"""Arkansas""","""05""","""2017""","""2017""","""2 previous cesareans""","""2""",1536
+NA,"""Arkansas""","""05""","""2017""","""2017""","""3 previous cesareans""","""3""",456
+NA,"""Arkansas""","""05""","""2017""","""2017""","""4 or more previous cesareans""","""4""",118
+NA,"""Arkansas""","""05""","""2017""","""2017""","""Unknown or Not Stated""","""99""",12
+NA,"""Arkansas""","""05""","""2018""","""2018""","""0 previous cesareans""","""0""",30691
+NA,"""Arkansas""","""05""","""2018""","""2018""","""1 previous cesareans""","""1""",4146
+NA,"""Arkansas""","""05""","""2018""","""2018""","""2 previous cesareans""","""2""",1578
+NA,"""Arkansas""","""05""","""2018""","""2018""","""3 previous cesareans""","""3""",456
+NA,"""Arkansas""","""05""","""2018""","""2018""","""4 or more previous cesareans""","""4""",136
+NA,"""Arkansas""","""05""","""2018""","""2018""","""Unknown or Not Stated""","""99""",11
+NA,"""Arkansas""","""05""","""2019""","""2019""","""0 previous cesareans""","""0""",30338
+NA,"""Arkansas""","""05""","""2019""","""2019""","""1 previous cesareans""","""1""",3953
+NA,"""Arkansas""","""05""","""2019""","""2019""","""2 previous cesareans""","""2""",1621
+NA,"""Arkansas""","""05""","""2019""","""2019""","""3 previous cesareans""","""3""",503
+NA,"""Arkansas""","""05""","""2019""","""2019""","""4 or more previous cesareans""","""4""",145
+NA,"""Arkansas""","""05""","""2020""","""2020""","""0 previous cesareans""","""0""",29437
+NA,"""Arkansas""","""05""","""2020""","""2020""","""1 previous cesareans""","""1""",3885
+NA,"""Arkansas""","""05""","""2020""","""2020""","""2 previous cesareans""","""2""",1411
+NA,"""Arkansas""","""05""","""2020""","""2020""","""3 previous cesareans""","""3""",395
+NA,"""Arkansas""","""05""","""2020""","""2020""","""4 or more previous cesareans""","""4""",113
+NA,"""Arkansas""","""05""","""2020""","""2020""","""Unknown or Not Stated""","""99""",10
+NA,"""Arkansas""","""05""","""2021""","""2021""","""0 previous cesareans""","""0""",30369
+NA,"""Arkansas""","""05""","""2021""","""2021""","""1 previous cesareans""","""1""",3739
+NA,"""Arkansas""","""05""","""2021""","""2021""","""2 previous cesareans""","""2""",1326
+NA,"""Arkansas""","""05""","""2021""","""2021""","""3 previous cesareans""","""3""",415
+NA,"""Arkansas""","""05""","""2021""","""2021""","""4 or more previous cesareans""","""4""",112
+NA,"""California""","""06""","""2016""","""2016""","""0 previous cesareans""","""0""",407941
+NA,"""California""","""06""","""2016""","""2016""","""1 previous cesareans""","""1""",54392
+NA,"""California""","""06""","""2016""","""2016""","""2 previous cesareans""","""2""",19451
+NA,"""California""","""06""","""2016""","""2016""","""3 previous cesareans""","""3""",5410
+NA,"""California""","""06""","""2016""","""2016""","""4 or more previous cesareans""","""4""",1483
+NA,"""California""","""06""","""2016""","""2016""","""Unknown or Not Stated""","""99""",150
+NA,"""California""","""06""","""2017""","""2017""","""0 previous cesareans""","""0""",393845
+NA,"""California""","""06""","""2017""","""2017""","""1 previous cesareans""","""1""",52168
+NA,"""California""","""06""","""2017""","""2017""","""2 previous cesareans""","""2""",18871
+NA,"""California""","""06""","""2017""","""2017""","""3 previous cesareans""","""3""",5261
+NA,"""California""","""06""","""2017""","""2017""","""4 or more previous cesareans""","""4""",1423
+NA,"""California""","""06""","""2017""","""2017""","""Unknown or Not Stated""","""99""",90
+NA,"""California""","""06""","""2018""","""2018""","""0 previous cesareans""","""0""",380828
+NA,"""California""","""06""","""2018""","""2018""","""1 previous cesareans""","""1""",49517
+NA,"""California""","""06""","""2018""","""2018""","""2 previous cesareans""","""2""",18037
+NA,"""California""","""06""","""2018""","""2018""","""3 previous cesareans""","""3""",5015
+NA,"""California""","""06""","""2018""","""2018""","""4 or more previous cesareans""","""4""",1423
+NA,"""California""","""06""","""2018""","""2018""","""Unknown or Not Stated""","""99""",100
+NA,"""California""","""06""","""2019""","""2019""","""0 previous cesareans""","""0""",373333
+NA,"""California""","""06""","""2019""","""2019""","""1 previous cesareans""","""1""",49116
+NA,"""California""","""06""","""2019""","""2019""","""2 previous cesareans""","""2""",17315
+NA,"""California""","""06""","""2019""","""2019""","""3 previous cesareans""","""3""",4988
+NA,"""California""","""06""","""2019""","""2019""","""4 or more previous cesareans""","""4""",1362
+NA,"""California""","""06""","""2019""","""2019""","""Unknown or Not Stated""","""99""",365
+NA,"""California""","""06""","""2020""","""2020""","""0 previous cesareans""","""0""",352508
+NA,"""California""","""06""","""2020""","""2020""","""1 previous cesareans""","""1""",45335
+NA,"""California""","""06""","""2020""","""2020""","""2 previous cesareans""","""2""",16021
+NA,"""California""","""06""","""2020""","""2020""","""3 previous cesareans""","""3""",4783
+NA,"""California""","""06""","""2020""","""2020""","""4 or more previous cesareans""","""4""",1392
+NA,"""California""","""06""","""2020""","""2020""","""Unknown or Not Stated""","""99""",220
+NA,"""California""","""06""","""2021""","""2021""","""0 previous cesareans""","""0""",354567
+NA,"""California""","""06""","""2021""","""2021""","""1 previous cesareans""","""1""",44417
+NA,"""California""","""06""","""2021""","""2021""","""2 previous cesareans""","""2""",15414
+NA,"""California""","""06""","""2021""","""2021""","""3 previous cesareans""","""3""",4633
+NA,"""California""","""06""","""2021""","""2021""","""4 or more previous cesareans""","""4""",1336
+NA,"""California""","""06""","""2021""","""2021""","""Unknown or Not Stated""","""99""",241
+NA,"""Colorado""","""08""","""2016""","""2016""","""0 previous cesareans""","""0""",58186
+NA,"""Colorado""","""08""","""2016""","""2016""","""1 previous cesareans""","""1""",6028
+NA,"""Colorado""","""08""","""2016""","""2016""","""2 previous cesareans""","""2""",1717
+NA,"""Colorado""","""08""","""2016""","""2016""","""3 previous cesareans""","""3""",434
+NA,"""Colorado""","""08""","""2016""","""2016""","""4 or more previous cesareans""","""4""",113
+NA,"""Colorado""","""08""","""2016""","""2016""","""Unknown or Not Stated""","""99""",135
+NA,"""Colorado""","""08""","""2017""","""2017""","""0 previous cesareans""","""0""",56196
+NA,"""Colorado""","""08""","""2017""","""2017""","""1 previous cesareans""","""1""",5942
+NA,"""Colorado""","""08""","""2017""","""2017""","""2 previous cesareans""","""2""",1653
+NA,"""Colorado""","""08""","""2017""","""2017""","""3 previous cesareans""","""3""",401
+NA,"""Colorado""","""08""","""2017""","""2017""","""4 or more previous cesareans""","""4""",105
+NA,"""Colorado""","""08""","""2017""","""2017""","""Unknown or Not Stated""","""99""",85
+NA,"""Colorado""","""08""","""2018""","""2018""","""0 previous cesareans""","""0""",55219
+NA,"""Colorado""","""08""","""2018""","""2018""","""1 previous cesareans""","""1""",5444
+NA,"""Colorado""","""08""","""2018""","""2018""","""2 previous cesareans""","""2""",1609
+NA,"""Colorado""","""08""","""2018""","""2018""","""3 previous cesareans""","""3""",402
+NA,"""Colorado""","""08""","""2018""","""2018""","""4 or more previous cesareans""","""4""",118
+NA,"""Colorado""","""08""","""2018""","""2018""","""Unknown or Not Stated""","""99""",93
+NA,"""Colorado""","""08""","""2019""","""2019""","""0 previous cesareans""","""0""",55017
+NA,"""Colorado""","""08""","""2019""","""2019""","""1 previous cesareans""","""1""",5628
+NA,"""Colorado""","""08""","""2019""","""2019""","""2 previous cesareans""","""2""",1531
+NA,"""Colorado""","""08""","""2019""","""2019""","""3 previous cesareans""","""3""",450
+NA,"""Colorado""","""08""","""2019""","""2019""","""4 or more previous cesareans""","""4""",133
+NA,"""Colorado""","""08""","""2019""","""2019""","""Unknown or Not Stated""","""99""",110
+NA,"""Colorado""","""08""","""2020""","""2020""","""0 previous cesareans""","""0""",53825
+NA,"""Colorado""","""08""","""2020""","""2020""","""1 previous cesareans""","""1""",5540
+NA,"""Colorado""","""08""","""2020""","""2020""","""2 previous cesareans""","""2""",1500
+NA,"""Colorado""","""08""","""2020""","""2020""","""3 previous cesareans""","""3""",437
+NA,"""Colorado""","""08""","""2020""","""2020""","""4 or more previous cesareans""","""4""",122
+NA,"""Colorado""","""08""","""2020""","""2020""","""Unknown or Not Stated""","""99""",70
+NA,"""Colorado""","""08""","""2021""","""2021""","""0 previous cesareans""","""0""",55308
+NA,"""Colorado""","""08""","""2021""","""2021""","""1 previous cesareans""","""1""",5604
+NA,"""Colorado""","""08""","""2021""","""2021""","""2 previous cesareans""","""2""",1488
+NA,"""Colorado""","""08""","""2021""","""2021""","""3 previous cesareans""","""3""",364
+NA,"""Colorado""","""08""","""2021""","""2021""","""4 or more previous cesareans""","""4""",109
+NA,"""Colorado""","""08""","""2021""","""2021""","""Unknown or Not Stated""","""99""",76
+NA,"""Connecticut""","""09""","""2016""","""2016""","""0 previous cesareans""","""0""",29859
+NA,"""Connecticut""","""09""","""2016""","""2016""","""1 previous cesareans""","""1""",4076
+NA,"""Connecticut""","""09""","""2016""","""2016""","""2 previous cesareans""","""2""",1079
+NA,"""Connecticut""","""09""","""2016""","""2016""","""3 previous cesareans""","""3""",244
+NA,"""Connecticut""","""09""","""2016""","""2016""","""4 or more previous cesareans""","""4""",45
+NA,"""Connecticut""","""09""","""2016""","""2016""","""Unknown or Not Stated""","""99""",712
+NA,"""Connecticut""","""09""","""2017""","""2017""","""0 previous cesareans""","""0""",29294
+NA,"""Connecticut""","""09""","""2017""","""2017""","""1 previous cesareans""","""1""",4234
+NA,"""Connecticut""","""09""","""2017""","""2017""","""2 previous cesareans""","""2""",1101
+NA,"""Connecticut""","""09""","""2017""","""2017""","""3 previous cesareans""","""3""",259
+NA,"""Connecticut""","""09""","""2017""","""2017""","""4 or more previous cesareans""","""4""",49
+NA,"""Connecticut""","""09""","""2017""","""2017""","""Unknown or Not Stated""","""99""",284
+NA,"""Connecticut""","""09""","""2018""","""2018""","""0 previous cesareans""","""0""",28915
+NA,"""Connecticut""","""09""","""2018""","""2018""","""1 previous cesareans""","""1""",4218
+NA,"""Connecticut""","""09""","""2018""","""2018""","""2 previous cesareans""","""2""",1172
+NA,"""Connecticut""","""09""","""2018""","""2018""","""3 previous cesareans""","""3""",249
+NA,"""Connecticut""","""09""","""2018""","""2018""","""4 or more previous cesareans""","""4""",56
+NA,"""Connecticut""","""09""","""2018""","""2018""","""Unknown or Not Stated""","""99""",115
+NA,"""Connecticut""","""09""","""2019""","""2019""","""0 previous cesareans""","""0""",28384
+NA,"""Connecticut""","""09""","""2019""","""2019""","""1 previous cesareans""","""1""",4237
+NA,"""Connecticut""","""09""","""2019""","""2019""","""2 previous cesareans""","""2""",1188
+NA,"""Connecticut""","""09""","""2019""","""2019""","""3 previous cesareans""","""3""",262
+NA,"""Connecticut""","""09""","""2019""","""2019""","""4 or more previous cesareans""","""4""",63
+NA,"""Connecticut""","""09""","""2019""","""2019""","""Unknown or Not Stated""","""99""",124
+NA,"""Connecticut""","""09""","""2020""","""2020""","""0 previous cesareans""","""0""",27959
+NA,"""Connecticut""","""09""","""2020""","""2020""","""1 previous cesareans""","""1""",3919
+NA,"""Connecticut""","""09""","""2020""","""2020""","""2 previous cesareans""","""2""",1079
+NA,"""Connecticut""","""09""","""2020""","""2020""","""3 previous cesareans""","""3""",278
+NA,"""Connecticut""","""09""","""2020""","""2020""","""4 or more previous cesareans""","""4""",69
+NA,"""Connecticut""","""09""","""2020""","""2020""","""Unknown or Not Stated""","""99""",156
+NA,"""Connecticut""","""09""","""2021""","""2021""","""0 previous cesareans""","""0""",29782
+NA,"""Connecticut""","""09""","""2021""","""2021""","""1 previous cesareans""","""1""",4278
+NA,"""Connecticut""","""09""","""2021""","""2021""","""2 previous cesareans""","""2""",1234
+NA,"""Connecticut""","""09""","""2021""","""2021""","""3 previous cesareans""","""3""",284
+NA,"""Connecticut""","""09""","""2021""","""2021""","""4 or more previous cesareans""","""4""",65
+NA,"""Connecticut""","""09""","""2021""","""2021""","""Unknown or Not Stated""","""99""",27
+NA,"""Delaware""","""10""","""2016""","""2016""","""0 previous cesareans""","""0""",9149
+NA,"""Delaware""","""10""","""2016""","""2016""","""1 previous cesareans""","""1""",1504
+NA,"""Delaware""","""10""","""2016""","""2016""","""2 previous cesareans""","""2""",254
+NA,"""Delaware""","""10""","""2016""","""2016""","""3 previous cesareans""","""3""",71
+NA,"""Delaware""","""10""","""2016""","""2016""","""4 or more previous cesareans""","""4""",13
+NA,"""Delaware""","""10""","""2017""","""2017""","""0 previous cesareans""","""0""",8999
+NA,"""Delaware""","""10""","""2017""","""2017""","""1 previous cesareans""","""1""",1501
+NA,"""Delaware""","""10""","""2017""","""2017""","""2 previous cesareans""","""2""",273
+NA,"""Delaware""","""10""","""2017""","""2017""","""3 previous cesareans""","""3""",61
+NA,"""Delaware""","""10""","""2017""","""2017""","""4 or more previous cesareans""","""4""",19
+NA,"""Delaware""","""10""","""2018""","""2018""","""0 previous cesareans""","""0""",8853
+NA,"""Delaware""","""10""","""2018""","""2018""","""1 previous cesareans""","""1""",1415
+NA,"""Delaware""","""10""","""2018""","""2018""","""2 previous cesareans""","""2""",258
+NA,"""Delaware""","""10""","""2018""","""2018""","""3 previous cesareans""","""3""",65
+NA,"""Delaware""","""10""","""2018""","""2018""","""4 or more previous cesareans""","""4""",25
+NA,"""Delaware""","""10""","""2019""","""2019""","""0 previous cesareans""","""0""",9031
+NA,"""Delaware""","""10""","""2019""","""2019""","""1 previous cesareans""","""1""",1198
+NA,"""Delaware""","""10""","""2019""","""2019""","""2 previous cesareans""","""2""",231
+NA,"""Delaware""","""10""","""2019""","""2019""","""3 previous cesareans""","""3""",64
+NA,"""Delaware""","""10""","""2019""","""2019""","""4 or more previous cesareans""","""4""",23
+NA,"""Delaware""","""10""","""2019""","""2019""","""Unknown or Not Stated""","""99""",15
+NA,"""Delaware""","""10""","""2020""","""2020""","""0 previous cesareans""","""0""",8884
+NA,"""Delaware""","""10""","""2020""","""2020""","""1 previous cesareans""","""1""",1199
+NA,"""Delaware""","""10""","""2020""","""2020""","""2 previous cesareans""","""2""",195
+NA,"""Delaware""","""10""","""2020""","""2020""","""3 previous cesareans""","""3""",55
+NA,"""Delaware""","""10""","""2020""","""2020""","""4 or more previous cesareans""","""4""",25
+NA,"""Delaware""","""10""","""2020""","""2020""","""Unknown or Not Stated""","""99""",34
+NA,"""Delaware""","""10""","""2021""","""2021""","""0 previous cesareans""","""0""",9021
+NA,"""Delaware""","""10""","""2021""","""2021""","""1 previous cesareans""","""1""",1221
+NA,"""Delaware""","""10""","""2021""","""2021""","""2 previous cesareans""","""2""",157
+NA,"""Delaware""","""10""","""2021""","""2021""","""3 previous cesareans""","""3""",46
+NA,"""Delaware""","""10""","""2021""","""2021""","""4 or more previous cesareans""","""4""",11
+NA,"""Delaware""","""10""","""2021""","""2021""","""Unknown or Not Stated""","""99""",26
+NA,"""District of Columbia""","""11""","""2016""","""2016""","""0 previous cesareans""","""0""",8520
+NA,"""District of Columbia""","""11""","""2016""","""2016""","""1 previous cesareans""","""1""",1000
+NA,"""District of Columbia""","""11""","""2016""","""2016""","""2 previous cesareans""","""2""",239
+NA,"""District of Columbia""","""11""","""2016""","""2016""","""3 previous cesareans""","""3""",63
+NA,"""District of Columbia""","""11""","""2016""","""2016""","""4 or more previous cesareans""","""4""",19
+NA,"""District of Columbia""","""11""","""2016""","""2016""","""Unknown or Not Stated""","""99""",17
+NA,"""District of Columbia""","""11""","""2017""","""2017""","""0 previous cesareans""","""0""",8229
+NA,"""District of Columbia""","""11""","""2017""","""2017""","""1 previous cesareans""","""1""",996
+NA,"""District of Columbia""","""11""","""2017""","""2017""","""2 previous cesareans""","""2""",248
+NA,"""District of Columbia""","""11""","""2017""","""2017""","""3 previous cesareans""","""3""",63
+NA,"""District of Columbia""","""11""","""2017""","""2017""","""4 or more previous cesareans""","""4""",21
+NA,"""District of Columbia""","""11""","""2018""","""2018""","""0 previous cesareans""","""0""",7862
+NA,"""District of Columbia""","""11""","""2018""","""2018""","""1 previous cesareans""","""1""",1001
+NA,"""District of Columbia""","""11""","""2018""","""2018""","""2 previous cesareans""","""2""",254
+NA,"""District of Columbia""","""11""","""2018""","""2018""","""3 previous cesareans""","""3""",64
+NA,"""District of Columbia""","""11""","""2018""","""2018""","""4 or more previous cesareans""","""4""",29
+NA,"""District of Columbia""","""11""","""2019""","""2019""","""0 previous cesareans""","""0""",7662
+NA,"""District of Columbia""","""11""","""2019""","""2019""","""1 previous cesareans""","""1""",1024
+NA,"""District of Columbia""","""11""","""2019""","""2019""","""2 previous cesareans""","""2""",287
+NA,"""District of Columbia""","""11""","""2019""","""2019""","""3 previous cesareans""","""3""",73
+NA,"""District of Columbia""","""11""","""2019""","""2019""","""4 or more previous cesareans""","""4""",29
+NA,"""District of Columbia""","""11""","""2020""","""2020""","""0 previous cesareans""","""0""",7592
+NA,"""District of Columbia""","""11""","""2020""","""2020""","""1 previous cesareans""","""1""",965
+NA,"""District of Columbia""","""11""","""2020""","""2020""","""2 previous cesareans""","""2""",228
+NA,"""District of Columbia""","""11""","""2020""","""2020""","""3 previous cesareans""","""3""",58
+NA,"""District of Columbia""","""11""","""2020""","""2020""","""4 or more previous cesareans""","""4""",27
+NA,"""District of Columbia""","""11""","""2021""","""2021""","""0 previous cesareans""","""0""",7584
+NA,"""District of Columbia""","""11""","""2021""","""2021""","""1 previous cesareans""","""1""",794
+NA,"""District of Columbia""","""11""","""2021""","""2021""","""2 previous cesareans""","""2""",189
+NA,"""District of Columbia""","""11""","""2021""","""2021""","""3 previous cesareans""","""3""",70
+NA,"""District of Columbia""","""11""","""2021""","""2021""","""4 or more previous cesareans""","""4""",17
+NA,"""Florida""","""12""","""2016""","""2016""","""0 previous cesareans""","""0""",190348
+NA,"""Florida""","""12""","""2016""","""2016""","""1 previous cesareans""","""1""",23802
+NA,"""Florida""","""12""","""2016""","""2016""","""2 previous cesareans""","""2""",7898
+NA,"""Florida""","""12""","""2016""","""2016""","""3 previous cesareans""","""3""",1890
+NA,"""Florida""","""12""","""2016""","""2016""","""4 or more previous cesareans""","""4""",397
+NA,"""Florida""","""12""","""2016""","""2016""","""Unknown or Not Stated""","""99""",687
+NA,"""Florida""","""12""","""2017""","""2017""","""0 previous cesareans""","""0""",189060
+NA,"""Florida""","""12""","""2017""","""2017""","""1 previous cesareans""","""1""",23522
+NA,"""Florida""","""12""","""2017""","""2017""","""2 previous cesareans""","""2""",7889
+NA,"""Florida""","""12""","""2017""","""2017""","""3 previous cesareans""","""3""",1893
+NA,"""Florida""","""12""","""2017""","""2017""","""4 or more previous cesareans""","""4""",520
+NA,"""Florida""","""12""","""2017""","""2017""","""Unknown or Not Stated""","""99""",746
+NA,"""Florida""","""12""","""2018""","""2018""","""0 previous cesareans""","""0""",185910
+NA,"""Florida""","""12""","""2018""","""2018""","""1 previous cesareans""","""1""",24283
+NA,"""Florida""","""12""","""2018""","""2018""","""2 previous cesareans""","""2""",8147
+NA,"""Florida""","""12""","""2018""","""2018""","""3 previous cesareans""","""3""",2045
+NA,"""Florida""","""12""","""2018""","""2018""","""4 or more previous cesareans""","""4""",528
+NA,"""Florida""","""12""","""2018""","""2018""","""Unknown or Not Stated""","""99""",629
+NA,"""Florida""","""12""","""2019""","""2019""","""0 previous cesareans""","""0""",184281
+NA,"""Florida""","""12""","""2019""","""2019""","""1 previous cesareans""","""1""",24211
+NA,"""Florida""","""12""","""2019""","""2019""","""2 previous cesareans""","""2""",8248
+NA,"""Florida""","""12""","""2019""","""2019""","""3 previous cesareans""","""3""",2065
+NA,"""Florida""","""12""","""2019""","""2019""","""4 or more previous cesareans""","""4""",608
+NA,"""Florida""","""12""","""2019""","""2019""","""Unknown or Not Stated""","""99""",589
+NA,"""Florida""","""12""","""2020""","""2020""","""0 previous cesareans""","""0""",176229
+NA,"""Florida""","""12""","""2020""","""2020""","""1 previous cesareans""","""1""",22362
+NA,"""Florida""","""12""","""2020""","""2020""","""2 previous cesareans""","""2""",7756
+NA,"""Florida""","""12""","""2020""","""2020""","""3 previous cesareans""","""3""",2119
+NA,"""Florida""","""12""","""2020""","""2020""","""4 or more previous cesareans""","""4""",579
+NA,"""Florida""","""12""","""2020""","""2020""","""Unknown or Not Stated""","""99""",626
+NA,"""Florida""","""12""","""2021""","""2021""","""0 previous cesareans""","""0""",182529
+NA,"""Florida""","""12""","""2021""","""2021""","""1 previous cesareans""","""1""",22805
+NA,"""Florida""","""12""","""2021""","""2021""","""2 previous cesareans""","""2""",7615
+NA,"""Florida""","""12""","""2021""","""2021""","""3 previous cesareans""","""3""",1909
+NA,"""Florida""","""12""","""2021""","""2021""","""4 or more previous cesareans""","""4""",603
+NA,"""Florida""","""12""","""2021""","""2021""","""Unknown or Not Stated""","""99""",799
+NA,"""Georgia""","""13""","""2016""","""2016""","""0 previous cesareans""","""0""",111642
+NA,"""Georgia""","""13""","""2016""","""2016""","""1 previous cesareans""","""1""",12245
+NA,"""Georgia""","""13""","""2016""","""2016""","""2 previous cesareans""","""2""",4363
+NA,"""Georgia""","""13""","""2016""","""2016""","""3 previous cesareans""","""3""",1151
+NA,"""Georgia""","""13""","""2016""","""2016""","""4 or more previous cesareans""","""4""",279
+NA,"""Georgia""","""13""","""2016""","""2016""","""Unknown or Not Stated""","""99""",362
+NA,"""Georgia""","""13""","""2017""","""2017""","""0 previous cesareans""","""0""",110921
+NA,"""Georgia""","""13""","""2017""","""2017""","""1 previous cesareans""","""1""",12298
+NA,"""Georgia""","""13""","""2017""","""2017""","""2 previous cesareans""","""2""",4220
+NA,"""Georgia""","""13""","""2017""","""2017""","""3 previous cesareans""","""3""",1114
+NA,"""Georgia""","""13""","""2017""","""2017""","""4 or more previous cesareans""","""4""",289
+NA,"""Georgia""","""13""","""2017""","""2017""","""Unknown or Not Stated""","""99""",401
+NA,"""Georgia""","""13""","""2018""","""2018""","""0 previous cesareans""","""0""",108421
+NA,"""Georgia""","""13""","""2018""","""2018""","""1 previous cesareans""","""1""",11850
+NA,"""Georgia""","""13""","""2018""","""2018""","""2 previous cesareans""","""2""",4142
+NA,"""Georgia""","""13""","""2018""","""2018""","""3 previous cesareans""","""3""",1171
+NA,"""Georgia""","""13""","""2018""","""2018""","""4 or more previous cesareans""","""4""",319
+NA,"""Georgia""","""13""","""2018""","""2018""","""Unknown or Not Stated""","""99""",269
+NA,"""Georgia""","""13""","""2019""","""2019""","""0 previous cesareans""","""0""",108918
+NA,"""Georgia""","""13""","""2019""","""2019""","""1 previous cesareans""","""1""",11588
+NA,"""Georgia""","""13""","""2019""","""2019""","""2 previous cesareans""","""2""",4185
+NA,"""Georgia""","""13""","""2019""","""2019""","""3 previous cesareans""","""3""",1158
+NA,"""Georgia""","""13""","""2019""","""2019""","""4 or more previous cesareans""","""4""",317
+NA,"""Georgia""","""13""","""2019""","""2019""","""Unknown or Not Stated""","""99""",205
+NA,"""Georgia""","""13""","""2020""","""2020""","""0 previous cesareans""","""0""",106124
+NA,"""Georgia""","""13""","""2020""","""2020""","""1 previous cesareans""","""1""",10841
+NA,"""Georgia""","""13""","""2020""","""2020""","""2 previous cesareans""","""2""",3849
+NA,"""Georgia""","""13""","""2020""","""2020""","""3 previous cesareans""","""3""",1161
+NA,"""Georgia""","""13""","""2020""","""2020""","""4 or more previous cesareans""","""4""",354
+NA,"""Georgia""","""13""","""2020""","""2020""","""Unknown or Not Stated""","""99""",144
+NA,"""Georgia""","""13""","""2021""","""2021""","""0 previous cesareans""","""0""",106732
+NA,"""Georgia""","""13""","""2021""","""2021""","""1 previous cesareans""","""1""",11493
+NA,"""Georgia""","""13""","""2021""","""2021""","""2 previous cesareans""","""2""",4173
+NA,"""Georgia""","""13""","""2021""","""2021""","""3 previous cesareans""","""3""",1160
+NA,"""Georgia""","""13""","""2021""","""2021""","""4 or more previous cesareans""","""4""",341
+NA,"""Georgia""","""13""","""2021""","""2021""","""Unknown or Not Stated""","""99""",174
+NA,"""Hawaii""","""15""","""2016""","""2016""","""0 previous cesareans""","""0""",15773
+NA,"""Hawaii""","""15""","""2016""","""2016""","""1 previous cesareans""","""1""",1503
+NA,"""Hawaii""","""15""","""2016""","""2016""","""2 previous cesareans""","""2""",550
+NA,"""Hawaii""","""15""","""2016""","""2016""","""3 previous cesareans""","""3""",172
+NA,"""Hawaii""","""15""","""2016""","""2016""","""4 or more previous cesareans""","""4""",56
+NA,"""Hawaii""","""15""","""2017""","""2017""","""0 previous cesareans""","""0""",15423
+NA,"""Hawaii""","""15""","""2017""","""2017""","""1 previous cesareans""","""1""",1439
+NA,"""Hawaii""","""15""","""2017""","""2017""","""2 previous cesareans""","""2""",457
+NA,"""Hawaii""","""15""","""2017""","""2017""","""3 previous cesareans""","""3""",154
+NA,"""Hawaii""","""15""","""2017""","""2017""","""4 or more previous cesareans""","""4""",40
+NA,"""Hawaii""","""15""","""2018""","""2018""","""0 previous cesareans""","""0""",14912
+NA,"""Hawaii""","""15""","""2018""","""2018""","""1 previous cesareans""","""1""",1386
+NA,"""Hawaii""","""15""","""2018""","""2018""","""2 previous cesareans""","""2""",474
+NA,"""Hawaii""","""15""","""2018""","""2018""","""3 previous cesareans""","""3""",146
+NA,"""Hawaii""","""15""","""2018""","""2018""","""4 or more previous cesareans""","""4""",53
+NA,"""Hawaii""","""15""","""2019""","""2019""","""0 previous cesareans""","""0""",14761
+NA,"""Hawaii""","""15""","""2019""","""2019""","""1 previous cesareans""","""1""",1339
+NA,"""Hawaii""","""15""","""2019""","""2019""","""2 previous cesareans""","""2""",469
+NA,"""Hawaii""","""15""","""2019""","""2019""","""3 previous cesareans""","""3""",160
+NA,"""Hawaii""","""15""","""2019""","""2019""","""4 or more previous cesareans""","""4""",67
+NA,"""Hawaii""","""15""","""2020""","""2020""","""0 previous cesareans""","""0""",13834
+NA,"""Hawaii""","""15""","""2020""","""2020""","""1 previous cesareans""","""1""",1321
+NA,"""Hawaii""","""15""","""2020""","""2020""","""2 previous cesareans""","""2""",441
+NA,"""Hawaii""","""15""","""2020""","""2020""","""3 previous cesareans""","""3""",138
+NA,"""Hawaii""","""15""","""2020""","""2020""","""4 or more previous cesareans""","""4""",49
+NA,"""Hawaii""","""15""","""2021""","""2021""","""0 previous cesareans""","""0""",13708
+NA,"""Hawaii""","""15""","""2021""","""2021""","""1 previous cesareans""","""1""",1277
+NA,"""Hawaii""","""15""","""2021""","""2021""","""2 previous cesareans""","""2""",450
+NA,"""Hawaii""","""15""","""2021""","""2021""","""3 previous cesareans""","""3""",141
+NA,"""Hawaii""","""15""","""2021""","""2021""","""4 or more previous cesareans""","""4""",41
+NA,"""Idaho""","""16""","""2016""","""2016""","""0 previous cesareans""","""0""",19479
+NA,"""Idaho""","""16""","""2016""","""2016""","""1 previous cesareans""","""1""",1949
+NA,"""Idaho""","""16""","""2016""","""2016""","""2 previous cesareans""","""2""",696
+NA,"""Idaho""","""16""","""2016""","""2016""","""3 previous cesareans""","""3""",222
+NA,"""Idaho""","""16""","""2016""","""2016""","""4 or more previous cesareans""","""4""",84
+NA,"""Idaho""","""16""","""2016""","""2016""","""Unknown or Not Stated""","""99""",52
+NA,"""Idaho""","""16""","""2017""","""2017""","""0 previous cesareans""","""0""",19260
+NA,"""Idaho""","""16""","""2017""","""2017""","""1 previous cesareans""","""1""",1855
+NA,"""Idaho""","""16""","""2017""","""2017""","""2 previous cesareans""","""2""",721
+NA,"""Idaho""","""16""","""2017""","""2017""","""3 previous cesareans""","""3""",222
+NA,"""Idaho""","""16""","""2017""","""2017""","""4 or more previous cesareans""","""4""",86
+NA,"""Idaho""","""16""","""2017""","""2017""","""Unknown or Not Stated""","""99""",37
+NA,"""Idaho""","""16""","""2018""","""2018""","""0 previous cesareans""","""0""",18646
+NA,"""Idaho""","""16""","""2018""","""2018""","""1 previous cesareans""","""1""",1819
+NA,"""Idaho""","""16""","""2018""","""2018""","""2 previous cesareans""","""2""",629
+NA,"""Idaho""","""16""","""2018""","""2018""","""3 previous cesareans""","""3""",200
+NA,"""Idaho""","""16""","""2018""","""2018""","""4 or more previous cesareans""","""4""",70
+NA,"""Idaho""","""16""","""2018""","""2018""","""Unknown or Not Stated""","""99""",39
+NA,"""Idaho""","""16""","""2019""","""2019""","""0 previous cesareans""","""0""",19200
+NA,"""Idaho""","""16""","""2019""","""2019""","""1 previous cesareans""","""1""",1843
+NA,"""Idaho""","""16""","""2019""","""2019""","""2 previous cesareans""","""2""",688
+NA,"""Idaho""","""16""","""2019""","""2019""","""3 previous cesareans""","""3""",229
+NA,"""Idaho""","""16""","""2019""","""2019""","""4 or more previous cesareans""","""4""",73
+NA,"""Idaho""","""16""","""2019""","""2019""","""Unknown or Not Stated""","""99""",30
+NA,"""Idaho""","""16""","""2020""","""2020""","""0 previous cesareans""","""0""",18842
+NA,"""Idaho""","""16""","""2020""","""2020""","""1 previous cesareans""","""1""",1788
+NA,"""Idaho""","""16""","""2020""","""2020""","""2 previous cesareans""","""2""",611
+NA,"""Idaho""","""16""","""2020""","""2020""","""3 previous cesareans""","""3""",194
+NA,"""Idaho""","""16""","""2020""","""2020""","""4 or more previous cesareans""","""4""",62
+NA,"""Idaho""","""16""","""2020""","""2020""","""Unknown or Not Stated""","""99""",36
+NA,"""Idaho""","""16""","""2021""","""2021""","""0 previous cesareans""","""0""",19658
+NA,"""Idaho""","""16""","""2021""","""2021""","""1 previous cesareans""","""1""",1827
+NA,"""Idaho""","""16""","""2021""","""2021""","""2 previous cesareans""","""2""",647
+NA,"""Idaho""","""16""","""2021""","""2021""","""3 previous cesareans""","""3""",201
+NA,"""Idaho""","""16""","""2021""","""2021""","""4 or more previous cesareans""","""4""",58
+NA,"""Idaho""","""16""","""2021""","""2021""","""Unknown or Not Stated""","""99""",36
+NA,"""Illinois""","""17""","""2016""","""2016""","""0 previous cesareans""","""0""",130540
+NA,"""Illinois""","""17""","""2016""","""2016""","""1 previous cesareans""","""1""",16527
+NA,"""Illinois""","""17""","""2016""","""2016""","""2 previous cesareans""","""2""",5421
+NA,"""Illinois""","""17""","""2016""","""2016""","""3 previous cesareans""","""3""",1384
+NA,"""Illinois""","""17""","""2016""","""2016""","""4 or more previous cesareans""","""4""",328
+NA,"""Illinois""","""17""","""2016""","""2016""","""Unknown or Not Stated""","""99""",245
+NA,"""Illinois""","""17""","""2017""","""2017""","""0 previous cesareans""","""0""",125788
+NA,"""Illinois""","""17""","""2017""","""2017""","""1 previous cesareans""","""1""",16047
+NA,"""Illinois""","""17""","""2017""","""2017""","""2 previous cesareans""","""2""",5292
+NA,"""Illinois""","""17""","""2017""","""2017""","""3 previous cesareans""","""3""",1459
+NA,"""Illinois""","""17""","""2017""","""2017""","""4 or more previous cesareans""","""4""",406
+NA,"""Illinois""","""17""","""2017""","""2017""","""Unknown or Not Stated""","""99""",398
+NA,"""Illinois""","""17""","""2018""","""2018""","""0 previous cesareans""","""0""",121469
+NA,"""Illinois""","""17""","""2018""","""2018""","""1 previous cesareans""","""1""",15913
+NA,"""Illinois""","""17""","""2018""","""2018""","""2 previous cesareans""","""2""",5299
+NA,"""Illinois""","""17""","""2018""","""2018""","""3 previous cesareans""","""3""",1473
+NA,"""Illinois""","""17""","""2018""","""2018""","""4 or more previous cesareans""","""4""",399
+NA,"""Illinois""","""17""","""2018""","""2018""","""Unknown or Not Stated""","""99""",262
+NA,"""Illinois""","""17""","""2019""","""2019""","""0 previous cesareans""","""0""",118020
+NA,"""Illinois""","""17""","""2019""","""2019""","""1 previous cesareans""","""1""",15203
+NA,"""Illinois""","""17""","""2019""","""2019""","""2 previous cesareans""","""2""",5006
+NA,"""Illinois""","""17""","""2019""","""2019""","""3 previous cesareans""","""3""",1354
+NA,"""Illinois""","""17""","""2019""","""2019""","""4 or more previous cesareans""","""4""",415
+NA,"""Illinois""","""17""","""2019""","""2019""","""Unknown or Not Stated""","""99""",130
+NA,"""Illinois""","""17""","""2020""","""2020""","""0 previous cesareans""","""0""",112391
+NA,"""Illinois""","""17""","""2020""","""2020""","""1 previous cesareans""","""1""",14335
+NA,"""Illinois""","""17""","""2020""","""2020""","""2 previous cesareans""","""2""",4625
+NA,"""Illinois""","""17""","""2020""","""2020""","""3 previous cesareans""","""3""",1372
+NA,"""Illinois""","""17""","""2020""","""2020""","""4 or more previous cesareans""","""4""",404
+NA,"""Illinois""","""17""","""2020""","""2020""","""Unknown or Not Stated""","""99""",171
+NA,"""Illinois""","""17""","""2021""","""2021""","""0 previous cesareans""","""0""",111411
+NA,"""Illinois""","""17""","""2021""","""2021""","""1 previous cesareans""","""1""",14388
+NA,"""Illinois""","""17""","""2021""","""2021""","""2 previous cesareans""","""2""",4583
+NA,"""Illinois""","""17""","""2021""","""2021""","""3 previous cesareans""","""3""",1281
+NA,"""Illinois""","""17""","""2021""","""2021""","""4 or more previous cesareans""","""4""",400
+NA,"""Illinois""","""17""","""2021""","""2021""","""Unknown or Not Stated""","""99""",126
+NA,"""Indiana""","""18""","""2016""","""2016""","""0 previous cesareans""","""0""",71647
+NA,"""Indiana""","""18""","""2016""","""2016""","""1 previous cesareans""","""1""",7569
+NA,"""Indiana""","""18""","""2016""","""2016""","""2 previous cesareans""","""2""",2796
+NA,"""Indiana""","""18""","""2016""","""2016""","""3 previous cesareans""","""3""",825
+NA,"""Indiana""","""18""","""2016""","""2016""","""4 or more previous cesareans""","""4""",247
+NA,"""Indiana""","""18""","""2017""","""2017""","""0 previous cesareans""","""0""",70717
+NA,"""Indiana""","""18""","""2017""","""2017""","""1 previous cesareans""","""1""",7461
+NA,"""Indiana""","""18""","""2017""","""2017""","""2 previous cesareans""","""2""",2872
+NA,"""Indiana""","""18""","""2017""","""2017""","""3 previous cesareans""","""3""",840
+NA,"""Indiana""","""18""","""2017""","""2017""","""4 or more previous cesareans""","""4""",270
+NA,"""Indiana""","""18""","""2017""","""2017""","""Unknown or Not Stated""","""99""",10
+NA,"""Indiana""","""18""","""2018""","""2018""","""0 previous cesareans""","""0""",70214
+NA,"""Indiana""","""18""","""2018""","""2018""","""1 previous cesareans""","""1""",7535
+NA,"""Indiana""","""18""","""2018""","""2018""","""2 previous cesareans""","""2""",2804
+NA,"""Indiana""","""18""","""2018""","""2018""","""3 previous cesareans""","""3""",826
+NA,"""Indiana""","""18""","""2018""","""2018""","""4 or more previous cesareans""","""4""",258
+NA,"""Indiana""","""18""","""2019""","""2019""","""0 previous cesareans""","""0""",69554
+NA,"""Indiana""","""18""","""2019""","""2019""","""1 previous cesareans""","""1""",7566
+NA,"""Indiana""","""18""","""2019""","""2019""","""2 previous cesareans""","""2""",2715
+NA,"""Indiana""","""18""","""2019""","""2019""","""3 previous cesareans""","""3""",759
+NA,"""Indiana""","""18""","""2019""","""2019""","""4 or more previous cesareans""","""4""",261
+NA,"""Indiana""","""18""","""2020""","""2020""","""0 previous cesareans""","""0""",67430
+NA,"""Indiana""","""18""","""2020""","""2020""","""1 previous cesareans""","""1""",7422
+NA,"""Indiana""","""18""","""2020""","""2020""","""2 previous cesareans""","""2""",2690
+NA,"""Indiana""","""18""","""2020""","""2020""","""3 previous cesareans""","""3""",766
+NA,"""Indiana""","""18""","""2020""","""2020""","""4 or more previous cesareans""","""4""",261
+NA,"""Indiana""","""18""","""2020""","""2020""","""Unknown or Not Stated""","""99""",47
+NA,"""Indiana""","""18""","""2021""","""2021""","""0 previous cesareans""","""0""",68583
+NA,"""Indiana""","""18""","""2021""","""2021""","""1 previous cesareans""","""1""",7287
+NA,"""Indiana""","""18""","""2021""","""2021""","""2 previous cesareans""","""2""",2619
+NA,"""Indiana""","""18""","""2021""","""2021""","""3 previous cesareans""","""3""",739
+NA,"""Indiana""","""18""","""2021""","""2021""","""4 or more previous cesareans""","""4""",256
+NA,"""Indiana""","""18""","""2021""","""2021""","""Unknown or Not Stated""","""99""",462
+NA,"""Iowa""","""19""","""2016""","""2016""","""0 previous cesareans""","""0""",33695
+NA,"""Iowa""","""19""","""2016""","""2016""","""1 previous cesareans""","""1""",3760
+NA,"""Iowa""","""19""","""2016""","""2016""","""2 previous cesareans""","""2""",1413
+NA,"""Iowa""","""19""","""2016""","""2016""","""3 previous cesareans""","""3""",400
+NA,"""Iowa""","""19""","""2016""","""2016""","""4 or more previous cesareans""","""4""",132
+NA,"""Iowa""","""19""","""2017""","""2017""","""0 previous cesareans""","""0""",32678
+NA,"""Iowa""","""19""","""2017""","""2017""","""1 previous cesareans""","""1""",3775
+NA,"""Iowa""","""19""","""2017""","""2017""","""2 previous cesareans""","""2""",1473
+NA,"""Iowa""","""19""","""2017""","""2017""","""3 previous cesareans""","""3""",399
+NA,"""Iowa""","""19""","""2017""","""2017""","""4 or more previous cesareans""","""4""",103
+NA,"""Iowa""","""19""","""2018""","""2018""","""0 previous cesareans""","""0""",31993
+NA,"""Iowa""","""19""","""2018""","""2018""","""1 previous cesareans""","""1""",3862
+NA,"""Iowa""","""19""","""2018""","""2018""","""2 previous cesareans""","""2""",1415
+NA,"""Iowa""","""19""","""2018""","""2018""","""3 previous cesareans""","""3""",400
+NA,"""Iowa""","""19""","""2018""","""2018""","""4 or more previous cesareans""","""4""",114
+NA,"""Iowa""","""19""","""2019""","""2019""","""0 previous cesareans""","""0""",32017
+NA,"""Iowa""","""19""","""2019""","""2019""","""1 previous cesareans""","""1""",3724
+NA,"""Iowa""","""19""","""2019""","""2019""","""2 previous cesareans""","""2""",1395
+NA,"""Iowa""","""19""","""2019""","""2019""","""3 previous cesareans""","""3""",384
+NA,"""Iowa""","""19""","""2019""","""2019""","""4 or more previous cesareans""","""4""",122
+NA,"""Iowa""","""19""","""2020""","""2020""","""0 previous cesareans""","""0""",30933
+NA,"""Iowa""","""19""","""2020""","""2020""","""1 previous cesareans""","""1""",3449
+NA,"""Iowa""","""19""","""2020""","""2020""","""2 previous cesareans""","""2""",1234
+NA,"""Iowa""","""19""","""2020""","""2020""","""3 previous cesareans""","""3""",388
+NA,"""Iowa""","""19""","""2020""","""2020""","""4 or more previous cesareans""","""4""",106
+NA,"""Iowa""","""19""","""2021""","""2021""","""0 previous cesareans""","""0""",31518
+NA,"""Iowa""","""19""","""2021""","""2021""","""1 previous cesareans""","""1""",3532
+NA,"""Iowa""","""19""","""2021""","""2021""","""2 previous cesareans""","""2""",1321
+NA,"""Iowa""","""19""","""2021""","""2021""","""3 previous cesareans""","""3""",354
+NA,"""Iowa""","""19""","""2021""","""2021""","""4 or more previous cesareans""","""4""",102
+NA,"""Kansas""","""20""","""2016""","""2016""","""0 previous cesareans""","""0""",32523
+NA,"""Kansas""","""20""","""2016""","""2016""","""1 previous cesareans""","""1""",3582
+NA,"""Kansas""","""20""","""2016""","""2016""","""2 previous cesareans""","""2""",1388
+NA,"""Kansas""","""20""","""2016""","""2016""","""3 previous cesareans""","""3""",436
+NA,"""Kansas""","""20""","""2016""","""2016""","""4 or more previous cesareans""","""4""",119
+NA,"""Kansas""","""20""","""2017""","""2017""","""0 previous cesareans""","""0""",31313
+NA,"""Kansas""","""20""","""2017""","""2017""","""1 previous cesareans""","""1""",3337
+NA,"""Kansas""","""20""","""2017""","""2017""","""2 previous cesareans""","""2""",1333
+NA,"""Kansas""","""20""","""2017""","""2017""","""3 previous cesareans""","""3""",387
+NA,"""Kansas""","""20""","""2017""","""2017""","""4 or more previous cesareans""","""4""",147
+NA,"""Kansas""","""20""","""2018""","""2018""","""0 previous cesareans""","""0""",30965
+NA,"""Kansas""","""20""","""2018""","""2018""","""1 previous cesareans""","""1""",3437
+NA,"""Kansas""","""20""","""2018""","""2018""","""2 previous cesareans""","""2""",1308
+NA,"""Kansas""","""20""","""2018""","""2018""","""3 previous cesareans""","""3""",420
+NA,"""Kansas""","""20""","""2018""","""2018""","""4 or more previous cesareans""","""4""",128
+NA,"""Kansas""","""20""","""2019""","""2019""","""0 previous cesareans""","""0""",30131
+NA,"""Kansas""","""20""","""2019""","""2019""","""1 previous cesareans""","""1""",3418
+NA,"""Kansas""","""20""","""2019""","""2019""","""2 previous cesareans""","""2""",1290
+NA,"""Kansas""","""20""","""2019""","""2019""","""3 previous cesareans""","""3""",411
+NA,"""Kansas""","""20""","""2019""","""2019""","""4 or more previous cesareans""","""4""",143
+NA,"""Kansas""","""20""","""2020""","""2020""","""0 previous cesareans""","""0""",29082
+NA,"""Kansas""","""20""","""2020""","""2020""","""1 previous cesareans""","""1""",3431
+NA,"""Kansas""","""20""","""2020""","""2020""","""2 previous cesareans""","""2""",1268
+NA,"""Kansas""","""20""","""2020""","""2020""","""3 previous cesareans""","""3""",442
+NA,"""Kansas""","""20""","""2020""","""2020""","""4 or more previous cesareans""","""4""",148
+NA,"""Kansas""","""20""","""2021""","""2021""","""0 previous cesareans""","""0""",29283
+NA,"""Kansas""","""20""","""2021""","""2021""","""1 previous cesareans""","""1""",3566
+NA,"""Kansas""","""20""","""2021""","""2021""","""2 previous cesareans""","""2""",1292
+NA,"""Kansas""","""20""","""2021""","""2021""","""3 previous cesareans""","""3""",411
+NA,"""Kansas""","""20""","""2021""","""2021""","""4 or more previous cesareans""","""4""",145
+NA,"""Kentucky""","""21""","""2016""","""2016""","""0 previous cesareans""","""0""",45907
+NA,"""Kentucky""","""21""","""2016""","""2016""","""1 previous cesareans""","""1""",6125
+NA,"""Kentucky""","""21""","""2016""","""2016""","""2 previous cesareans""","""2""",2378
+NA,"""Kentucky""","""21""","""2016""","""2016""","""3 previous cesareans""","""3""",572
+NA,"""Kentucky""","""21""","""2016""","""2016""","""4 or more previous cesareans""","""4""",182
+NA,"""Kentucky""","""21""","""2016""","""2016""","""Unknown or Not Stated""","""99""",285
+NA,"""Kentucky""","""21""","""2017""","""2017""","""0 previous cesareans""","""0""",45291
+NA,"""Kentucky""","""21""","""2017""","""2017""","""1 previous cesareans""","""1""",6116
+NA,"""Kentucky""","""21""","""2017""","""2017""","""2 previous cesareans""","""2""",2296
+NA,"""Kentucky""","""21""","""2017""","""2017""","""3 previous cesareans""","""3""",673
+NA,"""Kentucky""","""21""","""2017""","""2017""","""4 or more previous cesareans""","""4""",180
+NA,"""Kentucky""","""21""","""2017""","""2017""","""Unknown or Not Stated""","""99""",196
+NA,"""Kentucky""","""21""","""2018""","""2018""","""0 previous cesareans""","""0""",44797
+NA,"""Kentucky""","""21""","""2018""","""2018""","""1 previous cesareans""","""1""",5865
+NA,"""Kentucky""","""21""","""2018""","""2018""","""2 previous cesareans""","""2""",2234
+NA,"""Kentucky""","""21""","""2018""","""2018""","""3 previous cesareans""","""3""",680
+NA,"""Kentucky""","""21""","""2018""","""2018""","""4 or more previous cesareans""","""4""",203
+NA,"""Kentucky""","""21""","""2018""","""2018""","""Unknown or Not Stated""","""99""",143
+NA,"""Kentucky""","""21""","""2019""","""2019""","""0 previous cesareans""","""0""",44079
+NA,"""Kentucky""","""21""","""2019""","""2019""","""1 previous cesareans""","""1""",5626
+NA,"""Kentucky""","""21""","""2019""","""2019""","""2 previous cesareans""","""2""",2321
+NA,"""Kentucky""","""21""","""2019""","""2019""","""3 previous cesareans""","""3""",669
+NA,"""Kentucky""","""21""","""2019""","""2019""","""4 or more previous cesareans""","""4""",228
+NA,"""Kentucky""","""21""","""2019""","""2019""","""Unknown or Not Stated""","""99""",146
+NA,"""Kentucky""","""21""","""2020""","""2020""","""0 previous cesareans""","""0""",42829
+NA,"""Kentucky""","""21""","""2020""","""2020""","""1 previous cesareans""","""1""",5448
+NA,"""Kentucky""","""21""","""2020""","""2020""","""2 previous cesareans""","""2""",2042
+NA,"""Kentucky""","""21""","""2020""","""2020""","""3 previous cesareans""","""3""",611
+NA,"""Kentucky""","""21""","""2020""","""2020""","""4 or more previous cesareans""","""4""",195
+NA,"""Kentucky""","""21""","""2020""","""2020""","""Unknown or Not Stated""","""99""",543
+NA,"""Kentucky""","""21""","""2021""","""2021""","""0 previous cesareans""","""0""",43118
+NA,"""Kentucky""","""21""","""2021""","""2021""","""1 previous cesareans""","""1""",5828
+NA,"""Kentucky""","""21""","""2021""","""2021""","""2 previous cesareans""","""2""",2198
+NA,"""Kentucky""","""21""","""2021""","""2021""","""3 previous cesareans""","""3""",633
+NA,"""Kentucky""","""21""","""2021""","""2021""","""4 or more previous cesareans""","""4""",196
+NA,"""Kentucky""","""21""","""2021""","""2021""","""Unknown or Not Stated""","""99""",241
+NA,"""Louisiana""","""22""","""2016""","""2016""","""0 previous cesareans""","""0""",52031
+NA,"""Louisiana""","""22""","""2016""","""2016""","""1 previous cesareans""","""1""",7126
+NA,"""Louisiana""","""22""","""2016""","""2016""","""2 previous cesareans""","""2""",2987
+NA,"""Louisiana""","""22""","""2016""","""2016""","""3 previous cesareans""","""3""",786
+NA,"""Louisiana""","""22""","""2016""","""2016""","""4 or more previous cesareans""","""4""",234
+NA,"""Louisiana""","""22""","""2016""","""2016""","""Unknown or Not Stated""","""99""",14
+NA,"""Louisiana""","""22""","""2017""","""2017""","""0 previous cesareans""","""0""",49721
+NA,"""Louisiana""","""22""","""2017""","""2017""","""1 previous cesareans""","""1""",7241
+NA,"""Louisiana""","""22""","""2017""","""2017""","""2 previous cesareans""","""2""",2950
+NA,"""Louisiana""","""22""","""2017""","""2017""","""3 previous cesareans""","""3""",854
+NA,"""Louisiana""","""22""","""2017""","""2017""","""4 or more previous cesareans""","""4""",248
+NA,"""Louisiana""","""22""","""2018""","""2018""","""0 previous cesareans""","""0""",48628
+NA,"""Louisiana""","""22""","""2018""","""2018""","""1 previous cesareans""","""1""",6806
+NA,"""Louisiana""","""22""","""2018""","""2018""","""2 previous cesareans""","""2""",3039
+NA,"""Louisiana""","""22""","""2018""","""2018""","""3 previous cesareans""","""3""",877
+NA,"""Louisiana""","""22""","""2018""","""2018""","""4 or more previous cesareans""","""4""",258
+NA,"""Louisiana""","""22""","""2019""","""2019""","""0 previous cesareans""","""0""",48205
+NA,"""Louisiana""","""22""","""2019""","""2019""","""1 previous cesareans""","""1""",6685
+NA,"""Louisiana""","""22""","""2019""","""2019""","""2 previous cesareans""","""2""",2857
+NA,"""Louisiana""","""22""","""2019""","""2019""","""3 previous cesareans""","""3""",883
+NA,"""Louisiana""","""22""","""2019""","""2019""","""4 or more previous cesareans""","""4""",306
+NA,"""Louisiana""","""22""","""2020""","""2020""","""0 previous cesareans""","""0""",46968
+NA,"""Louisiana""","""22""","""2020""","""2020""","""1 previous cesareans""","""1""",6336
+NA,"""Louisiana""","""22""","""2020""","""2020""","""2 previous cesareans""","""2""",2834
+NA,"""Louisiana""","""22""","""2020""","""2020""","""3 previous cesareans""","""3""",875
+NA,"""Louisiana""","""22""","""2020""","""2020""","""4 or more previous cesareans""","""4""",273
+NA,"""Louisiana""","""22""","""2020""","""2020""","""Unknown or Not Stated""","""99""",42
+NA,"""Louisiana""","""22""","""2021""","""2021""","""0 previous cesareans""","""0""",47390
+NA,"""Louisiana""","""22""","""2021""","""2021""","""1 previous cesareans""","""1""",6237
+NA,"""Louisiana""","""22""","""2021""","""2021""","""2 previous cesareans""","""2""",2606
+NA,"""Louisiana""","""22""","""2021""","""2021""","""3 previous cesareans""","""3""",866
+NA,"""Louisiana""","""22""","""2021""","""2021""","""4 or more previous cesareans""","""4""",306
+NA,"""Louisiana""","""22""","""2021""","""2021""","""Unknown or Not Stated""","""99""",32
+NA,"""Maine""","""23""","""2016""","""2016""","""0 previous cesareans""","""0""",11222
+NA,"""Maine""","""23""","""2016""","""2016""","""1 previous cesareans""","""1""",1057
+NA,"""Maine""","""23""","""2016""","""2016""","""2 previous cesareans""","""2""",330
+NA,"""Maine""","""23""","""2016""","""2016""","""3 previous cesareans""","""3""",70
+NA,"""Maine""","""23""","""2016""","""2016""","""4 or more previous cesareans""","""4""",10
+NA,"""Maine""","""23""","""2016""","""2016""","""Unknown or Not Stated""","""99""",16
+NA,"""Maine""","""23""","""2017""","""2017""","""0 previous cesareans""","""0""",10848
+NA,"""Maine""","""23""","""2017""","""2017""","""1 previous cesareans""","""1""",1040
+NA,"""Maine""","""23""","""2017""","""2017""","""2 previous cesareans""","""2""",310
+NA,"""Maine""","""23""","""2017""","""2017""","""3 previous cesareans""","""3""",78
+NA,"""Maine""","""23""","""2017""","""2017""","""4 or more previous cesareans""","""4""",19
+NA,"""Maine""","""23""","""2018""","""2018""","""0 previous cesareans""","""0""",10670
+NA,"""Maine""","""23""","""2018""","""2018""","""1 previous cesareans""","""1""",1183
+NA,"""Maine""","""23""","""2018""","""2018""","""2 previous cesareans""","""2""",344
+NA,"""Maine""","""23""","""2018""","""2018""","""3 previous cesareans""","""3""",90
+NA,"""Maine""","""23""","""2018""","""2018""","""4 or more previous cesareans""","""4""",22
+NA,"""Maine""","""23""","""2019""","""2019""","""0 previous cesareans""","""0""",10160
+NA,"""Maine""","""23""","""2019""","""2019""","""1 previous cesareans""","""1""",1171
+NA,"""Maine""","""23""","""2019""","""2019""","""2 previous cesareans""","""2""",346
+NA,"""Maine""","""23""","""2019""","""2019""","""3 previous cesareans""","""3""",80
+NA,"""Maine""","""23""","""2019""","""2019""","""4 or more previous cesareans""","""4""",20
+NA,"""Maine""","""23""","""2020""","""2020""","""0 previous cesareans""","""0""",9941
+NA,"""Maine""","""23""","""2020""","""2020""","""1 previous cesareans""","""1""",1114
+NA,"""Maine""","""23""","""2020""","""2020""","""2 previous cesareans""","""2""",368
+NA,"""Maine""","""23""","""2020""","""2020""","""3 previous cesareans""","""3""",79
+NA,"""Maine""","""23""","""2020""","""2020""","""4 or more previous cesareans""","""4""",36
+NA,"""Maine""","""23""","""2021""","""2021""","""0 previous cesareans""","""0""",10307
+NA,"""Maine""","""23""","""2021""","""2021""","""1 previous cesareans""","""1""",1272
+NA,"""Maine""","""23""","""2021""","""2021""","""2 previous cesareans""","""2""",314
+NA,"""Maine""","""23""","""2021""","""2021""","""3 previous cesareans""","""3""",82
+NA,"""Maine""","""23""","""2021""","""2021""","""4 or more previous cesareans""","""4""",30
+NA,"""Maryland""","""24""","""2016""","""2016""","""0 previous cesareans""","""0""",61306
+NA,"""Maryland""","""24""","""2016""","""2016""","""1 previous cesareans""","""1""",8633
+NA,"""Maryland""","""24""","""2016""","""2016""","""2 previous cesareans""","""2""",2346
+NA,"""Maryland""","""24""","""2016""","""2016""","""3 previous cesareans""","""3""",546
+NA,"""Maryland""","""24""","""2016""","""2016""","""4 or more previous cesareans""","""4""",153
+NA,"""Maryland""","""24""","""2016""","""2016""","""Unknown or Not Stated""","""99""",152
+NA,"""Maryland""","""24""","""2017""","""2017""","""0 previous cesareans""","""0""",59726
+NA,"""Maryland""","""24""","""2017""","""2017""","""1 previous cesareans""","""1""",8530
+NA,"""Maryland""","""24""","""2017""","""2017""","""2 previous cesareans""","""2""",2462
+NA,"""Maryland""","""24""","""2017""","""2017""","""3 previous cesareans""","""3""",634
+NA,"""Maryland""","""24""","""2017""","""2017""","""4 or more previous cesareans""","""4""",155
+NA,"""Maryland""","""24""","""2017""","""2017""","""Unknown or Not Stated""","""99""",134
+NA,"""Maryland""","""24""","""2018""","""2018""","""0 previous cesareans""","""0""",58989
+NA,"""Maryland""","""24""","""2018""","""2018""","""1 previous cesareans""","""1""",8612
+NA,"""Maryland""","""24""","""2018""","""2018""","""2 previous cesareans""","""2""",2590
+NA,"""Maryland""","""24""","""2018""","""2018""","""3 previous cesareans""","""3""",634
+NA,"""Maryland""","""24""","""2018""","""2018""","""4 or more previous cesareans""","""4""",163
+NA,"""Maryland""","""24""","""2018""","""2018""","""Unknown or Not Stated""","""99""",92
+NA,"""Maryland""","""24""","""2019""","""2019""","""0 previous cesareans""","""0""",58620
+NA,"""Maryland""","""24""","""2019""","""2019""","""1 previous cesareans""","""1""",8076
+NA,"""Maryland""","""24""","""2019""","""2019""","""2 previous cesareans""","""2""",2577
+NA,"""Maryland""","""24""","""2019""","""2019""","""3 previous cesareans""","""3""",645
+NA,"""Maryland""","""24""","""2019""","""2019""","""4 or more previous cesareans""","""4""",175
+NA,"""Maryland""","""24""","""2019""","""2019""","""Unknown or Not Stated""","""99""",85
+NA,"""Maryland""","""24""","""2020""","""2020""","""0 previous cesareans""","""0""",56795
+NA,"""Maryland""","""24""","""2020""","""2020""","""1 previous cesareans""","""1""",8173
+NA,"""Maryland""","""24""","""2020""","""2020""","""2 previous cesareans""","""2""",2703
+NA,"""Maryland""","""24""","""2020""","""2020""","""3 previous cesareans""","""3""",635
+NA,"""Maryland""","""24""","""2020""","""2020""","""4 or more previous cesareans""","""4""",180
+NA,"""Maryland""","""24""","""2020""","""2020""","""Unknown or Not Stated""","""99""",68
+NA,"""Maryland""","""24""","""2021""","""2021""","""0 previous cesareans""","""0""",56854
+NA,"""Maryland""","""24""","""2021""","""2021""","""1 previous cesareans""","""1""",7953
+NA,"""Maryland""","""24""","""2021""","""2021""","""2 previous cesareans""","""2""",2548
+NA,"""Maryland""","""24""","""2021""","""2021""","""3 previous cesareans""","""3""",679
+NA,"""Maryland""","""24""","""2021""","""2021""","""4 or more previous cesareans""","""4""",171
+NA,"""Maryland""","""24""","""2021""","""2021""","""Unknown or Not Stated""","""99""",80
+NA,"""Massachusetts""","""25""","""2016""","""2016""","""0 previous cesareans""","""0""",60507
+NA,"""Massachusetts""","""25""","""2016""","""2016""","""1 previous cesareans""","""1""",8271
+NA,"""Massachusetts""","""25""","""2016""","""2016""","""2 previous cesareans""","""2""",1944
+NA,"""Massachusetts""","""25""","""2016""","""2016""","""3 previous cesareans""","""3""",414
+NA,"""Massachusetts""","""25""","""2016""","""2016""","""4 or more previous cesareans""","""4""",82
+NA,"""Massachusetts""","""25""","""2016""","""2016""","""Unknown or Not Stated""","""99""",99
+NA,"""Massachusetts""","""25""","""2017""","""2017""","""0 previous cesareans""","""0""",59646
+NA,"""Massachusetts""","""25""","""2017""","""2017""","""1 previous cesareans""","""1""",8423
+NA,"""Massachusetts""","""25""","""2017""","""2017""","""2 previous cesareans""","""2""",2066
+NA,"""Massachusetts""","""25""","""2017""","""2017""","""3 previous cesareans""","""3""",401
+NA,"""Massachusetts""","""25""","""2017""","""2017""","""4 or more previous cesareans""","""4""",76
+NA,"""Massachusetts""","""25""","""2017""","""2017""","""Unknown or Not Stated""","""99""",90
+NA,"""Massachusetts""","""25""","""2018""","""2018""","""0 previous cesareans""","""0""",58300
+NA,"""Massachusetts""","""25""","""2018""","""2018""","""1 previous cesareans""","""1""",8077
+NA,"""Massachusetts""","""25""","""2018""","""2018""","""2 previous cesareans""","""2""",2112
+NA,"""Massachusetts""","""25""","""2018""","""2018""","""3 previous cesareans""","""3""",447
+NA,"""Massachusetts""","""25""","""2018""","""2018""","""4 or more previous cesareans""","""4""",96
+NA,"""Massachusetts""","""25""","""2018""","""2018""","""Unknown or Not Stated""","""99""",77
+NA,"""Massachusetts""","""25""","""2019""","""2019""","""0 previous cesareans""","""0""",58482
+NA,"""Massachusetts""","""25""","""2019""","""2019""","""1 previous cesareans""","""1""",7949
+NA,"""Massachusetts""","""25""","""2019""","""2019""","""2 previous cesareans""","""2""",2011
+NA,"""Massachusetts""","""25""","""2019""","""2019""","""3 previous cesareans""","""3""",438
+NA,"""Massachusetts""","""25""","""2019""","""2019""","""4 or more previous cesareans""","""4""",98
+NA,"""Massachusetts""","""25""","""2019""","""2019""","""Unknown or Not Stated""","""99""",139
+NA,"""Massachusetts""","""25""","""2020""","""2020""","""0 previous cesareans""","""0""",55950
+NA,"""Massachusetts""","""25""","""2020""","""2020""","""1 previous cesareans""","""1""",7817
+NA,"""Massachusetts""","""25""","""2020""","""2020""","""2 previous cesareans""","""2""",1940
+NA,"""Massachusetts""","""25""","""2020""","""2020""","""3 previous cesareans""","""3""",399
+NA,"""Massachusetts""","""25""","""2020""","""2020""","""4 or more previous cesareans""","""4""",84
+NA,"""Massachusetts""","""25""","""2020""","""2020""","""Unknown or Not Stated""","""99""",238
+NA,"""Massachusetts""","""25""","""2021""","""2021""","""0 previous cesareans""","""0""",58426
+NA,"""Massachusetts""","""25""","""2021""","""2021""","""1 previous cesareans""","""1""",7963
+NA,"""Massachusetts""","""25""","""2021""","""2021""","""2 previous cesareans""","""2""",2063
+NA,"""Massachusetts""","""25""","""2021""","""2021""","""3 previous cesareans""","""3""",388
+NA,"""Massachusetts""","""25""","""2021""","""2021""","""4 or more previous cesareans""","""4""",83
+NA,"""Massachusetts""","""25""","""2021""","""2021""","""Unknown or Not Stated""","""99""",214
+NA,"""Michigan""","""26""","""2016""","""2016""","""0 previous cesareans""","""0""",96864
+NA,"""Michigan""","""26""","""2016""","""2016""","""1 previous cesareans""","""1""",11172
+NA,"""Michigan""","""26""","""2016""","""2016""","""2 previous cesareans""","""2""",3760
+NA,"""Michigan""","""26""","""2016""","""2016""","""3 previous cesareans""","""3""",974
+NA,"""Michigan""","""26""","""2016""","""2016""","""4 or more previous cesareans""","""4""",254
+NA,"""Michigan""","""26""","""2016""","""2016""","""Unknown or Not Stated""","""99""",291
+NA,"""Michigan""","""26""","""2017""","""2017""","""0 previous cesareans""","""0""",95167
+NA,"""Michigan""","""26""","""2017""","""2017""","""1 previous cesareans""","""1""",10989
+NA,"""Michigan""","""26""","""2017""","""2017""","""2 previous cesareans""","""2""",3633
+NA,"""Michigan""","""26""","""2017""","""2017""","""3 previous cesareans""","""3""",991
+NA,"""Michigan""","""26""","""2017""","""2017""","""4 or more previous cesareans""","""4""",308
+NA,"""Michigan""","""26""","""2017""","""2017""","""Unknown or Not Stated""","""99""",338
+NA,"""Michigan""","""26""","""2018""","""2018""","""0 previous cesareans""","""0""",93861
+NA,"""Michigan""","""26""","""2018""","""2018""","""1 previous cesareans""","""1""",10841
+NA,"""Michigan""","""26""","""2018""","""2018""","""2 previous cesareans""","""2""",3641
+NA,"""Michigan""","""26""","""2018""","""2018""","""3 previous cesareans""","""3""",1029
+NA,"""Michigan""","""26""","""2018""","""2018""","""4 or more previous cesareans""","""4""",288
+NA,"""Michigan""","""26""","""2018""","""2018""","""Unknown or Not Stated""","""99""",372
+NA,"""Michigan""","""26""","""2019""","""2019""","""0 previous cesareans""","""0""",91801
+NA,"""Michigan""","""26""","""2019""","""2019""","""1 previous cesareans""","""1""",10741
+NA,"""Michigan""","""26""","""2019""","""2019""","""2 previous cesareans""","""2""",3635
+NA,"""Michigan""","""26""","""2019""","""2019""","""3 previous cesareans""","""3""",1089
+NA,"""Michigan""","""26""","""2019""","""2019""","""4 or more previous cesareans""","""4""",328
+NA,"""Michigan""","""26""","""2019""","""2019""","""Unknown or Not Stated""","""99""",292
+NA,"""Michigan""","""26""","""2020""","""2020""","""0 previous cesareans""","""0""",88967
+NA,"""Michigan""","""26""","""2020""","""2020""","""1 previous cesareans""","""1""",10179
+NA,"""Michigan""","""26""","""2020""","""2020""","""2 previous cesareans""","""2""",3408
+NA,"""Michigan""","""26""","""2020""","""2020""","""3 previous cesareans""","""3""",1000
+NA,"""Michigan""","""26""","""2020""","""2020""","""4 or more previous cesareans""","""4""",305
+NA,"""Michigan""","""26""","""2020""","""2020""","""Unknown or Not Stated""","""99""",215
+NA,"""Michigan""","""26""","""2021""","""2021""","""0 previous cesareans""","""0""",88900
+NA,"""Michigan""","""26""","""2021""","""2021""","""1 previous cesareans""","""1""",11012
+NA,"""Michigan""","""26""","""2021""","""2021""","""2 previous cesareans""","""2""",3546
+NA,"""Michigan""","""26""","""2021""","""2021""","""3 previous cesareans""","""3""",1064
+NA,"""Michigan""","""26""","""2021""","""2021""","""4 or more previous cesareans""","""4""",307
+NA,"""Michigan""","""26""","""2021""","""2021""","""Unknown or Not Stated""","""99""",151
+NA,"""Minnesota""","""27""","""2016""","""2016""","""0 previous cesareans""","""0""",60019
+NA,"""Minnesota""","""27""","""2016""","""2016""","""1 previous cesareans""","""1""",6760
+NA,"""Minnesota""","""27""","""2016""","""2016""","""2 previous cesareans""","""2""",2100
+NA,"""Minnesota""","""27""","""2016""","""2016""","""3 previous cesareans""","""3""",590
+NA,"""Minnesota""","""27""","""2016""","""2016""","""4 or more previous cesareans""","""4""",199
+NA,"""Minnesota""","""27""","""2016""","""2016""","""Unknown or Not Stated""","""99""",81
+NA,"""Minnesota""","""27""","""2017""","""2017""","""0 previous cesareans""","""0""",59024
+NA,"""Minnesota""","""27""","""2017""","""2017""","""1 previous cesareans""","""1""",6642
+NA,"""Minnesota""","""27""","""2017""","""2017""","""2 previous cesareans""","""2""",2066
+NA,"""Minnesota""","""27""","""2017""","""2017""","""3 previous cesareans""","""3""",559
+NA,"""Minnesota""","""27""","""2017""","""2017""","""4 or more previous cesareans""","""4""",185
+NA,"""Minnesota""","""27""","""2017""","""2017""","""Unknown or Not Stated""","""99""",119
+NA,"""Minnesota""","""27""","""2018""","""2018""","""0 previous cesareans""","""0""",57870
+NA,"""Minnesota""","""27""","""2018""","""2018""","""1 previous cesareans""","""1""",6622
+NA,"""Minnesota""","""27""","""2018""","""2018""","""2 previous cesareans""","""2""",2019
+NA,"""Minnesota""","""27""","""2018""","""2018""","""3 previous cesareans""","""3""",572
+NA,"""Minnesota""","""27""","""2018""","""2018""","""4 or more previous cesareans""","""4""",208
+NA,"""Minnesota""","""27""","""2018""","""2018""","""Unknown or Not Stated""","""99""",53
+NA,"""Minnesota""","""27""","""2019""","""2019""","""0 previous cesareans""","""0""",56460
+NA,"""Minnesota""","""27""","""2019""","""2019""","""1 previous cesareans""","""1""",6708
+NA,"""Minnesota""","""27""","""2019""","""2019""","""2 previous cesareans""","""2""",1987
+NA,"""Minnesota""","""27""","""2019""","""2019""","""3 previous cesareans""","""3""",582
+NA,"""Minnesota""","""27""","""2019""","""2019""","""4 or more previous cesareans""","""4""",207
+NA,"""Minnesota""","""27""","""2019""","""2019""","""Unknown or Not Stated""","""99""",83
+NA,"""Minnesota""","""27""","""2020""","""2020""","""0 previous cesareans""","""0""",54180
+NA,"""Minnesota""","""27""","""2020""","""2020""","""1 previous cesareans""","""1""",6572
+NA,"""Minnesota""","""27""","""2020""","""2020""","""2 previous cesareans""","""2""",1874
+NA,"""Minnesota""","""27""","""2020""","""2020""","""3 previous cesareans""","""3""",572
+NA,"""Minnesota""","""27""","""2020""","""2020""","""4 or more previous cesareans""","""4""",185
+NA,"""Minnesota""","""27""","""2020""","""2020""","""Unknown or Not Stated""","""99""",60
+NA,"""Minnesota""","""27""","""2021""","""2021""","""0 previous cesareans""","""0""",54796
+NA,"""Minnesota""","""27""","""2021""","""2021""","""1 previous cesareans""","""1""",6762
+NA,"""Minnesota""","""27""","""2021""","""2021""","""2 previous cesareans""","""2""",1987
+NA,"""Minnesota""","""27""","""2021""","""2021""","""3 previous cesareans""","""3""",602
+NA,"""Minnesota""","""27""","""2021""","""2021""","""4 or more previous cesareans""","""4""",211
+NA,"""Minnesota""","""27""","""2021""","""2021""","""Unknown or Not Stated""","""99""",67
+NA,"""Mississippi""","""28""","""2016""","""2016""","""0 previous cesareans""","""0""",31037
+NA,"""Mississippi""","""28""","""2016""","""2016""","""1 previous cesareans""","""1""",4442
+NA,"""Mississippi""","""28""","""2016""","""2016""","""2 previous cesareans""","""2""",1815
+NA,"""Mississippi""","""28""","""2016""","""2016""","""3 previous cesareans""","""3""",472
+NA,"""Mississippi""","""28""","""2016""","""2016""","""4 or more previous cesareans""","""4""",128
+NA,"""Mississippi""","""28""","""2016""","""2016""","""Unknown or Not Stated""","""99""",34
+NA,"""Mississippi""","""28""","""2017""","""2017""","""0 previous cesareans""","""0""",30420
+NA,"""Mississippi""","""28""","""2017""","""2017""","""1 previous cesareans""","""1""",4411
+NA,"""Mississippi""","""28""","""2017""","""2017""","""2 previous cesareans""","""2""",1875
+NA,"""Mississippi""","""28""","""2017""","""2017""","""3 previous cesareans""","""3""",509
+NA,"""Mississippi""","""28""","""2017""","""2017""","""4 or more previous cesareans""","""4""",113
+NA,"""Mississippi""","""28""","""2017""","""2017""","""Unknown or Not Stated""","""99""",29
+NA,"""Mississippi""","""28""","""2018""","""2018""","""0 previous cesareans""","""0""",29745
+NA,"""Mississippi""","""28""","""2018""","""2018""","""1 previous cesareans""","""1""",4605
+NA,"""Mississippi""","""28""","""2018""","""2018""","""2 previous cesareans""","""2""",1927
+NA,"""Mississippi""","""28""","""2018""","""2018""","""3 previous cesareans""","""3""",545
+NA,"""Mississippi""","""28""","""2018""","""2018""","""4 or more previous cesareans""","""4""",136
+NA,"""Mississippi""","""28""","""2018""","""2018""","""Unknown or Not Stated""","""99""",42
+NA,"""Mississippi""","""28""","""2019""","""2019""","""0 previous cesareans""","""0""",29367
+NA,"""Mississippi""","""28""","""2019""","""2019""","""1 previous cesareans""","""1""",4567
+NA,"""Mississippi""","""28""","""2019""","""2019""","""2 previous cesareans""","""2""",1926
+NA,"""Mississippi""","""28""","""2019""","""2019""","""3 previous cesareans""","""3""",582
+NA,"""Mississippi""","""28""","""2019""","""2019""","""4 or more previous cesareans""","""4""",168
+NA,"""Mississippi""","""28""","""2019""","""2019""","""Unknown or Not Stated""","""99""",26
+NA,"""Mississippi""","""28""","""2020""","""2020""","""0 previous cesareans""","""0""",28706
+NA,"""Mississippi""","""28""","""2020""","""2020""","""1 previous cesareans""","""1""",4288
+NA,"""Mississippi""","""28""","""2020""","""2020""","""2 previous cesareans""","""2""",1807
+NA,"""Mississippi""","""28""","""2020""","""2020""","""3 previous cesareans""","""3""",504
+NA,"""Mississippi""","""28""","""2020""","""2020""","""4 or more previous cesareans""","""4""",150
+NA,"""Mississippi""","""28""","""2020""","""2020""","""Unknown or Not Stated""","""99""",18
+NA,"""Mississippi""","""28""","""2021""","""2021""","""0 previous cesareans""","""0""",28362
+NA,"""Mississippi""","""28""","""2021""","""2021""","""1 previous cesareans""","""1""",4265
+NA,"""Mississippi""","""28""","""2021""","""2021""","""2 previous cesareans""","""2""",1829
+NA,"""Mississippi""","""28""","""2021""","""2021""","""3 previous cesareans""","""3""",497
+NA,"""Mississippi""","""28""","""2021""","""2021""","""4 or more previous cesareans""","""4""",183
+NA,"""Mississippi""","""28""","""2021""","""2021""","""Unknown or Not Stated""","""99""",20
+NA,"""Missouri""","""29""","""2016""","""2016""","""0 previous cesareans""","""0""",64532
+NA,"""Missouri""","""29""","""2016""","""2016""","""1 previous cesareans""","""1""",6849
+NA,"""Missouri""","""29""","""2016""","""2016""","""2 previous cesareans""","""2""",2431
+NA,"""Missouri""","""29""","""2016""","""2016""","""3 previous cesareans""","""3""",678
+NA,"""Missouri""","""29""","""2016""","""2016""","""4 or more previous cesareans""","""4""",180
+NA,"""Missouri""","""29""","""2016""","""2016""","""Unknown or Not Stated""","""99""",35
+NA,"""Missouri""","""29""","""2017""","""2017""","""0 previous cesareans""","""0""",62916
+NA,"""Missouri""","""29""","""2017""","""2017""","""1 previous cesareans""","""1""",6762
+NA,"""Missouri""","""29""","""2017""","""2017""","""2 previous cesareans""","""2""",2388
+NA,"""Missouri""","""29""","""2017""","""2017""","""3 previous cesareans""","""3""",730
+NA,"""Missouri""","""29""","""2017""","""2017""","""4 or more previous cesareans""","""4""",188
+NA,"""Missouri""","""29""","""2017""","""2017""","""Unknown or Not Stated""","""99""",50
+NA,"""Missouri""","""29""","""2018""","""2018""","""0 previous cesareans""","""0""",63091
+NA,"""Missouri""","""29""","""2018""","""2018""","""1 previous cesareans""","""1""",6808
+NA,"""Missouri""","""29""","""2018""","""2018""","""2 previous cesareans""","""2""",2402
+NA,"""Missouri""","""29""","""2018""","""2018""","""3 previous cesareans""","""3""",730
+NA,"""Missouri""","""29""","""2018""","""2018""","""4 or more previous cesareans""","""4""",216
+NA,"""Missouri""","""29""","""2018""","""2018""","""Unknown or Not Stated""","""99""",22
+NA,"""Missouri""","""29""","""2019""","""2019""","""0 previous cesareans""","""0""",61688
+NA,"""Missouri""","""29""","""2019""","""2019""","""1 previous cesareans""","""1""",6871
+NA,"""Missouri""","""29""","""2019""","""2019""","""2 previous cesareans""","""2""",2487
+NA,"""Missouri""","""29""","""2019""","""2019""","""3 previous cesareans""","""3""",766
+NA,"""Missouri""","""29""","""2019""","""2019""","""4 or more previous cesareans""","""4""",253
+NA,"""Missouri""","""29""","""2019""","""2019""","""Unknown or Not Stated""","""99""",62
+NA,"""Missouri""","""29""","""2020""","""2020""","""0 previous cesareans""","""0""",59522
+NA,"""Missouri""","""29""","""2020""","""2020""","""1 previous cesareans""","""1""",6501
+NA,"""Missouri""","""29""","""2020""","""2020""","""2 previous cesareans""","""2""",2270
+NA,"""Missouri""","""29""","""2020""","""2020""","""3 previous cesareans""","""3""",732
+NA,"""Missouri""","""29""","""2020""","""2020""","""4 or more previous cesareans""","""4""",215
+NA,"""Missouri""","""29""","""2020""","""2020""","""Unknown or Not Stated""","""99""",45
+NA,"""Missouri""","""29""","""2021""","""2021""","""0 previous cesareans""","""0""",59513
+NA,"""Missouri""","""29""","""2021""","""2021""","""1 previous cesareans""","""1""",6633
+NA,"""Missouri""","""29""","""2021""","""2021""","""2 previous cesareans""","""2""",2348
+NA,"""Missouri""","""29""","""2021""","""2021""","""3 previous cesareans""","""3""",680
+NA,"""Missouri""","""29""","""2021""","""2021""","""4 or more previous cesareans""","""4""",250
+NA,"""Missouri""","""29""","""2021""","""2021""","""Unknown or Not Stated""","""99""",29
+NA,"""Montana""","""30""","""2016""","""2016""","""0 previous cesareans""","""0""",10517
+NA,"""Montana""","""30""","""2016""","""2016""","""1 previous cesareans""","""1""",1167
+NA,"""Montana""","""30""","""2016""","""2016""","""2 previous cesareans""","""2""",422
+NA,"""Montana""","""30""","""2016""","""2016""","""3 previous cesareans""","""3""",117
+NA,"""Montana""","""30""","""2016""","""2016""","""4 or more previous cesareans""","""4""",46
+NA,"""Montana""","""30""","""2016""","""2016""","""Unknown or Not Stated""","""99""",13
+NA,"""Montana""","""30""","""2017""","""2017""","""0 previous cesareans""","""0""",10177
+NA,"""Montana""","""30""","""2017""","""2017""","""1 previous cesareans""","""1""",1090
+NA,"""Montana""","""30""","""2017""","""2017""","""2 previous cesareans""","""2""",375
+NA,"""Montana""","""30""","""2017""","""2017""","""3 previous cesareans""","""3""",112
+NA,"""Montana""","""30""","""2017""","""2017""","""4 or more previous cesareans""","""4""",38
+NA,"""Montana""","""30""","""2018""","""2018""","""0 previous cesareans""","""0""",9931
+NA,"""Montana""","""30""","""2018""","""2018""","""1 previous cesareans""","""1""",1051
+NA,"""Montana""","""30""","""2018""","""2018""","""2 previous cesareans""","""2""",377
+NA,"""Montana""","""30""","""2018""","""2018""","""3 previous cesareans""","""3""",117
+NA,"""Montana""","""30""","""2018""","""2018""","""4 or more previous cesareans""","""4""",31
+NA,"""Montana""","""30""","""2019""","""2019""","""0 previous cesareans""","""0""",9490
+NA,"""Montana""","""30""","""2019""","""2019""","""1 previous cesareans""","""1""",1037
+NA,"""Montana""","""30""","""2019""","""2019""","""2 previous cesareans""","""2""",382
+NA,"""Montana""","""30""","""2019""","""2019""","""3 previous cesareans""","""3""",116
+NA,"""Montana""","""30""","""2019""","""2019""","""4 or more previous cesareans""","""4""",52
+NA,"""Montana""","""30""","""2020""","""2020""","""0 previous cesareans""","""0""",9310
+NA,"""Montana""","""30""","""2020""","""2020""","""1 previous cesareans""","""1""",965
+NA,"""Montana""","""30""","""2020""","""2020""","""2 previous cesareans""","""2""",358
+NA,"""Montana""","""30""","""2020""","""2020""","""3 previous cesareans""","""3""",119
+NA,"""Montana""","""30""","""2020""","""2020""","""4 or more previous cesareans""","""4""",38
+NA,"""Montana""","""30""","""2021""","""2021""","""0 previous cesareans""","""0""",9757
+NA,"""Montana""","""30""","""2021""","""2021""","""1 previous cesareans""","""1""",976
+NA,"""Montana""","""30""","""2021""","""2021""","""2 previous cesareans""","""2""",346
+NA,"""Montana""","""30""","""2021""","""2021""","""3 previous cesareans""","""3""",115
+NA,"""Montana""","""30""","""2021""","""2021""","""4 or more previous cesareans""","""4""",37
+NA,"""Nebraska""","""31""","""2016""","""2016""","""0 previous cesareans""","""0""",22260
+NA,"""Nebraska""","""31""","""2016""","""2016""","""1 previous cesareans""","""1""",2759
+NA,"""Nebraska""","""31""","""2016""","""2016""","""2 previous cesareans""","""2""",1100
+NA,"""Nebraska""","""31""","""2016""","""2016""","""3 previous cesareans""","""3""",334
+NA,"""Nebraska""","""31""","""2016""","""2016""","""4 or more previous cesareans""","""4""",97
+NA,"""Nebraska""","""31""","""2016""","""2016""","""Unknown or Not Stated""","""99""",39
+NA,"""Nebraska""","""31""","""2017""","""2017""","""0 previous cesareans""","""0""",21668
+NA,"""Nebraska""","""31""","""2017""","""2017""","""1 previous cesareans""","""1""",2610
+NA,"""Nebraska""","""31""","""2017""","""2017""","""2 previous cesareans""","""2""",1052
+NA,"""Nebraska""","""31""","""2017""","""2017""","""3 previous cesareans""","""3""",334
+NA,"""Nebraska""","""31""","""2017""","""2017""","""4 or more previous cesareans""","""4""",130
+NA,"""Nebraska""","""31""","""2017""","""2017""","""Unknown or Not Stated""","""99""",27
+NA,"""Nebraska""","""31""","""2018""","""2018""","""0 previous cesareans""","""0""",21255
+NA,"""Nebraska""","""31""","""2018""","""2018""","""1 previous cesareans""","""1""",2771
+NA,"""Nebraska""","""31""","""2018""","""2018""","""2 previous cesareans""","""2""",1003
+NA,"""Nebraska""","""31""","""2018""","""2018""","""3 previous cesareans""","""3""",345
+NA,"""Nebraska""","""31""","""2018""","""2018""","""4 or more previous cesareans""","""4""",85
+NA,"""Nebraska""","""31""","""2018""","""2018""","""Unknown or Not Stated""","""99""",29
+NA,"""Nebraska""","""31""","""2019""","""2019""","""0 previous cesareans""","""0""",20750
+NA,"""Nebraska""","""31""","""2019""","""2019""","""1 previous cesareans""","""1""",2581
+NA,"""Nebraska""","""31""","""2019""","""2019""","""2 previous cesareans""","""2""",979
+NA,"""Nebraska""","""31""","""2019""","""2019""","""3 previous cesareans""","""3""",312
+NA,"""Nebraska""","""31""","""2019""","""2019""","""4 or more previous cesareans""","""4""",103
+NA,"""Nebraska""","""31""","""2019""","""2019""","""Unknown or Not Stated""","""99""",30
+NA,"""Nebraska""","""31""","""2020""","""2020""","""0 previous cesareans""","""0""",20265
+NA,"""Nebraska""","""31""","""2020""","""2020""","""1 previous cesareans""","""1""",2593
+NA,"""Nebraska""","""31""","""2020""","""2020""","""2 previous cesareans""","""2""",986
+NA,"""Nebraska""","""31""","""2020""","""2020""","""3 previous cesareans""","""3""",274
+NA,"""Nebraska""","""31""","""2020""","""2020""","""4 or more previous cesareans""","""4""",121
+NA,"""Nebraska""","""31""","""2020""","""2020""","""Unknown or Not Stated""","""99""",52
+NA,"""Nebraska""","""31""","""2021""","""2021""","""0 previous cesareans""","""0""",20779
+NA,"""Nebraska""","""31""","""2021""","""2021""","""1 previous cesareans""","""1""",2440
+NA,"""Nebraska""","""31""","""2021""","""2021""","""2 previous cesareans""","""2""",938
+NA,"""Nebraska""","""31""","""2021""","""2021""","""3 previous cesareans""","""3""",295
+NA,"""Nebraska""","""31""","""2021""","""2021""","""4 or more previous cesareans""","""4""",119
+NA,"""Nebraska""","""31""","""2021""","""2021""","""Unknown or Not Stated""","""99""",38
+NA,"""Nevada""","""32""","""2016""","""2016""","""0 previous cesareans""","""0""",30959
+NA,"""Nevada""","""32""","""2016""","""2016""","""1 previous cesareans""","""1""",3539
+NA,"""Nevada""","""32""","""2016""","""2016""","""2 previous cesareans""","""2""",1253
+NA,"""Nevada""","""32""","""2016""","""2016""","""3 previous cesareans""","""3""",393
+NA,"""Nevada""","""32""","""2016""","""2016""","""4 or more previous cesareans""","""4""",116
+NA,"""Nevada""","""32""","""2017""","""2017""","""0 previous cesareans""","""0""",30677
+NA,"""Nevada""","""32""","""2017""","""2017""","""1 previous cesareans""","""1""",3252
+NA,"""Nevada""","""32""","""2017""","""2017""","""2 previous cesareans""","""2""",1287
+NA,"""Nevada""","""32""","""2017""","""2017""","""3 previous cesareans""","""3""",410
+NA,"""Nevada""","""32""","""2017""","""2017""","""4 or more previous cesareans""","""4""",127
+NA,"""Nevada""","""32""","""2018""","""2018""","""0 previous cesareans""","""0""",30272
+NA,"""Nevada""","""32""","""2018""","""2018""","""1 previous cesareans""","""1""",3509
+NA,"""Nevada""","""32""","""2018""","""2018""","""2 previous cesareans""","""2""",1364
+NA,"""Nevada""","""32""","""2018""","""2018""","""3 previous cesareans""","""3""",409
+NA,"""Nevada""","""32""","""2018""","""2018""","""4 or more previous cesareans""","""4""",125
+NA,"""Nevada""","""32""","""2019""","""2019""","""0 previous cesareans""","""0""",30116
+NA,"""Nevada""","""32""","""2019""","""2019""","""1 previous cesareans""","""1""",3162
+NA,"""Nevada""","""32""","""2019""","""2019""","""2 previous cesareans""","""2""",1231
+NA,"""Nevada""","""32""","""2019""","""2019""","""3 previous cesareans""","""3""",425
+NA,"""Nevada""","""32""","""2019""","""2019""","""4 or more previous cesareans""","""4""",137
+NA,"""Nevada""","""32""","""2020""","""2020""","""0 previous cesareans""","""0""",28961
+NA,"""Nevada""","""32""","""2020""","""2020""","""1 previous cesareans""","""1""",3075
+NA,"""Nevada""","""32""","""2020""","""2020""","""2 previous cesareans""","""2""",1096
+NA,"""Nevada""","""32""","""2020""","""2020""","""3 previous cesareans""","""3""",393
+NA,"""Nevada""","""32""","""2020""","""2020""","""4 or more previous cesareans""","""4""",126
+NA,"""Nevada""","""32""","""2021""","""2021""","""0 previous cesareans""","""0""",28891
+NA,"""Nevada""","""32""","""2021""","""2021""","""1 previous cesareans""","""1""",3121
+NA,"""Nevada""","""32""","""2021""","""2021""","""2 previous cesareans""","""2""",1161
+NA,"""Nevada""","""32""","""2021""","""2021""","""3 previous cesareans""","""3""",381
+NA,"""Nevada""","""32""","""2021""","""2021""","""4 or more previous cesareans""","""4""",131
+NA,"""New Hampshire""","""33""","""2016""","""2016""","""0 previous cesareans""","""0""",10643
+NA,"""New Hampshire""","""33""","""2016""","""2016""","""1 previous cesareans""","""1""",1128
+NA,"""New Hampshire""","""33""","""2016""","""2016""","""2 previous cesareans""","""2""",316
+NA,"""New Hampshire""","""33""","""2016""","""2016""","""3 previous cesareans""","""3""",52
+NA,"""New Hampshire""","""33""","""2016""","""2016""","""4 or more previous cesareans""","""4""",17
+NA,"""New Hampshire""","""33""","""2016""","""2016""","""Unknown or Not Stated""","""99""",111
+NA,"""New Hampshire""","""33""","""2017""","""2017""","""0 previous cesareans""","""0""",10457
+NA,"""New Hampshire""","""33""","""2017""","""2017""","""1 previous cesareans""","""1""",1243
+NA,"""New Hampshire""","""33""","""2017""","""2017""","""2 previous cesareans""","""2""",293
+NA,"""New Hampshire""","""33""","""2017""","""2017""","""3 previous cesareans""","""3""",63
+NA,"""New Hampshire""","""33""","""2017""","""2017""","""4 or more previous cesareans""","""4""",12
+NA,"""New Hampshire""","""33""","""2017""","""2017""","""Unknown or Not Stated""","""99""",48
+NA,"""New Hampshire""","""33""","""2018""","""2018""","""0 previous cesareans""","""0""",10315
+NA,"""New Hampshire""","""33""","""2018""","""2018""","""1 previous cesareans""","""1""",1274
+NA,"""New Hampshire""","""33""","""2018""","""2018""","""2 previous cesareans""","""2""",273
+NA,"""New Hampshire""","""33""","""2018""","""2018""","""3 previous cesareans""","""3""",67
+NA,"""New Hampshire""","""33""","""2018""","""2018""","""4 or more previous cesareans""","""4""",19
+NA,"""New Hampshire""","""33""","""2018""","""2018""","""Unknown or Not Stated""","""99""",47
+NA,"""New Hampshire""","""33""","""2019""","""2019""","""0 previous cesareans""","""0""",10142
+NA,"""New Hampshire""","""33""","""2019""","""2019""","""1 previous cesareans""","""1""",1262
+NA,"""New Hampshire""","""33""","""2019""","""2019""","""2 previous cesareans""","""2""",309
+NA,"""New Hampshire""","""33""","""2019""","""2019""","""3 previous cesareans""","""3""",62
+NA,"""New Hampshire""","""33""","""2019""","""2019""","""4 or more previous cesareans""","""4""",19
+NA,"""New Hampshire""","""33""","""2019""","""2019""","""Unknown or Not Stated""","""99""",45
+NA,"""New Hampshire""","""33""","""2020""","""2020""","""0 previous cesareans""","""0""",10096
+NA,"""New Hampshire""","""33""","""2020""","""2020""","""1 previous cesareans""","""1""",1282
+NA,"""New Hampshire""","""33""","""2020""","""2020""","""2 previous cesareans""","""2""",295
+NA,"""New Hampshire""","""33""","""2020""","""2020""","""3 previous cesareans""","""3""",64
+NA,"""New Hampshire""","""33""","""2020""","""2020""","""4 or more previous cesareans""","""4""",17
+NA,"""New Hampshire""","""33""","""2020""","""2020""","""Unknown or Not Stated""","""99""",37
+NA,"""New Hampshire""","""33""","""2021""","""2021""","""0 previous cesareans""","""0""",10767
+NA,"""New Hampshire""","""33""","""2021""","""2021""","""1 previous cesareans""","""1""",1383
+NA,"""New Hampshire""","""33""","""2021""","""2021""","""2 previous cesareans""","""2""",341
+NA,"""New Hampshire""","""33""","""2021""","""2021""","""3 previous cesareans""","""3""",82
+NA,"""New Hampshire""","""33""","""2021""","""2021""","""4 or more previous cesareans""","""4""",14
+NA,"""New Hampshire""","""33""","""2021""","""2021""","""Unknown or Not Stated""","""99""",38
+NA,"""New Jersey""","""34""","""2016""","""2016""","""0 previous cesareans""","""0""",84909
+NA,"""New Jersey""","""34""","""2016""","""2016""","""1 previous cesareans""","""1""",12936
+NA,"""New Jersey""","""34""","""2016""","""2016""","""2 previous cesareans""","""2""",3837
+NA,"""New Jersey""","""34""","""2016""","""2016""","""3 previous cesareans""","""3""",779
+NA,"""New Jersey""","""34""","""2016""","""2016""","""4 or more previous cesareans""","""4""",179
+NA,"""New Jersey""","""34""","""2017""","""2017""","""0 previous cesareans""","""0""",83384
+NA,"""New Jersey""","""34""","""2017""","""2017""","""1 previous cesareans""","""1""",13053
+NA,"""New Jersey""","""34""","""2017""","""2017""","""2 previous cesareans""","""2""",3825
+NA,"""New Jersey""","""34""","""2017""","""2017""","""3 previous cesareans""","""3""",791
+NA,"""New Jersey""","""34""","""2017""","""2017""","""4 or more previous cesareans""","""4""",189
+NA,"""New Jersey""","""34""","""2018""","""2018""","""0 previous cesareans""","""0""",83039
+NA,"""New Jersey""","""34""","""2018""","""2018""","""1 previous cesareans""","""1""",13181
+NA,"""New Jersey""","""34""","""2018""","""2018""","""2 previous cesareans""","""2""",3926
+NA,"""New Jersey""","""34""","""2018""","""2018""","""3 previous cesareans""","""3""",859
+NA,"""New Jersey""","""34""","""2018""","""2018""","""4 or more previous cesareans""","""4""",211
+NA,"""New Jersey""","""34""","""2019""","""2019""","""0 previous cesareans""","""0""",81846
+NA,"""New Jersey""","""34""","""2019""","""2019""","""1 previous cesareans""","""1""",12847
+NA,"""New Jersey""","""34""","""2019""","""2019""","""2 previous cesareans""","""2""",3842
+NA,"""New Jersey""","""34""","""2019""","""2019""","""3 previous cesareans""","""3""",827
+NA,"""New Jersey""","""34""","""2019""","""2019""","""4 or more previous cesareans""","""4""",217
+NA,"""New Jersey""","""34""","""2020""","""2020""","""0 previous cesareans""","""0""",80722
+NA,"""New Jersey""","""34""","""2020""","""2020""","""1 previous cesareans""","""1""",12298
+NA,"""New Jersey""","""34""","""2020""","""2020""","""2 previous cesareans""","""2""",3785
+NA,"""New Jersey""","""34""","""2020""","""2020""","""3 previous cesareans""","""3""",899
+NA,"""New Jersey""","""34""","""2020""","""2020""","""4 or more previous cesareans""","""4""",242
+NA,"""New Jersey""","""34""","""2021""","""2021""","""0 previous cesareans""","""0""",84011
+NA,"""New Jersey""","""34""","""2021""","""2021""","""1 previous cesareans""","""1""",12513
+NA,"""New Jersey""","""34""","""2021""","""2021""","""2 previous cesareans""","""2""",3895
+NA,"""New Jersey""","""34""","""2021""","""2021""","""3 previous cesareans""","""3""",872
+NA,"""New Jersey""","""34""","""2021""","""2021""","""4 or more previous cesareans""","""4""",196
+NA,"""New Jersey""","""34""","""2021""","""2021""","""Unknown or Not Stated""","""99""",10
+NA,"""New Mexico""","""35""","""2016""","""2016""","""0 previous cesareans""","""0""",21724
+NA,"""New Mexico""","""35""","""2016""","""2016""","""1 previous cesareans""","""1""",2001
+NA,"""New Mexico""","""35""","""2016""","""2016""","""2 previous cesareans""","""2""",707
+NA,"""New Mexico""","""35""","""2016""","""2016""","""3 previous cesareans""","""3""",208
+NA,"""New Mexico""","""35""","""2016""","""2016""","""4 or more previous cesareans""","""4""",49
+NA,"""New Mexico""","""35""","""2017""","""2017""","""0 previous cesareans""","""0""",20952
+NA,"""New Mexico""","""35""","""2017""","""2017""","""1 previous cesareans""","""1""",1927
+NA,"""New Mexico""","""35""","""2017""","""2017""","""2 previous cesareans""","""2""",639
+NA,"""New Mexico""","""35""","""2017""","""2017""","""3 previous cesareans""","""3""",192
+NA,"""New Mexico""","""35""","""2017""","""2017""","""4 or more previous cesareans""","""4""",56
+NA,"""New Mexico""","""35""","""2018""","""2018""","""0 previous cesareans""","""0""",20165
+NA,"""New Mexico""","""35""","""2018""","""2018""","""1 previous cesareans""","""1""",1958
+NA,"""New Mexico""","""35""","""2018""","""2018""","""2 previous cesareans""","""2""",691
+NA,"""New Mexico""","""35""","""2018""","""2018""","""3 previous cesareans""","""3""",177
+NA,"""New Mexico""","""35""","""2018""","""2018""","""4 or more previous cesareans""","""4""",44
+NA,"""New Mexico""","""35""","""2019""","""2019""","""0 previous cesareans""","""0""",20121
+NA,"""New Mexico""","""35""","""2019""","""2019""","""1 previous cesareans""","""1""",1964
+NA,"""New Mexico""","""35""","""2019""","""2019""","""2 previous cesareans""","""2""",622
+NA,"""New Mexico""","""35""","""2019""","""2019""","""3 previous cesareans""","""3""",197
+NA,"""New Mexico""","""35""","""2019""","""2019""","""4 or more previous cesareans""","""4""",49
+NA,"""New Mexico""","""35""","""2020""","""2020""","""0 previous cesareans""","""0""",19212
+NA,"""New Mexico""","""35""","""2020""","""2020""","""1 previous cesareans""","""1""",1823
+NA,"""New Mexico""","""35""","""2020""","""2020""","""2 previous cesareans""","""2""",641
+NA,"""New Mexico""","""35""","""2020""","""2020""","""3 previous cesareans""","""3""",172
+NA,"""New Mexico""","""35""","""2020""","""2020""","""4 or more previous cesareans""","""4""",52
+NA,"""New Mexico""","""35""","""2021""","""2021""","""0 previous cesareans""","""0""",18676
+NA,"""New Mexico""","""35""","""2021""","""2021""","""1 previous cesareans""","""1""",1824
+NA,"""New Mexico""","""35""","""2021""","""2021""","""2 previous cesareans""","""2""",675
+NA,"""New Mexico""","""35""","""2021""","""2021""","""3 previous cesareans""","""3""",173
+NA,"""New Mexico""","""35""","""2021""","""2021""","""4 or more previous cesareans""","""4""",41
+NA,"""New York""","""36""","""2016""","""2016""","""0 previous cesareans""","""0""",194067
+NA,"""New York""","""36""","""2016""","""2016""","""1 previous cesareans""","""1""",29364
+NA,"""New York""","""36""","""2016""","""2016""","""2 previous cesareans""","""2""",8317
+NA,"""New York""","""36""","""2016""","""2016""","""3 previous cesareans""","""3""",1870
+NA,"""New York""","""36""","""2016""","""2016""","""4 or more previous cesareans""","""4""",433
+NA,"""New York""","""36""","""2016""","""2016""","""Unknown or Not Stated""","""99""",232
+NA,"""New York""","""36""","""2017""","""2017""","""0 previous cesareans""","""0""",189563
+NA,"""New York""","""36""","""2017""","""2017""","""1 previous cesareans""","""1""",28933
+NA,"""New York""","""36""","""2017""","""2017""","""2 previous cesareans""","""2""",8468
+NA,"""New York""","""36""","""2017""","""2017""","""3 previous cesareans""","""3""",1866
+NA,"""New York""","""36""","""2017""","""2017""","""4 or more previous cesareans""","""4""",489
+NA,"""New York""","""36""","""2017""","""2017""","""Unknown or Not Stated""","""99""",418
+NA,"""New York""","""36""","""2018""","""2018""","""0 previous cesareans""","""0""",187057
+NA,"""New York""","""36""","""2018""","""2018""","""1 previous cesareans""","""1""",28036
+NA,"""New York""","""36""","""2018""","""2018""","""2 previous cesareans""","""2""",8221
+NA,"""New York""","""36""","""2018""","""2018""","""3 previous cesareans""","""3""",1952
+NA,"""New York""","""36""","""2018""","""2018""","""4 or more previous cesareans""","""4""",468
+NA,"""New York""","""36""","""2018""","""2018""","""Unknown or Not Stated""","""99""",504
+NA,"""New York""","""36""","""2019""","""2019""","""0 previous cesareans""","""0""",183466
+NA,"""New York""","""36""","""2019""","""2019""","""1 previous cesareans""","""1""",27151
+NA,"""New York""","""36""","""2019""","""2019""","""2 previous cesareans""","""2""",8068
+NA,"""New York""","""36""","""2019""","""2019""","""3 previous cesareans""","""3""",1878
+NA,"""New York""","""36""","""2019""","""2019""","""4 or more previous cesareans""","""4""",482
+NA,"""New York""","""36""","""2019""","""2019""","""Unknown or Not Stated""","""99""",494
+NA,"""New York""","""36""","""2020""","""2020""","""0 previous cesareans""","""0""",172970
+NA,"""New York""","""36""","""2020""","""2020""","""1 previous cesareans""","""1""",25839
+NA,"""New York""","""36""","""2020""","""2020""","""2 previous cesareans""","""2""",7824
+NA,"""New York""","""36""","""2020""","""2020""","""3 previous cesareans""","""3""",1780
+NA,"""New York""","""36""","""2020""","""2020""","""4 or more previous cesareans""","""4""",516
+NA,"""New York""","""36""","""2020""","""2020""","""Unknown or Not Stated""","""99""",409
+NA,"""New York""","""36""","""2021""","""2021""","""0 previous cesareans""","""0""",174133
+NA,"""New York""","""36""","""2021""","""2021""","""1 previous cesareans""","""1""",25946
+NA,"""New York""","""36""","""2021""","""2021""","""2 previous cesareans""","""2""",7794
+NA,"""New York""","""36""","""2021""","""2021""","""3 previous cesareans""","""3""",1902
+NA,"""New York""","""36""","""2021""","""2021""","""4 or more previous cesareans""","""4""",511
+NA,"""New York""","""36""","""2021""","""2021""","""Unknown or Not Stated""","""99""",456
+NA,"""North Carolina""","""37""","""2016""","""2016""","""0 previous cesareans""","""0""",103988
+NA,"""North Carolina""","""37""","""2016""","""2016""","""1 previous cesareans""","""1""",11753
+NA,"""North Carolina""","""37""","""2016""","""2016""","""2 previous cesareans""","""2""",3801
+NA,"""North Carolina""","""37""","""2016""","""2016""","""3 previous cesareans""","""3""",988
+NA,"""North Carolina""","""37""","""2016""","""2016""","""4 or more previous cesareans""","""4""",232
+NA,"""North Carolina""","""37""","""2016""","""2016""","""Unknown or Not Stated""","""99""",17
+NA,"""North Carolina""","""37""","""2017""","""2017""","""0 previous cesareans""","""0""",103169
+NA,"""North Carolina""","""37""","""2017""","""2017""","""1 previous cesareans""","""1""",11771
+NA,"""North Carolina""","""37""","""2017""","""2017""","""2 previous cesareans""","""2""",3968
+NA,"""North Carolina""","""37""","""2017""","""2017""","""3 previous cesareans""","""3""",957
+NA,"""North Carolina""","""37""","""2017""","""2017""","""4 or more previous cesareans""","""4""",250
+NA,"""North Carolina""","""37""","""2017""","""2017""","""Unknown or Not Stated""","""99""",10
+NA,"""North Carolina""","""37""","""2018""","""2018""","""0 previous cesareans""","""0""",101931
+NA,"""North Carolina""","""37""","""2018""","""2018""","""1 previous cesareans""","""1""",11876
+NA,"""North Carolina""","""37""","""2018""","""2018""","""2 previous cesareans""","""2""",3847
+NA,"""North Carolina""","""37""","""2018""","""2018""","""3 previous cesareans""","""3""",1016
+NA,"""North Carolina""","""37""","""2018""","""2018""","""4 or more previous cesareans""","""4""",264
+NA,"""North Carolina""","""37""","""2018""","""2018""","""Unknown or Not Stated""","""99""",20
+NA,"""North Carolina""","""37""","""2019""","""2019""","""0 previous cesareans""","""0""",101309
+NA,"""North Carolina""","""37""","""2019""","""2019""","""1 previous cesareans""","""1""",12118
+NA,"""North Carolina""","""37""","""2019""","""2019""","""2 previous cesareans""","""2""",3902
+NA,"""North Carolina""","""37""","""2019""","""2019""","""3 previous cesareans""","""3""",1082
+NA,"""North Carolina""","""37""","""2019""","""2019""","""4 or more previous cesareans""","""4""",307
+NA,"""North Carolina""","""37""","""2020""","""2020""","""0 previous cesareans""","""0""",99866
+NA,"""North Carolina""","""37""","""2020""","""2020""","""1 previous cesareans""","""1""",11628
+NA,"""North Carolina""","""37""","""2020""","""2020""","""2 previous cesareans""","""2""",3821
+NA,"""North Carolina""","""37""","""2020""","""2020""","""3 previous cesareans""","""3""",1079
+NA,"""North Carolina""","""37""","""2020""","""2020""","""4 or more previous cesareans""","""4""",324
+NA,"""North Carolina""","""37""","""2020""","""2020""","""Unknown or Not Stated""","""99""",12
+NA,"""North Carolina""","""37""","""2021""","""2021""","""0 previous cesareans""","""0""",103160
+NA,"""North Carolina""","""37""","""2021""","""2021""","""1 previous cesareans""","""1""",12039
+NA,"""North Carolina""","""37""","""2021""","""2021""","""2 previous cesareans""","""2""",3840
+NA,"""North Carolina""","""37""","""2021""","""2021""","""3 previous cesareans""","""3""",1069
+NA,"""North Carolina""","""37""","""2021""","""2021""","""4 or more previous cesareans""","""4""",332
+NA,"""North Carolina""","""37""","""2021""","""2021""","""Unknown or Not Stated""","""99""",26
+NA,"""North Dakota""","""38""","""2016""","""2016""","""0 previous cesareans""","""0""",9776
+NA,"""North Dakota""","""38""","""2016""","""2016""","""1 previous cesareans""","""1""",1066
+NA,"""North Dakota""","""38""","""2016""","""2016""","""2 previous cesareans""","""2""",386
+NA,"""North Dakota""","""38""","""2016""","""2016""","""3 previous cesareans""","""3""",116
+NA,"""North Dakota""","""38""","""2016""","""2016""","""4 or more previous cesareans""","""4""",39
+NA,"""North Dakota""","""38""","""2017""","""2017""","""0 previous cesareans""","""0""",9134
+NA,"""North Dakota""","""38""","""2017""","""2017""","""1 previous cesareans""","""1""",1024
+NA,"""North Dakota""","""38""","""2017""","""2017""","""2 previous cesareans""","""2""",395
+NA,"""North Dakota""","""38""","""2017""","""2017""","""3 previous cesareans""","""3""",134
+NA,"""North Dakota""","""38""","""2017""","""2017""","""4 or more previous cesareans""","""4""",49
+NA,"""North Dakota""","""38""","""2018""","""2018""","""0 previous cesareans""","""0""",9112
+NA,"""North Dakota""","""38""","""2018""","""2018""","""1 previous cesareans""","""1""",986
+NA,"""North Dakota""","""38""","""2018""","""2018""","""2 previous cesareans""","""2""",383
+NA,"""North Dakota""","""38""","""2018""","""2018""","""3 previous cesareans""","""3""",109
+NA,"""North Dakota""","""38""","""2018""","""2018""","""4 or more previous cesareans""","""4""",42
+NA,"""North Dakota""","""38""","""2019""","""2019""","""0 previous cesareans""","""0""",8930
+NA,"""North Dakota""","""38""","""2019""","""2019""","""1 previous cesareans""","""1""",993
+NA,"""North Dakota""","""38""","""2019""","""2019""","""2 previous cesareans""","""2""",367
+NA,"""North Dakota""","""38""","""2019""","""2019""","""3 previous cesareans""","""3""",119
+NA,"""North Dakota""","""38""","""2019""","""2019""","""4 or more previous cesareans""","""4""",44
+NA,"""North Dakota""","""38""","""2020""","""2020""","""0 previous cesareans""","""0""",8521
+NA,"""North Dakota""","""38""","""2020""","""2020""","""1 previous cesareans""","""1""",972
+NA,"""North Dakota""","""38""","""2020""","""2020""","""2 previous cesareans""","""2""",367
+NA,"""North Dakota""","""38""","""2020""","""2020""","""3 previous cesareans""","""3""",141
+NA,"""North Dakota""","""38""","""2020""","""2020""","""4 or more previous cesareans""","""4""",58
+NA,"""North Dakota""","""38""","""2021""","""2021""","""0 previous cesareans""","""0""",8576
+NA,"""North Dakota""","""38""","""2021""","""2021""","""1 previous cesareans""","""1""",997
+NA,"""North Dakota""","""38""","""2021""","""2021""","""2 previous cesareans""","""2""",363
+NA,"""North Dakota""","""38""","""2021""","""2021""","""3 previous cesareans""","""3""",118
+NA,"""North Dakota""","""38""","""2021""","""2021""","""4 or more previous cesareans""","""4""",58
+NA,"""Ohio""","""39""","""2016""","""2016""","""0 previous cesareans""","""0""",116290
+NA,"""Ohio""","""39""","""2016""","""2016""","""1 previous cesareans""","""1""",15055
+NA,"""Ohio""","""39""","""2016""","""2016""","""2 previous cesareans""","""2""",4941
+NA,"""Ohio""","""39""","""2016""","""2016""","""3 previous cesareans""","""3""",1349
+NA,"""Ohio""","""39""","""2016""","""2016""","""4 or more previous cesareans""","""4""",421
+NA,"""Ohio""","""39""","""2016""","""2016""","""Unknown or Not Stated""","""99""",29
+NA,"""Ohio""","""39""","""2017""","""2017""","""0 previous cesareans""","""0""",115437
+NA,"""Ohio""","""39""","""2017""","""2017""","""1 previous cesareans""","""1""",14683
+NA,"""Ohio""","""39""","""2017""","""2017""","""2 previous cesareans""","""2""",4892
+NA,"""Ohio""","""39""","""2017""","""2017""","""3 previous cesareans""","""3""",1394
+NA,"""Ohio""","""39""","""2017""","""2017""","""4 or more previous cesareans""","""4""",404
+NA,"""Ohio""","""39""","""2017""","""2017""","""Unknown or Not Stated""","""99""",22
+NA,"""Ohio""","""39""","""2018""","""2018""","""0 previous cesareans""","""0""",113370
+NA,"""Ohio""","""39""","""2018""","""2018""","""1 previous cesareans""","""1""",14849
+NA,"""Ohio""","""39""","""2018""","""2018""","""2 previous cesareans""","""2""",5032
+NA,"""Ohio""","""39""","""2018""","""2018""","""3 previous cesareans""","""3""",1429
+NA,"""Ohio""","""39""","""2018""","""2018""","""4 or more previous cesareans""","""4""",429
+NA,"""Ohio""","""39""","""2018""","""2018""","""Unknown or Not Stated""","""99""",25
+NA,"""Ohio""","""39""","""2019""","""2019""","""0 previous cesareans""","""0""",112724
+NA,"""Ohio""","""39""","""2019""","""2019""","""1 previous cesareans""","""1""",14806
+NA,"""Ohio""","""39""","""2019""","""2019""","""2 previous cesareans""","""2""",4940
+NA,"""Ohio""","""39""","""2019""","""2019""","""3 previous cesareans""","""3""",1481
+NA,"""Ohio""","""39""","""2019""","""2019""","""4 or more previous cesareans""","""4""",491
+NA,"""Ohio""","""39""","""2019""","""2019""","""Unknown or Not Stated""","""99""",19
+NA,"""Ohio""","""39""","""2020""","""2020""","""0 previous cesareans""","""0""",108305
+NA,"""Ohio""","""39""","""2020""","""2020""","""1 previous cesareans""","""1""",14179
+NA,"""Ohio""","""39""","""2020""","""2020""","""2 previous cesareans""","""2""",4877
+NA,"""Ohio""","""39""","""2020""","""2020""","""3 previous cesareans""","""3""",1384
+NA,"""Ohio""","""39""","""2020""","""2020""","""4 or more previous cesareans""","""4""",419
+NA,"""Ohio""","""39""","""2020""","""2020""","""Unknown or Not Stated""","""99""",27
+NA,"""Ohio""","""39""","""2021""","""2021""","""0 previous cesareans""","""0""",108740
+NA,"""Ohio""","""39""","""2021""","""2021""","""1 previous cesareans""","""1""",14473
+NA,"""Ohio""","""39""","""2021""","""2021""","""2 previous cesareans""","""2""",4704
+NA,"""Ohio""","""39""","""2021""","""2021""","""3 previous cesareans""","""3""",1371
+NA,"""Ohio""","""39""","""2021""","""2021""","""4 or more previous cesareans""","""4""",469
+NA,"""Ohio""","""39""","""2021""","""2021""","""Unknown or Not Stated""","""99""",34
+NA,"""Oklahoma""","""40""","""2016""","""2016""","""0 previous cesareans""","""0""",44003
+NA,"""Oklahoma""","""40""","""2016""","""2016""","""1 previous cesareans""","""1""",5370
+NA,"""Oklahoma""","""40""","""2016""","""2016""","""2 previous cesareans""","""2""",2291
+NA,"""Oklahoma""","""40""","""2016""","""2016""","""3 previous cesareans""","""3""",695
+NA,"""Oklahoma""","""40""","""2016""","""2016""","""4 or more previous cesareans""","""4""",222
+NA,"""Oklahoma""","""40""","""2016""","""2016""","""Unknown or Not Stated""","""99""",11
+NA,"""Oklahoma""","""40""","""2017""","""2017""","""0 previous cesareans""","""0""",42187
+NA,"""Oklahoma""","""40""","""2017""","""2017""","""1 previous cesareans""","""1""",4920
+NA,"""Oklahoma""","""40""","""2017""","""2017""","""2 previous cesareans""","""2""",2220
+NA,"""Oklahoma""","""40""","""2017""","""2017""","""3 previous cesareans""","""3""",682
+NA,"""Oklahoma""","""40""","""2017""","""2017""","""4 or more previous cesareans""","""4""",202
+NA,"""Oklahoma""","""40""","""2018""","""2018""","""0 previous cesareans""","""0""",41689
+NA,"""Oklahoma""","""40""","""2018""","""2018""","""1 previous cesareans""","""1""",5066
+NA,"""Oklahoma""","""40""","""2018""","""2018""","""2 previous cesareans""","""2""",2128
+NA,"""Oklahoma""","""40""","""2018""","""2018""","""3 previous cesareans""","""3""",684
+NA,"""Oklahoma""","""40""","""2018""","""2018""","""4 or more previous cesareans""","""4""",226
+NA,"""Oklahoma""","""40""","""2019""","""2019""","""0 previous cesareans""","""0""",41250
+NA,"""Oklahoma""","""40""","""2019""","""2019""","""1 previous cesareans""","""1""",4941
+NA,"""Oklahoma""","""40""","""2019""","""2019""","""2 previous cesareans""","""2""",2059
+NA,"""Oklahoma""","""40""","""2019""","""2019""","""3 previous cesareans""","""3""",661
+NA,"""Oklahoma""","""40""","""2019""","""2019""","""4 or more previous cesareans""","""4""",215
+NA,"""Oklahoma""","""40""","""2019""","""2019""","""Unknown or Not Stated""","""99""",17
+NA,"""Oklahoma""","""40""","""2020""","""2020""","""0 previous cesareans""","""0""",40104
+NA,"""Oklahoma""","""40""","""2020""","""2020""","""1 previous cesareans""","""1""",4735
+NA,"""Oklahoma""","""40""","""2020""","""2020""","""2 previous cesareans""","""2""",1940
+NA,"""Oklahoma""","""40""","""2020""","""2020""","""3 previous cesareans""","""3""",631
+NA,"""Oklahoma""","""40""","""2020""","""2020""","""4 or more previous cesareans""","""4""",208
+NA,"""Oklahoma""","""40""","""2021""","""2021""","""0 previous cesareans""","""0""",40774
+NA,"""Oklahoma""","""40""","""2021""","""2021""","""1 previous cesareans""","""1""",4762
+NA,"""Oklahoma""","""40""","""2021""","""2021""","""2 previous cesareans""","""2""",1939
+NA,"""Oklahoma""","""40""","""2021""","""2021""","""3 previous cesareans""","""3""",681
+NA,"""Oklahoma""","""40""","""2021""","""2021""","""4 or more previous cesareans""","""4""",243
+NA,"""Oklahoma""","""40""","""2021""","""2021""","""Unknown or Not Stated""","""99""",11
+NA,"""Oregon""","""41""","""2016""","""2016""","""0 previous cesareans""","""0""",39494
+NA,"""Oregon""","""41""","""2016""","""2016""","""1 previous cesareans""","""1""",4283
+NA,"""Oregon""","""41""","""2016""","""2016""","""2 previous cesareans""","""2""",1303
+NA,"""Oregon""","""41""","""2016""","""2016""","""3 previous cesareans""","""3""",358
+NA,"""Oregon""","""41""","""2016""","""2016""","""4 or more previous cesareans""","""4""",86
+NA,"""Oregon""","""41""","""2016""","""2016""","""Unknown or Not Stated""","""99""",11
+NA,"""Oregon""","""41""","""2017""","""2017""","""0 previous cesareans""","""0""",37861
+NA,"""Oregon""","""41""","""2017""","""2017""","""1 previous cesareans""","""1""",4109
+NA,"""Oregon""","""41""","""2017""","""2017""","""2 previous cesareans""","""2""",1252
+NA,"""Oregon""","""41""","""2017""","""2017""","""3 previous cesareans""","""3""",303
+NA,"""Oregon""","""41""","""2017""","""2017""","""4 or more previous cesareans""","""4""",94
+NA,"""Oregon""","""41""","""2017""","""2017""","""Unknown or Not Stated""","""99""",12
+NA,"""Oregon""","""41""","""2018""","""2018""","""0 previous cesareans""","""0""",36586
+NA,"""Oregon""","""41""","""2018""","""2018""","""1 previous cesareans""","""1""",4013
+NA,"""Oregon""","""41""","""2018""","""2018""","""2 previous cesareans""","""2""",1178
+NA,"""Oregon""","""41""","""2018""","""2018""","""3 previous cesareans""","""3""",318
+NA,"""Oregon""","""41""","""2018""","""2018""","""4 or more previous cesareans""","""4""",87
+NA,"""Oregon""","""41""","""2019""","""2019""","""0 previous cesareans""","""0""",36325
+NA,"""Oregon""","""41""","""2019""","""2019""","""1 previous cesareans""","""1""",3926
+NA,"""Oregon""","""41""","""2019""","""2019""","""2 previous cesareans""","""2""",1153
+NA,"""Oregon""","""41""","""2019""","""2019""","""3 previous cesareans""","""3""",352
+NA,"""Oregon""","""41""","""2019""","""2019""","""4 or more previous cesareans""","""4""",96
+NA,"""Oregon""","""41""","""2020""","""2020""","""0 previous cesareans""","""0""",34658
+NA,"""Oregon""","""41""","""2020""","""2020""","""1 previous cesareans""","""1""",3713
+NA,"""Oregon""","""41""","""2020""","""2020""","""2 previous cesareans""","""2""",1066
+NA,"""Oregon""","""41""","""2020""","""2020""","""3 previous cesareans""","""3""",290
+NA,"""Oregon""","""41""","""2020""","""2020""","""4 or more previous cesareans""","""4""",88
+NA,"""Oregon""","""41""","""2021""","""2021""","""0 previous cesareans""","""0""",35632
+NA,"""Oregon""","""41""","""2021""","""2021""","""1 previous cesareans""","""1""",3815
+NA,"""Oregon""","""41""","""2021""","""2021""","""2 previous cesareans""","""2""",1058
+NA,"""Oregon""","""41""","""2021""","""2021""","""3 previous cesareans""","""3""",301
+NA,"""Oregon""","""41""","""2021""","""2021""","""4 or more previous cesareans""","""4""",104
+NA,"""Pennsylvania""","""42""","""2016""","""2016""","""0 previous cesareans""","""0""",119312
+NA,"""Pennsylvania""","""42""","""2016""","""2016""","""1 previous cesareans""","""1""",14303
+NA,"""Pennsylvania""","""42""","""2016""","""2016""","""2 previous cesareans""","""2""",4306
+NA,"""Pennsylvania""","""42""","""2016""","""2016""","""3 previous cesareans""","""3""",1140
+NA,"""Pennsylvania""","""42""","""2016""","""2016""","""4 or more previous cesareans""","""4""",234
+NA,"""Pennsylvania""","""42""","""2016""","""2016""","""Unknown or Not Stated""","""99""",114
+NA,"""Pennsylvania""","""42""","""2017""","""2017""","""0 previous cesareans""","""0""",117648
+NA,"""Pennsylvania""","""42""","""2017""","""2017""","""1 previous cesareans""","""1""",14259
+NA,"""Pennsylvania""","""42""","""2017""","""2017""","""2 previous cesareans""","""2""",4401
+NA,"""Pennsylvania""","""42""","""2017""","""2017""","""3 previous cesareans""","""3""",1101
+NA,"""Pennsylvania""","""42""","""2017""","""2017""","""4 or more previous cesareans""","""4""",281
+NA,"""Pennsylvania""","""42""","""2017""","""2017""","""Unknown or Not Stated""","""99""",55
+NA,"""Pennsylvania""","""42""","""2018""","""2018""","""0 previous cesareans""","""0""",115832
+NA,"""Pennsylvania""","""42""","""2018""","""2018""","""1 previous cesareans""","""1""",14030
+NA,"""Pennsylvania""","""42""","""2018""","""2018""","""2 previous cesareans""","""2""",4367
+NA,"""Pennsylvania""","""42""","""2018""","""2018""","""3 previous cesareans""","""3""",1093
+NA,"""Pennsylvania""","""42""","""2018""","""2018""","""4 or more previous cesareans""","""4""",281
+NA,"""Pennsylvania""","""42""","""2018""","""2018""","""Unknown or Not Stated""","""99""",70
+NA,"""Pennsylvania""","""42""","""2019""","""2019""","""0 previous cesareans""","""0""",114298
+NA,"""Pennsylvania""","""42""","""2019""","""2019""","""1 previous cesareans""","""1""",14224
+NA,"""Pennsylvania""","""42""","""2019""","""2019""","""2 previous cesareans""","""2""",4273
+NA,"""Pennsylvania""","""42""","""2019""","""2019""","""3 previous cesareans""","""3""",1069
+NA,"""Pennsylvania""","""42""","""2019""","""2019""","""4 or more previous cesareans""","""4""",290
+NA,"""Pennsylvania""","""42""","""2019""","""2019""","""Unknown or Not Stated""","""99""",76
+NA,"""Pennsylvania""","""42""","""2020""","""2020""","""0 previous cesareans""","""0""",110638
+NA,"""Pennsylvania""","""42""","""2020""","""2020""","""1 previous cesareans""","""1""",14078
+NA,"""Pennsylvania""","""42""","""2020""","""2020""","""2 previous cesareans""","""2""",4453
+NA,"""Pennsylvania""","""42""","""2020""","""2020""","""3 previous cesareans""","""3""",1123
+NA,"""Pennsylvania""","""42""","""2020""","""2020""","""4 or more previous cesareans""","""4""",344
+NA,"""Pennsylvania""","""42""","""2020""","""2020""","""Unknown or Not Stated""","""99""",57
+NA,"""Pennsylvania""","""42""","""2021""","""2021""","""0 previous cesareans""","""0""",111976
+NA,"""Pennsylvania""","""42""","""2021""","""2021""","""1 previous cesareans""","""1""",14434
+NA,"""Pennsylvania""","""42""","""2021""","""2021""","""2 previous cesareans""","""2""",4436
+NA,"""Pennsylvania""","""42""","""2021""","""2021""","""3 previous cesareans""","""3""",1097
+NA,"""Pennsylvania""","""42""","""2021""","""2021""","""4 or more previous cesareans""","""4""",336
+NA,"""Pennsylvania""","""42""","""2021""","""2021""","""Unknown or Not Stated""","""99""",343
+NA,"""Rhode Island""","""44""","""2016""","""2016""","""0 previous cesareans""","""0""",9098
+NA,"""Rhode Island""","""44""","""2016""","""2016""","""1 previous cesareans""","""1""",1255
+NA,"""Rhode Island""","""44""","""2016""","""2016""","""2 previous cesareans""","""2""",335
+NA,"""Rhode Island""","""44""","""2016""","""2016""","""3 previous cesareans""","""3""",82
+NA,"""Rhode Island""","""44""","""2016""","""2016""","""4 or more previous cesareans""","""4""",21
+NA,"""Rhode Island""","""44""","""2017""","""2017""","""0 previous cesareans""","""0""",8995
+NA,"""Rhode Island""","""44""","""2017""","""2017""","""1 previous cesareans""","""1""",1204
+NA,"""Rhode Island""","""44""","""2017""","""2017""","""2 previous cesareans""","""2""",338
+NA,"""Rhode Island""","""44""","""2017""","""2017""","""3 previous cesareans""","""3""",81
+NA,"""Rhode Island""","""44""","""2017""","""2017""","""4 or more previous cesareans""","""4""",17
+NA,"""Rhode Island""","""44""","""2018""","""2018""","""0 previous cesareans""","""0""",8850
+NA,"""Rhode Island""","""44""","""2018""","""2018""","""1 previous cesareans""","""1""",1183
+NA,"""Rhode Island""","""44""","""2018""","""2018""","""2 previous cesareans""","""2""",344
+NA,"""Rhode Island""","""44""","""2018""","""2018""","""3 previous cesareans""","""3""",100
+NA,"""Rhode Island""","""44""","""2018""","""2018""","""4 or more previous cesareans""","""4""",24
+NA,"""Rhode Island""","""44""","""2019""","""2019""","""0 previous cesareans""","""0""",8592
+NA,"""Rhode Island""","""44""","""2019""","""2019""","""1 previous cesareans""","""1""",1146
+NA,"""Rhode Island""","""44""","""2019""","""2019""","""2 previous cesareans""","""2""",324
+NA,"""Rhode Island""","""44""","""2019""","""2019""","""3 previous cesareans""","""3""",79
+NA,"""Rhode Island""","""44""","""2019""","""2019""","""4 or more previous cesareans""","""4""",20
+NA,"""Rhode Island""","""44""","""2019""","""2019""","""Unknown or Not Stated""","""99""",14
+NA,"""Rhode Island""","""44""","""2020""","""2020""","""0 previous cesareans""","""0""",8503
+NA,"""Rhode Island""","""44""","""2020""","""2020""","""1 previous cesareans""","""1""",1169
+NA,"""Rhode Island""","""44""","""2020""","""2020""","""2 previous cesareans""","""2""",318
+NA,"""Rhode Island""","""44""","""2020""","""2020""","""3 previous cesareans""","""3""",75
+NA,"""Rhode Island""","""44""","""2020""","""2020""","""4 or more previous cesareans""","""4""",19
+NA,"""Rhode Island""","""44""","""2020""","""2020""","""Unknown or Not Stated""","""99""",17
+NA,"""Rhode Island""","""44""","""2021""","""2021""","""0 previous cesareans""","""0""",8824
+NA,"""Rhode Island""","""44""","""2021""","""2021""","""1 previous cesareans""","""1""",1214
+NA,"""Rhode Island""","""44""","""2021""","""2021""","""2 previous cesareans""","""2""",333
+NA,"""Rhode Island""","""44""","""2021""","""2021""","""3 previous cesareans""","""3""",62
+NA,"""Rhode Island""","""44""","""2021""","""2021""","""4 or more previous cesareans""","""4""",17
+NA,"""Rhode Island""","""44""","""2021""","""2021""","""Unknown or Not Stated""","""99""",14
+NA,"""South Carolina""","""45""","""2016""","""2016""","""0 previous cesareans""","""0""",47915
+NA,"""South Carolina""","""45""","""2016""","""2016""","""1 previous cesareans""","""1""",6439
+NA,"""South Carolina""","""45""","""2016""","""2016""","""2 previous cesareans""","""2""",2341
+NA,"""South Carolina""","""45""","""2016""","""2016""","""3 previous cesareans""","""3""",513
+NA,"""South Carolina""","""45""","""2016""","""2016""","""4 or more previous cesareans""","""4""",132
+NA,"""South Carolina""","""45""","""2017""","""2017""","""0 previous cesareans""","""0""",47578
+NA,"""South Carolina""","""45""","""2017""","""2017""","""1 previous cesareans""","""1""",6436
+NA,"""South Carolina""","""45""","""2017""","""2017""","""2 previous cesareans""","""2""",2282
+NA,"""South Carolina""","""45""","""2017""","""2017""","""3 previous cesareans""","""3""",574
+NA,"""South Carolina""","""45""","""2017""","""2017""","""4 or more previous cesareans""","""4""",156
+NA,"""South Carolina""","""45""","""2018""","""2018""","""0 previous cesareans""","""0""",47300
+NA,"""South Carolina""","""45""","""2018""","""2018""","""1 previous cesareans""","""1""",6327
+NA,"""South Carolina""","""45""","""2018""","""2018""","""2 previous cesareans""","""2""",2277
+NA,"""South Carolina""","""45""","""2018""","""2018""","""3 previous cesareans""","""3""",601
+NA,"""South Carolina""","""45""","""2018""","""2018""","""4 or more previous cesareans""","""4""",160
+NA,"""South Carolina""","""45""","""2019""","""2019""","""0 previous cesareans""","""0""",47721
+NA,"""South Carolina""","""45""","""2019""","""2019""","""1 previous cesareans""","""1""",6160
+NA,"""South Carolina""","""45""","""2019""","""2019""","""2 previous cesareans""","""2""",2362
+NA,"""South Carolina""","""45""","""2019""","""2019""","""3 previous cesareans""","""3""",625
+NA,"""South Carolina""","""45""","""2019""","""2019""","""4 or more previous cesareans""","""4""",166
+NA,"""South Carolina""","""45""","""2020""","""2020""","""0 previous cesareans""","""0""",46569
+NA,"""South Carolina""","""45""","""2020""","""2020""","""1 previous cesareans""","""1""",6110
+NA,"""South Carolina""","""45""","""2020""","""2020""","""2 previous cesareans""","""2""",2251
+NA,"""South Carolina""","""45""","""2020""","""2020""","""3 previous cesareans""","""3""",574
+NA,"""South Carolina""","""45""","""2020""","""2020""","""4 or more previous cesareans""","""4""",195
+NA,"""South Carolina""","""45""","""2021""","""2021""","""0 previous cesareans""","""0""",48559
+NA,"""South Carolina""","""45""","""2021""","""2021""","""1 previous cesareans""","""1""",5804
+NA,"""South Carolina""","""45""","""2021""","""2021""","""2 previous cesareans""","""2""",2065
+NA,"""South Carolina""","""45""","""2021""","""2021""","""3 previous cesareans""","""3""",556
+NA,"""South Carolina""","""45""","""2021""","""2021""","""4 or more previous cesareans""","""4""",133
+NA,"""South Carolina""","""45""","""2021""","""2021""","""Unknown or Not Stated""","""99""",68
+NA,"""South Dakota""","""46""","""2016""","""2016""","""0 previous cesareans""","""0""",10534
+NA,"""South Dakota""","""46""","""2016""","""2016""","""1 previous cesareans""","""1""",1133
+NA,"""South Dakota""","""46""","""2016""","""2016""","""2 previous cesareans""","""2""",429
+NA,"""South Dakota""","""46""","""2016""","""2016""","""3 previous cesareans""","""3""",140
+NA,"""South Dakota""","""46""","""2016""","""2016""","""4 or more previous cesareans""","""4""",37
+NA,"""South Dakota""","""46""","""2017""","""2017""","""0 previous cesareans""","""0""",10450
+NA,"""South Dakota""","""46""","""2017""","""2017""","""1 previous cesareans""","""1""",1072
+NA,"""South Dakota""","""46""","""2017""","""2017""","""2 previous cesareans""","""2""",386
+NA,"""South Dakota""","""46""","""2017""","""2017""","""3 previous cesareans""","""3""",167
+NA,"""South Dakota""","""46""","""2017""","""2017""","""4 or more previous cesareans""","""4""",55
+NA,"""South Dakota""","""46""","""2018""","""2018""","""0 previous cesareans""","""0""",10204
+NA,"""South Dakota""","""46""","""2018""","""2018""","""1 previous cesareans""","""1""",1076
+NA,"""South Dakota""","""46""","""2018""","""2018""","""2 previous cesareans""","""2""",407
+NA,"""South Dakota""","""46""","""2018""","""2018""","""3 previous cesareans""","""3""",143
+NA,"""South Dakota""","""46""","""2018""","""2018""","""4 or more previous cesareans""","""4""",50
+NA,"""South Dakota""","""46""","""2018""","""2018""","""Unknown or Not Stated""","""99""",13
+NA,"""South Dakota""","""46""","""2019""","""2019""","""0 previous cesareans""","""0""",9867
+NA,"""South Dakota""","""46""","""2019""","""2019""","""1 previous cesareans""","""1""",1015
+NA,"""South Dakota""","""46""","""2019""","""2019""","""2 previous cesareans""","""2""",373
+NA,"""South Dakota""","""46""","""2019""","""2019""","""3 previous cesareans""","""3""",119
+NA,"""South Dakota""","""46""","""2019""","""2019""","""4 or more previous cesareans""","""4""",70
+NA,"""South Dakota""","""46""","""2020""","""2020""","""0 previous cesareans""","""0""",9469
+NA,"""South Dakota""","""46""","""2020""","""2020""","""1 previous cesareans""","""1""",964
+NA,"""South Dakota""","""46""","""2020""","""2020""","""2 previous cesareans""","""2""",340
+NA,"""South Dakota""","""46""","""2020""","""2020""","""3 previous cesareans""","""3""",128
+NA,"""South Dakota""","""46""","""2020""","""2020""","""4 or more previous cesareans""","""4""",50
+NA,"""South Dakota""","""46""","""2021""","""2021""","""0 previous cesareans""","""0""",9868
+NA,"""South Dakota""","""46""","""2021""","""2021""","""1 previous cesareans""","""1""",976
+NA,"""South Dakota""","""46""","""2021""","""2021""","""2 previous cesareans""","""2""",345
+NA,"""South Dakota""","""46""","""2021""","""2021""","""3 previous cesareans""","""3""",121
+NA,"""South Dakota""","""46""","""2021""","""2021""","""4 or more previous cesareans""","""4""",54
+NA,"""Tennessee""","""47""","""2016""","""2016""","""0 previous cesareans""","""0""",69160
+NA,"""Tennessee""","""47""","""2016""","""2016""","""1 previous cesareans""","""1""",7831
+NA,"""Tennessee""","""47""","""2016""","""2016""","""2 previous cesareans""","""2""",2627
+NA,"""Tennessee""","""47""","""2016""","""2016""","""3 previous cesareans""","""3""",700
+NA,"""Tennessee""","""47""","""2016""","""2016""","""4 or more previous cesareans""","""4""",175
+NA,"""Tennessee""","""47""","""2016""","""2016""","""Unknown or Not Stated""","""99""",314
+NA,"""Tennessee""","""47""","""2017""","""2017""","""0 previous cesareans""","""0""",69433
+NA,"""Tennessee""","""47""","""2017""","""2017""","""1 previous cesareans""","""1""",7684
+NA,"""Tennessee""","""47""","""2017""","""2017""","""2 previous cesareans""","""2""",2598
+NA,"""Tennessee""","""47""","""2017""","""2017""","""3 previous cesareans""","""3""",704
+NA,"""Tennessee""","""47""","""2017""","""2017""","""4 or more previous cesareans""","""4""",190
+NA,"""Tennessee""","""47""","""2017""","""2017""","""Unknown or Not Stated""","""99""",407
+NA,"""Tennessee""","""47""","""2018""","""2018""","""0 previous cesareans""","""0""",68504
+NA,"""Tennessee""","""47""","""2018""","""2018""","""1 previous cesareans""","""1""",8235
+NA,"""Tennessee""","""47""","""2018""","""2018""","""2 previous cesareans""","""2""",2874
+NA,"""Tennessee""","""47""","""2018""","""2018""","""3 previous cesareans""","""3""",708
+NA,"""Tennessee""","""47""","""2018""","""2018""","""4 or more previous cesareans""","""4""",198
+NA,"""Tennessee""","""47""","""2018""","""2018""","""Unknown or Not Stated""","""99""",232
+NA,"""Tennessee""","""47""","""2019""","""2019""","""0 previous cesareans""","""0""",68026
+NA,"""Tennessee""","""47""","""2019""","""2019""","""1 previous cesareans""","""1""",8330
+NA,"""Tennessee""","""47""","""2019""","""2019""","""2 previous cesareans""","""2""",2991
+NA,"""Tennessee""","""47""","""2019""","""2019""","""3 previous cesareans""","""3""",838
+NA,"""Tennessee""","""47""","""2019""","""2019""","""4 or more previous cesareans""","""4""",216
+NA,"""Tennessee""","""47""","""2019""","""2019""","""Unknown or Not Stated""","""99""",49
+NA,"""Tennessee""","""47""","""2020""","""2020""","""0 previous cesareans""","""0""",66551
+NA,"""Tennessee""","""47""","""2020""","""2020""","""1 previous cesareans""","""1""",8257
+NA,"""Tennessee""","""47""","""2020""","""2020""","""2 previous cesareans""","""2""",2837
+NA,"""Tennessee""","""47""","""2020""","""2020""","""3 previous cesareans""","""3""",807
+NA,"""Tennessee""","""47""","""2020""","""2020""","""4 or more previous cesareans""","""4""",229
+NA,"""Tennessee""","""47""","""2021""","""2021""","""0 previous cesareans""","""0""",69246
+NA,"""Tennessee""","""47""","""2021""","""2021""","""1 previous cesareans""","""1""",8503
+NA,"""Tennessee""","""47""","""2021""","""2021""","""2 previous cesareans""","""2""",2918
+NA,"""Tennessee""","""47""","""2021""","""2021""","""3 previous cesareans""","""3""",824
+NA,"""Tennessee""","""47""","""2021""","""2021""","""4 or more previous cesareans""","""4""",217
+NA,"""Texas""","""48""","""2016""","""2016""","""0 previous cesareans""","""0""",333756
+NA,"""Texas""","""48""","""2016""","""2016""","""1 previous cesareans""","""1""",41628
+NA,"""Texas""","""48""","""2016""","""2016""","""2 previous cesareans""","""2""",16471
+NA,"""Texas""","""48""","""2016""","""2016""","""3 previous cesareans""","""3""",4847
+NA,"""Texas""","""48""","""2016""","""2016""","""4 or more previous cesareans""","""4""",1265
+NA,"""Texas""","""48""","""2016""","""2016""","""Unknown or Not Stated""","""99""",80
+NA,"""Texas""","""48""","""2017""","""2017""","""0 previous cesareans""","""0""",317700
+NA,"""Texas""","""48""","""2017""","""2017""","""1 previous cesareans""","""1""",41542
+NA,"""Texas""","""48""","""2017""","""2017""","""2 previous cesareans""","""2""",16670
+NA,"""Texas""","""48""","""2017""","""2017""","""3 previous cesareans""","""3""",4841
+NA,"""Texas""","""48""","""2017""","""2017""","""4 or more previous cesareans""","""4""",1274
+NA,"""Texas""","""48""","""2017""","""2017""","""Unknown or Not Stated""","""99""",23
+NA,"""Texas""","""48""","""2018""","""2018""","""0 previous cesareans""","""0""",313927
+NA,"""Texas""","""48""","""2018""","""2018""","""1 previous cesareans""","""1""",41324
+NA,"""Texas""","""48""","""2018""","""2018""","""2 previous cesareans""","""2""",16905
+NA,"""Texas""","""48""","""2018""","""2018""","""3 previous cesareans""","""3""",5037
+NA,"""Texas""","""48""","""2018""","""2018""","""4 or more previous cesareans""","""4""",1378
+NA,"""Texas""","""48""","""2018""","""2018""","""Unknown or Not Stated""","""99""",53
+NA,"""Texas""","""48""","""2019""","""2019""","""0 previous cesareans""","""0""",317497
+NA,"""Texas""","""48""","""2019""","""2019""","""1 previous cesareans""","""1""",38286
+NA,"""Texas""","""48""","""2019""","""2019""","""2 previous cesareans""","""2""",15522
+NA,"""Texas""","""48""","""2019""","""2019""","""3 previous cesareans""","""3""",4563
+NA,"""Texas""","""48""","""2019""","""2019""","""4 or more previous cesareans""","""4""",1318
+NA,"""Texas""","""48""","""2019""","""2019""","""Unknown or Not Stated""","""99""",413
+NA,"""Texas""","""48""","""2020""","""2020""","""0 previous cesareans""","""0""",308028
+NA,"""Texas""","""48""","""2020""","""2020""","""1 previous cesareans""","""1""",38147
+NA,"""Texas""","""48""","""2020""","""2020""","""2 previous cesareans""","""2""",15427
+NA,"""Texas""","""48""","""2020""","""2020""","""3 previous cesareans""","""3""",4699
+NA,"""Texas""","""48""","""2020""","""2020""","""4 or more previous cesareans""","""4""",1392
+NA,"""Texas""","""48""","""2020""","""2020""","""Unknown or Not Stated""","""99""",497
+NA,"""Texas""","""48""","""2021""","""2021""","""0 previous cesareans""","""0""",313352
+NA,"""Texas""","""48""","""2021""","""2021""","""1 previous cesareans""","""1""",38339
+NA,"""Texas""","""48""","""2021""","""2021""","""2 previous cesareans""","""2""",15114
+NA,"""Texas""","""48""","""2021""","""2021""","""3 previous cesareans""","""3""",4796
+NA,"""Texas""","""48""","""2021""","""2021""","""4 or more previous cesareans""","""4""",1434
+NA,"""Texas""","""48""","""2021""","""2021""","""Unknown or Not Stated""","""99""",559
+NA,"""Utah""","""49""","""2016""","""2016""","""0 previous cesareans""","""0""",43450
+NA,"""Utah""","""49""","""2016""","""2016""","""1 previous cesareans""","""1""",4440
+NA,"""Utah""","""49""","""2016""","""2016""","""2 previous cesareans""","""2""",1710
+NA,"""Utah""","""49""","""2016""","""2016""","""3 previous cesareans""","""3""",668
+NA,"""Utah""","""49""","""2016""","""2016""","""4 or more previous cesareans""","""4""",196
+NA,"""Utah""","""49""","""2017""","""2017""","""0 previous cesareans""","""0""",41815
+NA,"""Utah""","""49""","""2017""","""2017""","""1 previous cesareans""","""1""",4375
+NA,"""Utah""","""49""","""2017""","""2017""","""2 previous cesareans""","""2""",1574
+NA,"""Utah""","""49""","""2017""","""2017""","""3 previous cesareans""","""3""",603
+NA,"""Utah""","""49""","""2017""","""2017""","""4 or more previous cesareans""","""4""",217
+NA,"""Utah""","""49""","""2018""","""2018""","""0 previous cesareans""","""0""",40818
+NA,"""Utah""","""49""","""2018""","""2018""","""1 previous cesareans""","""1""",4091
+NA,"""Utah""","""49""","""2018""","""2018""","""2 previous cesareans""","""2""",1499
+NA,"""Utah""","""49""","""2018""","""2018""","""3 previous cesareans""","""3""",626
+NA,"""Utah""","""49""","""2018""","""2018""","""4 or more previous cesareans""","""4""",174
+NA,"""Utah""","""49""","""2019""","""2019""","""0 previous cesareans""","""0""",40393
+NA,"""Utah""","""49""","""2019""","""2019""","""1 previous cesareans""","""1""",4175
+NA,"""Utah""","""49""","""2019""","""2019""","""2 previous cesareans""","""2""",1499
+NA,"""Utah""","""49""","""2019""","""2019""","""3 previous cesareans""","""3""",573
+NA,"""Utah""","""49""","""2019""","""2019""","""4 or more previous cesareans""","""4""",186
+NA,"""Utah""","""49""","""2020""","""2020""","""0 previous cesareans""","""0""",39430
+NA,"""Utah""","""49""","""2020""","""2020""","""1 previous cesareans""","""1""",4237
+NA,"""Utah""","""49""","""2020""","""2020""","""2 previous cesareans""","""2""",1360
+NA,"""Utah""","""49""","""2020""","""2020""","""3 previous cesareans""","""3""",524
+NA,"""Utah""","""49""","""2020""","""2020""","""4 or more previous cesareans""","""4""",151
+NA,"""Utah""","""49""","""2021""","""2021""","""0 previous cesareans""","""0""",40400
+NA,"""Utah""","""49""","""2021""","""2021""","""1 previous cesareans""","""1""",4334
+NA,"""Utah""","""49""","""2021""","""2021""","""2 previous cesareans""","""2""",1354
+NA,"""Utah""","""49""","""2021""","""2021""","""3 previous cesareans""","""3""",490
+NA,"""Utah""","""49""","""2021""","""2021""","""4 or more previous cesareans""","""4""",134
+NA,"""Vermont""","""50""","""2016""","""2016""","""0 previous cesareans""","""0""",5009
+NA,"""Vermont""","""50""","""2016""","""2016""","""1 previous cesareans""","""1""",570
+NA,"""Vermont""","""50""","""2016""","""2016""","""2 previous cesareans""","""2""",150
+NA,"""Vermont""","""50""","""2016""","""2016""","""3 previous cesareans""","""3""",22
+NA,"""Vermont""","""50""","""2017""","""2017""","""0 previous cesareans""","""0""",4956
+NA,"""Vermont""","""50""","""2017""","""2017""","""1 previous cesareans""","""1""",540
+NA,"""Vermont""","""50""","""2017""","""2017""","""2 previous cesareans""","""2""",121
+NA,"""Vermont""","""50""","""2017""","""2017""","""3 previous cesareans""","""3""",30
+NA,"""Vermont""","""50""","""2018""","""2018""","""0 previous cesareans""","""0""",4729
+NA,"""Vermont""","""50""","""2018""","""2018""","""1 previous cesareans""","""1""",543
+NA,"""Vermont""","""50""","""2018""","""2018""","""2 previous cesareans""","""2""",127
+NA,"""Vermont""","""50""","""2018""","""2018""","""3 previous cesareans""","""3""",22
+NA,"""Vermont""","""50""","""2019""","""2019""","""0 previous cesareans""","""0""",4649
+NA,"""Vermont""","""50""","""2019""","""2019""","""1 previous cesareans""","""1""",561
+NA,"""Vermont""","""50""","""2019""","""2019""","""2 previous cesareans""","""2""",120
+NA,"""Vermont""","""50""","""2019""","""2019""","""3 previous cesareans""","""3""",23
+NA,"""Vermont""","""50""","""2020""","""2020""","""0 previous cesareans""","""0""",4476
+NA,"""Vermont""","""50""","""2020""","""2020""","""1 previous cesareans""","""1""",495
+NA,"""Vermont""","""50""","""2020""","""2020""","""2 previous cesareans""","""2""",128
+NA,"""Vermont""","""50""","""2020""","""2020""","""3 previous cesareans""","""3""",23
+NA,"""Vermont""","""50""","""2020""","""2020""","""4 or more previous cesareans""","""4""",10
+NA,"""Vermont""","""50""","""2021""","""2021""","""0 previous cesareans""","""0""",4692
+NA,"""Vermont""","""50""","""2021""","""2021""","""1 previous cesareans""","""1""",539
+NA,"""Vermont""","""50""","""2021""","""2021""","""2 previous cesareans""","""2""",118
+NA,"""Vermont""","""50""","""2021""","""2021""","""3 previous cesareans""","""3""",26
+NA,"""Virginia""","""51""","""2016""","""2016""","""0 previous cesareans""","""0""",84966
+NA,"""Virginia""","""51""","""2016""","""2016""","""1 previous cesareans""","""1""",12665
+NA,"""Virginia""","""51""","""2016""","""2016""","""2 previous cesareans""","""2""",3672
+NA,"""Virginia""","""51""","""2016""","""2016""","""3 previous cesareans""","""3""",934
+NA,"""Virginia""","""51""","""2016""","""2016""","""4 or more previous cesareans""","""4""",208
+NA,"""Virginia""","""51""","""2016""","""2016""","""Unknown or Not Stated""","""99""",15
+NA,"""Virginia""","""51""","""2017""","""2017""","""0 previous cesareans""","""0""",83278
+NA,"""Virginia""","""51""","""2017""","""2017""","""1 previous cesareans""","""1""",12317
+NA,"""Virginia""","""51""","""2017""","""2017""","""2 previous cesareans""","""2""",3643
+NA,"""Virginia""","""51""","""2017""","""2017""","""3 previous cesareans""","""3""",924
+NA,"""Virginia""","""51""","""2017""","""2017""","""4 or more previous cesareans""","""4""",219
+NA,"""Virginia""","""51""","""2017""","""2017""","""Unknown or Not Stated""","""99""",10
+NA,"""Virginia""","""51""","""2018""","""2018""","""0 previous cesareans""","""0""",82365
+NA,"""Virginia""","""51""","""2018""","""2018""","""1 previous cesareans""","""1""",12448
+NA,"""Virginia""","""51""","""2018""","""2018""","""2 previous cesareans""","""2""",3882
+NA,"""Virginia""","""51""","""2018""","""2018""","""3 previous cesareans""","""3""",908
+NA,"""Virginia""","""51""","""2018""","""2018""","""4 or more previous cesareans""","""4""",239
+NA,"""Virginia""","""51""","""2019""","""2019""","""0 previous cesareans""","""0""",80731
+NA,"""Virginia""","""51""","""2019""","""2019""","""1 previous cesareans""","""1""",11937
+NA,"""Virginia""","""51""","""2019""","""2019""","""2 previous cesareans""","""2""",3618
+NA,"""Virginia""","""51""","""2019""","""2019""","""3 previous cesareans""","""3""",921
+NA,"""Virginia""","""51""","""2019""","""2019""","""4 or more previous cesareans""","""4""",212
+NA,"""Virginia""","""51""","""2019""","""2019""","""Unknown or Not Stated""","""99""",10
+NA,"""Virginia""","""51""","""2020""","""2020""","""0 previous cesareans""","""0""",78368
+NA,"""Virginia""","""51""","""2020""","""2020""","""1 previous cesareans""","""1""",11665
+NA,"""Virginia""","""51""","""2020""","""2020""","""2 previous cesareans""","""2""",3575
+NA,"""Virginia""","""51""","""2020""","""2020""","""3 previous cesareans""","""3""",923
+NA,"""Virginia""","""51""","""2020""","""2020""","""4 or more previous cesareans""","""4""",206
+NA,"""Virginia""","""51""","""2020""","""2020""","""Unknown or Not Stated""","""99""",12
+NA,"""Virginia""","""51""","""2021""","""2021""","""0 previous cesareans""","""0""",79524
+NA,"""Virginia""","""51""","""2021""","""2021""","""1 previous cesareans""","""1""",11650
+NA,"""Virginia""","""51""","""2021""","""2021""","""2 previous cesareans""","""2""",3421
+NA,"""Virginia""","""51""","""2021""","""2021""","""3 previous cesareans""","""3""",971
+NA,"""Virginia""","""51""","""2021""","""2021""","""4 or more previous cesareans""","""4""",239
+NA,"""Virginia""","""51""","""2021""","""2021""","""Unknown or Not Stated""","""99""",20
+NA,"""Washington""","""53""","""2016""","""2016""","""0 previous cesareans""","""0""",77651
+NA,"""Washington""","""53""","""2016""","""2016""","""1 previous cesareans""","""1""",8847
+NA,"""Washington""","""53""","""2016""","""2016""","""2 previous cesareans""","""2""",2576
+NA,"""Washington""","""53""","""2016""","""2016""","""3 previous cesareans""","""3""",742
+NA,"""Washington""","""53""","""2016""","""2016""","""4 or more previous cesareans""","""4""",210
+NA,"""Washington""","""53""","""2016""","""2016""","""Unknown or Not Stated""","""99""",479
+NA,"""Washington""","""53""","""2017""","""2017""","""0 previous cesareans""","""0""",75177
+NA,"""Washington""","""53""","""2017""","""2017""","""1 previous cesareans""","""1""",8616
+NA,"""Washington""","""53""","""2017""","""2017""","""2 previous cesareans""","""2""",2395
+NA,"""Washington""","""53""","""2017""","""2017""","""3 previous cesareans""","""3""",699
+NA,"""Washington""","""53""","""2017""","""2017""","""4 or more previous cesareans""","""4""",213
+NA,"""Washington""","""53""","""2017""","""2017""","""Unknown or Not Stated""","""99""",462
+NA,"""Washington""","""53""","""2018""","""2018""","""0 previous cesareans""","""0""",74137
+NA,"""Washington""","""53""","""2018""","""2018""","""1 previous cesareans""","""1""",8557
+NA,"""Washington""","""53""","""2018""","""2018""","""2 previous cesareans""","""2""",2412
+NA,"""Washington""","""53""","""2018""","""2018""","""3 previous cesareans""","""3""",686
+NA,"""Washington""","""53""","""2018""","""2018""","""4 or more previous cesareans""","""4""",190
+NA,"""Washington""","""53""","""2018""","""2018""","""Unknown or Not Stated""","""99""",103
+NA,"""Washington""","""53""","""2019""","""2019""","""0 previous cesareans""","""0""",72911
+NA,"""Washington""","""53""","""2019""","""2019""","""1 previous cesareans""","""1""",8501
+NA,"""Washington""","""53""","""2019""","""2019""","""2 previous cesareans""","""2""",2428
+NA,"""Washington""","""53""","""2019""","""2019""","""3 previous cesareans""","""3""",679
+NA,"""Washington""","""53""","""2019""","""2019""","""4 or more previous cesareans""","""4""",198
+NA,"""Washington""","""53""","""2019""","""2019""","""Unknown or Not Stated""","""99""",178
+NA,"""Washington""","""53""","""2020""","""2020""","""0 previous cesareans""","""0""",71211
+NA,"""Washington""","""53""","""2020""","""2020""","""1 previous cesareans""","""1""",8043
+NA,"""Washington""","""53""","""2020""","""2020""","""2 previous cesareans""","""2""",2284
+NA,"""Washington""","""53""","""2020""","""2020""","""3 previous cesareans""","""3""",626
+NA,"""Washington""","""53""","""2020""","""2020""","""4 or more previous cesareans""","""4""",205
+NA,"""Washington""","""53""","""2020""","""2020""","""Unknown or Not Stated""","""99""",717
+NA,"""Washington""","""53""","""2021""","""2021""","""0 previous cesareans""","""0""",72107
+NA,"""Washington""","""53""","""2021""","""2021""","""1 previous cesareans""","""1""",7840
+NA,"""Washington""","""53""","""2021""","""2021""","""2 previous cesareans""","""2""",2095
+NA,"""Washington""","""53""","""2021""","""2021""","""3 previous cesareans""","""3""",653
+NA,"""Washington""","""53""","""2021""","""2021""","""4 or more previous cesareans""","""4""",184
+NA,"""Washington""","""53""","""2021""","""2021""","""Unknown or Not Stated""","""99""",1032
+NA,"""West Virginia""","""54""","""2016""","""2016""","""0 previous cesareans""","""0""",15920
+NA,"""West Virginia""","""54""","""2016""","""2016""","""1 previous cesareans""","""1""",2086
+NA,"""West Virginia""","""54""","""2016""","""2016""","""2 previous cesareans""","""2""",737
+NA,"""West Virginia""","""54""","""2016""","""2016""","""3 previous cesareans""","""3""",165
+NA,"""West Virginia""","""54""","""2016""","""2016""","""4 or more previous cesareans""","""4""",40
+NA,"""West Virginia""","""54""","""2016""","""2016""","""Unknown or Not Stated""","""99""",131
+NA,"""West Virginia""","""54""","""2017""","""2017""","""0 previous cesareans""","""0""",15474
+NA,"""West Virginia""","""54""","""2017""","""2017""","""1 previous cesareans""","""1""",2091
+NA,"""West Virginia""","""54""","""2017""","""2017""","""2 previous cesareans""","""2""",736
+NA,"""West Virginia""","""54""","""2017""","""2017""","""3 previous cesareans""","""3""",200
+NA,"""West Virginia""","""54""","""2017""","""2017""","""4 or more previous cesareans""","""4""",48
+NA,"""West Virginia""","""54""","""2017""","""2017""","""Unknown or Not Stated""","""99""",126
+NA,"""West Virginia""","""54""","""2018""","""2018""","""0 previous cesareans""","""0""",15221
+NA,"""West Virginia""","""54""","""2018""","""2018""","""1 previous cesareans""","""1""",1940
+NA,"""West Virginia""","""54""","""2018""","""2018""","""2 previous cesareans""","""2""",717
+NA,"""West Virginia""","""54""","""2018""","""2018""","""3 previous cesareans""","""3""",196
+NA,"""West Virginia""","""54""","""2018""","""2018""","""4 or more previous cesareans""","""4""",47
+NA,"""West Virginia""","""54""","""2018""","""2018""","""Unknown or Not Stated""","""99""",127
+NA,"""West Virginia""","""54""","""2019""","""2019""","""0 previous cesareans""","""0""",15102
+NA,"""West Virginia""","""54""","""2019""","""2019""","""1 previous cesareans""","""1""",1984
+NA,"""West Virginia""","""54""","""2019""","""2019""","""2 previous cesareans""","""2""",686
+NA,"""West Virginia""","""54""","""2019""","""2019""","""3 previous cesareans""","""3""",172
+NA,"""West Virginia""","""54""","""2019""","""2019""","""4 or more previous cesareans""","""4""",61
+NA,"""West Virginia""","""54""","""2019""","""2019""","""Unknown or Not Stated""","""99""",131
+NA,"""West Virginia""","""54""","""2020""","""2020""","""0 previous cesareans""","""0""",14569
+NA,"""West Virginia""","""54""","""2020""","""2020""","""1 previous cesareans""","""1""",1767
+NA,"""West Virginia""","""54""","""2020""","""2020""","""2 previous cesareans""","""2""",635
+NA,"""West Virginia""","""54""","""2020""","""2020""","""3 previous cesareans""","""3""",162
+NA,"""West Virginia""","""54""","""2020""","""2020""","""4 or more previous cesareans""","""4""",43
+NA,"""West Virginia""","""54""","""2020""","""2020""","""Unknown or Not Stated""","""99""",147
+NA,"""West Virginia""","""54""","""2021""","""2021""","""0 previous cesareans""","""0""",14428
+NA,"""West Virginia""","""54""","""2021""","""2021""","""1 previous cesareans""","""1""",1724
+NA,"""West Virginia""","""54""","""2021""","""2021""","""2 previous cesareans""","""2""",657
+NA,"""West Virginia""","""54""","""2021""","""2021""","""3 previous cesareans""","""3""",169
+NA,"""West Virginia""","""54""","""2021""","""2021""","""4 or more previous cesareans""","""4""",33
+NA,"""West Virginia""","""54""","""2021""","""2021""","""Unknown or Not Stated""","""99""",187
+NA,"""Wisconsin""","""55""","""2016""","""2016""","""0 previous cesareans""","""0""",57345
+NA,"""Wisconsin""","""55""","""2016""","""2016""","""1 previous cesareans""","""1""",6425
+NA,"""Wisconsin""","""55""","""2016""","""2016""","""2 previous cesareans""","""2""",1935
+NA,"""Wisconsin""","""55""","""2016""","""2016""","""3 previous cesareans""","""3""",533
+NA,"""Wisconsin""","""55""","""2016""","""2016""","""4 or more previous cesareans""","""4""",155
+NA,"""Wisconsin""","""55""","""2016""","""2016""","""Unknown or Not Stated""","""99""",222
+NA,"""Wisconsin""","""55""","""2017""","""2017""","""0 previous cesareans""","""0""",55588
+NA,"""Wisconsin""","""55""","""2017""","""2017""","""1 previous cesareans""","""1""",6501
+NA,"""Wisconsin""","""55""","""2017""","""2017""","""2 previous cesareans""","""2""",1990
+NA,"""Wisconsin""","""55""","""2017""","""2017""","""3 previous cesareans""","""3""",547
+NA,"""Wisconsin""","""55""","""2017""","""2017""","""4 or more previous cesareans""","""4""",166
+NA,"""Wisconsin""","""55""","""2017""","""2017""","""Unknown or Not Stated""","""99""",183
+NA,"""Wisconsin""","""55""","""2018""","""2018""","""0 previous cesareans""","""0""",54801
+NA,"""Wisconsin""","""55""","""2018""","""2018""","""1 previous cesareans""","""1""",6389
+NA,"""Wisconsin""","""55""","""2018""","""2018""","""2 previous cesareans""","""2""",1976
+NA,"""Wisconsin""","""55""","""2018""","""2018""","""3 previous cesareans""","""3""",560
+NA,"""Wisconsin""","""55""","""2018""","""2018""","""4 or more previous cesareans""","""4""",177
+NA,"""Wisconsin""","""55""","""2018""","""2018""","""Unknown or Not Stated""","""99""",195
+NA,"""Wisconsin""","""55""","""2019""","""2019""","""0 previous cesareans""","""0""",53851
+NA,"""Wisconsin""","""55""","""2019""","""2019""","""1 previous cesareans""","""1""",6453
+NA,"""Wisconsin""","""55""","""2019""","""2019""","""2 previous cesareans""","""2""",1982
+NA,"""Wisconsin""","""55""","""2019""","""2019""","""3 previous cesareans""","""3""",578
+NA,"""Wisconsin""","""55""","""2019""","""2019""","""4 or more previous cesareans""","""4""",190
+NA,"""Wisconsin""","""55""","""2019""","""2019""","""Unknown or Not Stated""","""99""",216
+NA,"""Wisconsin""","""55""","""2020""","""2020""","""0 previous cesareans""","""0""",51735
+NA,"""Wisconsin""","""55""","""2020""","""2020""","""1 previous cesareans""","""1""",6153
+NA,"""Wisconsin""","""55""","""2020""","""2020""","""2 previous cesareans""","""2""",1855
+NA,"""Wisconsin""","""55""","""2020""","""2020""","""3 previous cesareans""","""3""",585
+NA,"""Wisconsin""","""55""","""2020""","""2020""","""4 or more previous cesareans""","""4""",198
+NA,"""Wisconsin""","""55""","""2020""","""2020""","""Unknown or Not Stated""","""99""",68
+NA,"""Wisconsin""","""55""","""2021""","""2021""","""0 previous cesareans""","""0""",52844
+NA,"""Wisconsin""","""55""","""2021""","""2021""","""1 previous cesareans""","""1""",6252
+NA,"""Wisconsin""","""55""","""2021""","""2021""","""2 previous cesareans""","""2""",1839
+NA,"""Wisconsin""","""55""","""2021""","""2021""","""3 previous cesareans""","""3""",574
+NA,"""Wisconsin""","""55""","""2021""","""2021""","""4 or more previous cesareans""","""4""",169
+NA,"""Wisconsin""","""55""","""2021""","""2021""","""Unknown or Not Stated""","""99""",103
+NA,"""Wyoming""","""56""","""2016""","""2016""","""0 previous cesareans""","""0""",6332
+NA,"""Wyoming""","""56""","""2016""","""2016""","""1 previous cesareans""","""1""",707
+NA,"""Wyoming""","""56""","""2016""","""2016""","""2 previous cesareans""","""2""",245
+NA,"""Wyoming""","""56""","""2016""","""2016""","""3 previous cesareans""","""3""",78
+NA,"""Wyoming""","""56""","""2016""","""2016""","""4 or more previous cesareans""","""4""",20
+NA,"""Wyoming""","""56""","""2017""","""2017""","""0 previous cesareans""","""0""",5965
+NA,"""Wyoming""","""56""","""2017""","""2017""","""1 previous cesareans""","""1""",612
+NA,"""Wyoming""","""56""","""2017""","""2017""","""2 previous cesareans""","""2""",237
+NA,"""Wyoming""","""56""","""2017""","""2017""","""3 previous cesareans""","""3""",62
+NA,"""Wyoming""","""56""","""2017""","""2017""","""4 or more previous cesareans""","""4""",26
+NA,"""Wyoming""","""56""","""2018""","""2018""","""0 previous cesareans""","""0""",5720
+NA,"""Wyoming""","""56""","""2018""","""2018""","""1 previous cesareans""","""1""",544
+NA,"""Wyoming""","""56""","""2018""","""2018""","""2 previous cesareans""","""2""",223
+NA,"""Wyoming""","""56""","""2018""","""2018""","""3 previous cesareans""","""3""",58
+NA,"""Wyoming""","""56""","""2018""","""2018""","""4 or more previous cesareans""","""4""",14
+NA,"""Wyoming""","""56""","""2019""","""2019""","""0 previous cesareans""","""0""",5704
+NA,"""Wyoming""","""56""","""2019""","""2019""","""1 previous cesareans""","""1""",578
+NA,"""Wyoming""","""56""","""2019""","""2019""","""2 previous cesareans""","""2""",197
+NA,"""Wyoming""","""56""","""2019""","""2019""","""3 previous cesareans""","""3""",62
+NA,"""Wyoming""","""56""","""2019""","""2019""","""4 or more previous cesareans""","""4""",23
+NA,"""Wyoming""","""56""","""2020""","""2020""","""0 previous cesareans""","""0""",5290
+NA,"""Wyoming""","""56""","""2020""","""2020""","""1 previous cesareans""","""1""",561
+NA,"""Wyoming""","""56""","""2020""","""2020""","""2 previous cesareans""","""2""",195
+NA,"""Wyoming""","""56""","""2020""","""2020""","""3 previous cesareans""","""3""",64
+NA,"""Wyoming""","""56""","""2020""","""2020""","""4 or more previous cesareans""","""4""",16
+NA,"""Wyoming""","""56""","""2021""","""2021""","""0 previous cesareans""","""0""",5449
+NA,"""Wyoming""","""56""","""2021""","""2021""","""1 previous cesareans""","""1""",558
+NA,"""Wyoming""","""56""","""2021""","""2021""","""2 previous cesareans""","""2""",172
+NA,"""Wyoming""","""56""","""2021""","""2021""","""3 previous cesareans""","""3""",41
+NA,"""Wyoming""","""56""","""2021""","""2021""","""4 or more previous cesareans""","""4""",14

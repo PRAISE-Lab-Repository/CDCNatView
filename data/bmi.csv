@@ -1,0 +1,15 @@
+Condition,BMI,Counts
+Yes,Underweight <18.5,233
+Yes,Normal 18.5-24.9,6272
+Yes,Overweight 25.0-29.9,8687
+Yes,Obesity I 30.0-34.9,8943
+Yes,Obesity II 35.0-39.9,6882
+Yes,Extreme Obesity III > 39.9,7935
+Yes,Unknown or Not Stated,784
+No,Underweight <18.5,95687
+No,Normal 18.5-24.9,1394671
+No,Overweight 25.0-29.9,976876
+No,Obesity I 30.0-34.9,581135
+No,Obesity II 35.0-39.9,290739
+No,Extreme Obesity III > 39.9,209265
+No,Unknown or Not Stated,70978

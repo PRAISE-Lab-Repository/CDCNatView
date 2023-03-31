@@ -1,0 +1,14 @@
+	"Yes"	"1"	"Underweight <18.5"	"1"	233
+	"Yes"	"1"	"Normal 18.5-24.9"	"2"	6272
+	"Yes"	"1"	"Overweight 25.0-29.9"	"3"	8687
+	"Yes"	"1"	"Obesity I 30.0-34.9"	"4"	8943
+	"Yes"	"1"	"Obesity II 35.0-39.9"	"5"	6882
+	"Yes"	"1"	"Extreme Obesity III > 39.9"	"6"	7935
+	"Yes"	"1"	"Unknown or Not Stated"	"9"	784
+	"No"	"2"	"Underweight <18.5"	"1"	95687
+	"No"	"2"	"Normal 18.5-24.9"	"2"	1394671
+	"No"	"2"	"Overweight 25.0-29.9"	"3"	976876
+	"No"	"2"	"Obesity I 30.0-34.9"	"4"	581135
+	"No"	"2"	"Obesity II 35.0-39.9"	"5"	290739
+	"No"	"2"	"Extreme Obesity III > 39.9"	"6"	209265
+	"No"	"2"	"Unknown or Not Stated"	"9"	70978

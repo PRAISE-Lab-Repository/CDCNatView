@@ -1,0 +1,10 @@
+	"Yes"	"1"	"Less than 11 pounds"	"1"	6785
+	"Yes"	"1"	"11 to 20 pounds"	"2"	8389
+	"Yes"	"1"	"21 to 30 pounds"	"3"	9409
+	"Yes"	"1"	"31 to 40 pounds"	"4"	6712
+	"Yes"	"1"	"41 to 98 pounds"	"5"	7216
+	"No"	"2"	"Less than 11 pounds"	"1"	350912
+	"No"	"2"	"11 to 20 pounds"	"2"	636283
+	"No"	"2"	"21 to 30 pounds"	"3"	986768
+	"No"	"2"	"31 to 40 pounds"	"4"	822254
+	"No"	"2"	"41 to 98 pounds"	"5"	725802
