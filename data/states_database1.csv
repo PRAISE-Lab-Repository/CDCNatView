@@ -21353,3 +21353,615 @@ Wyoming,2020,Yes,617,gestational_hypertension
 Wyoming,2020,No,5510,gestational_hypertension
 Wyoming,2021,Yes,666,gestational_hypertension
 Wyoming,2021,No,5569,gestational_hypertension
+Alabama,2016,No,41263,preterm_birth
+Alabama,2016,Yes,17888,preterm_birth
+Alabama,2017,No,41173,preterm_birth
+Alabama,2017,Yes,17768,preterm_birth
+Alabama,2018,No,40460,preterm_birth
+Alabama,2018,Yes,17301,preterm_birth
+Alabama,2019,No,42125,preterm_birth
+Alabama,2019,Yes,16490,preterm_birth
+Alabama,2020,No,41912,preterm_birth
+Alabama,2020,Yes,15735,preterm_birth
+Alabama,2021,No,42240,preterm_birth
+Alabama,2021,Yes,15814,preterm_birth
+Alaska,2016,No,6492,preterm_birth
+Alaska,2016,Yes,4708,preterm_birth
+Alaska,2017,No,6093,preterm_birth
+Alaska,2017,Yes,4344,preterm_birth
+Alaska,2018,No,6017,preterm_birth
+Alaska,2018,Yes,4057,preterm_birth
+Alaska,2019,No,5906,preterm_birth
+Alaska,2019,Yes,3907,preterm_birth
+Alaska,2020,No,5891,preterm_birth
+Alaska,2020,Yes,3577,preterm_birth
+Alaska,2021,No,5770,preterm_birth
+Alaska,2021,Yes,3596,preterm_birth
+Arizona,2016,No,54615,preterm_birth
+Arizona,2016,Yes,29905,preterm_birth
+Arizona,2017,No,53029,preterm_birth
+Arizona,2017,Yes,28843,preterm_birth
+Arizona,2018,No,53220,preterm_birth
+Arizona,2018,Yes,27503,preterm_birth
+Arizona,2019,No,53074,preterm_birth
+Arizona,2019,Yes,26301,preterm_birth
+Arizona,2020,No,51159,preterm_birth
+Arizona,2020,Yes,25788,preterm_birth
+Arizona,2021,No,51737,preterm_birth
+Arizona,2021,Yes,26179,preterm_birth
+Arkansas,2016,No,25914,preterm_birth
+Arkansas,2016,Yes,12351,preterm_birth
+Arkansas,2017,No,25666,preterm_birth
+Arkansas,2017,Yes,11854,preterm_birth
+Arkansas,2018,No,25613,preterm_birth
+Arkansas,2018,Yes,11405,preterm_birth
+Arkansas,2019,No,25785,preterm_birth
+Arkansas,2019,Yes,10772,preterm_birth
+Arkansas,2020,No,25370,preterm_birth
+Arkansas,2020,Yes,9881,preterm_birth
+Arkansas,2021,No,25866,preterm_birth
+Arkansas,2021,Yes,10099,preterm_birth
+California,2016,No,299652,preterm_birth
+California,2016,Yes,189175,preterm_birth
+California,2017,No,289135,preterm_birth
+California,2017,Yes,182523,preterm_birth
+California,2018,No,280312,preterm_birth
+California,2018,Yes,174608,preterm_birth
+California,2019,No,279298,preterm_birth
+California,2019,Yes,167181,preterm_birth
+California,2020,No,267390,preterm_birth
+California,2020,Yes,152869,preterm_birth
+California,2021,No,270021,preterm_birth
+California,2021,Yes,150587,preterm_birth
+Colorado,2016,No,39438,preterm_birth
+Colorado,2016,Yes,27175,preterm_birth
+Colorado,2017,No,38848,preterm_birth
+Colorado,2017,Yes,25534,preterm_birth
+Colorado,2018,No,38537,preterm_birth
+Colorado,2018,Yes,24348,preterm_birth
+Colorado,2019,No,39717,preterm_birth
+Colorado,2019,Yes,23152,preterm_birth
+Colorado,2020,No,39570,preterm_birth
+Colorado,2020,Yes,21924,preterm_birth
+Colorado,2021,No,40961,preterm_birth
+Colorado,2021,Yes,21988,preterm_birth
+Connecticut,2016,No,21578,preterm_birth
+Connecticut,2016,Yes,14437,preterm_birth
+Connecticut,2017,No,21073,preterm_birth
+Connecticut,2017,Yes,14148,preterm_birth
+Connecticut,2018,No,21148,preterm_birth
+Connecticut,2018,Yes,13568,preterm_birth
+Connecticut,2019,No,21501,preterm_birth
+Connecticut,2019,Yes,12750,preterm_birth
+Connecticut,2020,No,21252,preterm_birth
+Connecticut,2020,Yes,12208,preterm_birth
+Connecticut,2021,No,23175,preterm_birth
+Connecticut,2021,Yes,12486,preterm_birth
+Delaware,2016,No,6544,preterm_birth
+Delaware,2016,Yes,4448,preterm_birth
+Delaware,2017,No,6593,preterm_birth
+Delaware,2017,Yes,4247,preterm_birth
+Delaware,2018,No,6708,preterm_birth
+Delaware,2018,Yes,3907,preterm_birth
+Delaware,2019,No,6595,preterm_birth
+Delaware,2019,Yes,3965,preterm_birth
+Delaware,2020,No,7051,preterm_birth
+Delaware,2020,Yes,3333,preterm_birth
+Delaware,2021,No,7030,preterm_birth
+Delaware,2021,Yes,3448,preterm_birth
+District of Columbia,2016,No,5310,preterm_birth
+District of Columbia,2016,Yes,4538,preterm_birth
+District of Columbia,2017,No,5352,preterm_birth
+District of Columbia,2017,Yes,4204,preterm_birth
+District of Columbia,2018,No,5307,preterm_birth
+District of Columbia,2018,Yes,3894,preterm_birth
+District of Columbia,2019,No,5397,preterm_birth
+District of Columbia,2019,Yes,3678,preterm_birth
+District of Columbia,2020,No,5336,preterm_birth
+District of Columbia,2020,Yes,3533,preterm_birth
+District of Columbia,2021,No,5452,preterm_birth
+District of Columbia,2021,Yes,3202,preterm_birth
+Florida,2016,No,147428,preterm_birth
+Florida,2016,Yes,77594,preterm_birth
+Florida,2017,No,146554,preterm_birth
+Florida,2017,Yes,77076,preterm_birth
+Florida,2018,No,146799,preterm_birth
+Florida,2018,Yes,74743,preterm_birth
+Florida,2019,No,147296,preterm_birth
+Florida,2019,Yes,72706,preterm_birth
+Florida,2020,No,141602,preterm_birth
+Florida,2020,Yes,68069,preterm_birth
+Florida,2021,No,146684,preterm_birth
+Florida,2021,Yes,69576,preterm_birth
+Georgia,2016,No,85552,preterm_birth
+Georgia,2016,Yes,44490,preterm_birth
+Georgia,2017,No,85136,preterm_birth
+Georgia,2017,Yes,44107,preterm_birth
+Georgia,2018,No,83626,preterm_birth
+Georgia,2018,Yes,42546,preterm_birth
+Georgia,2019,No,85201,preterm_birth
+Georgia,2019,Yes,41170,preterm_birth
+Georgia,2020,No,83098,preterm_birth
+Georgia,2020,Yes,39375,preterm_birth
+Georgia,2021,No,84933,preterm_birth
+Georgia,2021,Yes,39140,preterm_birth
+Hawaii,2016,No,11112,preterm_birth
+Hawaii,2016,Yes,6936,preterm_birth
+Hawaii,2017,No,10906,preterm_birth
+Hawaii,2017,Yes,6596,preterm_birth
+Hawaii,2018,No,10685,preterm_birth
+Hawaii,2018,Yes,6280,preterm_birth
+Hawaii,2019,No,10793,preterm_birth
+Hawaii,2019,Yes,5999,preterm_birth
+Hawaii,2020,No,10113,preterm_birth
+Hawaii,2020,Yes,5670,preterm_birth
+Hawaii,2021,No,10129,preterm_birth
+Hawaii,2021,Yes,5485,preterm_birth
+Idaho,2016,No,14049,preterm_birth
+Idaho,2016,Yes,8422,preterm_birth
+Idaho,2017,No,13931,preterm_birth
+Idaho,2017,Yes,8246,preterm_birth
+Idaho,2018,No,13773,preterm_birth
+Idaho,2018,Yes,7618,preterm_birth
+Idaho,2019,No,14473,preterm_birth
+Idaho,2019,Yes,7578,preterm_birth
+Idaho,2020,No,14378,preterm_birth
+Idaho,2020,Yes,7145,preterm_birth
+Idaho,2021,No,14944,preterm_birth
+Idaho,2021,Yes,7468,preterm_birth
+Illinois,2016,No,99297,preterm_birth
+Illinois,2016,Yes,55148,preterm_birth
+Illinois,2017,No,96547,preterm_birth
+Illinois,2017,Yes,52843,preterm_birth
+Illinois,2018,No,95418,preterm_birth
+Illinois,2018,Yes,49397,preterm_birth
+Illinois,2019,No,95530,preterm_birth
+Illinois,2019,Yes,44598,preterm_birth
+Illinois,2020,No,93226,preterm_birth
+Illinois,2020,Yes,40072,preterm_birth
+Illinois,2021,No,93415,preterm_birth
+Illinois,2021,Yes,38774,preterm_birth
+Indiana,2016,No,52049,preterm_birth
+Indiana,2016,Yes,31042,preterm_birth
+Indiana,2017,No,52366,preterm_birth
+Indiana,2017,Yes,29804,preterm_birth
+Indiana,2018,No,52504,preterm_birth
+Indiana,2018,Yes,29142,preterm_birth
+Indiana,2019,No,54218,preterm_birth
+Indiana,2019,Yes,26641,preterm_birth
+Indiana,2020,No,53337,preterm_birth
+Indiana,2020,Yes,25279,preterm_birth
+Indiana,2021,No,55813,preterm_birth
+Indiana,2021,Yes,24133,preterm_birth
+Iowa,2016,No,24652,preterm_birth
+Iowa,2016,Yes,14742,preterm_birth
+Iowa,2017,No,24693,preterm_birth
+Iowa,2017,Yes,13723,preterm_birth
+Iowa,2018,No,24599,preterm_birth
+Iowa,2018,Yes,13186,preterm_birth
+Iowa,2019,No,25442,preterm_birth
+Iowa,2019,Yes,12199,preterm_birth
+Iowa,2020,No,24632,preterm_birth
+Iowa,2020,Yes,11482,preterm_birth
+Iowa,2021,No,25436,preterm_birth
+Iowa,2021,Yes,11399,preterm_birth
+Kansas,2016,No,24374,preterm_birth
+Kansas,2016,Yes,13670,preterm_birth
+Kansas,2017,No,23902,preterm_birth
+Kansas,2017,Yes,12617,preterm_birth
+Kansas,2018,No,24398,preterm_birth
+Kansas,2018,Yes,11863,preterm_birth
+Kansas,2019,No,24312,preterm_birth
+Kansas,2019,Yes,11083,preterm_birth
+Kansas,2020,No,24019,preterm_birth
+Kansas,2020,Yes,10357,preterm_birth
+Kansas,2021,No,24456,preterm_birth
+Kansas,2021,Yes,10249,preterm_birth
+Kentucky,2016,No,37317,preterm_birth
+Kentucky,2016,Yes,18132,preterm_birth
+Kentucky,2017,No,37741,preterm_birth
+Kentucky,2017,Yes,17011,preterm_birth
+Kentucky,2018,No,37375,preterm_birth
+Kentucky,2018,Yes,16547,preterm_birth
+Kentucky,2019,No,38160,preterm_birth
+Kentucky,2019,Yes,14909,preterm_birth
+Kentucky,2020,No,37370,preterm_birth
+Kentucky,2020,Yes,14298,preterm_birth
+Kentucky,2021,No,37609,preterm_birth
+Kentucky,2021,Yes,14605,preterm_birth
+Louisiana,2016,No,44295,preterm_birth
+Louisiana,2016,Yes,18883,preterm_birth
+Louisiana,2017,No,43362,preterm_birth
+Louisiana,2017,Yes,17656,preterm_birth
+Louisiana,2018,No,42537,preterm_birth
+Louisiana,2018,Yes,17078,preterm_birth
+Louisiana,2019,No,42674,preterm_birth
+Louisiana,2019,Yes,16267,preterm_birth
+Louisiana,2020,No,42036,preterm_birth
+Louisiana,2020,Yes,15292,preterm_birth
+Louisiana,2021,No,41947,preterm_birth
+Louisiana,2021,Yes,15490,preterm_birth
+Maine,2016,No,7309,preterm_birth
+Maine,2016,Yes,5389,preterm_birth
+Maine,2017,No,7148,preterm_birth
+Maine,2017,Yes,5140,preterm_birth
+Maine,2018,No,7305,preterm_birth
+Maine,2018,Yes,4998,preterm_birth
+Maine,2019,No,7307,preterm_birth
+Maine,2019,Yes,4457,preterm_birth
+Maine,2020,No,7309,preterm_birth
+Maine,2020,Yes,4222,preterm_birth
+Maine,2021,No,7796,preterm_birth
+Maine,2021,Yes,4197,preterm_birth
+Maryland,2016,No,44550,preterm_birth
+Maryland,2016,Yes,28586,preterm_birth
+Maryland,2017,No,43891,preterm_birth
+Maryland,2017,Yes,27750,preterm_birth
+Maryland,2018,No,43833,preterm_birth
+Maryland,2018,Yes,27247,preterm_birth
+Maryland,2019,No,44440,preterm_birth
+Maryland,2019,Yes,25738,preterm_birth
+Maryland,2020,No,43648,preterm_birth
+Maryland,2020,Yes,24906,preterm_birth
+Maryland,2021,No,43994,preterm_birth
+Maryland,2021,Yes,24291,preterm_birth
+Massachusetts,2016,No,40392,preterm_birth
+Massachusetts,2016,Yes,30925,preterm_birth
+Massachusetts,2017,No,40538,preterm_birth
+Massachusetts,2017,Yes,30155,preterm_birth
+Massachusetts,2018,No,40154,preterm_birth
+Massachusetts,2018,Yes,28955,preterm_birth
+Massachusetts,2019,No,41779,preterm_birth
+Massachusetts,2019,Yes,27338,preterm_birth
+Massachusetts,2020,No,40511,preterm_birth
+Massachusetts,2020,Yes,25917,preterm_birth
+Massachusetts,2021,No,43371,preterm_birth
+Massachusetts,2021,Yes,25757,preterm_birth
+Michigan,2016,No,67763,preterm_birth
+Michigan,2016,Yes,45552,preterm_birth
+Michigan,2017,No,67265,preterm_birth
+Michigan,2017,Yes,44161,preterm_birth
+Michigan,2018,No,67471,preterm_birth
+Michigan,2018,Yes,42561,preterm_birth
+Michigan,2019,No,67820,preterm_birth
+Michigan,2019,Yes,40066,preterm_birth
+Michigan,2020,No,66623,preterm_birth
+Michigan,2020,Yes,37451,preterm_birth
+Michigan,2021,No,68823,preterm_birth
+Michigan,2021,Yes,36157,preterm_birth
+Minnesota,2016,No,40603,preterm_birth
+Minnesota,2016,Yes,29146,preterm_birth
+Minnesota,2017,No,40179,preterm_birth
+Minnesota,2017,Yes,28416,preterm_birth
+Minnesota,2018,No,40122,preterm_birth
+Minnesota,2018,Yes,27222,preterm_birth
+Minnesota,2019,No,40256,preterm_birth
+Minnesota,2019,Yes,25771,preterm_birth
+Minnesota,2020,No,39805,preterm_birth
+Minnesota,2020,Yes,23638,preterm_birth
+Minnesota,2021,No,41761,preterm_birth
+Minnesota,2021,Yes,22664,preterm_birth
+Mississippi,2016,No,27532,preterm_birth
+Mississippi,2016,Yes,10396,preterm_birth
+Mississippi,2017,No,27108,preterm_birth
+Mississippi,2017,Yes,10249,preterm_birth
+Mississippi,2018,No,26814,preterm_birth
+Mississippi,2018,Yes,10180,preterm_birth
+Mississippi,2019,No,27041,preterm_birth
+Mississippi,2019,Yes,9588,preterm_birth
+Mississippi,2020,No,26281,preterm_birth
+Mississippi,2020,Yes,9192,preterm_birth
+Mississippi,2021,No,25803,preterm_birth
+Mississippi,2021,Yes,9353,preterm_birth
+Missouri,2016,No,47910,preterm_birth
+Missouri,2016,Yes,26795,preterm_birth
+Missouri,2017,No,47109,preterm_birth
+Missouri,2017,Yes,25925,preterm_birth
+Missouri,2018,No,48701,preterm_birth
+Missouri,2018,Yes,24568,preterm_birth
+Missouri,2019,No,49312,preterm_birth
+Missouri,2019,Yes,22815,preterm_birth
+Missouri,2020,No,48881,preterm_birth
+Missouri,2020,Yes,20404,preterm_birth
+Missouri,2021,No,49356,preterm_birth
+Missouri,2021,Yes,20097,preterm_birth
+Montana,2016,No,7521,preterm_birth
+Montana,2016,Yes,4759,preterm_birth
+Montana,2017,No,7207,preterm_birth
+Montana,2017,Yes,4583,preterm_birth
+Montana,2018,No,7341,preterm_birth
+Montana,2018,Yes,4164,preterm_birth
+Montana,2019,No,7322,preterm_birth
+Montana,2019,Yes,3752,preterm_birth
+Montana,2020,No,7255,preterm_birth
+Montana,2020,Yes,3531,preterm_birth
+Montana,2021,No,7644,preterm_birth
+Montana,2021,Yes,3585,preterm_birth
+Nebraska,2016,No,17136,preterm_birth
+Nebraska,2016,Yes,9445,preterm_birth
+Nebraska,2017,No,16751,preterm_birth
+Nebraska,2017,Yes,9067,preterm_birth
+Nebraska,2018,No,16794,preterm_birth
+Nebraska,2018,Yes,8682,preterm_birth
+Nebraska,2019,No,16726,preterm_birth
+Nebraska,2019,Yes,8013,preterm_birth
+Nebraska,2020,No,16883,preterm_birth
+Nebraska,2020,Yes,7399,preterm_birth
+Nebraska,2021,No,17438,preterm_birth
+Nebraska,2021,Yes,7171,preterm_birth
+Nevada,2016,No,23605,preterm_birth
+Nevada,2016,Yes,12650,preterm_birth
+Nevada,2017,No,23061,preterm_birth
+Nevada,2017,Yes,12687,preterm_birth
+Nevada,2018,No,23191,preterm_birth
+Nevada,2018,Yes,12491,preterm_birth
+Nevada,2019,No,23452,preterm_birth
+Nevada,2019,Yes,11613,preterm_birth
+Nevada,2020,No,23324,preterm_birth
+Nevada,2020,Yes,10321,preterm_birth
+Nevada,2021,No,23395,preterm_birth
+Nevada,2021,Yes,10285,preterm_birth
+New Hampshire,2016,No,6671,preterm_birth
+New Hampshire,2016,Yes,5594,preterm_birth
+New Hampshire,2017,No,6711,preterm_birth
+New Hampshire,2017,Yes,5403,preterm_birth
+New Hampshire,2018,No,6763,preterm_birth
+New Hampshire,2018,Yes,5231,preterm_birth
+New Hampshire,2019,No,6840,preterm_birth
+New Hampshire,2019,Yes,4990,preterm_birth
+New Hampshire,2020,No,6884,preterm_birth
+New Hampshire,2020,Yes,4905,preterm_birth
+New Hampshire,2021,No,7474,preterm_birth
+New Hampshire,2021,Yes,5149,preterm_birth
+New Jersey,2016,No,63254,preterm_birth
+New Jersey,2016,Yes,39393,preterm_birth
+New Jersey,2017,No,62657,preterm_birth
+New Jersey,2017,Yes,38593,preterm_birth
+New Jersey,2018,No,62795,preterm_birth
+New Jersey,2018,Yes,38428,preterm_birth
+New Jersey,2019,No,62847,preterm_birth
+New Jersey,2019,Yes,36738,preterm_birth
+New Jersey,2020,No,61996,preterm_birth
+New Jersey,2020,Yes,35958,preterm_birth
+New Jersey,2021,No,65423,preterm_birth
+New Jersey,2021,Yes,36074,preterm_birth
+New Mexico,2016,No,15498,preterm_birth
+New Mexico,2016,Yes,9194,preterm_birth
+New Mexico,2017,No,15124,preterm_birth
+New Mexico,2017,Yes,8641,preterm_birth
+New Mexico,2018,No,15047,preterm_birth
+New Mexico,2018,Yes,7986,preterm_birth
+New Mexico,2019,No,15362,preterm_birth
+New Mexico,2019,Yes,7586,preterm_birth
+New Mexico,2020,No,15052,preterm_birth
+New Mexico,2020,Yes,6849,preterm_birth
+New Mexico,2021,No,14599,preterm_birth
+New Mexico,2021,Yes,6788,preterm_birth
+New York,2016,No,137134,preterm_birth
+New York,2016,Yes,97149,preterm_birth
+New York,2017,No,134672,preterm_birth
+New York,2017,Yes,95065,preterm_birth
+New York,2018,No,133330,preterm_birth
+New York,2018,Yes,92908,preterm_birth
+New York,2019,No,134154,preterm_birth
+New York,2019,Yes,87385,preterm_birth
+New York,2020,No,129546,preterm_birth
+New York,2020,Yes,79792,preterm_birth
+New York,2021,No,133209,preterm_birth
+New York,2021,Yes,77533,preterm_birth
+North Carolina,2016,No,72274,preterm_birth
+North Carolina,2016,Yes,48505,preterm_birth
+North Carolina,2017,No,73227,preterm_birth
+North Carolina,2017,Yes,46898,preterm_birth
+North Carolina,2018,No,73569,preterm_birth
+North Carolina,2018,Yes,45385,preterm_birth
+North Carolina,2019,No,75753,preterm_birth
+North Carolina,2019,Yes,42972,preterm_birth
+North Carolina,2020,No,75695,preterm_birth
+North Carolina,2020,Yes,41035,preterm_birth
+North Carolina,2021,No,79635,preterm_birth
+North Carolina,2021,Yes,40831,preterm_birth
+North Dakota,2016,No,7027,preterm_birth
+North Dakota,2016,Yes,4345,preterm_birth
+North Dakota,2017,No,6844,preterm_birth
+North Dakota,2017,Yes,3883,preterm_birth
+North Dakota,2018,No,7006,preterm_birth
+North Dakota,2018,Yes,3623,preterm_birth
+North Dakota,2019,No,7047,preterm_birth
+North Dakota,2019,Yes,3399,preterm_birth
+North Dakota,2020,No,6772,preterm_birth
+North Dakota,2020,Yes,3275,preterm_birth
+North Dakota,2021,No,7085,preterm_birth
+North Dakota,2021,Yes,3025,preterm_birth
+Ohio,2016,No,88762,preterm_birth
+Ohio,2016,Yes,49323,preterm_birth
+Ohio,2017,No,88578,preterm_birth
+Ohio,2017,Yes,48254,preterm_birth
+Ohio,2018,No,88616,preterm_birth
+Ohio,2018,Yes,46518,preterm_birth
+Ohio,2019,No,90449,preterm_birth
+Ohio,2019,Yes,44012,preterm_birth
+Ohio,2020,No,88512,preterm_birth
+Ohio,2020,Yes,40679,preterm_birth
+Ohio,2021,No,90048,preterm_birth
+Ohio,2021,Yes,39743,preterm_birth
+Oklahoma,2016,No,36605,preterm_birth
+Oklahoma,2016,Yes,15987,preterm_birth
+Oklahoma,2017,No,35129,preterm_birth
+Oklahoma,2017,Yes,15085,preterm_birth
+Oklahoma,2018,No,35497,preterm_birth
+Oklahoma,2018,Yes,14303,preterm_birth
+Oklahoma,2019,No,35621,preterm_birth
+Oklahoma,2019,Yes,13522,preterm_birth
+Oklahoma,2020,No,34943,preterm_birth
+Oklahoma,2020,Yes,12680,preterm_birth
+Oklahoma,2021,No,35432,preterm_birth
+Oklahoma,2021,Yes,12978,preterm_birth
+Oregon,2016,No,26126,preterm_birth
+Oregon,2016,Yes,19409,preterm_birth
+Oregon,2017,No,25181,preterm_birth
+Oregon,2017,Yes,18450,preterm_birth
+Oregon,2018,No,24809,preterm_birth
+Oregon,2018,Yes,17371,preterm_birth
+Oregon,2019,No,25140,preterm_birth
+Oregon,2019,Yes,16709,preterm_birth
+Oregon,2020,No,24514,preterm_birth
+Oregon,2020,Yes,15306,preterm_birth
+Oregon,2021,No,25236,preterm_birth
+Oregon,2021,Yes,15671,preterm_birth
+Pennsylvania,2016,No,83397,preterm_birth
+Pennsylvania,2016,Yes,56012,preterm_birth
+Pennsylvania,2017,No,82962,preterm_birth
+Pennsylvania,2017,Yes,54783,preterm_birth
+Pennsylvania,2018,No,82736,preterm_birth
+Pennsylvania,2018,Yes,52937,preterm_birth
+Pennsylvania,2019,No,84166,preterm_birth
+Pennsylvania,2019,Yes,50064,preterm_birth
+Pennsylvania,2020,No,84114,preterm_birth
+Pennsylvania,2020,Yes,46579,preterm_birth
+Pennsylvania,2021,No,86082,preterm_birth
+Pennsylvania,2021,Yes,46540,preterm_birth
+Rhode Island,2016,No,6557,preterm_birth
+Rhode Island,2016,Yes,4225,preterm_birth
+Rhode Island,2017,No,6457,preterm_birth
+Rhode Island,2017,Yes,4167,preterm_birth
+Rhode Island,2018,No,6433,preterm_birth
+Rhode Island,2018,Yes,4069,preterm_birth
+Rhode Island,2019,No,6420,preterm_birth
+Rhode Island,2019,Yes,3749,preterm_birth
+Rhode Island,2020,No,6407,preterm_birth
+Rhode Island,2020,Yes,3686,preterm_birth
+Rhode Island,2021,No,6637,preterm_birth
+Rhode Island,2021,Yes,3819,preterm_birth
+South Carolina,2016,No,37550,preterm_birth
+South Carolina,2016,Yes,19792,preterm_birth
+South Carolina,2017,No,37986,preterm_birth
+South Carolina,2017,Yes,19043,preterm_birth
+South Carolina,2018,No,38441,preterm_birth
+South Carolina,2018,Yes,18228,preterm_birth
+South Carolina,2019,No,39889,preterm_birth
+South Carolina,2019,Yes,17149,preterm_birth
+South Carolina,2020,No,39543,preterm_birth
+South Carolina,2020,Yes,16161,preterm_birth
+South Carolina,2021,No,40538,preterm_birth
+South Carolina,2021,Yes,16647,preterm_birth
+South Dakota,2016,No,7460,preterm_birth
+South Dakota,2016,Yes,4807,preterm_birth
+South Dakota,2017,No,7413,preterm_birth
+South Dakota,2017,Yes,4714,preterm_birth
+South Dakota,2018,No,7525,preterm_birth
+South Dakota,2018,Yes,4364,preterm_birth
+South Dakota,2019,No,7436,preterm_birth
+South Dakota,2019,Yes,4004,preterm_birth
+South Dakota,2020,No,7320,preterm_birth
+South Dakota,2020,Yes,3635,preterm_birth
+South Dakota,2021,No,7714,preterm_birth
+South Dakota,2021,Yes,3648,preterm_birth
+Tennessee,2016,No,54033,preterm_birth
+Tennessee,2016,Yes,26774,preterm_birth
+Tennessee,2017,No,54528,preterm_birth
+Tennessee,2017,Yes,26488,preterm_birth
+Tennessee,2018,No,54811,preterm_birth
+Tennessee,2018,Yes,25940,preterm_birth
+Tennessee,2019,No,55342,preterm_birth
+Tennessee,2019,Yes,25108,preterm_birth
+Tennessee,2020,No,54334,preterm_birth
+Tennessee,2020,Yes,24355,preterm_birth
+Tennessee,2021,No,56598,preterm_birth
+Tennessee,2021,Yes,25119,preterm_birth
+Texas,2016,No,272037,preterm_birth
+Texas,2016,Yes,126010,preterm_birth
+Texas,2017,No,262454,preterm_birth
+Texas,2017,Yes,119596,preterm_birth
+Texas,2018,No,263768,preterm_birth
+Texas,2018,Yes,114856,preterm_birth
+Texas,2019,No,268007,preterm_birth
+Texas,2019,Yes,109592,preterm_birth
+Texas,2020,No,263706,preterm_birth
+Texas,2020,Yes,104484,preterm_birth
+Texas,2021,No,266328,preterm_birth
+Texas,2021,Yes,107266,preterm_birth
+Utah,2016,No,34614,preterm_birth
+Utah,2016,Yes,15850,preterm_birth
+Utah,2017,No,33250,preterm_birth
+Utah,2017,Yes,15333,preterm_birth
+Utah,2018,No,32787,preterm_birth
+Utah,2018,Yes,14419,preterm_birth
+Utah,2019,No,33817,preterm_birth
+Utah,2019,Yes,13006,preterm_birth
+Utah,2020,No,33508,preterm_birth
+Utah,2020,Yes,12191,preterm_birth
+Utah,2021,No,34079,preterm_birth
+Utah,2021,Yes,12632,preterm_birth
+Vermont,2016,No,3055,preterm_birth
+Vermont,2016,Yes,2701,preterm_birth
+Vermont,2017,No,3087,preterm_birth
+Vermont,2017,Yes,2561,preterm_birth
+Vermont,2018,No,3013,preterm_birth
+Vermont,2018,Yes,2414,preterm_birth
+Vermont,2019,No,3021,preterm_birth
+Vermont,2019,Yes,2336,preterm_birth
+Vermont,2020,No,3084,preterm_birth
+Vermont,2020,Yes,2046,preterm_birth
+Vermont,2021,No,3195,preterm_birth
+Vermont,2021,Yes,2184,preterm_birth
+Virginia,2016,No,63058,preterm_birth
+Virginia,2016,Yes,39402,preterm_birth
+Virginia,2017,No,62473,preterm_birth
+Virginia,2017,Yes,37918,preterm_birth
+Virginia,2018,No,62946,preterm_birth
+Virginia,2018,Yes,36897,preterm_birth
+Virginia,2019,No,62839,preterm_birth
+Virginia,2019,Yes,34590,preterm_birth
+Virginia,2020,No,62102,preterm_birth
+Virginia,2020,Yes,32647,preterm_birth
+Virginia,2021,No,62991,preterm_birth
+Virginia,2021,Yes,32834,preterm_birth
+Washington,2016,No,52069,preterm_birth
+Washington,2016,Yes,38427,preterm_birth
+Washington,2017,No,51550,preterm_birth
+Washington,2017,Yes,36012,preterm_birth
+Washington,2018,No,51300,preterm_birth
+Washington,2018,Yes,34785,preterm_birth
+Washington,2019,No,51861,preterm_birth
+Washington,2019,Yes,33034,preterm_birth
+Washington,2020,No,51298,preterm_birth
+Washington,2020,Yes,31788,preterm_birth
+Washington,2021,No,52502,preterm_birth
+Washington,2021,Yes,31409,preterm_birth
+West Virginia,2016,No,12973,preterm_birth
+West Virginia,2016,Yes,6091,preterm_birth
+West Virginia,2017,No,12748,preterm_birth
+West Virginia,2017,Yes,5923,preterm_birth
+West Virginia,2018,No,12682,preterm_birth
+West Virginia,2018,Yes,5554,preterm_birth
+West Virginia,2019,No,12881,preterm_birth
+West Virginia,2019,Yes,5241,preterm_birth
+West Virginia,2020,No,12523,preterm_birth
+West Virginia,2020,Yes,4789,preterm_birth
+West Virginia,2021,No,12438,preterm_birth
+West Virginia,2021,Yes,4750,preterm_birth
+Wisconsin,2016,No,41006,preterm_birth
+Wisconsin,2016,Yes,25609,preterm_birth
+Wisconsin,2017,No,40364,preterm_birth
+Wisconsin,2017,Yes,24611,preterm_birth
+Wisconsin,2018,No,40505,preterm_birth
+Wisconsin,2018,Yes,23593,preterm_birth
+Wisconsin,2019,No,40938,preterm_birth
+Wisconsin,2019,Yes,22332,preterm_birth
+Wisconsin,2020,No,40005,preterm_birth
+Wisconsin,2020,Yes,20589,preterm_birth
+Wisconsin,2021,No,41454,preterm_birth
+Wisconsin,2021,Yes,20327,preterm_birth
+Wyoming,2016,No,4748,preterm_birth
+Wyoming,2016,Yes,2635,preterm_birth
+Wyoming,2017,No,4437,preterm_birth
+Wyoming,2017,Yes,2466,preterm_birth
+Wyoming,2018,No,4246,preterm_birth
+Wyoming,2018,Yes,2314,preterm_birth
+Wyoming,2019,No,4364,preterm_birth
+Wyoming,2019,Yes,2200,preterm_birth
+Wyoming,2020,No,4120,preterm_birth
+Wyoming,2020,Yes,2006,preterm_birth
+Wyoming,2021,No,4325,preterm_birth
+Wyoming,2021,Yes,1908,preterm_birth

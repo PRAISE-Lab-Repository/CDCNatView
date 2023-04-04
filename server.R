@@ -56,12 +56,20 @@ server <- function(input, output) {
   
   update_long_graph <- reactive({
     input$confirm 
+    
     isolate({
-      long_grph <- states_df %>% filter(condition==input$riskInput, condition_status=="Yes")
-      long_grph <- long_grph %>% filter( between(year, input$yearInput[1], input$yearInput[2]))
+      file_path <- sprintf("data/database1/long_tables/%s.rds", input$riskInput)
       
-      long_grph <- long_grph %>% group_by(year)
-      long_grph <- summarise(long_grph, count = sum(counts))
+      # if file does not exist get data from wonder api
+      if (!file.exists(file_path)) {
+        get_long_data(input$riskInput, code_map[[input$riskInput]])
+      }
+      
+      chart2 <- readRDS(file_path)
+      chart2$`% of Total Births` <- as.numeric(chart2$`% of Total Births`)
+      
+      long_grph <- chart2 %>% filter(!!as.symbol(reverse_map[[input$riskInput]])=="Yes")
+      long_grph <- long_grph %>% filter( between(Year, input$yearInput[1], input$yearInput[2]))
     })
   })
   
@@ -69,6 +77,15 @@ server <- function(input, output) {
     input$confirm 
     isolate({
       bmi <-  demo_df %>% filter(condition==input$riskInput)
+      bmi <- bmi %>% group_by(bmi, condition_status)
+      bmi <- summarise(bmi, count = sum(counts))
+    })
+  })
+  
+  update_bmi_graph2 <- reactive({
+    input$confirm 
+    isolate({
+      bmi <-  demo_df %>% filter(condition=="gestational_diabetes")
       bmi <- bmi %>% group_by(bmi, condition_status)
       bmi <- summarise(bmi, count = sum(counts))
     })
@@ -92,6 +109,23 @@ server <- function(input, output) {
     })
   })
   
+  update_education_graph <- reactive({
+    input$confirm 
+    isolate({
+      file_path <- sprintf("data/database1/education_tables/%s.rds", input$riskInput)
+      
+      # if file does not exist get data from wonder api
+      if (!file.exists(file_path)) {
+        get_education_data(input$riskInput, code_map[[input$riskInput]])
+      }
+      
+      education <- readRDS(file_path)
+      
+      edu <- education %>% group_by(!!as.symbol(reverse_map[[input$riskInput]]), `Mother's Education`)
+      edu <- summarise(edu, count = sum(Births))
+    })
+  })
+  
   update_bmi_oddratio <- reactive({
     input$confirm 
     isolate({
@@ -111,6 +145,29 @@ server <- function(input, output) {
       as.data.frame(result$tab[,c(1, 3, 5, 8)])
       
     })
+    
+
+  })
+  
+  update_bmi_oddratio2 <- reactive({
+    input$confirm 
+    isolate({
+      bmi <-  demo_df %>% filter(condition=="eclampsia")
+      bmi <- bmi %>% group_by(bmi, condition_status)
+      bmi <- summarise(bmi, count = sum(counts))
+      
+      bmi <- bmi %>% filter(condition_status %in% c("Yes", "No"))
+      bmi <- bmi %>% pivot_wider(names_from=condition_status, values_from=count)
+      
+      bmi <- bmi %>% arrange(match(bmi, c("Normal 18.5-24.9", setdiff(c("Normal 18.5-24.9"), bmi))))
+      
+      odd_table <- data.matrix(bmi[,-c(1) ])
+      rownames(odd_table) = bmi$bmi
+      
+      result <- epitab(odd_table, method="oddsratio")
+      as.data.frame(result$tab[,c(1, 3, 5, 8)])
+      
+    })   
   })
   
   update_race_oddratio <- reactive({
@@ -172,8 +229,8 @@ server <- function(input, output) {
           #   size = 0.7 
           # ),
           fluidRow(
-             column(6, plotOutput("distPlot")),
-             column(6, plotOutput("distPlot2"))
+             column(12, plotOutput("distPlot")),
+             # column(6, plotOutput("distPlot2"))
           ),
           
           # plotOutput("statePerPlot"),
@@ -302,12 +359,10 @@ server <- function(input, output) {
         # height = 400,
         tabPanel(
           title = "BMI",
-          withSpinner(
-            highchartOutput("bmiPlot"),
-            type = 4,
-            color = "#d33724",
-            size = 0.7
-          )
+          fluidRow(
+            column(12, highchartOutput("bmiPlot")),
+            # column(6, highchartOutput("bmiPlot2"))
+          ),
         ), 
         tabPanel(
           title = "Race",
@@ -332,7 +387,15 @@ server <- function(input, output) {
         tabPanel(title = "Height"),
         tabPanel(title = "Start of Prenatal Care"),
         tabPanel(title = "Interval of Last Pregnancy"),
-        tabPanel(title = "Education")
+        tabPanel(title = "Education",
+                 withSpinner(
+                   highchartOutput("educationPlot"),
+                   type = 4,
+                   color = "#d33724",
+                   size = 0.7
+                 )         
+        
+        )
        
       )
     )
@@ -347,12 +410,11 @@ server <- function(input, output) {
         # height = 400,
         tabPanel(
           title = "BMI",
-          withSpinner(
-            dataTableOutput("oddsPlot"),
-            type = 4,
-            color = "#d33724",
-            size = 0.7
-          )
+          
+          fluidRow(
+            column(12, dataTableOutput("oddsPlot")),
+            # column(6, dataTableOutput("oddsPlot2"))
+          ),          
         ),
         tabPanel(
           title = "Race",
@@ -386,7 +448,7 @@ server <- function(input, output) {
     
     long_grph <- update_long_graph()
     
-    long_grph %>% hchart("line", hcaes(x = year, y = count)) %>%
+    long_grph %>% hchart("line", hcaes(x = Year, y = Births)) %>%
       hc_add_theme(hc_theme_flat()) %>%
       hc_colors(colors) %>%
       hc_xAxis(title = list(text="Year")) %>%
@@ -402,7 +464,8 @@ server <- function(input, output) {
   })
   
   output$longPerPlot <- renderHighchart({
-    long_grph <- diabetes_long %>% filter(`Pre-pregnancy Diabetes`=="Yes") 
+    long_grph <- update_long_graph()
+    
     
     long_grph %>% hchart("line", hcaes(x = Year, y = `% of Total Births`)) %>%
       hc_add_theme(hc_theme_flat()) %>%
@@ -420,7 +483,7 @@ server <- function(input, output) {
   })
   
   output$longAgePlot <- renderHighchart({
-    long_grph <- diabetes_long %>% filter(`Pre-pregnancy Diabetes`=="Yes") 
+    long_grph <- update_long_graph()
     
     long_grph %>% hchart("line", hcaes(x = Year, y = `Average Age of Mother (years)`)) %>%
       hc_add_theme(hc_theme_flat()) %>%
@@ -438,7 +501,7 @@ server <- function(input, output) {
   })
   
   output$longLMPPlot <- renderHighchart({
-    long_grph <- diabetes_long %>% filter(`Pre-pregnancy Diabetes`=="Yes") 
+    long_grph <- update_long_graph()
     
     long_grph %>% hchart("line", hcaes(x = Year, y = `Average LMP Gestational Age (weeks)`)) %>%
       hc_add_theme(hc_theme_flat()) %>%
@@ -456,7 +519,7 @@ server <- function(input, output) {
   })
   
   output$longOEPlot <- renderHighchart({
-    long_grph <- diabetes_long %>% filter(`Pre-pregnancy Diabetes`=="Yes") 
+    long_grph <- update_long_graph()
     
     long_grph %>% hchart("line", hcaes(x = Year, y = `Average OE Gestational Age (weeks)`)) %>%
       hc_add_theme(hc_theme_flat()) %>%
@@ -474,7 +537,7 @@ server <- function(input, output) {
   })
   
   output$longBirthWeightPlot <- renderHighchart({
-    long_grph <- diabetes_long %>% filter(`Pre-pregnancy Diabetes`=="Yes") 
+    long_grph <- update_long_graph()
     
     long_grph %>% hchart("line", hcaes(x = Year, y = `Average Birth Weight (grams)`)) %>%
       hc_add_theme(hc_theme_flat()) %>%
@@ -505,9 +568,26 @@ server <- function(input, output) {
         enabled =TRUE,
         filename = 'Risk_Factor'
       ) %>%
-      hc_plotOptions(series = list(marker = list(enabled = FALSE)))
-    
+      hc_plotOptions(series = list(marker = list(enabled = FALSE))) 
   })    
+  
+  output$bmiPlot2 <- renderHighchart({
+    bmi <- update_bmi_graph2()
+    
+    bmi %>% hchart("column", hcaes(x = factor(condition_status), y = count, group=bmi), stacking="percent") %>%
+      hc_add_theme(hc_theme_flat()) %>%
+      hc_colors(colors) %>%
+      hc_xAxis(title = list(text="Condition Present"), categories = levels(bmi$condition_status)) %>%
+      hc_xAxis(title = list(text="Condition Present")) %>%
+      hc_yAxis(labels = list(format = "{value}%")) %>%
+      hc_yAxis(title = list(text="Percent")) %>%
+      hc_legend(align = "center", verticalAlign = "top")  %>%
+      hc_title(
+        text = "<b>Eclampsia</b>",
+        margin = 20,
+        align = "left"
+      )
+  })
   
   output$bmiPlot <- renderHighchart({
     bmi <- update_bmi_graph()
@@ -519,7 +599,7 @@ server <- function(input, output) {
       hc_xAxis(title = list(text="Condition Present")) %>%
       hc_yAxis(labels = list(format = "{value}%")) %>%
       hc_yAxis(title = list(text="Percent")) %>%
-      hc_legend(align = "center", verticalAlign = "top") 
+      hc_legend(align = "center", verticalAlign = "top")
   })
   
   output$racePlot <- renderHighchart({
@@ -546,6 +626,19 @@ server <- function(input, output) {
       hc_legend(align = "center", verticalAlign = "top") 
   })  
   
+  output$educationPlot <- renderHighchart({
+    edu <- update_education_graph()
+    
+    edu %>% hchart("column", hcaes(x = factor(!!as.symbol(reverse_map[[input$riskInput]])), y = count, group=`Mother's Education`), stacking="percent") %>%
+      hc_add_theme(hc_theme_flat()) %>%
+      hc_colors(colors) %>%
+      hc_xAxis(title = list(text="Condition Present"), categories = levels(edu[[reverse_map[[input$riskInput]]]])) %>%
+      hc_xAxis(title = list(text="Condition Present")) %>%
+      hc_yAxis(labels = list(format = "{value}%")) %>%
+      hc_yAxis(title = list(text="Percent")) %>%
+      hc_legend(align = "center", verticalAlign = "top") 
+  })  
+  
   output$heatmapPlot <- renderPlot({
     corrplot.mixed(M, order = 'AOE', tl.cex=0.6)
   })
@@ -553,8 +646,15 @@ server <- function(input, output) {
   output$oddsPlot <- renderDataTable({
     bmi_table <- update_bmi_oddratio()
 
-    datatable(bmi_table, options = list(searching = FALSE), caption="BMI vs. Pre-pregnancy Odds Ratio Analysis")  %>%  formatRound(columns=c('oddsratio', 'p.value'), digits=3)
+    datatable(bmi_table, options = list(searching = FALSE), caption="BMI vs. Preterm Birth Odds Ratio Analysis")  %>%  formatRound(columns=c('oddsratio', 'p.value'), digits=3)
   })
+  
+  output$oddsPlot2 <- renderDataTable({
+    bmi_table <- update_bmi_oddratio2()
+    
+    datatable(bmi_table, options = list(searching = FALSE), caption="BMI vs. Eclampsia Odds Ratio Analysis")  %>%  formatRound(columns=c('oddsratio', 'p.value'), digits=3)
+  })
+  
   
   output$raceOddsPlot <- renderDataTable({
     race_table <- update_race_oddratio()
@@ -578,22 +678,22 @@ server <- function(input, output) {
                    size = 3) +
       scale_fill_gradientn() +
       labs(fill = "Cases") +
-      ggtitle("Pre-pregnancy diabetes") +
-      coord_sf(datum = NA) +
-      theme(
-        legend.position = "bottom",
-        legend.text.align = 0,
-        plot.margin = unit(c(.5,.5,.2,.5), "cm")) +
-      theme(
-        axis.line = element_blank(),
-        axis.text.x = element_blank(),
-        axis.text.y = element_blank(),
-        axis.ticks = element_blank(),
-        axis.title.x = element_blank(),
-        axis.title.y = element_blank(),
-        panel.grid.major = element_blank(),
-        panel.grid.minor = element_blank(),
-      )
+      # ggtitle("Pre-pregnancy diabetes") +
+      coord_sf(datum = NA) 
+      # theme(
+      #   legend.position = "bottom",
+      #   legend.text.align = 0,
+      #   plot.margin = unit(c(.5,.5,.2,.5), "cm")) +
+      # theme(
+      #   axis.line = element_blank(),
+      #   axis.text.x = element_blank(),
+      #   axis.text.y = element_blank(),
+      #   axis.ticks = element_blank(),
+      #   axis.title.x = element_blank(),
+      #   axis.title.y = element_blank(),
+      #   panel.grid.major = element_blank(),
+      #   panel.grid.minor = element_blank(),
+      # )
   })
   
   output$distPlot2 <- renderPlot({
@@ -640,3 +740,4 @@ server <- function(input, output) {
       coord_sf(datum = NA)
   })
 }
+

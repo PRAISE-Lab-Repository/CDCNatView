@@ -19,6 +19,9 @@ library(shinyBS)
 library(shinyWidgets)
 library(rintrojs)
 
+source("wonderapi.R")
+
+
 
 # setting for the map 
 set_urbn_defaults(style = "map")
@@ -46,6 +49,22 @@ demo_df <- read_csv("data/demograph_database1.csv")
 diabetes_long <- read_csv("data/diabetes_long2.csv")
 diabetes_long$`% of Total Births` <- as.numeric(sub("%","", diabetes_long$`% of Total Births`))
 
+eclampsia <- read_csv("data/eclampsia_long.csv")
+eclampsia$`% of Total Births` <- as.numeric(sub("%","", eclampsia$`% of Total Births`))
+
+
+chart2 <- readRDS("data/database1/long_tables/pre-pregnancy_diabetes.rds")
+chart2$`% of Total Births` <- as.numeric(chart2$`% of Total Births`)
+
+
+# bmi <- readRDS("data/database1/bmi_tables/pre-pregnancy_diabetes.rds")
+education <- readRDS("data/database1/education_tables/pre-pregnancy_diabetes.rds")
+
+
+
+
+# chart3_2 <- 
+
 # years 
 years1 = c(2016, 2021)
 
@@ -53,8 +72,8 @@ years1 = c(2016, 2021)
 # choices for risk factor  ----------------------------------------------------
 
 risk_factor1 = list(`Pregnancy risk factor` = 
-       list("Pre-pregnancy diabetes" = "pre-pregnancy_diabetes", 
-            "Gestational diabetes" = "gestational_diabetes", 
+       list("Pre-pregnancy Diabetes" = "pre-pregnancy_diabetes", 
+            "Gestational Diabetes" = "gestational_diabetes", 
             "Pre-pregnancy hypertension" = "pre-pregnancy_hypertension",
             "Gestational hypertension" = "gestational_hypertension",
             "Eclampsia" = "eclampsia",
@@ -83,5 +102,11 @@ risk_factor1 = list(`Pregnancy risk factor` =
             "Moderate preterm birth"="moderate_birth",
             "Late preterm"= "late_preterm")
      )
+
+reverse_map = list("pre-pregnancy_diabetes"="Pre-pregnancy Diabetes",
+                   "gestational_diabetes"="Gestational Diabetes")
+
+code_map = list("pre-pregnancy_diabetes"="D149.V74",
+                "gestational_diabetes"="D149.V75")
 
 
