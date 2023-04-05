@@ -221,6 +221,64 @@ demo_map_3 <- list("race"="D27.V2", # Mother's Bridged Race
                    "education"="D27.V5",
                    "age"="D27.V1") # Age of Mother 9
 
+### 2002 - 1995 ################################################################
+risk_factor4 = list(`Pregnancy risk factor` = 
+                      list("Anemia" = "anemia", 
+                           "Cardiac Disease" = "cardiac_disease", 
+                           "Chronic Hypertension" = "chronic_hypertension",
+                           "Diabetes" = "diabetes",
+                           "Eclampsia" = "eclampsia",
+                           "Hydramnios/Oligohydramnios" = "hydramnios_oligohydramnios",
+                           "Incompetent Cervix" = "incompetent_cervix",
+                           "Lung Disease" = "lung_disease",
+                           "Pregnancy-associated Hypertension"="pregnancy_associated_hypertension",
+                           "Tobacco Use" ="tobacco_use"),
+                    `Pregnancy Outcome` = 
+                      list("Fullterm birth" = "fullterm_birth",
+                           "Preterm birth" = "preterm_birth",
+                           "Extreme preterm birth" = "extreme_birth",
+                           "Severe preterm birth" = "severe_birth",
+                           "Moderate and Late preterm birth" = "moderate_birth")
+)
+
+reverse_map_4 = list("anemia" = "Anemia",
+                     "cardiac_disease" = "Cardiac Disease",
+                     "chronic_hypertension" = "Chronic Hypertension", 
+                     "diabetes" = "Diabetes",
+                     "eclampsia" = "Eclampsia" ,
+                     "hydramnios_oligohydramnios" = "Hydramnios/Oligohydramnios",
+                     "incompetent_cervix" = "Incompetent Cervix",
+                     "lung_disease" = "Lung Disease",
+                     "pregnancy-associated_hypertension" = "Pregnancy-associated Hypertension",
+                     "tobacco_use" = "Tobacco Use",
+                     "fullterm_birth" = "Fullterm birth",
+                     "preterm_birth" = "Preterm birth",
+                     "extreme_birth" = "Extreme preterm birth",
+                     "severe_birth" = "Severe preterm birth",
+                     "moderate_birth" = "Moderate and Late preterm birth")
+
+code_map_4 <- list("anemia"="D10.V11",
+                   "cardiac_disease"="D10.V12",
+                   "chronic_hypertension"="D10.V16",
+                   "diabetes" = "D10.V14",
+                   "eclampsia" = "D10.V18",
+                   "hydramnios_oligohydramnios" = "D10.V15",
+                   "incompetent_cervix" = "D10.V19",
+                   "lung_disease" = "D10.V13",
+                   "pregnancy-associated_hypertension" = "D10.V17",
+                   "tobacco_use" = "D10.V10",
+                   "fullterm_birth" = "Fullterm birth",
+                   "preterm_birth" = "Preterm birth",
+                   "extreme_birth" = "Extreme preterm birth",
+                   "severe_birth" = "Severe preterm birth",
+                   "moderate_birth" = "Moderate and Late preterm birth")
+
+demo_map_4 <- list("race"="D10.V2", # Mother's Race
+                   "gestation"="D10.V6",
+                   "care"="D10.V8",
+                   "education"="D10.V5",
+                   "age"="D10.V1") # Age of Mother
+
 get_preg_outcome_data <- function(gestational_table) {
   gestational_table <- gestational_table %>% mutate("Preterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "Yes",
                                                                                 `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "Yes", 
