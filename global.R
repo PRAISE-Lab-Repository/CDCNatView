@@ -127,7 +127,10 @@ reverse_map = list("pre-pregnancy_diabetes"="Pre-pregnancy Diabetes",
                    "ruptured_uterus"="Ruptured Uterus",
                    "unplanned_hysterectomy"="Unplanned Hysterectomy",
                    "fullterm_birth"="Fullterm birth",
-                   "preterm_birth"="Preterm birth")
+                   "preterm_birth"="Preterm birth",
+                   "extreme_birth"="Extreme preterm birth",
+                   "severe_birth"="Severe preterm birth",
+                   "moderate_birth"="Moderate and Late preterm birth")
 
 code_map = list("pre-pregnancy_diabetes"="D149.V74",
                 "gestational_diabetes"="D149.V75",
@@ -214,9 +217,6 @@ get_preg_outcome_data <- function(gestational_table) {
                                                                                                    `OE Gestational Age Recode 10`== "41 weeks" ~ "No", 
                                                                                                    `OE Gestational Age Recode 10`== "42 weeks or more" ~ "No", 
                                                                                                    `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
-  
-  
-  
 }
 
 
