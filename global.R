@@ -75,6 +75,7 @@ years1 = c(2016, 2021)
 
 # choices for risk factor  ----------------------------------------------------
 
+### 2016-2021 ##################################################################
 risk_factor1 = list(`Pregnancy risk factor` = 
        list("Pre-pregnancy Diabetes" = "pre-pregnancy_diabetes", 
             "Gestational Diabetes" = "gestational_diabetes", 
@@ -161,6 +162,64 @@ demo_map = list("bmi"="D149.V71",
                 "care"="D149.V63",
                 "lastpreg"="D149.V62")
 
+### 2003 - 2006 ################################################################
+risk_factor3 = list(`Pregnancy risk factor` = 
+                      list("Anemia" = "anemia", 
+                           "Cardiac Disease" = "cardiac_disease", 
+                           "Chronic Hypertension" = "chronic_hypertension",
+                           "Diabetes" = "diabetes",
+                           "Eclampsia" = "eclampsia",
+                           "Hydramnios/Oligohydramnios" = "hydramnios_oligohydramnios",
+                           "Incompetent Cervix" = "incompetent_cervix",
+                           "Lung Disease" = "lung_disease",
+                           "Pregnancy-associated Hypertension"="pregnancy_associated_hypertension",
+                           "Tobacco Use" ="tobacco_use"),
+                    `Pregnancy Outcome` = 
+                      list("Fullterm birth" = "fullterm_birth",
+                           "Preterm birth" = "preterm_birth",
+                           "Extreme preterm birth" = "extreme_birth",
+                           "Severe preterm birth" = "severe_birth",
+                           "Moderate and Late preterm birth" = "moderate_birth")
+)
+
+reverse_map_3 = list("anemia" = "Anemia",
+                     "cardiac_disease" = "Cardiac Disease",
+                     "chronic_hypertension" = "Chronic Hypertension", 
+                     "diabetes" = "Diabetes",
+                     "eclampsia" = "Eclampsia" ,
+                     "hydramnios_oligohydramnios" = "Hydramnios/Oligohydramnios",
+                     "incompetent_cervix" = "Incompetent Cervix",
+                     "lung_disease" = "Lung Disease",
+                     "pregnancy-associated_hypertension" = "Pregnancy-associated Hypertension",
+                     "tobacco_use" = "Tobacco Use",
+                     "fullterm_birth" = "Fullterm birth",
+                     "preterm_birth" = "Preterm birth",
+                     "extreme_birth" = "Extreme preterm birth",
+                     "severe_birth" = "Severe preterm birth",
+                     "moderate_birth" = "Moderate and Late preterm birth")
+
+code_map_3 <- list("anemia"="D27.V11",
+                   "cardiac_disease"="D27.V12",
+                   "chronic_hypertension"="D27.V16",
+                   "diabetes" = "D27.V14",
+                   "eclampsia" = "D27.V18",
+                   "hydramnios_oligohydramnios" = "D27.V15",
+                   "incompetent_cervix" = "D27.V19",
+                   "lung_disease" = "D27.V13",
+                   "pregnancy-associated_hypertension" = "D27.V17",
+                   "tobacco_use" = "D27.V10",
+                   "fullterm_birth" = "Fullterm birth",
+                   "preterm_birth" = "Preterm birth",
+                   "extreme_birth" = "Extreme preterm birth",
+                   "severe_birth" = "Severe preterm birth",
+                   "moderate_birth" = "Moderate and Late preterm birth")
+
+demo_map_3 <- list("race"="D27.V2", # Mother's Bridged Race
+                   "delivery"="D27.V31",
+                   "gestation"="D27.V6", # LMP Gestational Age 10
+                   "care"="D27.V8",
+                   "education"="D27.V5",
+                   "age"="D27.V1") # Age of Mother 9
 
 get_preg_outcome_data <- function(gestational_table) {
   gestational_table <- gestational_table %>% mutate("Preterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "Yes",
