@@ -1,6 +1,130 @@
 # Define server logic required to draw a histogram
 server <- function(input, output) {
   # REACTIVES ------------------------------------------------------------------
+  observeEvent(input$database2, {
+    showModal(modalDialog(
+      title = "Work in Progress",
+      "We are still actively working on get this set of CDC dataset into our database.",
+      easyClose = TRUE,
+      footer = NULL
+    ))
+  })  
+  
+  observeEvent(input$database3, {
+    showModal(modalDialog(
+      title = "Work in Progress",
+      "We are still actively working on get this set of CDC dataset into our database.",
+      easyClose = TRUE,
+      footer = NULL
+    ))
+  })  
+  
+  observeEvent(input$database4, {
+    showModal(modalDialog(
+      title = "Work in Progress",
+      "We are still actively working on get this set of CDC dataset into our database.",
+      easyClose = TRUE,
+      footer = NULL
+    ))
+  })  
+  
+  # update_graphs <- function() {
+  #   
+  #   # update long graph ---------------------------------------------------------
+  #   file_path <- sprintf("data/database1/long_tables/%s.rds", input$riskInput)
+  #   
+  #   # if file does not exist get data from wonder api
+  #   if (!file.exists(file_path)) {
+  #     get_long_data(input$riskInput, code_map[[input$riskInput]])
+  #   }
+  #   
+  #   chart2 <<- readRDS(file_path)
+  #   chart2$`% of Total Births` <<- as.numeric(chart2$`% of Total Births`)
+  #   
+  #   # update bmi graph ---------------------------------------------------------
+  #   file_path <- sprintf("data/database1/bmi_tables/%s.rds", input$riskInput)
+  #   
+  #   # if file does not exist get data from wonder api
+  #   if (!file.exists(file_path)) {
+  #     get_table_data(input$riskInput, code_map[[input$riskInput]], 'bmi', demo_map[['bmi']])
+  #   }
+  #   
+  #   bmi <<- readRDS(file_path)
+  #   
+  #   # update race graph ---------------------------------------------------------
+  #   
+  #   file_path <- sprintf("data/database1/race_tables/%s.rds", input$riskInput)
+  #   
+  #   # if file does not exist get data from wonder api
+  #   if (!file.exists(file_path)) {
+  #     get_table_data(input$riskInput, code_map[[input$riskInput]], 'race', demo_map[['race']])
+  #   }
+  #   
+  #   race <<- readRDS(file_path)    
+  #   
+  #   # update weight gain graph -------------------------------------------------
+  #   file_path <- sprintf("data/database1/wtgain_tables/%s.rds", input$riskInput)
+  #   
+  #   # if file does not exist get data from wonder api
+  #   if (!file.exists(file_path)) {
+  #     get_table_data(input$riskInput, code_map[[input$riskInput]], 'wtgain', demo_map[['wtgain']])
+  #   }
+  #   
+  #   wtgain <<- readRDS(file_path)
+  #   
+  #   # update delivery graph -------------------------------------------------
+    # file_path <- sprintf("data/database1/delivery_tables/%s.rds", input$riskInput)
+    # 
+    # # if file does not exist get data from wonder api
+    # if (!file.exists(file_path)) {
+    #   get_table_data(input$riskInput, code_map[[input$riskInput]], 'delivery', demo_map[['delivery']])
+    # }
+    # 
+    # delivery <<- readRDS(file_path)
+  #   
+  #   # update gestation graph -------------------------------------------------
+  #   file_path <- sprintf("data/database1/gestation_tables/%s.rds", input$riskInput)
+  #   
+  #   # if file does not exist get data from wonder api
+  #   if (!file.exists(file_path)) {
+  #     get_table_data(input$riskInput, code_map[[input$riskInput]], 'gestation', demo_map[['gestation']])
+  #   }
+  #   
+  #   gestation <<- readRDS(file_path)
+  #   
+  #   # update care graph -------------------------------------------------
+    # file_path <- sprintf("data/database1/care_tables/%s.rds", input$riskInput)
+    # 
+    # # if file does not exist get data from wonder api
+    # if (!file.exists(file_path)) {
+    #   get_table_data(input$riskInput, code_map[[input$riskInput]], 'care', demo_map[['care']])
+    # }
+    # 
+    # care <<- readRDS(file_path)
+  #   
+  #   # update lastpreg graph -------------------------------------------------
+  #   file_path <- sprintf("data/database1/lastpreg_tables/%s.rds", input$riskInput)
+  #   
+  #   # if file does not exist get data from wonder api
+  #   if (!file.exists(file_path)) {
+  #     get_table_data(input$riskInput, code_map[[input$riskInput]], 'lastpreg', demo_map[['lastpreg']])
+  #   }
+  #   
+  #   lastpreg <<- readRDS(file_path)
+  #   
+  #   
+  #   # update education graph -------------------------------------------------
+  #   file_path <- sprintf("data/database1/education_tables/%s.rds", input$riskInput)
+  #   
+  #   # if file does not exist get data from wonder api
+  #   if (!file.exists(file_path)) {
+  #     get_education_data(input$riskInput, code_map[[input$riskInput]])
+  #   }
+  #   
+  #   education <<- readRDS(file_path)
+  #   
+  # }
+  
   update_state_graph2 <- reactive({
     input$confirm 
     isolate({
@@ -11,22 +135,20 @@ server <- function(input, output) {
       
       
       state_grph <- state_grph %>% 
-                      group_by(state_name) %>%
-                      mutate(per = count/sum(count))
+        group_by(state_name) %>%
+        mutate(per = count/sum(count))
       
       state_grph <- state_grph %>% filter( condition_status=="Yes")
       
       state_grph <- left_join(get_urbn_map(map = "states", sf = TRUE),
                               state_grph,
-                                by = "state_name")
+                              by = "state_name")
     })
   })
   
   update_state_graph <- reactive({
     input$confirm 
     isolate({
-      print("cake")
-      print(input$riskInput)
       state_grph <- states_df %>% filter(condition==input$riskInput, condition_status=="Yes")
       
       state_grph <- state_grph %>% filter( between(year, input$yearInput[1], input$yearInput[2]))  
@@ -39,87 +161,423 @@ server <- function(input, output) {
     })
   })  
   
-  update_state_graph3 <- reactive({
-    input$confirm 
-    isolate({
-      state_grph <- states_df %>% filter(condition=="eclampsia", condition_status=="Yes")
-      
-      state_grph <- state_grph %>% filter( between(year, input$yearInput[1], input$yearInput[2]))  
-      
-      state_grph <- state_grph %>% group_by(state_name)
-      state_grph <- summarise(state_grph, count = sum(counts)) 
-      state_grph <- left_join(get_urbn_map(map = "states", sf = TRUE),
-                              state_grph,
-                              by = "state_name")
-    })
-  })  
   
   update_long_graph <- reactive({
     input$confirm 
     
     isolate({
       file_path <- sprintf("data/database1/long_tables/%s.rds", input$riskInput)
-      
-      # if file does not exist get data from wonder api
-      if (!file.exists(file_path)) {
-        get_long_data(input$riskInput, code_map[[input$riskInput]])
+
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+        file_path <- sprintf("data/database1/long_tables/%s.rds", "oe_gesation_10")
+        
       }
       
-      chart2 <- readRDS(file_path)
-      chart2$`% of Total Births` <- as.numeric(chart2$`% of Total Births`)
+      chart2 <<- readRDS(file_path)
+      chart2$`% of Total Births` <<- as.numeric(chart2$`% of Total Births`)
+
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+        chart2 <- chart2 %>% mutate("Preterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "Yes",
+                                                         `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "Yes", 
+                                                         `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "Yes", 
+                                                         `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "Yes", 
+                                                         `OE Gestational Age Recode 10`== "36 weeks" ~ "Yes", 
+                                                         `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "No", 
+                                                         `OE Gestational Age Recode 10`== "40 weeks" ~ "No",
+                                                         `OE Gestational Age Recode 10`== "41 weeks" ~ "No", 
+                                                         `OE Gestational Age Recode 10`== "42 weeks or more" ~ "No", 
+                                                         `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+        chart2 <- chart2 %>% mutate("Fullterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "No",
+                                                                `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "No", 
+                                                                `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "No", 
+                                                                `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "No", 
+                                                                `OE Gestational Age Recode 10`== "36 weeks" ~ "No", 
+                                                                `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "Yes", 
+                                                                `OE Gestational Age Recode 10`== "40 weeks" ~ "Yes",
+                                                                `OE Gestational Age Recode 10`== "41 weeks" ~ "Yes", 
+                                                                `OE Gestational Age Recode 10`== "42 weeks or more" ~ "Yes", 
+                                                                `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+        cc <- chart2 %>% group_by(`Preterm birth`, `Fullterm birth`, `Year`)
+        
+        chart2 <- summarise(cc, Births=sum(Births), 
+                  `% of Total Births` = sum(`% of Total Births`),
+                  `Average Age of Mother (years)` = mean(`Average Age of Mother (years)`),
+                  `Average OE Gestational Age (weeks)` = mean(`Average OE Gestational Age (weeks)`),
+                  `Average LMP Gestational Age (weeks)` = mean(`Average LMP Gestational Age (weeks)`),
+                  `Average Birth Weight (grams)` = mean(`Average Birth Weight (grams)`),
+                  `Average Pre-pregnancy BMI` = mean(`Average Pre-pregnancy BMI`)
+                  )
+      }      
       
+
       long_grph <- chart2 %>% filter(!!as.symbol(reverse_map[[input$riskInput]])=="Yes")
       long_grph <- long_grph %>% filter( between(Year, input$yearInput[1], input$yearInput[2]))
     })
   })
-  
+
+
   update_bmi_graph <- reactive({
     input$confirm 
     isolate({
-      bmi <-  demo_df %>% filter(condition==input$riskInput)
-      bmi <- bmi %>% group_by(bmi, condition_status)
-      bmi <- summarise(bmi, count = sum(counts))
-    })
+      file_path <- sprintf("data/database1/bmi_tables/%s.rds", input$riskInput)
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+        file_path <- sprintf("data/database1/bmi_tables/%s.rds", "oe_gesation_10")
+        
+      }
+      
+      
+      bmi <<- readRDS(file_path)
+      bmi <- bmi %>% filter( between(Year, input$yearInput[1], input$yearInput[2]))  
+     
+      
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+        bmi <- bmi %>% mutate("Preterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "Yes",
+                                                                `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "Yes", 
+                                                                `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "Yes", 
+                                                                `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "Yes", 
+                                                                `OE Gestational Age Recode 10`== "36 weeks" ~ "Yes", 
+                                                                `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "No", 
+                                                                `OE Gestational Age Recode 10`== "40 weeks" ~ "No",
+                                                                `OE Gestational Age Recode 10`== "41 weeks" ~ "No", 
+                                                                `OE Gestational Age Recode 10`== "42 weeks or more" ~ "No", 
+                                                                `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+        bmi <- bmi %>% mutate("Fullterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "No",
+                                                                 `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "No", 
+                                                                 `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "No", 
+                                                                 `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "No", 
+                                                                 `OE Gestational Age Recode 10`== "36 weeks" ~ "No", 
+                                                                 `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "Yes", 
+                                                                 `OE Gestational Age Recode 10`== "40 weeks" ~ "Yes",
+                                                                 `OE Gestational Age Recode 10`== "41 weeks" ~ "Yes", 
+                                                                 `OE Gestational Age Recode 10`== "42 weeks or more" ~ "Yes", 
+                                                                 `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+        cc <- bmi %>% group_by(`Preterm birth`, `Fullterm birth`, `Year`,`Mother's Pre-pregnancy BMI`)
+        
+        bmi <- summarise(cc, Births=sum(Births))
+        
+      }
+      
+      bmi_sub <- bmi %>% group_by(!!as.symbol(reverse_map[[input$riskInput]]), `Mother's Pre-pregnancy BMI`)
+      bmi_sub <- summarise(bmi_sub, count = sum(Births))
+    })  
   })
   
-  update_bmi_graph2 <- reactive({
-    input$confirm 
-    isolate({
-      bmi <-  demo_df %>% filter(condition=="gestational_diabetes")
-      bmi <- bmi %>% group_by(bmi, condition_status)
-      bmi <- summarise(bmi, count = sum(counts))
-    })
-  })
-  
+    
   update_race_graph <- reactive({
     input$confirm 
     isolate({
-      race <-  demo_df %>% filter(condition==input$riskInput)
-      race <- race %>% group_by(race, condition_status)
-      race <- summarise(race, count = sum(counts))
-    })
+      file_path <- sprintf("data/database1/race_tables/%s.rds", input$riskInput)
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+        file_path <- sprintf("data/database1/race_tables/%s.rds", "oe_gesation_10")
+        
+      }
+      
+      
+      race <<- readRDS(file_path)
+      race <- race %>% filter( between(Year, input$yearInput[1], input$yearInput[2]))  
+      
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+        race <- race %>% mutate("Preterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "Yes",
+                                                          `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "Yes", 
+                                                          `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "Yes", 
+                                                          `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "Yes", 
+                                                          `OE Gestational Age Recode 10`== "36 weeks" ~ "Yes", 
+                                                          `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "No", 
+                                                          `OE Gestational Age Recode 10`== "40 weeks" ~ "No",
+                                                          `OE Gestational Age Recode 10`== "41 weeks" ~ "No", 
+                                                          `OE Gestational Age Recode 10`== "42 weeks or more" ~ "No", 
+                                                          `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+        race <- race %>% mutate("Fullterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "No",
+                                                           `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "No", 
+                                                           `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "No", 
+                                                           `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "No", 
+                                                           `OE Gestational Age Recode 10`== "36 weeks" ~ "No", 
+                                                           `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "Yes", 
+                                                           `OE Gestational Age Recode 10`== "40 weeks" ~ "Yes",
+                                                           `OE Gestational Age Recode 10`== "41 weeks" ~ "Yes", 
+                                                           `OE Gestational Age Recode 10`== "42 weeks or more" ~ "Yes", 
+                                                           `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+        cc <- race %>% group_by(`Preterm birth`, `Fullterm birth`, `Year`,`Mother's Single Race 6`)
+        
+        race <- summarise(cc, Births=sum(Births))
+        
+      }      
+      
+      race_sub <- race %>% group_by(!!as.symbol(reverse_map[[input$riskInput]]), `Mother's Single Race 6`)
+      race_sub <- summarise(race_sub, count = sum(Births))
+    })  
   })
   
   update_wtgain_graph <- reactive({
     input$confirm 
     isolate({
-      wtgain <-  demo_df %>% filter(condition==input$riskInput)
-      wtgain <- wtgain %>% group_by(wtgain, condition_status)
-      wtgain <- summarise(wtgain, count = sum(counts))
-    })
-  })
+
+      file_path <- sprintf("data/database1/wtgain_tables/%s.rds", input$riskInput)
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+        file_path <- sprintf("data/database1/wtgain_tables/%s.rds", "oe_gesation_10")
+        
+      }
+      
+      
+      wtgain <<- readRDS(file_path)
+      wtgain <- wtgain %>% filter( between(Year, input$yearInput[1], input$yearInput[2]))  
+      
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+        wtgain <- wtgain %>% mutate("Preterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "Yes",
+                                                            `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "Yes", 
+                                                            `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "Yes", 
+                                                            `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "Yes", 
+                                                            `OE Gestational Age Recode 10`== "36 weeks" ~ "Yes", 
+                                                            `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "No", 
+                                                            `OE Gestational Age Recode 10`== "40 weeks" ~ "No",
+                                                            `OE Gestational Age Recode 10`== "41 weeks" ~ "No", 
+                                                            `OE Gestational Age Recode 10`== "42 weeks or more" ~ "No", 
+                                                            `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+        wtgain <- wtgain %>% mutate("Fullterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "No",
+                                                             `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "No", 
+                                                             `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "No", 
+                                                             `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "No", 
+                                                             `OE Gestational Age Recode 10`== "36 weeks" ~ "No", 
+                                                             `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "Yes", 
+                                                             `OE Gestational Age Recode 10`== "40 weeks" ~ "Yes",
+                                                             `OE Gestational Age Recode 10`== "41 weeks" ~ "Yes", 
+                                                             `OE Gestational Age Recode 10`== "42 weeks or more" ~ "Yes", 
+                                                             `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+        cc <- wtgain %>% group_by(`Preterm birth`, `Fullterm birth`, `Year`,`Mother's Weight Gain Recode`)
+        
+        wtgain <- summarise(cc, Births=sum(Births))
+        
+      }     
+      
+      wtgain_sub <- wtgain %>% group_by(!!as.symbol(reverse_map[[input$riskInput]]), `Mother's Weight Gain Recode`)
+      wtgain_sub <- summarise(wtgain_sub, count = sum(Births))
+    })  
+  })  
+  
+  update_delivery_graph <- reactive({
+    input$confirm 
+    isolate({
+
+      file_path <- sprintf("data/database1/delivery_tables/%s.rds", input$riskInput)
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+        file_path <- sprintf("data/database1/delivery_tables/%s.rds", "oe_gesation_10")
+        
+      }
+      
+      
+      delivery <<- readRDS(file_path)
+      delivery <- delivery %>% filter( between(Year, input$yearInput[1], input$yearInput[2]))  
+      
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+        delivery <- delivery %>% mutate("Preterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "Yes",
+                                                                `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "Yes", 
+                                                                `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "Yes", 
+                                                                `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "Yes", 
+                                                                `OE Gestational Age Recode 10`== "36 weeks" ~ "Yes", 
+                                                                `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "No", 
+                                                                `OE Gestational Age Recode 10`== "40 weeks" ~ "No",
+                                                                `OE Gestational Age Recode 10`== "41 weeks" ~ "No", 
+                                                                `OE Gestational Age Recode 10`== "42 weeks or more" ~ "No", 
+                                                                `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+        delivery <- delivery %>% mutate("Fullterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "No",
+                                                                 `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "No", 
+                                                                 `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "No", 
+                                                                 `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "No", 
+                                                                 `OE Gestational Age Recode 10`== "36 weeks" ~ "No", 
+                                                                 `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "Yes", 
+                                                                 `OE Gestational Age Recode 10`== "40 weeks" ~ "Yes",
+                                                                 `OE Gestational Age Recode 10`== "41 weeks" ~ "Yes", 
+                                                                 `OE Gestational Age Recode 10`== "42 weeks or more" ~ "Yes", 
+                                                                 `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+        cc <- delivery %>% group_by(`Preterm birth`, `Fullterm birth`, `Year`,`Final Route and Delivery Method`)
+        
+        delivery <- summarise(cc, Births=sum(Births))
+        
+      }     
+      delivery_sub <- delivery %>% group_by(!!as.symbol(reverse_map[[input$riskInput]]), `Final Route and Delivery Method`)
+      delivery_sub <- summarise(delivery_sub, count = sum(Births))
+    })  
+  })  
+
+  update_gestation_graph <- reactive({
+    input$confirm 
+    isolate({
+      
+      file_path <- sprintf("data/database1/gestation_tables/%s.rds", input$riskInput)
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+        file_path <- sprintf("data/database1/gestation_tables/%s.rds", "oe_gesation_10")
+        
+      }
+      
+      
+      gestation <<- readRDS(file_path)
+      gestation <- gestation %>% filter( between(Year, input$yearInput[1], input$yearInput[2]))  
+      
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+        gestation <- gestation %>% mutate("Preterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "Yes",
+                                                                    `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "Yes", 
+                                                                    `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "Yes", 
+                                                                    `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "Yes", 
+                                                                    `OE Gestational Age Recode 10`== "36 weeks" ~ "Yes", 
+                                                                    `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "No", 
+                                                                    `OE Gestational Age Recode 10`== "40 weeks" ~ "No",
+                                                                    `OE Gestational Age Recode 10`== "41 weeks" ~ "No", 
+                                                                    `OE Gestational Age Recode 10`== "42 weeks or more" ~ "No", 
+                                                                    `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+        gestation <- gestation %>% mutate("Fullterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "No",
+                                                                     `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "No", 
+                                                                     `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "No", 
+                                                                     `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "No", 
+                                                                     `OE Gestational Age Recode 10`== "36 weeks" ~ "No", 
+                                                                     `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "Yes", 
+                                                                     `OE Gestational Age Recode 10`== "40 weeks" ~ "Yes",
+                                                                     `OE Gestational Age Recode 10`== "41 weeks" ~ "Yes", 
+                                                                     `OE Gestational Age Recode 10`== "42 weeks or more" ~ "Yes", 
+                                                                     `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+        cc <- gestation %>% group_by(`Preterm birth`, `Fullterm birth`, `Year`,`OE Gestational Age Recode 10`)
+        
+        gestation <- summarise(cc, Births=sum(Births))
+        
+      }     
+      
+      gestation_sub <- gestation %>% group_by(!!as.symbol(reverse_map[[input$riskInput]]), `OE Gestational Age Recode 10`)
+      gestation_sub <- summarise(gestation_sub, count = sum(Births))
+    })  
+  })      
+  
+  update_care_graph <- reactive({
+    input$confirm 
+    isolate({
+
+
+      
+      file_path <- sprintf("data/database1/care_tables/%s.rds", input$riskInput)
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+        file_path <- sprintf("data/database1/care_tables/%s.rds", "oe_gesation_10")
+        
+      }
+      
+      
+      care <<- readRDS(file_path)
+      care <- care %>% filter( between(Year, input$yearInput[1], input$yearInput[2]))  
+      
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+        care <- care %>% mutate("Preterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "Yes",
+                                                                      `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "Yes", 
+                                                                      `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "Yes", 
+                                                                      `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "Yes", 
+                                                                      `OE Gestational Age Recode 10`== "36 weeks" ~ "Yes", 
+                                                                      `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "No", 
+                                                                      `OE Gestational Age Recode 10`== "40 weeks" ~ "No",
+                                                                      `OE Gestational Age Recode 10`== "41 weeks" ~ "No", 
+                                                                      `OE Gestational Age Recode 10`== "42 weeks or more" ~ "No", 
+                                                                      `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+        care <- care %>% mutate("Fullterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "No",
+                                                                       `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "No", 
+                                                                       `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "No", 
+                                                                       `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "No", 
+                                                                       `OE Gestational Age Recode 10`== "36 weeks" ~ "No", 
+                                                                       `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "Yes", 
+                                                                       `OE Gestational Age Recode 10`== "40 weeks" ~ "Yes",
+                                                                       `OE Gestational Age Recode 10`== "41 weeks" ~ "Yes", 
+                                                                       `OE Gestational Age Recode 10`== "42 weeks or more" ~ "Yes", 
+                                                                       `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+        cc <- care %>% group_by(`Preterm birth`, `Fullterm birth`, `Year`,`Trimester Prenatal Care Began`)
+        
+        care <- summarise(cc, Births=sum(Births))
+        
+      }     
+      care_sub <- care %>% group_by(!!as.symbol(reverse_map[[input$riskInput]]), `Trimester Prenatal Care Began`)
+      care_sub <- summarise(care_sub, count = sum(Births))
+    })  
+  })      
+  
+  update_lastpreg_graph <- reactive({
+    input$confirm 
+    isolate({
+      
+      file_path <- sprintf("data/database1/lastpreg_tables/%s.rds", input$riskInput)
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+        file_path <- sprintf("data/database1/lastpreg_tables/%s.rds", "oe_gesation_10")
+        
+      }
+      
+      
+      lastpreg <<- readRDS(file_path)
+      lastpreg <- lastpreg %>% filter( between(Year, input$yearInput[1], input$yearInput[2]))  
+      
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+        lastpreg <- lastpreg %>% mutate("Preterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "Yes",
+                                                            `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "Yes", 
+                                                            `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "Yes", 
+                                                            `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "Yes", 
+                                                            `OE Gestational Age Recode 10`== "36 weeks" ~ "Yes", 
+                                                            `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "No", 
+                                                            `OE Gestational Age Recode 10`== "40 weeks" ~ "No",
+                                                            `OE Gestational Age Recode 10`== "41 weeks" ~ "No", 
+                                                            `OE Gestational Age Recode 10`== "42 weeks or more" ~ "No", 
+                                                            `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+        lastpreg <- lastpreg %>% mutate("Fullterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "No",
+                                                             `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "No", 
+                                                             `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "No", 
+                                                             `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "No", 
+                                                             `OE Gestational Age Recode 10`== "36 weeks" ~ "No", 
+                                                             `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "Yes", 
+                                                             `OE Gestational Age Recode 10`== "40 weeks" ~ "Yes",
+                                                             `OE Gestational Age Recode 10`== "41 weeks" ~ "Yes", 
+                                                             `OE Gestational Age Recode 10`== "42 weeks or more" ~ "Yes", 
+                                                             `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+        cc <- lastpreg %>% group_by(`Preterm birth`, `Fullterm birth`, `Year`,`Interval of Last Pregnancy`)
+        
+        lastpreg <- summarise(cc, Births=sum(Births))
+        
+      }     
+      lastpreg_sub <- lastpreg %>% group_by(!!as.symbol(reverse_map[[input$riskInput]]), `Interval of Last Pregnancy`)
+      lastpreg_sub <- summarise(lastpreg_sub, count = sum(Births))
+    })  
+  })     
   
   update_education_graph <- reactive({
     input$confirm 
     isolate({
-      file_path <- sprintf("data/database1/education_tables/%s.rds", input$riskInput)
+
       
-      # if file does not exist get data from wonder api
-      if (!file.exists(file_path)) {
-        get_education_data(input$riskInput, code_map[[input$riskInput]])
+      file_path <- sprintf("data/database1/education_tables/%s.rds", input$riskInput)
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+        file_path <- sprintf("data/database1/education_tables/%s.rds", "oe_gesation_10")
+        
       }
       
-      education <- readRDS(file_path)
+      
+      education <<- readRDS(file_path)
+      education <- education %>% filter( between(Year, input$yearInput[1], input$yearInput[2]))  
+      
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+        education <- education %>% mutate("Preterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "Yes",
+                                                                    `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "Yes", 
+                                                                    `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "Yes", 
+                                                                    `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "Yes", 
+                                                                    `OE Gestational Age Recode 10`== "36 weeks" ~ "Yes", 
+                                                                    `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "No", 
+                                                                    `OE Gestational Age Recode 10`== "40 weeks" ~ "No",
+                                                                    `OE Gestational Age Recode 10`== "41 weeks" ~ "No", 
+                                                                    `OE Gestational Age Recode 10`== "42 weeks or more" ~ "No", 
+                                                                    `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+        education <- education %>% mutate("Fullterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "No",
+                                                                     `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "No", 
+                                                                     `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "No", 
+                                                                     `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "No", 
+                                                                     `OE Gestational Age Recode 10`== "36 weeks" ~ "No", 
+                                                                     `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "Yes", 
+                                                                     `OE Gestational Age Recode 10`== "40 weeks" ~ "Yes",
+                                                                     `OE Gestational Age Recode 10`== "41 weeks" ~ "Yes", 
+                                                                     `OE Gestational Age Recode 10`== "42 weeks or more" ~ "Yes", 
+                                                                     `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+        cc <- education %>% group_by(`Preterm birth`, `Fullterm birth`, `Year`, `Mother's Education`)
+        
+        education <- summarise(cc, Births=sum(Births))
+        
+      }     
       
       edu <- education %>% group_by(!!as.symbol(reverse_map[[input$riskInput]]), `Mother's Education`)
       edu <- summarise(edu, count = sum(Births))
@@ -129,17 +587,53 @@ server <- function(input, output) {
   update_bmi_oddratio <- reactive({
     input$confirm 
     isolate({
-      bmi <-  demo_df %>% filter(condition==input$riskInput)
-      bmi <- bmi %>% group_by(bmi, condition_status)
-      bmi <- summarise(bmi, count = sum(counts))
+      file_path <- sprintf("data/database1/bmi_tables/%s.rds", input$riskInput)
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+        file_path <- sprintf("data/database1/bmi_tables/%s.rds", "oe_gesation_10")
+        
+      }
       
-      bmi <- bmi %>% filter(condition_status %in% c("Yes", "No"))
-      bmi <- bmi %>% pivot_wider(names_from=condition_status, values_from=count)
       
-      bmi <- bmi %>% arrange(match(bmi, c("Normal 18.5-24.9", setdiff(c("Normal 18.5-24.9"), bmi))))
+      bmi <<- readRDS(file_path)
+      bmi <- bmi %>% filter( between(Year, input$yearInput[1], input$yearInput[2]))  
       
-      odd_table <- data.matrix(bmi[,-c(1) ])
-      rownames(odd_table) = bmi$bmi
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+        bmi <- bmi %>% mutate("Preterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "Yes",
+                                                          `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "Yes", 
+                                                          `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "Yes", 
+                                                          `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "Yes", 
+                                                          `OE Gestational Age Recode 10`== "36 weeks" ~ "Yes", 
+                                                          `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "No", 
+                                                          `OE Gestational Age Recode 10`== "40 weeks" ~ "No",
+                                                          `OE Gestational Age Recode 10`== "41 weeks" ~ "No", 
+                                                          `OE Gestational Age Recode 10`== "42 weeks or more" ~ "No", 
+                                                          `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+        bmi <- bmi %>% mutate("Fullterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "No",
+                                                           `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "No", 
+                                                           `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "No", 
+                                                           `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "No", 
+                                                           `OE Gestational Age Recode 10`== "36 weeks" ~ "No", 
+                                                           `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "Yes", 
+                                                           `OE Gestational Age Recode 10`== "40 weeks" ~ "Yes",
+                                                           `OE Gestational Age Recode 10`== "41 weeks" ~ "Yes", 
+                                                           `OE Gestational Age Recode 10`== "42 weeks or more" ~ "Yes", 
+                                                           `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+        cc <- bmi %>% group_by(`Preterm birth`, `Fullterm birth`, `Year`,`Mother's Pre-pregnancy BMI`)
+        
+        bmi <- summarise(cc, Births=sum(Births))
+        
+      }
+      
+      bmi_sub <- bmi %>% group_by(!!as.symbol(reverse_map[[input$riskInput]]), `Mother's Pre-pregnancy BMI`)
+      bmi_sub <- summarise(bmi_sub, count = sum(Births))
+      
+      bmi_sub <- bmi_sub %>% filter(!!as.symbol(reverse_map[[input$riskInput]]) %in% c("Yes", "No"))
+      bmi_sub <- bmi_sub %>% pivot_wider(names_from=!!as.symbol(reverse_map[[input$riskInput]]), values_from=count)
+      
+      bmi_sub <- bmi_sub %>% arrange(match(`Mother's Pre-pregnancy BMI`, c("Normal 18.5-24.9", setdiff(c("Normal 18.5-24.9"), `Mother's Pre-pregnancy BMI`))))
+      
+      odd_table <- data.matrix(bmi_sub[,-c(1) ])
+      rownames(odd_table) = bmi_sub$`Mother's Pre-pregnancy BMI`
       
       result <- epitab(odd_table, method="oddsratio")
       as.data.frame(result$tab[,c(1, 3, 5, 8)])
@@ -149,41 +643,55 @@ server <- function(input, output) {
 
   })
   
-  update_bmi_oddratio2 <- reactive({
-    input$confirm 
-    isolate({
-      bmi <-  demo_df %>% filter(condition=="eclampsia")
-      bmi <- bmi %>% group_by(bmi, condition_status)
-      bmi <- summarise(bmi, count = sum(counts))
-      
-      bmi <- bmi %>% filter(condition_status %in% c("Yes", "No"))
-      bmi <- bmi %>% pivot_wider(names_from=condition_status, values_from=count)
-      
-      bmi <- bmi %>% arrange(match(bmi, c("Normal 18.5-24.9", setdiff(c("Normal 18.5-24.9"), bmi))))
-      
-      odd_table <- data.matrix(bmi[,-c(1) ])
-      rownames(odd_table) = bmi$bmi
-      
-      result <- epitab(odd_table, method="oddsratio")
-      as.data.frame(result$tab[,c(1, 3, 5, 8)])
-      
-    })   
-  })
-  
   update_race_oddratio <- reactive({
     input$confirm 
     isolate({
-      race <-  demo_df %>% filter(condition==input$riskInput)
-      race <- race %>% group_by(race, condition_status)
-      race <- summarise(race, count = sum(counts))
+      file_path <- sprintf("data/database1/race_tables/%s.rds", input$riskInput)
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+        file_path <- sprintf("data/database1/race_tables/%s.rds", "oe_gesation_10")
+        
+      }
       
-      race <- race %>% filter(condition_status %in% c("Yes", "No"))
-      race <- race %>% pivot_wider(names_from=condition_status, values_from=count)
       
-      race <- race %>% arrange(match(race, c("White", setdiff(c("White"), race))))
+      race <<- readRDS(file_path)
+      race <- race %>% filter( between(Year, input$yearInput[1], input$yearInput[2]))  
       
-      odd_table <- data.matrix(race[,-c(1) ])
-      rownames(odd_table) = race$race
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+        race <- race %>% mutate("Preterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "Yes",
+                                                            `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "Yes", 
+                                                            `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "Yes", 
+                                                            `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "Yes", 
+                                                            `OE Gestational Age Recode 10`== "36 weeks" ~ "Yes", 
+                                                            `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "No", 
+                                                            `OE Gestational Age Recode 10`== "40 weeks" ~ "No",
+                                                            `OE Gestational Age Recode 10`== "41 weeks" ~ "No", 
+                                                            `OE Gestational Age Recode 10`== "42 weeks or more" ~ "No", 
+                                                            `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+        race <- race %>% mutate("Fullterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "No",
+                                                             `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "No", 
+                                                             `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "No", 
+                                                             `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "No", 
+                                                             `OE Gestational Age Recode 10`== "36 weeks" ~ "No", 
+                                                             `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "Yes", 
+                                                             `OE Gestational Age Recode 10`== "40 weeks" ~ "Yes",
+                                                             `OE Gestational Age Recode 10`== "41 weeks" ~ "Yes", 
+                                                             `OE Gestational Age Recode 10`== "42 weeks or more" ~ "Yes", 
+                                                             `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+        cc <- race %>% group_by(`Preterm birth`, `Fullterm birth`, `Year`,`Mother's Single Race 6`)
+        
+        race <- summarise(cc, Births=sum(Births))
+        
+      }     
+      odds_sub <- race %>% group_by(!!as.symbol(reverse_map[[input$riskInput]]), `Mother's Single Race 6`)
+      odds_sub <- summarise(odds_sub, count = sum(Births))
+      
+      odds_sub <- odds_sub %>% filter(!!as.symbol(reverse_map[[input$riskInput]]) %in% c("Yes", "No"))
+      odds_sub <- odds_sub %>% pivot_wider(names_from=!!as.symbol(reverse_map[[input$riskInput]]), values_from=count)
+      
+      odds_sub <- odds_sub %>% arrange(match(`Mother's Single Race 6`, c("White", setdiff(c("White"), `Mother's Single Race 6`))))
+      
+      odd_table <- data.matrix(odds_sub[,-c(1) ])
+      rownames(odd_table) = odds_sub$`Mother's Single Race 6`
       
       result <- epitab(odd_table, method="oddsratio")
       as.data.frame(result$tab[,c(1, 3, 5, 8)])
@@ -194,23 +702,339 @@ server <- function(input, output) {
   update_wtgain_oddratio <- reactive({
     input$confirm 
     isolate({
-      wtgain <-  demo_df %>% filter(condition==input$riskInput)
-      wtgain <- wtgain %>% group_by(wtgain, condition_status)
-      wtgain <- summarise(wtgain, count = sum(counts))
+      file_path <- sprintf("data/database1/wtgain_tables/%s.rds", input$riskInput)
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+        file_path <- sprintf("data/database1/wtgain_tables/%s.rds", "oe_gesation_10")
+        
+      }
       
-      wtgain <- wtgain %>% filter(condition_status %in% c("Yes", "No"))
-      wtgain <- wtgain %>% pivot_wider(names_from=condition_status, values_from=count)
       
-      wtgain <- wtgain %>% arrange(match(wtgain, c("21 to 30 pounds", setdiff(c("21 to 30 pounds"), wtgain))))
+      wtgain <<- readRDS(file_path)
+      wtgain <- wtgain %>% filter( between(Year, input$yearInput[1], input$yearInput[2]))  
       
-      odd_table <- data.matrix(wtgain[,-c(1) ])
-      rownames(odd_table) = wtgain$wtgain
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+        wtgain <- wtgain %>% mutate("Preterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "Yes",
+                                                                `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "Yes", 
+                                                                `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "Yes", 
+                                                                `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "Yes", 
+                                                                `OE Gestational Age Recode 10`== "36 weeks" ~ "Yes", 
+                                                                `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "No", 
+                                                                `OE Gestational Age Recode 10`== "40 weeks" ~ "No",
+                                                                `OE Gestational Age Recode 10`== "41 weeks" ~ "No", 
+                                                                `OE Gestational Age Recode 10`== "42 weeks or more" ~ "No", 
+                                                                `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+        wtgain <- wtgain %>% mutate("Fullterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "No",
+                                                                 `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "No", 
+                                                                 `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "No", 
+                                                                 `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "No", 
+                                                                 `OE Gestational Age Recode 10`== "36 weeks" ~ "No", 
+                                                                 `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "Yes", 
+                                                                 `OE Gestational Age Recode 10`== "40 weeks" ~ "Yes",
+                                                                 `OE Gestational Age Recode 10`== "41 weeks" ~ "Yes", 
+                                                                 `OE Gestational Age Recode 10`== "42 weeks or more" ~ "Yes", 
+                                                                 `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+        cc <- wtgain %>% group_by(`Preterm birth`, `Fullterm birth`, `Year`,`Mother's Weight Gain Recode`)
+        
+        wtgain <- summarise(cc, Births=sum(Births))
+        
+      }     
+      odds_sub <- wtgain %>% group_by(!!as.symbol(reverse_map[[input$riskInput]]), `Mother's Weight Gain Recode`)
+      odds_sub <- summarise(odds_sub, count = sum(Births))
+      
+      odds_sub <- odds_sub %>% filter(!!as.symbol(reverse_map[[input$riskInput]]) %in% c("Yes", "No"))
+      odds_sub <- odds_sub %>% pivot_wider(names_from=!!as.symbol(reverse_map[[input$riskInput]]), values_from=count)
+      
+      odds_sub <- odds_sub %>% arrange(match(`Mother's Weight Gain Recode`, c("21 to 30 pounds", setdiff(c("21 to 30 pounds"), `Mother's Weight Gain Recode`))))
+      
+      odd_table <- data.matrix(odds_sub[,-c(1) ])
+      rownames(odd_table) = odds_sub$`Mother's Weight Gain Recode`
       
       result <- epitab(odd_table, method="oddsratio")
       as.data.frame(result$tab[,c(1, 3, 5, 8)])
       
     })
   })
+  
+  update_delivery_oddratio <- reactive({
+    input$confirm 
+    isolate({
+      file_path <- sprintf("data/database1/delivery_tables/%s.rds", input$riskInput)
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+        file_path <- sprintf("data/database1/delivery_tables/%s.rds", "oe_gesation_10")
+        
+      }
+      
+      
+      delivery <<- readRDS(file_path)
+      delivery <- delivery %>% filter( between(Year, input$yearInput[1], input$yearInput[2]))  
+      
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+        delivery <- delivery %>% mutate("Preterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "Yes",
+                                                                    `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "Yes", 
+                                                                    `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "Yes", 
+                                                                    `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "Yes", 
+                                                                    `OE Gestational Age Recode 10`== "36 weeks" ~ "Yes", 
+                                                                    `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "No", 
+                                                                    `OE Gestational Age Recode 10`== "40 weeks" ~ "No",
+                                                                    `OE Gestational Age Recode 10`== "41 weeks" ~ "No", 
+                                                                    `OE Gestational Age Recode 10`== "42 weeks or more" ~ "No", 
+                                                                    `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+        delivery <- delivery %>% mutate("Fullterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "No",
+                                                                     `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "No", 
+                                                                     `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "No", 
+                                                                     `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "No", 
+                                                                     `OE Gestational Age Recode 10`== "36 weeks" ~ "No", 
+                                                                     `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "Yes", 
+                                                                     `OE Gestational Age Recode 10`== "40 weeks" ~ "Yes",
+                                                                     `OE Gestational Age Recode 10`== "41 weeks" ~ "Yes", 
+                                                                     `OE Gestational Age Recode 10`== "42 weeks or more" ~ "Yes", 
+                                                                     `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+        cc <- delivery %>% group_by(`Preterm birth`, `Fullterm birth`, `Year`,`Final Route and Delivery Method`)
+        
+        delivery <- summarise(cc, Births=sum(Births))
+        
+      }     
+      odds_sub <- delivery %>% group_by(!!as.symbol(reverse_map[[input$riskInput]]), `Final Route and Delivery Method`)
+      odds_sub <- summarise(odds_sub, count = sum(Births))
+      
+      odds_sub <- odds_sub %>% filter(!!as.symbol(reverse_map[[input$riskInput]]) %in% c("Yes", "No"))
+      odds_sub <- odds_sub %>% pivot_wider(names_from=!!as.symbol(reverse_map[[input$riskInput]]), values_from=count)
+      
+      odds_sub <- odds_sub %>% arrange(match(`Final Route and Delivery Method`, c("Spontaneous", setdiff(c("Spontaneous"), `Final Route and Delivery Method`))))
+      
+      odd_table <- data.matrix(odds_sub[,-c(1) ])
+      rownames(odd_table) = odds_sub$`Final Route and Delivery Method`
+      
+      result <- epitab(odd_table, method="oddsratio")
+      as.data.frame(result$tab[,c(1, 3, 5, 8)])
+      
+    })
+  })
+
+  update_gestation_oddratio <- reactive({
+    input$confirm 
+    isolate({
+      file_path <- sprintf("data/database1/gestation_tables/%s.rds", input$riskInput)
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+        file_path <- sprintf("data/database1/gestation_tables/%s.rds", "oe_gesation_10")
+        
+      }
+      
+      
+      gestation <<- readRDS(file_path)
+      gestation <- gestation %>% filter( between(Year, input$yearInput[1], input$yearInput[2]))  
+      
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+        gestation <- gestation %>% mutate("Preterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "Yes",
+                                                                      `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "Yes", 
+                                                                      `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "Yes", 
+                                                                      `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "Yes", 
+                                                                      `OE Gestational Age Recode 10`== "36 weeks" ~ "Yes", 
+                                                                      `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "No", 
+                                                                      `OE Gestational Age Recode 10`== "40 weeks" ~ "No",
+                                                                      `OE Gestational Age Recode 10`== "41 weeks" ~ "No", 
+                                                                      `OE Gestational Age Recode 10`== "42 weeks or more" ~ "No", 
+                                                                      `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+        gestation <- gestation %>% mutate("Fullterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "No",
+                                                                       `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "No", 
+                                                                       `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "No", 
+                                                                       `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "No", 
+                                                                       `OE Gestational Age Recode 10`== "36 weeks" ~ "No", 
+                                                                       `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "Yes", 
+                                                                       `OE Gestational Age Recode 10`== "40 weeks" ~ "Yes",
+                                                                       `OE Gestational Age Recode 10`== "41 weeks" ~ "Yes", 
+                                                                       `OE Gestational Age Recode 10`== "42 weeks or more" ~ "Yes", 
+                                                                       `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+        cc <- gestation %>% group_by(`Preterm birth`, `Fullterm birth`, `Year`,`OE Gestational Age Recode 10`)
+        
+        gestation <- summarise(cc, Births=sum(Births))
+        
+      }     
+      odds_sub <- gestation %>% group_by(!!as.symbol(reverse_map[[input$riskInput]]), `OE Gestational Age Recode 10`)
+      odds_sub <- summarise(odds_sub, count = sum(Births))
+      
+      odds_sub <- odds_sub %>% filter(!!as.symbol(reverse_map[[input$riskInput]]) %in% c("Yes", "No"))
+      odds_sub <- odds_sub %>% pivot_wider(names_from=!!as.symbol(reverse_map[[input$riskInput]]), values_from=count)
+      
+      odds_sub <- odds_sub %>% arrange(match(`OE Gestational Age Recode 10`, c("37 - 39 weeks", setdiff(c("37 - 39 weeks"), `OE Gestational Age Recode 10`))))
+      
+      odd_table <- data.matrix(odds_sub[,-c(1) ])
+      rownames(odd_table) = odds_sub$`OE Gestational Age Recode 10`
+      
+      result <- epitab(odd_table, method="oddsratio")
+      as.data.frame(result$tab[,c(1, 3, 5, 8)])
+      
+    })
+  })
+  
+  update_care_oddratio <- reactive({
+    input$confirm 
+    isolate({
+      file_path <- sprintf("data/database1/care_tables/%s.rds", input$riskInput)
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+        file_path <- sprintf("data/database1/care_tables/%s.rds", "oe_gesation_10")
+        
+      }
+      
+      
+      care <<- readRDS(file_path)
+      care <- care %>% filter( between(Year, input$yearInput[1], input$yearInput[2]))  
+      
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+        care <- care %>% mutate("Preterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "Yes",
+                                                            `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "Yes", 
+                                                            `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "Yes", 
+                                                            `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "Yes", 
+                                                            `OE Gestational Age Recode 10`== "36 weeks" ~ "Yes", 
+                                                            `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "No", 
+                                                            `OE Gestational Age Recode 10`== "40 weeks" ~ "No",
+                                                            `OE Gestational Age Recode 10`== "41 weeks" ~ "No", 
+                                                            `OE Gestational Age Recode 10`== "42 weeks or more" ~ "No", 
+                                                            `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+        care <- care %>% mutate("Fullterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "No",
+                                                             `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "No", 
+                                                             `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "No", 
+                                                             `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "No", 
+                                                             `OE Gestational Age Recode 10`== "36 weeks" ~ "No", 
+                                                             `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "Yes", 
+                                                             `OE Gestational Age Recode 10`== "40 weeks" ~ "Yes",
+                                                             `OE Gestational Age Recode 10`== "41 weeks" ~ "Yes", 
+                                                             `OE Gestational Age Recode 10`== "42 weeks or more" ~ "Yes", 
+                                                             `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+        cc <- care %>% group_by(`Preterm birth`, `Fullterm birth`, `Year`,`Trimester Prenatal Care Began`)
+        
+        care <- summarise(cc, Births=sum(Births))
+        
+      }     
+      odds_sub <- care %>% group_by(!!as.symbol(reverse_map[[input$riskInput]]), `Trimester Prenatal Care Began`)
+      odds_sub <- summarise(odds_sub, count = sum(Births))
+      
+      odds_sub <- odds_sub %>% filter(!!as.symbol(reverse_map[[input$riskInput]]) %in% c("Yes", "No"))
+      odds_sub <- odds_sub %>% pivot_wider(names_from=!!as.symbol(reverse_map[[input$riskInput]]), values_from=count)
+      
+      odds_sub <- odds_sub %>% arrange(match(`Trimester Prenatal Care Began`, c("White", setdiff(c("White"), `Trimester Prenatal Care Began`))))
+      
+      odd_table <- data.matrix(odds_sub[,-c(1) ])
+      rownames(odd_table) = odds_sub$`Trimester Prenatal Care Began`
+      
+      result <- epitab(odd_table, method="oddsratio")
+      as.data.frame(result$tab[,c(1, 3, 5, 8)])
+      
+    })
+  })
+  
+  update_lastpreg_oddratio <- reactive({
+    input$confirm 
+    isolate({
+      file_path <- sprintf("data/database1/lastpreg_tables/%s.rds", input$riskInput)
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+        file_path <- sprintf("data/database1/lastpreg_tables/%s.rds", "oe_gesation_10")
+        
+      }
+      
+      
+      lastpreg <<- readRDS(file_path)
+      lastpreg <- lastpreg %>% filter( between(Year, input$yearInput[1], input$yearInput[2]))  
+      
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+        lastpreg <- lastpreg %>% mutate("Preterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "Yes",
+                                                                    `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "Yes", 
+                                                                    `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "Yes", 
+                                                                    `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "Yes", 
+                                                                    `OE Gestational Age Recode 10`== "36 weeks" ~ "Yes", 
+                                                                    `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "No", 
+                                                                    `OE Gestational Age Recode 10`== "40 weeks" ~ "No",
+                                                                    `OE Gestational Age Recode 10`== "41 weeks" ~ "No", 
+                                                                    `OE Gestational Age Recode 10`== "42 weeks or more" ~ "No", 
+                                                                    `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+        lastpreg <- lastpreg %>% mutate("Fullterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "No",
+                                                                     `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "No", 
+                                                                     `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "No", 
+                                                                     `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "No", 
+                                                                     `OE Gestational Age Recode 10`== "36 weeks" ~ "No", 
+                                                                     `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "Yes", 
+                                                                     `OE Gestational Age Recode 10`== "40 weeks" ~ "Yes",
+                                                                     `OE Gestational Age Recode 10`== "41 weeks" ~ "Yes", 
+                                                                     `OE Gestational Age Recode 10`== "42 weeks or more" ~ "Yes", 
+                                                                     `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+        cc <- lastpreg %>% group_by(`Preterm birth`, `Fullterm birth`, `Year`,`Interval of Last Pregnancy`)
+        
+        lastpreg <- summarise(cc, Births=sum(Births))
+        
+      }     
+      odds_sub <- lastpreg %>% group_by(!!as.symbol(reverse_map[[input$riskInput]]), `Interval of Last Pregnancy`)
+      odds_sub <- summarise(odds_sub, count = sum(Births))
+      
+      odds_sub <- odds_sub %>% filter(!!as.symbol(reverse_map[[input$riskInput]]) %in% c("Yes", "No"))
+      odds_sub <- odds_sub %>% pivot_wider(names_from=!!as.symbol(reverse_map[[input$riskInput]]), values_from=count)
+      
+      odds_sub <- odds_sub %>% arrange(match(`Interval of Last Pregnancy`, c("72 months and over", setdiff(c("72 months and over"), `Interval of Last Pregnancy`))))
+      
+      odd_table <- data.matrix(odds_sub[,-c(1) ])
+      rownames(odd_table) = odds_sub$`Interval of Last Pregnancy`
+      
+      result <- epitab(odd_table, method="oddsratio")
+      as.data.frame(result$tab[,c(1, 3, 5, 8)])
+      
+    })
+  })
+  
+  update_education_oddratio <- reactive({
+    input$confirm 
+    isolate({
+      file_path <- sprintf("data/database1/education_tables/%s.rds", input$riskInput)
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+        file_path <- sprintf("data/database1/education_tables/%s.rds", "oe_gesation_10")
+        
+      }
+      
+      
+      education <<- readRDS(file_path)
+      education <- education %>% filter( between(Year, input$yearInput[1], input$yearInput[2]))  
+      
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+        education <- education %>% mutate("Preterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "Yes",
+                                                                      `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "Yes", 
+                                                                      `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "Yes", 
+                                                                      `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "Yes", 
+                                                                      `OE Gestational Age Recode 10`== "36 weeks" ~ "Yes", 
+                                                                      `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "No", 
+                                                                      `OE Gestational Age Recode 10`== "40 weeks" ~ "No",
+                                                                      `OE Gestational Age Recode 10`== "41 weeks" ~ "No", 
+                                                                      `OE Gestational Age Recode 10`== "42 weeks or more" ~ "No", 
+                                                                      `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+        education <- education %>% mutate("Fullterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "No",
+                                                                       `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "No", 
+                                                                       `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "No", 
+                                                                       `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "No", 
+                                                                       `OE Gestational Age Recode 10`== "36 weeks" ~ "No", 
+                                                                       `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "Yes", 
+                                                                       `OE Gestational Age Recode 10`== "40 weeks" ~ "Yes",
+                                                                       `OE Gestational Age Recode 10`== "41 weeks" ~ "Yes", 
+                                                                       `OE Gestational Age Recode 10`== "42 weeks or more" ~ "Yes", 
+                                                                       `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+        cc <- education %>% group_by(`Preterm birth`, `Fullterm birth`, `Year`, `Mother's Education`)
+        
+        education <- summarise(cc, Births=sum(Births))
+        
+      }     
+      odds_sub <- education %>% group_by(!!as.symbol(reverse_map[[input$riskInput]]), `Mother's Education`)
+      odds_sub <- summarise(odds_sub, count = sum(Births))
+      
+      odds_sub <- odds_sub %>% filter(!!as.symbol(reverse_map[[input$riskInput]]) %in% c("Yes", "No"))
+      odds_sub <- odds_sub %>% pivot_wider(names_from=!!as.symbol(reverse_map[[input$riskInput]]), values_from=count)
+      
+      odds_sub <- odds_sub %>% arrange(match(`Mother's Education`, c("White", setdiff(c("White"), `Mother's Education`))))
+      
+      odd_table <- data.matrix(odds_sub[,-c(1) ])
+      rownames(odd_table) = odds_sub$`Mother's Education`
+      
+      result <- epitab(odd_table, method="oddsratio")
+      as.data.frame(result$tab[,c(1, 3, 5, 8)])
+      
+    })
+  })
+  
   
   output$box_pat <- renderUI({
     div(
@@ -361,7 +1185,6 @@ server <- function(input, output) {
           title = "BMI",
           fluidRow(
             column(12, highchartOutput("bmiPlot")),
-            # column(6, highchartOutput("bmiPlot2"))
           ),
         ), 
         tabPanel(
@@ -382,11 +1205,42 @@ server <- function(input, output) {
             size = 0.7
           )
         ),
-        tabPanel(title = "Pregnancy Outcome"),
-        tabPanel(title = "Gestational Age"),
-        tabPanel(title = "Height"),
-        tabPanel(title = "Start of Prenatal Care"),
-        tabPanel(title = "Interval of Last Pregnancy"),
+        tabPanel(
+          title = "Delivery Method",
+          withSpinner(
+            highchartOutput("deliveryPlot"),
+            type = 4,
+            color = "#d33724",
+            size = 0.7
+          )
+        ),
+        tabPanel(
+          title = "Gestational Age",
+          withSpinner(
+            highchartOutput("gestationPlot"),
+            type = 4,
+            color = "#d33724",
+            size = 0.7
+          )
+        ),
+        tabPanel(
+          title = "Start of Prenatal Care",
+          withSpinner(
+            highchartOutput("carePlot"),
+            type = 4,
+            color = "#d33724",
+            size = 0.7
+          )        
+        ),
+        tabPanel(
+          title = "Interval of Last Pregnancy",
+          withSpinner(
+            highchartOutput("lastpregPlot"),
+            type = 4,
+            color = "#d33724",
+            size = 0.7
+          )    
+        ),
         tabPanel(title = "Education",
                  withSpinner(
                    highchartOutput("educationPlot"),
@@ -434,12 +1288,51 @@ server <- function(input, output) {
             size = 0.7
           )        
         ),
-        tabPanel(title = "Pregnancy Outcome"),
-        tabPanel(title = "Gestational Age"),
-        tabPanel(title = "Height"),
-        tabPanel(title = "Start of Prenatal Care"),
-        tabPanel(title = "Interval of Last Pregnancy"),
-        tabPanel(title = "Education")
+        tabPanel(
+          title = "Delivery",
+          withSpinner(
+            dataTableOutput("deliveryOddsPlot"),
+            type = 4,
+            color = "#d33724",
+            size = 0.7
+          )              
+        ),
+        tabPanel(
+          title = "Gestational Age",
+          withSpinner(
+            dataTableOutput("gestationOddsPlot"),
+            type = 4,
+            color = "#d33724",
+            size = 0.7
+          )              
+        ),
+        tabPanel(
+          title = "Start of Prenatal Care",
+          withSpinner(
+            dataTableOutput("careOddsPlot"),
+            type = 4,
+            color = "#d33724",
+            size = 0.7
+          )        
+        ),
+        tabPanel(
+          title = "Interval of Last Pregnancy",
+          withSpinner(
+            dataTableOutput("lastpregOddsPlot"),
+            type = 4,
+            color = "#d33724",
+            size = 0.7
+          )     
+        ),
+        tabPanel(
+          title = "Education",
+          withSpinner(
+            dataTableOutput("educationOddsPlot"),
+            type = 4,
+            color = "#d33724",
+            size = 0.7
+          )     
+        )
       )
     )
   })  
@@ -571,59 +1464,38 @@ server <- function(input, output) {
       hc_plotOptions(series = list(marker = list(enabled = FALSE))) 
   })    
   
-  output$bmiPlot2 <- renderHighchart({
-    bmi <- update_bmi_graph2()
-    
-    bmi %>% hchart("column", hcaes(x = factor(condition_status), y = count, group=bmi), stacking="percent") %>%
-      hc_add_theme(hc_theme_flat()) %>%
-      hc_colors(colors) %>%
-      hc_xAxis(title = list(text="Condition Present"), categories = levels(bmi$condition_status)) %>%
-      hc_xAxis(title = list(text="Condition Present")) %>%
-      hc_yAxis(labels = list(format = "{value}%")) %>%
-      hc_yAxis(title = list(text="Percent")) %>%
-      hc_legend(align = "center", verticalAlign = "top")  %>%
-      hc_title(
-        text = "<b>Eclampsia</b>",
-        margin = 20,
-        align = "left"
-      )
-  })
-  
   output$bmiPlot <- renderHighchart({
-    bmi <- update_bmi_graph()
-
-    bmi %>% hchart("column", hcaes(x = factor(condition_status), y = count, group=bmi), stacking="percent") %>%
-      hc_add_theme(hc_theme_flat()) %>%
-      hc_colors(colors) %>%
-      hc_xAxis(title = list(text="Condition Present"), categories = levels(bmi$condition_status)) %>%
-      hc_xAxis(title = list(text="Condition Present")) %>%
-      hc_yAxis(labels = list(format = "{value}%")) %>%
-      hc_yAxis(title = list(text="Percent")) %>%
-      hc_legend(align = "center", verticalAlign = "top")
+    bmi_sub <- update_bmi_graph()
+    demoPlot(bmi_sub, "Mother's Pre-pregnancy BMI")
   })
   
   output$racePlot <- renderHighchart({
-    race <- update_race_graph()
-    race %>% hchart("column", hcaes(x = factor(condition_status), y = count, group=race), stacking="percent") %>%
+    race_sub <- update_race_graph()
+   
+    race_sub %>% hchart("column", hcaes(x = factor(!!as.symbol(reverse_map[[input$riskInput]])), y = count, group=`Mother's Single Race 6`), stacking="percent") %>%
       hc_add_theme(hc_theme_flat()) %>%
       hc_colors(colors) %>%
-      hc_xAxis(title = list(text="Condition Present"), categories = levels(race$condition_status)) %>%
+      hc_xAxis(title = list(text="Condition Present"), categories = levels(race_sub[[reverse_map[[input$riskInput]]]])) %>%
       hc_xAxis(title = list(text="Condition Present")) %>%
       hc_yAxis(labels = list(format = "{value}%")) %>%
       hc_yAxis(title = list(text="Percent")) %>%
       hc_legend(align = "center", verticalAlign = "top") 
   })  
   
-  output$weightGainPlot <- renderHighchart({
-    weight_gain <- update_wtgain_graph()
-    weight_gain %>% hchart("column", hcaes(x = factor(condition_status), y = count, group=wtgain), stacking="percent") %>%
+  demoPlot <- function(sub_table, feat){
+    sub_table %>% hchart("column", hcaes(x = factor(!!as.symbol(reverse_map[[input$riskInput]])), y = count, group=!!as.symbol(feat)), stacking="percent") %>%
       hc_add_theme(hc_theme_flat()) %>%
       hc_colors(colors) %>%
-      hc_xAxis(title = list(text="Condition Present"), categories = levels(weight_gain$condition_status)) %>%
+      hc_xAxis(title = list(text="Condition Present"), categories = levels(sub_table[[reverse_map[[input$riskInput]]]])) %>%
       hc_xAxis(title = list(text="Condition Present")) %>%
       hc_yAxis(labels = list(format = "{value}%")) %>%
       hc_yAxis(title = list(text="Percent")) %>%
       hc_legend(align = "center", verticalAlign = "top") 
+  }
+  
+  output$weightGainPlot <- renderHighchart({
+    weight_gain_sub <- update_wtgain_graph()
+    demoPlot(weight_gain_sub, "Mother's Weight Gain Recode")
   })  
   
   output$educationPlot <- renderHighchart({
@@ -639,32 +1511,63 @@ server <- function(input, output) {
       hc_legend(align = "center", verticalAlign = "top") 
   })  
   
-  output$heatmapPlot <- renderPlot({
-    corrplot.mixed(M, order = 'AOE', tl.cex=0.6)
-  })
+  output$deliveryPlot <- renderHighchart({
+    delivery_sub <- update_delivery_graph()
+    demoPlot(delivery_sub, "Final Route and Delivery Method")
+  })  
+  
+  output$gestationPlot <- renderHighchart({
+    gestation_sub <- update_gestation_graph()
+    demoPlot(gestation_sub, "OE Gestational Age Recode 10")
+  })    
+  
+  output$carePlot <- renderHighchart({
+    care_sub <- update_care_graph()
+    demoPlot(care_sub, "Trimester Prenatal Care Began")
+  })      
+  
+  output$lastpregPlot <- renderHighchart({
+    lastpreg_sub <- update_lastpreg_graph()
+    demoPlot(lastpreg_sub, "Interval of Last Pregnancy")
+  })        
+  
   
   output$oddsPlot <- renderDataTable({
     bmi_table <- update_bmi_oddratio()
 
-    datatable(bmi_table, options = list(searching = FALSE), caption="BMI vs. Preterm Birth Odds Ratio Analysis")  %>%  formatRound(columns=c('oddsratio', 'p.value'), digits=3)
-  })
-  
-  output$oddsPlot2 <- renderDataTable({
-    bmi_table <- update_bmi_oddratio2()
-    
-    datatable(bmi_table, options = list(searching = FALSE), caption="BMI vs. Eclampsia Odds Ratio Analysis")  %>%  formatRound(columns=c('oddsratio', 'p.value'), digits=3)
+    datatable(bmi_table, options = list(searching = FALSE), caption="Odds Ratio Analysis")  %>%  formatRound(columns=c('oddsratio', 'p.value'), digits=3)
   })
   
   
   output$raceOddsPlot <- renderDataTable({
     race_table <- update_race_oddratio()
-    datatable(race_table, options = list(searching = FALSE), caption="Race vs. Pre-pregnancy Odds Ratio Analysis")  %>%  formatRound(columns=c('oddsratio', 'p.value'), digits=3)
+    datatable(race_table, options = list(searching = FALSE), caption="Odds Ratio Analysis")  %>%  formatRound(columns=c('oddsratio', 'p.value'), digits=3)
   })
   
   
   output$wtgainOddsPlot <- renderDataTable({
     wtgain_table <- update_wtgain_oddratio()
-    datatable(wtgain_table, options = list(searching = FALSE), caption="Weight Gain vs. Pre-pregnancy Odds Ratio Analysis")  %>%  formatRound(columns=c('oddsratio', 'p.value'), digits=3)
+    datatable(wtgain_table, options = list(searching = FALSE), caption="Odds Ratio Analysis")  %>%  formatRound(columns=c('oddsratio', 'p.value'), digits=3)
+  })
+  
+  output$deliveryOddsPlot <- renderDataTable({
+    delivery_table <- update_delivery_oddratio()
+    datatable(delivery_table, options = list(searching = FALSE), caption="Odds Ratio Analysis")  %>%  formatRound(columns=c('oddsratio', 'p.value'), digits=3)
+  })
+
+  output$gestationOddsPlot <- renderDataTable({
+    gestation_table <- update_gestation_oddratio()
+    datatable(gestation_table, options = list(searching = FALSE), caption="Odds Ratio Analysis")  %>%  formatRound(columns=c('oddsratio', 'p.value'), digits=3)
+  })
+      
+  output$careOddsPlot <- renderDataTable({
+    care_table <- update_care_oddratio()
+    datatable(care_table, options = list(searching = FALSE), caption="Odds Ratio Analysis")  %>%  formatRound(columns=c('oddsratio', 'p.value'), digits=3)
+  })
+  
+  output$lastpregOddsPlot <- renderDataTable({
+    lastpreg_table <- update_lastpreg_oddratio()
+    datatable(lastpreg_table, options = list(searching = FALSE), caption="Odds Ratio Analysis")  %>%  formatRound(columns=c('oddsratio', 'p.value'), digits=3)
   })
   
   output$distPlot <- renderPlot({

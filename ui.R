@@ -72,40 +72,40 @@ ui <- dashboardPage(
             inputId = "riskInput",
             label = "",
             choices = risk_factor1,
-            selected = "pre-pregnancy_diabetes",
-            multiple = TRUE
-          )
-        ),
-        br(),
-        menuItem(
-          "STATES",
-          tabName = "state_filter",
-          icon = icon("map"),
-          selectInput(
-            inputId = "stateInput",
-            label = "",
-            choices = list("New York" = "NY", "New Jersey" = "NJ")
-          )
-        ),
-        br(),
-        menuItem(
-          "DOWNLOAD SELECTION",
-          tabName = "download",
-          icon = icon("download"),
-          textInput(
-            inputId = "filename",
-            placeholder = "Name download file",
-            label = ""
-          ),
-          div(
-            downloadButton(
-              outputId = "downloadData",
-              label = "Save Selected Data",
-              icon = icon("download"),
-              style = "color: black; margin-left: 15px; margin-bottom: 5px;"
-            )
+            selected = "pre-pregnancy_diabetes"
+            # ,multiple = TRUE
           )
         )
+        # br(),
+        # menuItem(
+        #   "STATES",
+        #   tabName = "state_filter",
+        #   icon = icon("map"),
+        #   selectInput(
+        #     inputId = "stateInput",
+        #     label = "",
+        #     choices = list("New York" = "NY", "New Jersey" = "NJ")
+        #   )
+        # ),
+        # br(),
+        # menuItem(
+        #   "DOWNLOAD SELECTION",
+        #   tabName = "download",
+        #   icon = icon("download"),
+        #   textInput(
+        #     inputId = "filename",
+        #     placeholder = "Name download file",
+        #     label = ""
+        #   ),
+        #   div(
+        #     downloadButton(
+        #       outputId = "downloadData",
+        #       label = "Save Selected Data",
+        #       icon = icon("download"),
+        #       style = "color: black; margin-left: 15px; margin-bottom: 5px;"
+        #     )
+        #   )
+        # )
         
       )
     )
@@ -124,15 +124,16 @@ ui <- dashboardPage(
           bsButton("database1", 
                    label = "Database 1: 2016 - 2021 (Expanded)", 
                    style = "success"),
-          bsButton("database2", 
-                   label = "Database 2: 2007 - 2021", 
+          bsButton("database2",
+                   label = "Database 2: 2007 - 2021",
                    style = "success"),
-          bsButton("database3", 
-                   label = "Database 3: 2003 - 2006", 
+          bsButton("database3",
+                   label = "Database 3: 2003 - 2006",
                    style = "success"),
-          bsButton("database4", 
-                   label = "Database 4: 1995 - 2002", 
-                   style = "success"))
+          bsButton("database4",
+                   label = "Database 4: 1995 - 2002",
+                   style = "success")
+          )
       )
     ),    
     

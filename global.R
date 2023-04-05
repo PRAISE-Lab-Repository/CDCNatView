@@ -56,10 +56,14 @@ eclampsia$`% of Total Births` <- as.numeric(sub("%","", eclampsia$`% of Total Bi
 chart2 <- readRDS("data/database1/long_tables/pre-pregnancy_diabetes.rds")
 chart2$`% of Total Births` <- as.numeric(chart2$`% of Total Births`)
 
-
-# bmi <- readRDS("data/database1/bmi_tables/pre-pregnancy_diabetes.rds")
+bmi <- readRDS("data/database1/bmi_tables/pre-pregnancy_diabetes.rds")
 education <- readRDS("data/database1/education_tables/pre-pregnancy_diabetes.rds")
-
+race <- readRDS("data/database1/race_tables/pre-pregnancy_diabetes.rds")
+wtgain <- readRDS("data/database1/wtgain_tables/pre-pregnancy_diabetes.rds")
+delivery <- readRDS("data/database1/delivery_tables/pre-pregnancy_diabetes.rds")
+gestation <- readRDS("data/database1/gestation_tables/pre-pregnancy_diabetes.rds")
+care <- readRDS("data/database1/care_tables/pre-pregnancy_diabetes.rds")
+lastpreg <- readRDS("data/database1/lastpreg_tables/pre-pregnancy_diabetes.rds")
 
 
 
@@ -74,14 +78,14 @@ years1 = c(2016, 2021)
 risk_factor1 = list(`Pregnancy risk factor` = 
        list("Pre-pregnancy Diabetes" = "pre-pregnancy_diabetes", 
             "Gestational Diabetes" = "gestational_diabetes", 
-            "Pre-pregnancy hypertension" = "pre-pregnancy_hypertension",
-            "Gestational hypertension" = "gestational_hypertension",
+            "Pre-pregnancy Hypertension" = "pre-pregnancy_hypertension",
+            "Gestational Hypertension" = "gestational_hypertension",
             "Eclampsia" = "eclampsia",
-            "Previous preterm birth" = "previous_preterm_birth",
-            "Infertility treatment used" ="infertility_treatment",
-            "Fertility enhancing drugs" = "fertility_enhancing_drugs",
-            "Assistive reproductive technology"="assistive_reproductive_technology",
-            "Previous cesarean delivery" ="previous_cesarean"),
+            "Previous Preterm Birth" = "previous_preterm_birth",
+            "Infertility Treatment Used" ="infertility_treatment",
+            "Fertility Enhancing Drugs" = "fertility_enhancing_drugs",
+            "Assistive Reproductive Technology"="assistive_reproductive_technology",
+            "Previous Cesarean Delivery" ="previous_cesarean"),
      `Infections` = 
        list("Chlamydia"="chlamydia",
             "Gonorrhea"="gonorrhea",
@@ -89,24 +93,72 @@ risk_factor1 = list(`Pregnancy risk factor` =
             "Hepatitis C"="hepatitis_C",
             "Syphilis" = "syphilis"),
      `Maternal morbidities`=
-       list("Admission to ICU"="admission_to_ICU",
+       list("Admission to Intensive Care Unit"="admission_to_ICU",
             "Maternal Transfusion"="maternal_transfusion",
             "Perineal Laceration"="perineal_laceration",
-            "Ruptured uterus" = "ruptured_uterus",
-            "Unplanned hysterectomy"="unplanned_hysterectomy"),
+            "Ruptured Uterus" = "ruptured_uterus",
+            "Unplanned Hysterectomy"="unplanned_hysterectomy"),
      `Pregnancy Outcome` = 
        list("Fullterm birth" = "fullterm_birth",
             "Preterm birth" = "preterm_birth",
-            "Extreme preterm birth" = "extreme_birth",
-            "Severe preterm birth" = "severe_birth",
-            "Moderate preterm birth"="moderate_birth",
-            "Late preterm"= "late_preterm")
+            "Extreme preterm birth (Work in Progress)" = "extreme_birth",
+            "Severe preterm birth (Work in Progress)" = "severe_birth",
+            "Moderate preterm birth (Work in Progress)"="moderate_birth",
+            "Late preterm (Work in Progress)"= "late_preterm")
      )
 
 reverse_map = list("pre-pregnancy_diabetes"="Pre-pregnancy Diabetes",
-                   "gestational_diabetes"="Gestational Diabetes")
+                   "gestational_diabetes"="Gestational Diabetes",
+                   "pre-pregnancy_hypertension"="Pre-pregnancy Hypertension", 
+                   "gestational_hypertension"= "Gestational Hypertension",
+                   "eclampsia" = "Eclampsia" ,
+                   "previous_preterm_birth" = "Previous Preterm Birth",
+                   "infertility_treatment" = "Infertility Treatment Used",
+                   "fertility_enhancing_drugs"= "Fertility Enhancing Drugs",
+                   "assistive_reproductive_technology"="Assistive Reproductive Technology",
+                   "previous_cesarean"= "Previous Cesarean Delivery",
+                   "chlamydia"="Chlamydia",
+                   "gonorrhea"="Gonorrhea",
+                   "hepatitis_B"="Hepatitis B",
+                   "hepatitis_C"= "Hepatitis C",
+                   "syphilis"="Syphilis", 
+                   "admission_to_ICU" = "Admission to Intensive Care Unit",
+                   "maternal_transfusion"="Maternal Transfusion",
+                   "perineal_laceration"= "Perineal Laceration",
+                   "ruptured_uterus"="Ruptured Uterus",
+                   "unplanned_hysterectomy"="Unplanned Hysterectomy",
+                   "fullterm_birth"="Fullterm birth",
+                   "preterm_birth"="Preterm birth")
 
 code_map = list("pre-pregnancy_diabetes"="D149.V74",
-                "gestational_diabetes"="D149.V75")
+                "gestational_diabetes"="D149.V75",
+                "pre-pregnancy_hypertension"="D149.V16",
+                "gestational_hypertension" = "D149.V17",
+                "eclampsia"="D149.V18",
+                "previous_preterm_birth"="D149.V76",
+                "infertility_treatment"="D149.V77",
+                "fertility_enhancing_drugs"="D149.V78",
+                "assistive_reproductive_technology"="D149.V79",
+                "previous_cesarean"="D149.V80",
+                "chlamydia"="D149.V85",
+                "gonorrhea"="D149.V83",
+                "hepatitis_B"="D149.V86",
+                "hepatitis_C"="D149.V87",
+                "admission_to_ICU"="D149.V106",
+                "maternal_transfusion"="D149.V102",
+                "perineal_laceration"="D149.V103",
+                "ruptured_uterus"="D149.V104",
+                "unplanned_hysterectomy"="D149.V105",
+                "oe_gesation_10"="D149.V32")
+
+demo_map = list("bmi"="D149.V71",
+                "race"="D149.V42",
+                "wtgain"="D149.V73",
+                "delivery"="D149.V99",
+                "gestation"="D149.V32",
+                "care"="D149.V63",
+                "lastpreg"="D149.V62")
+
+
 
 

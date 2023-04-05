@@ -51,6 +51,32 @@ get_education_data <- function(field_name, code_name) {
   saveRDS(k, save_path)
 }
 
+get_table_data <- function(field_name, code_name, field_name1, code_name1) {
+  x <- read_xml("education_base_request.xml")
+  
+  lookup <- sprintf("//name[text() ='%s']/parent::parameter//value", "B_1")
+  to_mod <- xml_find_all(x, lookup)
+  xml_text(to_mod) <- code_name
+  
+  lookup <- sprintf("//name[text() ='%s']/parent::parameter//value", "B_3")
+  to_mod <- xml_find_all(x, lookup)
+  xml_text(to_mod) <- code_name1
+  
+  write_xml(x, "new_education_request.xml")
+  xx <- xmlParse("new_education_request.xml")
+  
+  query <- XML::saveXML(xx,
+                        indent=FALSE,
+                        prefix='<?xml version="1.0" encoding="utf-8"?>\n')
+  
+  url <- "https://wonder.cdc.gov/controller/datarequest/D149"
+  r <- POST(url, body = list(request_xml = query, accept_datause_restrictions = "true"), encode = "form")
+  r2 <- content(r, as="text", encoding = "utf-8") 
+  k <- xml2::read_xml(r2) %>% make_query_table()
+  
+  save_path <- sprintf("data/database1/%s_tables/%s.rds", field_name1, field_name)
+  saveRDS(k, save_path)
+}
 
 # get_education_data <- function(field_name, code_name) {
 #   x <- read_xml("education_base_request.xml")
