@@ -1,13 +1,15 @@
 # Define server logic required to draw a histogram
-server <- function(input, output) {
+server <- function(input, output, session) {
   # REACTIVES ------------------------------------------------------------------
   observeEvent(input$database2, {
-    showModal(modalDialog(
-      title = "Work in Progress",
-      "We are still actively working on get this set of CDC dataset into our database.",
-      easyClose = TRUE,
-      footer = NULL
-    ))
+    updateSelectInput(session, "riskInput", label = "",
+                      choices = risk_factor2,
+                      selected = "chronic_htn")
+    updateButton(session, "database2", style = "warning")
+    updateButton(session, "database1", style = "success")
+    updateButton(session, "database3", style = "success")
+    updateButton(session, "database4", style = "success")
+    
   })  
   
   observeEvent(input$database3, {
@@ -29,102 +31,102 @@ server <- function(input, output) {
   })  
   
  
-  # update_graphs <- function() {
-  #   
-  #   # update long graph ---------------------------------------------------------
-  #   file_path <- sprintf("data/database1/long_tables/%s.rds", input$riskInput)
-  #   
-  #   # if file does not exist get data from wonder api
-  #   if (!file.exists(file_path)) {
-  #     get_long_data(input$riskInput, code_map[[input$riskInput]])
-  #   }
-  #   
-  #   chart2 <<- readRDS(file_path)
-  #   chart2$`% of Total Births` <<- as.numeric(chart2$`% of Total Births`)
-  #   
-  #   # update bmi graph ---------------------------------------------------------
-  #   file_path <- sprintf("data/database1/bmi_tables/%s.rds", input$riskInput)
-  #   
-  #   # if file does not exist get data from wonder api
-  #   if (!file.exists(file_path)) {
-  #     get_table_data(input$riskInput, code_map[[input$riskInput]], 'bmi', demo_map[['bmi']])
-  #   }
-  #   
-  #   bmi <<- readRDS(file_path)
-  #   
-  #   # update race graph ---------------------------------------------------------
-  #   
-  #   file_path <- sprintf("data/database1/race_tables/%s.rds", input$riskInput)
-  #   
-  #   # if file does not exist get data from wonder api
-  #   if (!file.exists(file_path)) {
-  #     get_table_data(input$riskInput, code_map[[input$riskInput]], 'race', demo_map[['race']])
-  #   }
-  #   
-  #   race <<- readRDS(file_path)    
-  #   
-  #   # update weight gain graph -------------------------------------------------
-  #   file_path <- sprintf("data/database1/wtgain_tables/%s.rds", input$riskInput)
-  #   
-  #   # if file does not exist get data from wonder api
-  #   if (!file.exists(file_path)) {
-  #     get_table_data(input$riskInput, code_map[[input$riskInput]], 'wtgain', demo_map[['wtgain']])
-  #   }
-  #   
-  #   wtgain <<- readRDS(file_path)
-  #   
-  #   # update delivery graph -------------------------------------------------
-    # file_path <- sprintf("data/database1/delivery_tables/%s.rds", input$riskInput)
-    # 
-    # # if file does not exist get data from wonder api
-    # if (!file.exists(file_path)) {
-    #   get_table_data(input$riskInput, code_map[[input$riskInput]], 'delivery', demo_map[['delivery']])
-    # }
-    # 
-    # delivery <<- readRDS(file_path)
-  #   
-  #   # update gestation graph -------------------------------------------------
-  #   file_path <- sprintf("data/database1/gestation_tables/%s.rds", input$riskInput)
-  #   
-  #   # if file does not exist get data from wonder api
-  #   if (!file.exists(file_path)) {
-  #     get_table_data(input$riskInput, code_map[[input$riskInput]], 'gestation', demo_map[['gestation']])
-  #   }
-  #   
-  #   gestation <<- readRDS(file_path)
-  #   
-  #   # update care graph -------------------------------------------------
-    # file_path <- sprintf("data/database1/care_tables/%s.rds", input$riskInput)
-    # 
-    # # if file does not exist get data from wonder api
-    # if (!file.exists(file_path)) {
-    #   get_table_data(input$riskInput, code_map[[input$riskInput]], 'care', demo_map[['care']])
-    # }
-    # 
-    # care <<- readRDS(file_path)
-  #   
-  #   # update lastpreg graph -------------------------------------------------
-  #   file_path <- sprintf("data/database1/lastpreg_tables/%s.rds", input$riskInput)
-  #   
-  #   # if file does not exist get data from wonder api
-  #   if (!file.exists(file_path)) {
-  #     get_table_data(input$riskInput, code_map[[input$riskInput]], 'lastpreg', demo_map[['lastpreg']])
-  #   }
-  #   
-  #   lastpreg <<- readRDS(file_path)
-  #   
-  #   
-  #   # update education graph -------------------------------------------------
-  #   file_path <- sprintf("data/database1/education_tables/%s.rds", input$riskInput)
-  #   
-  #   # if file does not exist get data from wonder api
-  #   if (!file.exists(file_path)) {
-  #     get_education_data(input$riskInput, code_map[[input$riskInput]])
-  #   }
-  #   
-  #   education <<- readRDS(file_path)
-  #   
-  # }
+  update_graphs <- function() {
+
+    # update long graph ---------------------------------------------------------
+    file_path <- sprintf("data/database1/long_tables/%s.rds", input$riskInput)
+
+    # if file does not exist get data from wonder api
+    if (!file.exists(file_path)) {
+      get_long_data(input$riskInput, code_map[[input$riskInput]])
+    }
+
+    chart2 <<- readRDS(file_path)
+    chart2$`% of Total Births` <<- as.numeric(chart2$`% of Total Births`)
+
+    # update bmi graph ---------------------------------------------------------
+    file_path <- sprintf("data/database1/bmi_tables/%s.rds", input$riskInput)
+
+    # if file does not exist get data from wonder api
+    if (!file.exists(file_path)) {
+      get_table_data(input$riskInput, code_map[[input$riskInput]], 'bmi', demo_map[['bmi']])
+    }
+
+    bmi <<- readRDS(file_path)
+
+    # update race graph ---------------------------------------------------------
+
+    file_path <- sprintf("data/database1/race_tables/%s.rds", input$riskInput)
+
+    # if file does not exist get data from wonder api
+    if (!file.exists(file_path)) {
+      get_table_data(input$riskInput, code_map[[input$riskInput]], 'race', demo_map[['race']])
+    }
+
+    race <<- readRDS(file_path)
+
+    # update weight gain graph -------------------------------------------------
+    file_path <- sprintf("data/database1/wtgain_tables/%s.rds", input$riskInput)
+
+    # if file does not exist get data from wonder api
+    if (!file.exists(file_path)) {
+      get_table_data(input$riskInput, code_map[[input$riskInput]], 'wtgain', demo_map[['wtgain']])
+    }
+
+    wtgain <<- readRDS(file_path)
+
+    # update delivery graph -------------------------------------------------
+  file_path <- sprintf("data/database1/delivery_tables/%s.rds", input$riskInput)
+
+  # if file does not exist get data from wonder api
+  if (!file.exists(file_path)) {
+    get_table_data(input$riskInput, code_map[[input$riskInput]], 'delivery', demo_map[['delivery']])
+  }
+
+  delivery <<- readRDS(file_path)
+
+    # update gestation graph -------------------------------------------------
+    file_path <- sprintf("data/database1/gestation_tables/%s.rds", input$riskInput)
+
+    # if file does not exist get data from wonder api
+    if (!file.exists(file_path)) {
+      get_table_data(input$riskInput, code_map[[input$riskInput]], 'gestation', demo_map[['gestation']])
+    }
+
+    gestation <<- readRDS(file_path)
+
+    # update care graph -------------------------------------------------
+  file_path <- sprintf("data/database1/care_tables/%s.rds", input$riskInput)
+
+  # if file does not exist get data from wonder api
+  if (!file.exists(file_path)) {
+    get_table_data(input$riskInput, code_map[[input$riskInput]], 'care', demo_map[['care']])
+  }
+
+  care <<- readRDS(file_path)
+
+    # update lastpreg graph -------------------------------------------------
+    file_path <- sprintf("data/database1/lastpreg_tables/%s.rds", input$riskInput)
+
+    # if file does not exist get data from wonder api
+    if (!file.exists(file_path)) {
+      get_table_data(input$riskInput, code_map[[input$riskInput]], 'lastpreg', demo_map[['lastpreg']])
+    }
+
+    lastpreg <<- readRDS(file_path)
+
+
+    # update education graph -------------------------------------------------
+    file_path <- sprintf("data/database1/education_tables/%s.rds", input$riskInput)
+
+    # if file does not exist get data from wonder api
+    if (!file.exists(file_path)) {
+      get_education_data(input$riskInput, code_map[[input$riskInput]])
+    }
+
+    education <<- readRDS(file_path)
+
+  }
   
   update_state_graph2 <- reactive({
     input$confirm 

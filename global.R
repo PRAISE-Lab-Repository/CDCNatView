@@ -66,12 +66,11 @@ care <- readRDS("data/database1/care_tables/pre-pregnancy_diabetes.rds")
 lastpreg <- readRDS("data/database1/lastpreg_tables/pre-pregnancy_diabetes.rds")
 
 
-
-# chart3_2 <- 
-
 # years 
 years1 = c(2016, 2021)
-
+years2 = c(2007, 2021)
+years3 = c(2003, 2006)
+years4 = c(1995, 2002)
 
 # choices for risk factor  ----------------------------------------------------
 
@@ -105,6 +104,16 @@ risk_factor1 = list(`Pregnancy risk factor` =
             "Severe preterm birth" = "severe_birth",
             "Moderate and Late preterm birth"="moderate_birth")
      )
+
+
+risk_factor2 = list(`Pregnancy risk factor`= 
+      list("Chronic Hypertension"="chronic_htn",
+           "Diabetes"="diabetes",
+           "Pregnancy-associated Hypertension"="preg_htn",
+           "Eclampsia" = "eclampsia")                  
+    )
+
+
 
 reverse_map = list("pre-pregnancy_diabetes"="Pre-pregnancy Diabetes",
                    "gestational_diabetes"="Gestational Diabetes",
