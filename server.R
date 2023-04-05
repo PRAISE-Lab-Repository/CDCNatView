@@ -169,7 +169,7 @@ server <- function(input, output) {
     isolate({
       file_path <- sprintf("data/database1/long_tables/%s.rds", input$riskInput)
 
-      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth", "extreme_birth", "severe_birth", "moderate_birth")) {
         file_path <- sprintf("data/database1/long_tables/%s.rds", "oe_gesation_10")
         
       }
@@ -181,7 +181,7 @@ server <- function(input, output) {
         
         chart2 <- get_preg_outcome_data(chart2)
 
-        cc <- chart2 %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Year`)
+        cc <- chart2 %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Moderate and Late preterm birth`, `Year`)
         
         chart2 <- summarise(cc, Births=sum(Births), 
                   `% of Total Births` = sum(`% of Total Births`),
@@ -204,7 +204,7 @@ server <- function(input, output) {
     input$confirm 
     isolate({
       file_path <- sprintf("data/database1/bmi_tables/%s.rds", input$riskInput)
-      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth", "extreme_birth", "severe_birth", "moderate_birth")) {
         file_path <- sprintf("data/database1/bmi_tables/%s.rds", "oe_gesation_10")
         
       }
@@ -218,7 +218,7 @@ server <- function(input, output) {
         
         bmi <- get_preg_outcome_data(bmi)
         
-        cc <- bmi %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Year`,`Mother's Pre-pregnancy BMI`)
+        cc <- bmi %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Moderate and Late preterm birth`, `Year`,`Mother's Pre-pregnancy BMI`)
         
         bmi <- summarise(cc, Births=sum(Births))
         
@@ -234,7 +234,7 @@ server <- function(input, output) {
     input$confirm 
     isolate({
       file_path <- sprintf("data/database1/race_tables/%s.rds", input$riskInput)
-      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth", "extreme_birth", "severe_birth", "moderate_birth")) {
         file_path <- sprintf("data/database1/race_tables/%s.rds", "oe_gesation_10")
         
       }
@@ -247,7 +247,7 @@ server <- function(input, output) {
         
         race <- get_preg_outcome_data(race)
         
-        cc <- race %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Year`,`Mother's Single Race 6`)
+        cc <- race %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Moderate and Late preterm birth`,`Year`,`Mother's Single Race 6`)
         
         race <- summarise(cc, Births=sum(Births))
         
@@ -263,7 +263,7 @@ server <- function(input, output) {
     isolate({
 
       file_path <- sprintf("data/database1/wtgain_tables/%s.rds", input$riskInput)
-      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth", "extreme_birth", "severe_birth", "moderate_birth")) {
         file_path <- sprintf("data/database1/wtgain_tables/%s.rds", "oe_gesation_10")
         
       }
@@ -276,7 +276,7 @@ server <- function(input, output) {
         
         wtgain <- get_preg_outcome_data(wtgain)
         
-        cc <- wtgain %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Year`,`Mother's Weight Gain Recode`)
+        cc <- wtgain %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Moderate and Late preterm birth`,`Year`,`Mother's Weight Gain Recode`)
         
         wtgain <- summarise(cc, Births=sum(Births))
         
@@ -292,7 +292,7 @@ server <- function(input, output) {
     isolate({
 
       file_path <- sprintf("data/database1/delivery_tables/%s.rds", input$riskInput)
-      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth", "extreme_birth", "severe_birth", "moderate_birth")) {
         file_path <- sprintf("data/database1/delivery_tables/%s.rds", "oe_gesation_10")
         
       }
@@ -305,7 +305,7 @@ server <- function(input, output) {
         
         delivery <- get_preg_outcome_data(delivery)
         
-        cc <- delivery %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Year`,`Final Route and Delivery Method`)
+        cc <- delivery %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Moderate and Late preterm birth`,`Year`,`Final Route and Delivery Method`)
         
         delivery <- summarise(cc, Births=sum(Births))
         
@@ -320,7 +320,7 @@ server <- function(input, output) {
     isolate({
       
       file_path <- sprintf("data/database1/gestation_tables/%s.rds", input$riskInput)
-      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth","extreme_birth", "severe_birth", "moderate_birth")) {
         file_path <- sprintf("data/database1/gestation_tables/%s.rds", "oe_gesation_10")
         
       }
@@ -333,7 +333,7 @@ server <- function(input, output) {
         
         gestation <- get_preg_outcome_data(gestation)
         
-        cc <- gestation %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Year`,`OE Gestational Age Recode 10`)
+        cc <- gestation %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`,`Moderate and Late preterm birth`, `Year`,`OE Gestational Age Recode 10`)
         
         gestation <- summarise(cc, Births=sum(Births))
         
@@ -351,7 +351,7 @@ server <- function(input, output) {
 
       
       file_path <- sprintf("data/database1/care_tables/%s.rds", input$riskInput)
-      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth", "extreme_birth", "severe_birth", "moderate_birth")) {
         file_path <- sprintf("data/database1/care_tables/%s.rds", "oe_gesation_10")
         
       }
@@ -364,7 +364,7 @@ server <- function(input, output) {
         
         care <- get_preg_outcome_data(care)
         
-        cc <- care %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Year`,`Trimester Prenatal Care Began`)
+        cc <- care %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`,`Moderate and Late preterm birth`, `Year`,`Trimester Prenatal Care Began`)
         
         care <- summarise(cc, Births=sum(Births))
         
@@ -379,7 +379,7 @@ server <- function(input, output) {
     isolate({
       
       file_path <- sprintf("data/database1/lastpreg_tables/%s.rds", input$riskInput)
-      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth","extreme_birth", "severe_birth", "moderate_birth")) {
         file_path <- sprintf("data/database1/lastpreg_tables/%s.rds", "oe_gesation_10")
         
       }
@@ -392,7 +392,7 @@ server <- function(input, output) {
         
         lastpreg <- get_preg_outcome_data(lastpreg)
         
-        cc <- lastpreg %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Year`,`Interval of Last Pregnancy`)
+        cc <- lastpreg %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Moderate and Late preterm birth`,`Year`,`Interval of Last Pregnancy`)
         
         lastpreg <- summarise(cc, Births=sum(Births))
         
@@ -408,7 +408,7 @@ server <- function(input, output) {
 
       
       file_path <- sprintf("data/database1/education_tables/%s.rds", input$riskInput)
-      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth","extreme_birth", "severe_birth", "moderate_birth")) {
         file_path <- sprintf("data/database1/education_tables/%s.rds", "oe_gesation_10")
         
       }
@@ -421,7 +421,7 @@ server <- function(input, output) {
         
         education <- get_preg_outcome_data(education)
         
-        cc <- education %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Year`, `Mother's Education`)
+        cc <- education %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`,`Moderate and Late preterm birth`, `Year`, `Mother's Education`)
         
         education <- summarise(cc, Births=sum(Births))
         
@@ -436,7 +436,7 @@ server <- function(input, output) {
     input$confirm 
     isolate({
       file_path <- sprintf("data/database1/bmi_tables/%s.rds", input$riskInput)
-      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth","extreme_birth", "severe_birth", "moderate_birth")) {
         file_path <- sprintf("data/database1/bmi_tables/%s.rds", "oe_gesation_10")
         
       }
@@ -449,7 +449,7 @@ server <- function(input, output) {
         
         bmi <- get_preg_outcome_data(bmi)
         
-        cc <- bmi %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Year`,`Mother's Pre-pregnancy BMI`)
+        cc <- bmi %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Moderate and Late preterm birth`,`Year`,`Mother's Pre-pregnancy BMI`)
         
         bmi <- summarise(cc, Births=sum(Births))
         
@@ -478,7 +478,7 @@ server <- function(input, output) {
     input$confirm 
     isolate({
       file_path <- sprintf("data/database1/race_tables/%s.rds", input$riskInput)
-      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth","extreme_birth", "severe_birth", "moderate_birth")) {
         file_path <- sprintf("data/database1/race_tables/%s.rds", "oe_gesation_10")
         
       }
@@ -491,7 +491,7 @@ server <- function(input, output) {
         
         race <- get_preg_outcome_data(race)
         
-        cc <- race %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Year`,`Mother's Single Race 6`)
+        cc <- race %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Moderate and Late preterm birth`,`Year`,`Mother's Single Race 6`)
         
         race <- summarise(cc, Births=sum(Births))
         
@@ -499,15 +499,21 @@ server <- function(input, output) {
       odds_sub <- race %>% group_by(!!as.symbol(reverse_map[[input$riskInput]]), `Mother's Single Race 6`)
       odds_sub <- summarise(odds_sub, count = sum(Births))
       
+      
       odds_sub <- odds_sub %>% filter(!!as.symbol(reverse_map[[input$riskInput]]) %in% c("Yes", "No"))
       odds_sub <- odds_sub %>% pivot_wider(names_from=!!as.symbol(reverse_map[[input$riskInput]]), values_from=count)
       
+      
       odds_sub <- odds_sub %>% arrange(match(`Mother's Single Race 6`, c("White", setdiff(c("White"), `Mother's Single Race 6`))))
+      odds_sub[is.na(odds_sub)] = 0
+      
       
       odd_table <- data.matrix(odds_sub[,-c(1) ])
       rownames(odd_table) = odds_sub$`Mother's Single Race 6`
       
+      print(odd_table)
       result <- epitab(odd_table, method="oddsratio")
+      print(result)
       as.data.frame(result$tab[,c(1, 3, 5, 8)])
       
     })
@@ -517,7 +523,7 @@ server <- function(input, output) {
     input$confirm 
     isolate({
       file_path <- sprintf("data/database1/wtgain_tables/%s.rds", input$riskInput)
-      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth","extreme_birth", "severe_birth", "moderate_birth")) {
         file_path <- sprintf("data/database1/wtgain_tables/%s.rds", "oe_gesation_10")
         
       }
@@ -530,7 +536,7 @@ server <- function(input, output) {
         
         wtgain <- get_preg_outcome_data(wtgain)
         
-        cc <- wtgain %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Year`,`Mother's Weight Gain Recode`)
+        cc <- wtgain %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Moderate and Late preterm birth`,`Year`,`Mother's Weight Gain Recode`)
         
         wtgain <- summarise(cc, Births=sum(Births))
         
@@ -542,6 +548,7 @@ server <- function(input, output) {
       odds_sub <- odds_sub %>% pivot_wider(names_from=!!as.symbol(reverse_map[[input$riskInput]]), values_from=count)
       
       odds_sub <- odds_sub %>% arrange(match(`Mother's Weight Gain Recode`, c("21 to 30 pounds", setdiff(c("21 to 30 pounds"), `Mother's Weight Gain Recode`))))
+      odds_sub[is.na(odds_sub)] = 0
       
       odd_table <- data.matrix(odds_sub[,-c(1) ])
       rownames(odd_table) = odds_sub$`Mother's Weight Gain Recode`
@@ -556,7 +563,7 @@ server <- function(input, output) {
     input$confirm 
     isolate({
       file_path <- sprintf("data/database1/delivery_tables/%s.rds", input$riskInput)
-      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth","extreme_birth", "severe_birth", "moderate_birth")) {
         file_path <- sprintf("data/database1/delivery_tables/%s.rds", "oe_gesation_10")
         
       }
@@ -569,7 +576,7 @@ server <- function(input, output) {
         
         delivery <- get_preg_outcome_data(delivery)
         
-        cc <- delivery %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Year`,`Final Route and Delivery Method`)
+        cc <- delivery %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`,`Moderate and Late preterm birth`, `Year`,`Final Route and Delivery Method`)
         
         delivery <- summarise(cc, Births=sum(Births))
         
@@ -581,6 +588,7 @@ server <- function(input, output) {
       odds_sub <- odds_sub %>% pivot_wider(names_from=!!as.symbol(reverse_map[[input$riskInput]]), values_from=count)
       
       odds_sub <- odds_sub %>% arrange(match(`Final Route and Delivery Method`, c("Spontaneous", setdiff(c("Spontaneous"), `Final Route and Delivery Method`))))
+      odds_sub[is.na(odds_sub)] = 0
       
       odd_table <- data.matrix(odds_sub[,-c(1) ])
       rownames(odd_table) = odds_sub$`Final Route and Delivery Method`
@@ -595,7 +603,7 @@ server <- function(input, output) {
     input$confirm 
     isolate({
       file_path <- sprintf("data/database1/gestation_tables/%s.rds", input$riskInput)
-      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth","extreme_birth", "severe_birth", "moderate_birth")) {
         file_path <- sprintf("data/database1/gestation_tables/%s.rds", "oe_gesation_10")
         
       }
@@ -608,7 +616,7 @@ server <- function(input, output) {
         
         gestation <- get_preg_outcome_data(gestation)
         
-        cc <- gestation %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Year`,`OE Gestational Age Recode 10`)
+        cc <- gestation %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Moderate and Late preterm birth`,`Year`,`OE Gestational Age Recode 10`)
         
         gestation <- summarise(cc, Births=sum(Births))
         
@@ -620,6 +628,7 @@ server <- function(input, output) {
       odds_sub <- odds_sub %>% pivot_wider(names_from=!!as.symbol(reverse_map[[input$riskInput]]), values_from=count)
       
       odds_sub <- odds_sub %>% arrange(match(`OE Gestational Age Recode 10`, c("37 - 39 weeks", setdiff(c("37 - 39 weeks"), `OE Gestational Age Recode 10`))))
+      odds_sub[is.na(odds_sub)] = 0
       
       odd_table <- data.matrix(odds_sub[,-c(1) ])
       rownames(odd_table) = odds_sub$`OE Gestational Age Recode 10`
@@ -634,7 +643,7 @@ server <- function(input, output) {
     input$confirm 
     isolate({
       file_path <- sprintf("data/database1/care_tables/%s.rds", input$riskInput)
-      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth","extreme_birth", "severe_birth", "moderate_birth")) {
         file_path <- sprintf("data/database1/care_tables/%s.rds", "oe_gesation_10")
         
       }
@@ -647,7 +656,7 @@ server <- function(input, output) {
         
         care <- get_preg_outcome_data(care)
         
-        cc <- care %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Year`,`Trimester Prenatal Care Began`)
+        cc <- care %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`,`Moderate and Late preterm birth`, `Year`,`Trimester Prenatal Care Began`)
         
         care <- summarise(cc, Births=sum(Births))
         
@@ -659,6 +668,7 @@ server <- function(input, output) {
       odds_sub <- odds_sub %>% pivot_wider(names_from=!!as.symbol(reverse_map[[input$riskInput]]), values_from=count)
       
       odds_sub <- odds_sub %>% arrange(match(`Trimester Prenatal Care Began`, c("White", setdiff(c("White"), `Trimester Prenatal Care Began`))))
+      odds_sub[is.na(odds_sub)] = 0
       
       odd_table <- data.matrix(odds_sub[,-c(1) ])
       rownames(odd_table) = odds_sub$`Trimester Prenatal Care Began`
@@ -673,7 +683,7 @@ server <- function(input, output) {
     input$confirm 
     isolate({
       file_path <- sprintf("data/database1/lastpreg_tables/%s.rds", input$riskInput)
-      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth","extreme_birth", "severe_birth", "moderate_birth")) {
         file_path <- sprintf("data/database1/lastpreg_tables/%s.rds", "oe_gesation_10")
         
       }
@@ -686,7 +696,7 @@ server <- function(input, output) {
         
         lastpreg <- get_preg_outcome_data(lastpreg)
         
-        cc <- lastpreg %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Year`,`Interval of Last Pregnancy`)
+        cc <- lastpreg %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Moderate and Late preterm birth`,`Year`,`Interval of Last Pregnancy`)
         
         lastpreg <- summarise(cc, Births=sum(Births))
         
@@ -698,6 +708,7 @@ server <- function(input, output) {
       odds_sub <- odds_sub %>% pivot_wider(names_from=!!as.symbol(reverse_map[[input$riskInput]]), values_from=count)
       
       odds_sub <- odds_sub %>% arrange(match(`Interval of Last Pregnancy`, c("72 months and over", setdiff(c("72 months and over"), `Interval of Last Pregnancy`))))
+      odds_sub[is.na(odds_sub)] = 0
       
       odd_table <- data.matrix(odds_sub[,-c(1) ])
       rownames(odd_table) = odds_sub$`Interval of Last Pregnancy`
@@ -712,7 +723,7 @@ server <- function(input, output) {
     input$confirm 
     isolate({
       file_path <- sprintf("data/database1/education_tables/%s.rds", input$riskInput)
-      if (input$riskInput %in% c("fullterm_birth", "preterm_birth")) {
+      if (input$riskInput %in% c("fullterm_birth", "preterm_birth","extreme_birth", "severe_birth", "moderate_birth")) {
         file_path <- sprintf("data/database1/education_tables/%s.rds", "oe_gesation_10")
         
       }
@@ -725,7 +736,7 @@ server <- function(input, output) {
         
         education <- get_preg_outcome_data(education)
         
-        cc <- education %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Year`,`Mother's Education`)
+        cc <- education %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Moderate and Late preterm birth`,`Year`,`Mother's Education`)
         
         education <- summarise(cc, Births=sum(Births))
         
@@ -737,6 +748,7 @@ server <- function(input, output) {
       odds_sub <- odds_sub %>% pivot_wider(names_from=!!as.symbol(reverse_map[[input$riskInput]]), values_from=count)
       
       odds_sub <- odds_sub %>% arrange(match(`Mother's Education`, c("White", setdiff(c("White"), `Mother's Education`))))
+      odds_sub[is.na(odds_sub)] = 0
       
       odd_table <- data.matrix(odds_sub[,-c(1) ])
       rownames(odd_table) = odds_sub$`Mother's Education`
@@ -1351,7 +1363,7 @@ server <- function(input, output) {
                    aes(label = state_abbv),
                    size = 3) +
       scale_fill_gradientn() +
-      labs(fill = "Diabetes Percentag") +
+      labs(fill = "Percentage") +
       coord_sf(datum = NA)
   })
 }
