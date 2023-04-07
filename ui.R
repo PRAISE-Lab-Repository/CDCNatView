@@ -6,8 +6,8 @@ ui <- dashboardPage(
       a(
         strong("ABOUT US"),
         height = 40,
-        href = "",
-        title = "http://www.cs.columbia.edu/~ansaf/praise/index.html",
+        href = "http://www.cs.columbia.edu/~ansaf/praise/index.html",
+        title = "ABOUT US",
         target = "_blank"
       ),
       class = "dropdown"
@@ -16,8 +16,8 @@ ui <- dashboardPage(
       a(
         strong("CONTACT"),
         height = 40,
-        href = "",
-        title = "http://www.cs.columbia.edu/~ansaf/praise/index.html",
+        href = "http://www.cs.columbia.edu/~ansaf/praise/contact-us.html",
+        title = "CONTACT",
         target = "_blank"
       ),
       class = "dropdown"
@@ -123,23 +123,23 @@ ui <- dashboardPage(
         introBox(
           bsButton("database1", 
                    label = "Database 1: 2016 - 2021 (Expanded)", 
-                   style = "success"),
+                   style = "success", type='toggle',value = TRUE, disabled=TRUE),
           bsButton("database2",
                    label = "Database 2: 2007 - 2021",
-                   style = "success"),
+                   style = "success", type='toggle'),
           bsButton("database3",
                    label = "Database 3: 2003 - 2006",
-                   style = "success"),
+                   style = "success", type='toggle'),
           bsButton("database4",
                    label = "Database 4: 1995 - 2002",
-                   style = "success")
+                   style = "success", type='toggle')
           )
       )
     ),    
     
     fluidRow(
       div(
-        id = "patients_panel", 
+        id = "database1_panel", 
         column(
           width = 6,
           introBox(
@@ -159,8 +159,72 @@ ui <- dashboardPage(
       )
     ),
     
+    fluidRow(
+      div(
+        id = "database2_panel", 
+        column(
+          width = 6,
+          introBox(
+            uiOutput("box_pat5"),
+            linebreaks(18),
+            uiOutput("box_pat7")            
+          )
+        ),
+        column(
+          width = 6,
+          introBox(
+            uiOutput("box_pat6"),
+            linebreaks(18),
+            uiOutput("box_pat8")  
+          )
+        )
+      )
+    ),
     
+    fluidRow(
+      div(
+        id = "database3_panel", 
+        column(
+          width = 6,
+          introBox(
+            uiOutput("box_pat9"),
+            linebreaks(18),
+            uiOutput("box_pat11")  
+          )
+        ),
+        column(
+          width = 6,
+          introBox(
+            uiOutput("box_pat10"),
+            linebreaks(18),
+            uiOutput("box_pat12")  
+          )
+        )
+      )
+    ),
     
+    fluidRow(
+      div(
+        id = "database4_panel", 
+        column(
+          width = 6,
+          introBox(
+            uiOutput("box_pat13"),
+            linebreaks(18),
+            uiOutput("box_pat15")  
+          )
+        ),
+        column(
+          width = 6,
+          introBox(
+            uiOutput("box_pat14"),
+            linebreaks(18),
+            uiOutput("box_pat16")  
+            
+          )
+        )
+      )
+    ),
     
     # tags$script(HTML('
     #           $(document).ready(function() {

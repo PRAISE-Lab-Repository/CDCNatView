@@ -78,6 +78,110 @@ get_table_data <- function(field_name, code_name, field_name1, code_name1) {
   saveRDS(k, save_path)
 }
 
+
+get_table_data_v2 <- function(database, field_name, code_name, field_name1, code_name1) {
+  database_map = list("D149", "D66", "D27", "D10")
+  
+  
+  x <- read_xml(sprintf("%s_base_request.xml", database)) 
+  
+  # B_1 should e the condition that we are looking for
+  lookup <- sprintf("//name[text() ='%s']/parent::parameter//value", "B_1")
+  to_mod <- xml_find_all(x, lookup)
+  xml_text(to_mod) <- code_name
+  
+  
+  # B_3 is for the characterlistics such as race, bmi 
+  lookup <- sprintf("//name[text() ='%s']/parent::parameter//value", "B_3")
+  to_mod <- xml_find_all(x, lookup)
+  xml_text(to_mod) <- code_name1
+  
+  # save the request
+  write_xml(x, "new_request.xml")
+  xx <- xmlParse("new_request.xml")
+  
+  query <- XML::saveXML(xx,
+                        indent=FALSE,
+                        prefix='<?xml version="1.0" encoding="utf-8"?>\n')
+  
+  # send the post request 
+  url <- sprintf("https://wonder.cdc.gov/controller/datarequest/%s", database_map[[database]])
+  r <- POST(url, body = list(request_xml = query, accept_datause_restrictions = "true"), encode = "form")
+  r2 <- content(r, as="text", encoding = "utf-8") 
+  k <- xml2::read_xml(r2) %>% make_query_table()
+  
+  table_directory <- sprintf("data/database%s/%s_tables/", database, field_name1)
+  if (!dir.exists(table_directory)){
+    dir.create(table_directory)
+  }
+  save_path <- sprintf("data/database%s/%s_tables/%s.rds", database, field_name1, field_name)
+  saveRDS(k, save_path)
+}
+
+get_long_data_v2 <- function(database, field_name, code_name) {
+  # usage get_long_data_v2(3, "anemia", "D27.V11")
+  
+  database_map = list("D149", "D66", "D27", "D10")
+  
+  x <- read_xml(sprintf("%s_long_base_request.xml", database))
+  
+  # B_1 is year and B_2 is the condition that we are looking for 
+  lookup <- sprintf("//name[text() ='%s']/parent::parameter//value", "B_2")
+  to_mod <- xml_find_all(x, lookup)
+  xml_text(to_mod) <- code_name
+  
+  
+  write_xml(x, "new_long_request.xml")
+  xx <- xmlParse("new_long_request.xml")
+  
+  query <- XML::saveXML(xx,
+                        indent=FALSE,
+                        prefix='<?xml version="1.0" encoding="utf-8"?>\n')
+  
+  # send the post request 
+  url <- sprintf("https://wonder.cdc.gov/controller/datarequest/%s", database_map[[database]])
+  r <- POST(url, body = list(request_xml = query, accept_datause_restrictions = "true"), encode = "form")
+  r2 <- content(r, as="text", encoding = "utf-8")
+  
+  k <- xml2::read_xml(r2) %>% make_query_table()
+  
+  save_path <- sprintf("data/database%s/long_tables/%s.rds", database, field_name)
+  saveRDS(k, save_path)
+}
+
+
+# for (x in names(code_map_2)){
+#   for (y in names(demo_map_2)){
+#     get_table_data_v2(2, x, code_map_2[x], y, demo_map_2[y])
+#   }
+# }
+# 
+# for (x in names(code_map_3)){
+#   for (y in names(demo_map_3)){
+#     get_table_data_v2(3, x, code_map_3[x], y, demo_map_3[y])
+#   }
+# }
+# 
+# for (x in names(code_map_4)){
+#   for (y in names(demo_map_4)){
+#     get_table_data_v2(4, x, code_map_4[x], y, demo_map_4[y])
+#   }
+# }
+
+
+# for (x in names(code_map_2)) {
+#   get_long_data_v2(2, x, code_map_2[x])
+# }
+# 
+# for (x in names(code_map_3)) {
+#   get_long_data_v2(3, x, code_map_3[x])
+# }
+# 
+# for (x in names(code_map_4)) {
+#   get_long_data_v2(4, x, code_map_4[x])
+# }
+
+
 # get_education_data <- function(field_name, code_name) {
 #   x <- read_xml("education_base_request.xml")
 #   

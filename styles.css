@@ -57,6 +57,25 @@ font-size: 2vw;
     -webkit-transition: box-shadow 0.4s ease-out;
     transition: box-shadow 0.4s ease-out;
 }
+.btn-success.active, .btn-success.hover {
+    background-color:#3c8dbc;
+    font-size: 18px;
+    font-family: inherit;
+    padding: 5px 12px;
+    height: 55px;
+    min-width: 21.85%;
+    margin: 0px 10px 14px 20px;
+    text-align: left;
+    color: white;
+    text-indent: 4px;
+    vertical-align: middle;
+    border-radius: 0px;
+    border-color: transparent;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+    -webkit-transition: box-shadow 0.4s ease-out;
+    transition: box-shadow 0.4s ease-out;
+}
+
 .btn-warning, .btn-warning:hover {
     font-size: 18px;
     font-family: inherit;

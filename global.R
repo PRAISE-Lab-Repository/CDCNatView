@@ -23,6 +23,7 @@ source("wonderapi.R")
 
 
 
+
 # setting for the map 
 set_urbn_defaults(style = "map")
 
@@ -43,27 +44,27 @@ colors <- c('#0073C2FF', '#EFC000FF', '#868686FF', '#CD534CFF', '#7AA6DCFF',
 # M <- cor(hm)
 
 # Get the states data 
-states_df <- read_csv("data/states_database1.csv")
-states_sf <- get_urbn_map("states", sf = TRUE)
+# states_df <- read_csv("data/states_database1.csv")
+# states_sf <- get_urbn_map("states", sf = TRUE)
 demo_df <- read_csv("data/demograph_database1.csv")
 diabetes_long <- read_csv("data/diabetes_long2.csv")
 diabetes_long$`% of Total Births` <- as.numeric(sub("%","", diabetes_long$`% of Total Births`))
 
-eclampsia <- read_csv("data/eclampsia_long.csv")
-eclampsia$`% of Total Births` <- as.numeric(sub("%","", eclampsia$`% of Total Births`))
-
-
-chart2 <- readRDS("data/database1/long_tables/pre-pregnancy_diabetes.rds")
-chart2$`% of Total Births` <- as.numeric(chart2$`% of Total Births`)
-
-bmi <- readRDS("data/database1/bmi_tables/pre-pregnancy_diabetes.rds")
-education <- readRDS("data/database1/education_tables/pre-pregnancy_diabetes.rds")
-race <- readRDS("data/database1/race_tables/pre-pregnancy_diabetes.rds")
-wtgain <- readRDS("data/database1/wtgain_tables/pre-pregnancy_diabetes.rds")
-delivery <- readRDS("data/database1/delivery_tables/pre-pregnancy_diabetes.rds")
-gestation <- readRDS("data/database1/gestation_tables/pre-pregnancy_diabetes.rds")
-care <- readRDS("data/database1/care_tables/pre-pregnancy_diabetes.rds")
-lastpreg <- readRDS("data/database1/lastpreg_tables/pre-pregnancy_diabetes.rds")
+# eclampsia <- read_csv("data/eclampsia_long.csv")
+# eclampsia$`% of Total Births` <- as.numeric(sub("%","", eclampsia$`% of Total Births`))
+# 
+# 
+# chart2 <- readRDS("data/database1/long_tables/pre-pregnancy_diabetes.rds")
+# chart2$`% of Total Births` <- as.numeric(chart2$`% of Total Births`)
+# 
+# bmi <- readRDS("data/database1/bmi_tables/pre-pregnancy_diabetes.rds")
+# education <- readRDS("data/database1/education_tables/pre-pregnancy_diabetes.rds")
+# race <- readRDS("data/database1/race_tables/pre-pregnancy_diabetes.rds")
+# wtgain <- readRDS("data/database1/wtgain_tables/pre-pregnancy_diabetes.rds")
+# delivery <- readRDS("data/database1/delivery_tables/pre-pregnancy_diabetes.rds")
+# gestation <- readRDS("data/database1/gestation_tables/pre-pregnancy_diabetes.rds")
+# care <- readRDS("data/database1/care_tables/pre-pregnancy_diabetes.rds")
+# lastpreg <- readRDS("data/database1/lastpreg_tables/pre-pregnancy_diabetes.rds")
 
 
 # years 
@@ -105,15 +106,6 @@ risk_factor1 = list(`Pregnancy risk factor` =
             "Severe preterm birth" = "severe_birth",
             "Moderate and Late preterm birth"="moderate_birth")
      )
-
-
-risk_factor2 = list(`Pregnancy risk factor`= 
-      list("Chronic Hypertension"="chronic_htn",
-           "Diabetes"="diabetes",
-           "Pregnancy-associated Hypertension"="preg_htn",
-           "Eclampsia" = "eclampsia")                  
-    )
-
 
 
 reverse_map = list("pre-pregnancy_diabetes"="Pre-pregnancy Diabetes",
@@ -171,6 +163,48 @@ demo_map = list("bmi"="D149.V71",
                 "care"="D149.V63",
                 "lastpreg"="D149.V62")
 
+
+
+### 2007 - 2021 ################################################################
+risk_factor2 = list(`Pregnancy risk factor`= 
+                      list("Chronic Hypertension"="chronic_htn",
+                           "Diabetes"="diabetes",
+                           "Pregnancy-associated Hypertension"="preg_htn",
+                           "Eclampsia" = "eclampsia"),
+                    `Pregnancy Outcome` = 
+                      list("Fullterm birth" = "fullterm_birth",
+                           "Preterm birth" = "preterm_birth",
+                           "Extreme preterm birth" = "extreme_birth",
+                           "Severe preterm birth" = "severe_birth",
+                           "Moderate and Late preterm birth" = "moderate_birth")                    
+)
+
+reverse_map_2 = list("chronic_htn"="Chronic Hypertension",
+                     "diabetes"= "Diabetes",
+                     "preg_htn"="Pregnancy-associated Hypertension",
+                     "eclampsia"="Eclampsia",
+                     "fullterm_birth"="Fullterm birth",
+                     "preterm_birth"="Preterm birth",
+                     "extreme_birth"="Extreme preterm birth",
+                     "severe_birth"="Severe preterm birth",
+                     "moderate_birth"="Moderate and Late preterm birth")                     
+
+code_map_2 <- list("chronic_htn"="D66.V16",
+                   "diabetes"="D66.V14",
+                   "preg_htn"="D66.V17",
+                   "diabetes" = "D66.V14",
+                   "eclampsia" = "D66.V18",
+                   "oe_gesation_10"="D66.V32")
+
+
+demo_map_2 <- list("race"="D66.V2", # Mother's Bridged Race
+                   "delivery"="D66.V31",
+                   "gestation"="D66.V32", 
+                   "care"="D66.V8",
+                   "education"="D66.V5",
+                   "age"="D66.V1",
+                   "tobacco_use"="D66.V10") # Age of Mother 9
+
 ### 2003 - 2006 ################################################################
 risk_factor3 = list(`Pregnancy risk factor` = 
                       list("Anemia" = "anemia", 
@@ -200,7 +234,6 @@ reverse_map_3 = list("anemia" = "Anemia",
                      "incompetent_cervix" = "Incompetent Cervix",
                      "lung_disease" = "Lung Disease",
                      "pregnancy-associated_hypertension" = "Pregnancy-associated Hypertension",
-                     "tobacco_use" = "Tobacco Use",
                      "fullterm_birth" = "Fullterm birth",
                      "preterm_birth" = "Preterm birth",
                      "extreme_birth" = "Extreme preterm birth",
@@ -216,19 +249,15 @@ code_map_3 <- list("anemia"="D27.V11",
                    "incompetent_cervix" = "D27.V19",
                    "lung_disease" = "D27.V13",
                    "pregnancy-associated_hypertension" = "D27.V17",
-                   "tobacco_use" = "D27.V10",
-                   "fullterm_birth" = "Fullterm birth",
-                   "preterm_birth" = "Preterm birth",
-                   "extreme_birth" = "Extreme preterm birth",
-                   "severe_birth" = "Severe preterm birth",
-                   "moderate_birth" = "Moderate and Late preterm birth")
+                   "lmp_gesation_age_10"="D27.V6")
 
 demo_map_3 <- list("race"="D27.V2", # Mother's Bridged Race
                    "delivery"="D27.V31",
                    "gestation"="D27.V6", # LMP Gestational Age 10
                    "care"="D27.V8",
                    "education"="D27.V5",
-                   "age"="D27.V1") # Age of Mother 9
+                   "age"="D27.V1",
+                   "tobacco_use"="D27.V10") # Age of Mother 9
 
 ### 2002 - 1995 ################################################################
 risk_factor4 = list(`Pregnancy risk factor` = 
@@ -275,18 +304,14 @@ code_map_4 <- list("anemia"="D10.V11",
                    "incompetent_cervix" = "D10.V19",
                    "lung_disease" = "D10.V13",
                    "pregnancy-associated_hypertension" = "D10.V17",
-                   "tobacco_use" = "D10.V10",
-                   "fullterm_birth" = "Fullterm birth",
-                   "preterm_birth" = "Preterm birth",
-                   "extreme_birth" = "Extreme preterm birth",
-                   "severe_birth" = "Severe preterm birth",
-                   "moderate_birth" = "Moderate and Late preterm birth")
+                   "oe_gesation_10"="D10.V6")
 
 demo_map_4 <- list("race"="D10.V2", # Mother's Race
                    "gestation"="D10.V6",
                    "care"="D10.V8",
                    "education"="D10.V5",
-                   "age"="D10.V1") # Age of Mother
+                   "age"="D10.V1",  # Age of Mother
+                   "tobacco_use" = "D10.V10")
 
 get_preg_outcome_data <- function(gestational_table) {
   gestational_table <- gestational_table %>% mutate("Preterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "Yes",
@@ -344,5 +369,8 @@ get_preg_outcome_data <- function(gestational_table) {
                                                                                                    `OE Gestational Age Recode 10`== "42 weeks or more" ~ "No", 
                                                                                                    `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
 }
+
+#condition <- get_condition(risk_factor1, "pre-pregnancy_diabetes")
+#condition <- get_condition(risk_factor2, "chronic_htn")
 
 
