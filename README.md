@@ -67,7 +67,7 @@ You can use the application by visiting the link [here](https://mmo7d7-adam-lin.
 | Start of Prenatal Care | All |
 | Tobacco Use | All |
 
-### Child
+#### Child
 | Feature             	| Year Brackets Available                      |
 |----------------------	|----------------------------------------------------------------------------------	|
 | Delivery Method | 2016-2021 (Expanded), 2007-2021, 2003-2006 |
