@@ -15,7 +15,7 @@ You can use the application by visiting the link [here](https://mmo7d7-adam-lin.
 
 
 #### Risk Factors
-| Feature             	| Year Available                 |
+| Feature             	| Year Brackets Available                 |
 |----------------------	|-------------------------------------------------------------------------------|
 | Anemia | 2003-2006, 1995-2002 |
 | Cardiac Disease | 2003-2006, 1995-2002 |
@@ -35,43 +35,43 @@ You can use the application by visiting the link [here](https://mmo7d7-adam-lin.
 
 
 #### Infections
-| Feature             	| 2016-2021 (Expanded) | 2007-2021 | 2003-2006 | 1995-2002                      |
+| Feature             	| Year Brackets Available                 |
 |----------------------	|----------------------------------------------------------------------------------	|
-| Chlamydia | :heavy_check_mark:  | | | |
-| Gonorrhea | :heavy_check_mark: | | | |
-| Hepatitis B | :heavy_check_mark:  | | | |
-| Hepatitis C | :heavy_check_mark:  | | | |
-| Syphilis | :heavy_check_mark:  | | | |
+| Chlamydia |  2016-2021 (Expanded) |
+| Gonorrhea |  2016-2021 (Expanded) |
+| Hepatitis B |  2016-2021 (Expanded) |
+| Hepatitis C |  2016-2021 (Expanded) |
+| Syphilis |  2016-2021 (Expanded) |
 
 
 #### Maternal Morbidities
-| Feature             	| 2016-2021 (Expanded) | 2007-2021 | 2003-2006 | 1995-2002                      |
+| Feature             	| Year Brackets Available                 |
 |----------------------	|----------------------------------------------------------------------------------	|
-| Admission to Intensive Care Unit | :heavy_check_mark:  | | | |
-| Maternal Transfusion | :heavy_check_mark:  | | | |
-| Perineal Laceration | :heavy_check_mark:  | | | |
-| Ruptured Uterus | :heavy_check_mark:  | | | |
-| Unplanned Hysterectomy | :heavy_check_mark:  | | | |
+| Admission to Intensive Care Unit | 2016-2021 (Expanded)|
+| Maternal Transfusion | 2016-2021 (Expanded) |
+| Perineal Laceration | 2016-2021 (Expanded) |
+| Ruptured Uterus | 2016-2021 (Expanded) | 
+| Unplanned Hysterectomy | 2016-2021 (Expanded) |
 
 
 
 
 #### Demographic
-| Feature             	| 2016-2021 (Expanded) | 2007-2021 | 2003-2006 | 1995-2002                      |
+| Feature             	| Year Brackets Available                   |
 |----------------------	|----------------------------------------------------------------------------------	|
-| Race | :heavy_check_mark:  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| Age | :heavy_check_mark:  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| Education | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Race | All |
+| Age | All |
+| Education | All |
 
 #### Behavioral
-| Feature             	| 2016-2021 (Expanded) | 2007-2021 | 2003-2006 | 1995-2002                      |
+| Feature             	| Year Brackets Available                      |
 |----------------------	|----------------------------------------------------------------------------------	|
-| Start of Prenatal Care | :heavy_check_mark:  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| Tobacco Use | :heavy_check_mark:  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Start of Prenatal Care | All |
+| Tobacco Use | All |
 
 ### Child
-| Feature             	| 2016-2021 (Expanded) | 2007-2021 | 2003-2006 | 1995-2002                      |
+| Feature             	| Year Brackets Available                      |
 |----------------------	|----------------------------------------------------------------------------------	|
-| Delivery Method | :heavy_check_mark:  | :heavy_check_mark: | :heavy_check_mark: |  |
-| Gestational Age | :heavy_check_mark:  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| Birth Weight | :heavy_check_mark:  | :heavy_check_mark: | :heavy_check_mark: | |
+| Delivery Method | 2016-2021 (Expanded), 2007-2021, 2003-2006 |
+| Gestational Age | All |
+| Birth Weight | 2016-2021 (Expanded), 2007-2021, 2003-2006 |
