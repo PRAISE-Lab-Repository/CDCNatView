@@ -3,7 +3,6 @@
 `CDCNatView` is an R Shiny web application to faciliate the exploration of the [CDC Wonder Natality Data] (https://wonder.cdc.gov/natality.html)
 
 <br>
-<br>
 You can use the application by visiting the link [here](https://mmo7d7-adam-lin.shinyapps.io/CDCNatView/).
 
 ## Dependencies
