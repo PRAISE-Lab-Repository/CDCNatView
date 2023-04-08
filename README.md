@@ -1,6 +1,6 @@
 # CDCNatView
 
-`CDCNatView` is an R Shiny web application to faciliate the exploration of the [CDC Wonder Natality Data] (https://wonder.cdc.gov/natality.html).
+`CDCNatView` is an R Shiny web application to faciliate the exploration of the [CDC Wonder Natality Data] (https://wonder.cdc.gov/natality.html)
 
 Preprint about RadaR available: https://doi.org/10.1101/347534
 <br>
