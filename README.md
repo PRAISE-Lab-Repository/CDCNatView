@@ -11,27 +11,27 @@ You can use the application by visiting the link [here](https://mmo7d7-adam-lin.
 `CDCNatView` was built in [R](https://www.r-project.org) using the [Shiny package](https://shiny.rstudio.com), an open source R package for developing web applications. Visualizations are generated through the Highcharter package, an R interface to the Highcharts JavaScript graphics library.
 
 ## Data
-`CDCNatView` is able to pull aggregation tables from CDC Wonder using a custom API that generates `.rsd` files. We present four snapshots of data across years 2016-2021, 2007-2021, 2003-2006, and 1995-2002. The tables below summarize the features present across each of the year brackets:
+`CDCNatView` is able to pull aggregation tables from CDC Wonder using a custom API that generates `.rsd` files. We present four snapshots of data across year brackets 2016-2021, 2007-2021, 2003-2006, and 1995-2002. The tables below summarize the features present across each of the brackets:
 
 
 #### Risk Factors
-| Feature             	| 2016-2021 (Expanded) | 2007-2021 | 2003-2006 | 1995-2002                      |
+| Feature             	| Year Available                 |
 |----------------------	|-------------------------------------------------------------------------------|
-| Anemia | | | :heavy_check_mark: | :heavy_check_mark: |
-| Cardiac Disease | | | :heavy_check_mark: | :heavy_check_mark: |
-| Hydramnios / Oligohydramnios | | | :heavy_check_mark: |:heavy_check_mark: |
-| Diabetes / Pre-pregnancy Diabetes | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| Gestational Diabetes | :heavy_check_mark:  | | | |
-| Pre-pregnancy Hypertension / Chronic Hypertension | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| Gestational (Pregnancy-Associated) Hypertension | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| Eclampsia | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| Previous Preterm Birth | :heavy_check_mark: | | | |
-| Infertility Treatment Used | :heavy_check_mark: | | | |
-| Fertility Enhancing Drugs | :heavy_check_mark: | | | |
-| Assistive Reproductive Technology | :heavy_check_mark: | | | |
-| Previous Cesarean Delivery | :heavy_check_mark: | | | |
-| Incompetent Cervix | | | :heavy_check_mark: | :heavy_check_mark: |
-| Lung Disease | | | :heavy_check_mark: | :heavy_check_mark: |
+| Anemia | 2003-2006, 1995-2002 |
+| Cardiac Disease | 2003-2006, 1995-2002 |
+| Hydramnios / Oligohydramnios | 2003-2006, 1995-2002 |
+| Diabetes / Pre-pregnancy Diabetes | All |
+| Gestational Diabetes | 2016-2021 (Expanded)  |
+| Pre-pregnancy Hypertension / Chronic Hypertension | All  |
+| Gestational (Pregnancy-Associated) Hypertension | All |
+| Eclampsia | All |
+| Previous Preterm Birth | 2016-2021 (Expanded) |
+| Infertility Treatment Used | 2016-2021 (Expanded) |
+| Fertility Enhancing Drugs | 2016-2021 (Expanded)|
+| Assistive Reproductive Technology | 2016-2021 (Expanded) |
+| Previous Cesarean Delivery | 2016-2021 (Expanded) |
+| Incompetent Cervix | 2003-2006, 1995-2002 |
+| Lung Disease | 2003-2006, 1995-2002 |
 
 
 #### Infections
