@@ -333,6 +333,9 @@ server <- function(input, output, session) {
   
   # graph 3 plots ------------------------------------------------------------
   
+  ### Graph 3: BMI #############################################################
+  
+  # Database 1
   update_bmi_graph <- reactive({
     input$confirm 
     isolate({
@@ -360,10 +363,15 @@ server <- function(input, output, session) {
       
       bmi_sub <- bmi %>% group_by(!!as.symbol(reverse_map[[input$riskInput]]), `Mother's Pre-pregnancy BMI`)
       bmi_sub <- summarise(bmi_sub, count = sum(Births))
+
+      # remove entries with missing or unknown condition
+      bmi_sub <- filter(bmi_sub, !!as.symbol(reverse_map[[input$riskInput]]) != "Unknown or Not Stated")
     })  
   })
   
-  # graph 3: Race tab 
+  ### Graph 3: Race ############################################################
+  
+  # Database 1
   update_race_graph <- reactive({
     input$confirm 
     isolate({
@@ -390,9 +398,14 @@ server <- function(input, output, session) {
       
       race_sub <- race %>% group_by(!!as.symbol(reverse_map[[condition]]), `Mother's Single Race 6`)
       race_sub <- summarise(race_sub, count = sum(Births))
+      
+      
+      # remove entries with missing or unknown condition
+      race_sub <- filter(race_sub, !!as.symbol(reverse_map[[condition]]) != "Unknown or Not Stated")
     })  
   })
   
+  # Database 2
   update_race_graph_database2 <- reactive({
     input$confirm 
     isolate({
@@ -401,6 +414,7 @@ server <- function(input, output, session) {
     })  
   })
   
+  # Database 3
   update_race_graph_database3 <- reactive({
     input$confirm 
     isolate({
@@ -409,6 +423,7 @@ server <- function(input, output, session) {
     })  
   })
   
+  # Database 4
   update_race_graph_database4 <- reactive({
     input$confirm 
     isolate({
@@ -418,7 +433,7 @@ server <- function(input, output, session) {
   })
   
   
-  # graph 3: Weight gain tab
+  ### Graph 3: Weight Gain #####################################################
   update_wtgain_graph <- reactive({
     input$confirm 
     isolate({
@@ -445,6 +460,9 @@ server <- function(input, output, session) {
       
       wtgain_sub <- wtgain %>% group_by(!!as.symbol(reverse_map[[input$riskInput]]), `Mother's Weight Gain Recode`)
       wtgain_sub <- summarise(wtgain_sub, count = sum(Births))
+      
+      # remove entries with missing or unknown condition
+      wtgain_sub <- filter(wtgain_sub, !!as.symbol(reverse_map[[input$riskInput]]) != "Unknown or Not Stated")
     })  
   })  
   
@@ -474,6 +492,9 @@ server <- function(input, output, session) {
       }     
       delivery_sub <- delivery %>% group_by(!!as.symbol(reverse_map[[input$riskInput]]), `Final Route and Delivery Method`)
       delivery_sub <- summarise(delivery_sub, count = sum(Births))
+      
+      # remove entries with missing or unknown condition
+      delivery_sub <- filter(delivery_sub, !!as.symbol(reverse_map[[input$riskInput]]) != "Unknown or Not Stated")
     })  
   })  
 
@@ -528,6 +549,9 @@ server <- function(input, output, session) {
       
       gestation_sub <- gestation %>% group_by(!!as.symbol(reverse_map[[input$riskInput]]), `OE Gestational Age Recode 10`)
       gestation_sub <- summarise(gestation_sub, count = sum(Births))
+      
+      # remove entries with missing or unknown condition
+      gestation_sub <- filter(gestation_sub, !!as.symbol(reverse_map[[input$riskInput]]) != "Unknown or Not Stated")
     })  
   })      
 
@@ -585,6 +609,11 @@ server <- function(input, output, session) {
       }     
       care_sub <- care %>% group_by(!!as.symbol(reverse_map[[input$riskInput]]), `Trimester Prenatal Care Began`)
       care_sub <- summarise(care_sub, count = sum(Births))
+      
+      # remove entries with missing or unknown condition
+      care_sub <- filter(care_sub, !!as.symbol(reverse_map[[input$riskInput]]) != "Unknown or Not Stated")
+      
+      
     })  
   })  
   
@@ -670,6 +699,11 @@ server <- function(input, output, session) {
       }     
       lastpreg_sub <- lastpreg %>% group_by(!!as.symbol(reverse_map[[input$riskInput]]), `Interval of Last Pregnancy`)
       lastpreg_sub <- summarise(lastpreg_sub, count = sum(Births))
+      
+      # remove entries with missing or unknown condition
+      lastpreg_sub <- filter(lastpreg_sub, !!as.symbol(reverse_map[[input$riskInput]]) != "Unknown or Not Stated")
+      
+      
     })  
   })     
   
@@ -701,6 +735,9 @@ server <- function(input, output, session) {
       
       edu <- education %>% group_by(!!as.symbol(reverse_map[[input$riskInput]]), `Mother's Education`)
       edu <- summarise(edu, count = sum(Births))
+      
+      # remove entries with missing or unknown condition
+      edu <- filter(edu, !!as.symbol(reverse_map[[input$riskInput]]) != "Unknown or Not Stated")
     })
   })
   
@@ -2826,6 +2863,10 @@ server <- function(input, output, session) {
     
     sub_table <- sub_table %>% group_by(!!as.symbol(reverse_map[[input$riskInput]]), !!as.symbol(feat))
     sub_table <- summarise(sub_table, count = sum(Births))
+    
+    # remove entries with missing or unknown condition
+    sub_table <- filter(sub_table, !!as.symbol(reverse_map[[input$riskInput]]) != "Unknown or Not Stated")
+    sub_table <- filter(sub_table, !!as.symbol(reverse_map[[input$riskInput]]) != "Not Reported")
   }
   
   
