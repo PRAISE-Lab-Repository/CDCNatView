@@ -2783,6 +2783,8 @@ server <- function(input, output, session) {
   
   demoPlot <- function(reverse_map, sub_table, feat){
     req(input$riskInput, input$yearInput)
+    feat.name <- chartr(" ", "_", feat)
+    file <- sprintf("%s_%s", input$riskInput, tolower(feat.name))
     sub_table %>% hchart("column", hcaes(x = factor(!!as.symbol(reverse_map[[input$riskInput]])), y = count, group=!!as.symbol(feat)), stacking="percent") %>%
       hc_add_theme(hc_theme_flat()) %>%
       hc_colors(colors) %>%
@@ -2790,7 +2792,11 @@ server <- function(input, output, session) {
       hc_xAxis(title = list(text="Condition Present")) %>%
       hc_yAxis(labels = list(format = "{value}%")) %>%
       hc_yAxis(title = list(text="Percent")) %>%
-      hc_legend(align = "center", verticalAlign = "top") 
+      hc_legend(align = "center", verticalAlign = "top") %>%
+      hc_exporting(
+        enabled =TRUE,
+        filename = file
+      )
   }
   
   plot_per_state <- function(state_grph) {
