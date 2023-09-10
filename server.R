@@ -202,13 +202,19 @@ server <- function(input, output, session) {
       }
       
       chart2 <<- readRDS(file_path)
-      chart2$`% of Total Births` <<- as.numeric(chart2$`% of Total Births`)
+      chart2$`% of Total Births` <- as.numeric(chart2$`% of Total Births`)
+      chart2 <- chart2  %>% filter(chart2$`Average OE Gestational Age (weeks)` != "Not Applicable") 
+      chart2$`Average OE Gestational Age (weeks)` <- as.numeric(chart2$`Average OE Gestational Age (weeks)` ) 
+      
+      chart2 <- chart2  %>% filter(chart2$`Average LMP Gestational Age (weeks)` != "Not Applicable") 
+      chart2$`Average LMP Gestational Age (weeks)` <- as.numeric(chart2$`Average LMP Gestational Age (weeks)` ) 
+      
       
       if (condition %in% c("fullterm_birth", "preterm_birth","extreme_birth", "severe_birth", "moderate_birth")) {
         
-        chart2 <- get_preg_outcome_data(chart2)
+        chart2 <- get_preg_outcome_data(1, chart2)
 
-        cc <- chart2 %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Moderate and Late preterm birth`, `Year`)
+        cc <- chart2 %>% group_by(!!as.symbol(reverse_map[[condition]]), `Year`)
         
         chart2 <- summarise(cc, Births=sum(Births), 
                   `% of Total Births` = sum(`% of Total Births`),
@@ -235,27 +241,32 @@ server <- function(input, output, session) {
       file_path <- sprintf("data/database2/long_tables/%s.rds", condition)
       
       if (condition %in% c("fullterm_birth", "preterm_birth", "extreme_birth", "severe_birth", "moderate_birth")) {
-        file_path <- sprintf("data/database3/long_tables/%s.rds", "oe_gesation_10")
+        file_path <- sprintf("data/database2/long_tables/%s.rds", "oe_gesation_10")
         
       }
       
       chart2 <<- readRDS(file_path)
-      chart2$`% of Total Births` <<- as.numeric(chart2$`% of Total Births`)
+      chart2$`% of Total Births` <- as.numeric(chart2$`% of Total Births`)
+      
+      chart2 <- chart2  %>% filter(chart2$`Average OE Gestational Age` != "Not Applicable") 
+      chart2$`Average OE Gestational Age` <- as.numeric(chart2$`Average OE Gestational Age` ) 
+      
+      chart2 <- chart2  %>% filter(chart2$`Average LMP Gestational Age` != "Not Applicable") 
+      chart2$`Average LMP Gestational Age` <- as.numeric(chart2$`Average LMP Gestational Age` )
       
       print(chart2)
       if (condition %in% c("fullterm_birth", "preterm_birth","extreme_birth", "severe_birth", "moderate_birth")) {
         
-        chart2 <- get_preg_outcome_data(chart2)
+        chart2 <- get_preg_outcome_data(2, chart2)
         
-        cc <- chart2 %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Moderate and Late preterm birth`, `Year`)
+        cc <- chart2 %>% group_by(!!as.symbol(reverse_map_2[[condition]]), `Year`)
         
         chart2 <- summarise(cc, Births=sum(Births), 
                             `% of Total Births` = sum(`% of Total Births`),
                             `Average Age of Mother` = mean(`Average Age of Mother`),
                             `Average OE Gestational Age` = mean(`Average OE Gestational Age`),
                             `Average LMP Gestational Age` = mean(`Average LMP Gestational Age`),
-                            `Average Birth Weight` = mean(`Average Birth Weight`),
-                            `Average Pre-pregnancy BMI` = mean(`Average Pre-pregnancy BMI`)
+                            `Average Birth Weight` = mean(`Average Birth Weight`)
         )
       }      
       
@@ -279,14 +290,19 @@ server <- function(input, output, session) {
       }
       
       chart2 <<- readRDS(file_path)
-      chart2$`% of Total Births` <<- as.numeric(chart2$`% of Total Births`)
+      chart2$`% of Total Births` <- as.numeric(chart2$`% of Total Births`)
       
+      chart2 <- chart2  %>% filter(chart2$`Average OE Gestational Age` != "Not Applicable") 
+      chart2$`Average OE Gestational Age` <- as.numeric(chart2$`Average OE Gestational Age` ) 
+      
+      chart2 <- chart2  %>% filter(chart2$`Average LMP Gestational Age (weeks)` != "Not Applicable") 
+      chart2$`Average LMP Gestational Age` <- as.numeric(chart2$`Average LMP Gestational Age` )
       
       if (condition %in% c("fullterm_birth", "preterm_birth","extreme_birth", "severe_birth", "moderate_birth")) {
         
-        chart2 <- get_preg_outcome_data(chart2)
+        chart2 <- get_preg_outcome_data(3, chart2)
         
-        cc <- chart2 %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Moderate and Late preterm birth`, `Year`)
+        cc <- chart2 %>% group_by(!!as.symbol(reverse_map_3[[condition]]), `Year`)
         
         chart2 <- summarise(cc, Births=sum(Births), 
                             `% of Total Births` = sum(`% of Total Births`),
@@ -319,9 +335,9 @@ server <- function(input, output, session) {
       
       if (condition %in% c("fullterm_birth", "preterm_birth","extreme_birth", "severe_birth", "moderate_birth")) {
         
-        chart2 <- get_preg_outcome_data(chart2)
+        chart2 <- get_preg_outcome_data(4, chart2)
         
-        cc <- chart2 %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Moderate and Late preterm birth`, `Year`)
+        cc <- chart2 %>% group_by(!!as.symbol(reverse_map_4[[condition]]), `Year`)
         
         chart2 <- summarise(cc, Births=sum(Births))
       }      
@@ -332,7 +348,6 @@ server <- function(input, output, session) {
   })
   
   # graph 3 plots ------------------------------------------------------------
-  
   ### Graph 3: BMI #############################################################
   
   # Database 1
@@ -353,9 +368,9 @@ server <- function(input, output, session) {
       
       if (input$riskInput %in% c("fullterm_birth", "preterm_birth","extreme_birth", "severe_birth", "moderate_birth")) {
         
-        bmi <- get_preg_outcome_data(bmi)
+        bmi <- get_preg_outcome_data(1, bmi)
         
-        cc <- bmi %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Moderate and Late preterm birth`, `Year`,`Mother's Pre-pregnancy BMI`)
+        cc <- bmi %>% group_by(!!as.symbol(reverse_map[[input$riskInput]]), `Year`,`Mother's Pre-pregnancy BMI`)
         
         bmi <- summarise(cc, Births=sum(Births))
         
@@ -363,8 +378,6 @@ server <- function(input, output, session) {
       
       bmi_sub <- bmi %>% group_by(!!as.symbol(reverse_map[[input$riskInput]]), `Mother's Pre-pregnancy BMI`)
       bmi_sub <- summarise(bmi_sub, count = sum(Births))
-
-      # remove entries with missing or unknown condition
       bmi_sub <- filter(bmi_sub, !!as.symbol(reverse_map[[input$riskInput]]) != "Unknown or Not Stated")
     })  
   })
@@ -372,6 +385,7 @@ server <- function(input, output, session) {
   ### Graph 3: Race ############################################################
   
   # Database 1
+  # graph 3: Race tab 
   update_race_graph <- reactive({
     input$confirm 
     isolate({
@@ -388,7 +402,7 @@ server <- function(input, output, session) {
       
       if (condition %in% c("fullterm_birth", "preterm_birth","extreme_birth", "severe_birth", "moderate_birth")) {
         
-        race <- get_preg_outcome_data(race)
+        race <- get_preg_outcome_data(1, race)
         
         cc <- race %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Moderate and Late preterm birth`,`Year`,`Mother's Single Race 6`)
         
@@ -398,8 +412,6 @@ server <- function(input, output, session) {
       
       race_sub <- race %>% group_by(!!as.symbol(reverse_map[[condition]]), `Mother's Single Race 6`)
       race_sub <- summarise(race_sub, count = sum(Births))
-      
-      
       # remove entries with missing or unknown condition
       race_sub <- filter(race_sub, !!as.symbol(reverse_map[[condition]]) != "Unknown or Not Stated")
     })  
@@ -433,6 +445,7 @@ server <- function(input, output, session) {
   })
   
   
+  
   ### Graph 3: Weight Gain #####################################################
   update_wtgain_graph <- reactive({
     input$confirm 
@@ -450,7 +463,7 @@ server <- function(input, output, session) {
       
       if (input$riskInput %in% c("fullterm_birth", "preterm_birth","extreme_birth", "severe_birth", "moderate_birth")) {
         
-        wtgain <- get_preg_outcome_data(wtgain)
+        wtgain <- get_preg_outcome_data(1, wtgain)
         
         cc <- wtgain %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Moderate and Late preterm birth`,`Year`,`Mother's Weight Gain Recode`)
         
@@ -460,9 +473,8 @@ server <- function(input, output, session) {
       
       wtgain_sub <- wtgain %>% group_by(!!as.symbol(reverse_map[[input$riskInput]]), `Mother's Weight Gain Recode`)
       wtgain_sub <- summarise(wtgain_sub, count = sum(Births))
-      
       # remove entries with missing or unknown condition
-      wtgain_sub <- filter(wtgain_sub, !!as.symbol(reverse_map[[input$riskInput]]) != "Unknown or Not Stated")
+      wtgain_sub <- filter(wtgain_sub, !!as.symbol(reverse_map[[input$riskInput]]) != "Unknown or Not Stated")      
     })  
   })  
   
@@ -483,7 +495,7 @@ server <- function(input, output, session) {
       
       if (input$riskInput %in% c("fullterm_birth", "preterm_birth","extreme_birth", "severe_birth", "moderate_birth")) {
         
-        delivery <- get_preg_outcome_data(delivery)
+        delivery <- get_preg_outcome_data(1, delivery)
         
         cc <- delivery %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Moderate and Late preterm birth`,`Year`,`Final Route and Delivery Method`)
         
@@ -492,8 +504,6 @@ server <- function(input, output, session) {
       }     
       delivery_sub <- delivery %>% group_by(!!as.symbol(reverse_map[[input$riskInput]]), `Final Route and Delivery Method`)
       delivery_sub <- summarise(delivery_sub, count = sum(Births))
-      
-      # remove entries with missing or unknown condition
       delivery_sub <- filter(delivery_sub, !!as.symbol(reverse_map[[input$riskInput]]) != "Unknown or Not Stated")
     })  
   })  
@@ -539,7 +549,7 @@ server <- function(input, output, session) {
       
       if (input$riskInput %in% c("fullterm_birth", "preterm_birth","extreme_birth", "severe_birth", "moderate_birth")) {
         
-        gestation <- get_preg_outcome_data(gestation)
+        gestation <- get_preg_outcome_data(1, gestation)
         
         cc <- gestation %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`,`Moderate and Late preterm birth`, `Year`,`OE Gestational Age Recode 10`)
         
@@ -549,8 +559,6 @@ server <- function(input, output, session) {
       
       gestation_sub <- gestation %>% group_by(!!as.symbol(reverse_map[[input$riskInput]]), `OE Gestational Age Recode 10`)
       gestation_sub <- summarise(gestation_sub, count = sum(Births))
-      
-      # remove entries with missing or unknown condition
       gestation_sub <- filter(gestation_sub, !!as.symbol(reverse_map[[input$riskInput]]) != "Unknown or Not Stated")
     })  
   })      
@@ -600,7 +608,7 @@ server <- function(input, output, session) {
       
       if (input$riskInput %in% c("fullterm_birth", "preterm_birth","extreme_birth", "severe_birth", "moderate_birth")) {
         
-        care <- get_preg_outcome_data(care)
+        care <- get_preg_outcome_data(1, care)
         
         cc <- care %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`,`Moderate and Late preterm birth`, `Year`,`Trimester Prenatal Care Began`)
         
@@ -609,11 +617,8 @@ server <- function(input, output, session) {
       }     
       care_sub <- care %>% group_by(!!as.symbol(reverse_map[[input$riskInput]]), `Trimester Prenatal Care Began`)
       care_sub <- summarise(care_sub, count = sum(Births))
-      
       # remove entries with missing or unknown condition
       care_sub <- filter(care_sub, !!as.symbol(reverse_map[[input$riskInput]]) != "Unknown or Not Stated")
-      
-      
     })  
   })  
   
@@ -690,7 +695,7 @@ server <- function(input, output, session) {
       
       if (input$riskInput %in% c("fullterm_birth", "preterm_birth","extreme_birth", "severe_birth", "moderate_birth")) {
         
-        lastpreg <- get_preg_outcome_data(lastpreg)
+        lastpreg <- get_preg_outcome_data(1, lastpreg)
         
         cc <- lastpreg %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Moderate and Late preterm birth`,`Year`,`Interval of Last Pregnancy`)
         
@@ -699,11 +704,8 @@ server <- function(input, output, session) {
       }     
       lastpreg_sub <- lastpreg %>% group_by(!!as.symbol(reverse_map[[input$riskInput]]), `Interval of Last Pregnancy`)
       lastpreg_sub <- summarise(lastpreg_sub, count = sum(Births))
-      
       # remove entries with missing or unknown condition
       lastpreg_sub <- filter(lastpreg_sub, !!as.symbol(reverse_map[[input$riskInput]]) != "Unknown or Not Stated")
-      
-      
     })  
   })     
   
@@ -725,7 +727,7 @@ server <- function(input, output, session) {
       
       if (input$riskInput %in% c("fullterm_birth", "preterm_birth","extreme_birth", "severe_birth", "moderate_birth")) {
         
-        education <- get_preg_outcome_data(education)
+        education <- get_preg_outcome_data(1, education)
         
         cc <- education %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`,`Moderate and Late preterm birth`, `Year`, `Mother's Education`)
         
@@ -822,7 +824,7 @@ server <- function(input, output, session) {
       
       if (input$riskInput %in% c("fullterm_birth", "preterm_birth","extreme_birth", "severe_birth", "moderate_birth")) {
         
-        race <- get_preg_outcome_data(race)
+        race <- get_preg_outcome_data(1, race)
         
         cc <- race %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Moderate and Late preterm birth`,`Year`,`Mother's Single Race 6`)
         
@@ -898,7 +900,7 @@ server <- function(input, output, session) {
       
       if (input$riskInput %in% c("fullterm_birth", "preterm_birth","extreme_birth", "severe_birth", "moderate_birth")) {
         
-        wtgain <- get_preg_outcome_data(wtgain)
+        wtgain <- get_preg_outcome_data(1, wtgain)
         
         cc <- wtgain %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Moderate and Late preterm birth`,`Year`,`Mother's Weight Gain Recode`)
         
@@ -938,7 +940,7 @@ server <- function(input, output, session) {
       
       if (input$riskInput %in% c("fullterm_birth", "preterm_birth","extreme_birth", "severe_birth", "moderate_birth")) {
         
-        delivery <- get_preg_outcome_data(delivery)
+        delivery <- get_preg_outcome_data(1, delivery)
         
         cc <- delivery %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`,`Moderate and Late preterm birth`, `Year`,`Final Route and Delivery Method`)
         
@@ -999,7 +1001,7 @@ server <- function(input, output, session) {
       
       if (input$riskInput %in% c("fullterm_birth", "preterm_birth","extreme_birth", "severe_birth", "moderate_birth")) {
         
-        gestation <- get_preg_outcome_data(gestation)
+        gestation <- get_preg_outcome_data(1, gestation)
         
         cc <- gestation %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Moderate and Late preterm birth`,`Year`,`OE Gestational Age Recode 10`)
         
@@ -1070,7 +1072,7 @@ server <- function(input, output, session) {
       
       if (input$riskInput %in% c("fullterm_birth", "preterm_birth","extreme_birth", "severe_birth", "moderate_birth")) {
         
-        care <- get_preg_outcome_data(care)
+        care <- get_preg_outcome_data(1, care)
         
         cc <- care %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`,`Moderate and Late preterm birth`, `Year`,`Trimester Prenatal Care Began`)
         
@@ -1139,7 +1141,7 @@ server <- function(input, output, session) {
       
       if (input$riskInput %in% c("fullterm_birth", "preterm_birth","extreme_birth", "severe_birth", "moderate_birth")) {
         
-        lastpreg <- get_preg_outcome_data(lastpreg)
+        lastpreg <- get_preg_outcome_data(1, lastpreg)
         
         cc <- lastpreg %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Moderate and Late preterm birth`,`Year`,`Interval of Last Pregnancy`)
         
@@ -1179,7 +1181,7 @@ server <- function(input, output, session) {
       
       if (input$riskInput %in% c("fullterm_birth", "preterm_birth","extreme_birth", "severe_birth", "moderate_birth")) {
         
-        education <- get_preg_outcome_data(education)
+        education <- get_preg_outcome_data(1, education)
         
         cc <- education %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Moderate and Late preterm birth`,`Year`,`Mother's Education`)
         
@@ -2679,7 +2681,7 @@ server <- function(input, output, session) {
     }
     
     chart2 <<- readRDS(file_path)
-    chart2$`% of Total Births` <<- as.numeric(chart2$`% of Total Births`)
+    chart2$`% of Total Births` <- as.numeric(chart2$`% of Total Births`)
     
     # update bmi graph ---------------------------------------------------------
     file_path <- sprintf("data/database1/bmi_tables/%s.rds", input$riskInput)
@@ -2785,6 +2787,7 @@ server <- function(input, output, session) {
     req(input$riskInput, input$yearInput)
     feat.name <- chartr(" ", "_", feat)
     file <- sprintf("%s_%s", input$riskInput, tolower(feat.name))
+    
     sub_table %>% hchart("column", hcaes(x = factor(!!as.symbol(reverse_map[[input$riskInput]])), y = count, group=!!as.symbol(feat)), stacking="percent") %>%
       hc_add_theme(hc_theme_flat()) %>%
       hc_colors(colors) %>%
@@ -2851,6 +2854,8 @@ server <- function(input, output, session) {
     
     file_path <- sprintf("data/database%s/%s_tables/%s.rds", database, tablename, input$riskInput)
     if (input$riskInput %in% c("fullterm_birth", "preterm_birth", "extreme_birth", "severe_birth", "moderate_birth")) {
+      # database = 2
+      # tablename = "age"
       file_path <- sprintf("data/database%s/%s_tables/%s.rds", database, tablename, "oe_gesation_10")
     }
     
@@ -2859,9 +2864,9 @@ server <- function(input, output, session) {
     
     if (input$riskInput %in% c("fullterm_birth", "preterm_birth","extreme_birth", "severe_birth", "moderate_birth")) {
       
-      sub_table <- get_preg_outcome_data(sub_table)
+      sub_table <- get_preg_outcome_data(database, sub_table)
       
-      cc <- sub_table %>% group_by(`Preterm birth`, `Fullterm birth`, `Extreme preterm birth`, `Severe preterm birth`, `Moderate and Late preterm birth`,`Year`,`Final Route and Delivery Method`)
+      cc <- sub_table %>% group_by(!!as.symbol(reverse_map[[input$riskInput]]), `Year`, !!as.symbol(feat))
       
       sub_table <- summarise(cc, Births=sum(Births))
       
@@ -2870,9 +2875,10 @@ server <- function(input, output, session) {
     sub_table <- sub_table %>% group_by(!!as.symbol(reverse_map[[input$riskInput]]), !!as.symbol(feat))
     sub_table <- summarise(sub_table, count = sum(Births))
     
+    
     # remove entries with missing or unknown condition
     sub_table <- filter(sub_table, !!as.symbol(reverse_map[[input$riskInput]]) != "Unknown or Not Stated")
-    sub_table <- filter(sub_table, !!as.symbol(reverse_map[[input$riskInput]]) != "Not Reported")
+    sub_table <- filter(sub_table, !!as.symbol(reverse_map[[input$riskInput]]) != "Not Reported")  
   }
   
   
