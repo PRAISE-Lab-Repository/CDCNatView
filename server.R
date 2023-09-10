@@ -292,10 +292,7 @@ server <- function(input, output, session) {
       chart2 <<- readRDS(file_path)
       chart2$`% of Total Births` <- as.numeric(chart2$`% of Total Births`)
       
-      chart2 <- chart2  %>% filter(chart2$`Average OE Gestational Age` != "Not Applicable") 
-      chart2$`Average OE Gestational Age` <- as.numeric(chart2$`Average OE Gestational Age` ) 
-      
-      chart2 <- chart2  %>% filter(chart2$`Average LMP Gestational Age (weeks)` != "Not Applicable") 
+      chart2 <- chart2  %>% filter(chart2$`Average LMP Gestational Age` != "Not Applicable") 
       chart2$`Average LMP Gestational Age` <- as.numeric(chart2$`Average LMP Gestational Age` )
       
       if (condition %in% c("fullterm_birth", "preterm_birth","extreme_birth", "severe_birth", "moderate_birth")) {
@@ -2445,6 +2442,9 @@ server <- function(input, output, session) {
                         min = min(years1),
                         max = max(years1),
                         step = 1L)
+      
+      req(input$riskInput, input$yearInput)
+      
       updateButton(session, "database1", value = TRUE, disabled=TRUE)
       updateButton(session, "database2", value = FALSE, disabled=FALSE)
       updateButton(session, "database3", value = FALSE, disabled=FALSE)
@@ -2454,6 +2454,7 @@ server <- function(input, output, session) {
       shinyjs::hide("database2_panel")
       shinyjs::hide("database3_panel")
       shinyjs::hide("database4_panel")
+      click("confirm")
     }
     
   })  
@@ -2465,12 +2466,15 @@ server <- function(input, output, session) {
       updateSelectInput(session, "riskInput", label = "",
                         choices = risk_factor2,
                         selected = "chronic_htn")
-      
+
       updateSliderInput(session, "yearInput", label = "Year",
-                        value = years2, 
+                        value = years2,
                         min = min(years2),
                         max = max(years2),
                         step = 1L)
+
+      req(input$riskInput, input$yearInput)
+      
       updateButton(session, "database2", value = TRUE, disabled=TRUE)
       updateButton(session, "database1", value = FALSE, disabled=FALSE)
       updateButton(session, "database3", value = FALSE, disabled=FALSE)
@@ -2480,6 +2484,7 @@ server <- function(input, output, session) {
       shinyjs::hide("database1_panel")
       shinyjs::hide("database3_panel")
       shinyjs::hide("database4_panel")
+      click("confirm")
       
     }
     
@@ -2498,6 +2503,8 @@ server <- function(input, output, session) {
                         min = min(years3),
                         max = max(years3),
                         step = 1L)
+      
+      req(input$riskInput, input$yearInput)
       updateButton(session, "database3", value = TRUE, disabled=TRUE)
       updateButton(session, "database1", value = FALSE, disabled=FALSE)
       updateButton(session, "database2", value = FALSE, disabled=FALSE)
@@ -2507,6 +2514,7 @@ server <- function(input, output, session) {
       shinyjs::hide("database1_panel")
       shinyjs::hide("database2_panel")
       shinyjs::hide("database4_panel")
+      click("confirm")
     }
     
   })  
@@ -2524,6 +2532,7 @@ server <- function(input, output, session) {
                         min = min(years4),
                         max = max(years4),
                         step = 1L)
+      req(input$riskInput, input$yearInput)
       updateButton(session, "database4", value = TRUE, disabled=TRUE)
       updateButton(session, "database1", value = FALSE, disabled=FALSE)
       updateButton(session, "database2", value = FALSE, disabled=FALSE)
@@ -2533,6 +2542,7 @@ server <- function(input, output, session) {
       shinyjs::hide("database1_panel")
       shinyjs::hide("database2_panel")
       shinyjs::hide("database3_panel")
+      click("confirm")
     }
     
   })  
