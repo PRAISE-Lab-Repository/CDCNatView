@@ -2788,6 +2788,8 @@ server <- function(input, output, session) {
     sub_table %>% hchart("column", hcaes(x = factor(!!as.symbol(reverse_map[[input$riskInput]])), y = count, group=!!as.symbol(feat)), stacking="percent") %>%
       hc_add_theme(hc_theme_flat()) %>%
       hc_colors(colors) %>%
+      hc_tooltip(pointFormat = "<b> Count:</b> {point.y:0.f} <br>
+                 <b> Percentage:</b> {point.percentage:,.2f}%") %>%
       hc_xAxis(title = list(text="Condition Present"), categories = levels(sub_table[[reverse_map[[input$riskInput]]]])) %>%
       hc_xAxis(title = list(text="Condition Present")) %>%
       hc_yAxis(labels = list(format = "{value}%")) %>%
@@ -2832,6 +2834,7 @@ server <- function(input, output, session) {
   }
   
   get_long_plots <- function(long_grph, feat) {
+    feat.name <- chartr(" ", "_", tolower(feat))
     long_grph %>% hchart("line", hcaes(x = Year, y = !!as.symbol(feat))) %>%
       hc_add_theme(hc_theme_flat()) %>%
       hc_colors(colors) %>%
@@ -2841,7 +2844,7 @@ server <- function(input, output, session) {
                 verticalAlign = "top") %>%
       hc_exporting(
         enabled =TRUE,
-        filename = 'Risk_Factor'
+        filename = feat.name
       ) %>%
       hc_plotOptions(series = list(marker = list(enabled = FALSE)))
   }
