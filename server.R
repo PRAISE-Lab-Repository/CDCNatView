@@ -1,4 +1,11 @@
 # Define server logic required to draw a histogram
+
+# set options
+hcoptslang <- getOption("highcharter.lang")
+hcoptslang$thousandsSep <- ","
+options(highcharter.lang = hcoptslang)
+
+
 server <- function(input, output, session) {
 
 
@@ -2788,7 +2795,7 @@ server <- function(input, output, session) {
     sub_table %>% hchart("column", hcaes(x = factor(!!as.symbol(reverse_map[[input$riskInput]])), y = count, group=!!as.symbol(feat)), stacking="percent") %>%
       hc_add_theme(hc_theme_flat()) %>%
       hc_colors(colors) %>%
-      hc_tooltip(pointFormat = "<b> Count:</b> {point.y:0.f} <br>
+      hc_tooltip(pointFormat = "<b> Count:</b> {point.y:,.0f} <br>
                  <b> Percentage:</b> {point.percentage:,.2f}%") %>%
       hc_xAxis(title = list(text="Condition Present"), categories = levels(sub_table[[reverse_map[[input$riskInput]]]])) %>%
       hc_xAxis(title = list(text="Condition Present")) %>%
