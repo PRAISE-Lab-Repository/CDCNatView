@@ -5,7 +5,6 @@ hcoptslang <- getOption("highcharter.lang")
 hcoptslang$thousandsSep <- ","
 options(highcharter.lang = hcoptslang)
 
-
 server <- function(input, output, session) {
 
 
@@ -2463,10 +2462,7 @@ server <- function(input, output, session) {
       shinyjs::hide("database3_panel")
       shinyjs::hide("database4_panel")
       click("confirm")
-<<<<<<< HEAD
       })
-=======
->>>>>>> refs/remotes/origin/main
     }
     
   })  
@@ -2498,11 +2494,7 @@ server <- function(input, output, session) {
       shinyjs::hide("database3_panel")
       shinyjs::hide("database4_panel")
       click("confirm")
-<<<<<<< HEAD
     })
-=======
-      
->>>>>>> refs/remotes/origin/main
     }
     
   })  
@@ -2533,10 +2525,7 @@ server <- function(input, output, session) {
       shinyjs::hide("database2_panel")
       shinyjs::hide("database4_panel")
       click("confirm")
-<<<<<<< HEAD
     })
-=======
->>>>>>> refs/remotes/origin/main
     }
     
   })  
@@ -2566,11 +2555,8 @@ server <- function(input, output, session) {
       shinyjs::hide("database2_panel")
       shinyjs::hide("database3_panel")
       click("confirm")
-<<<<<<< HEAD
       
       })
-=======
->>>>>>> refs/remotes/origin/main
     }
     
   })  
@@ -2825,7 +2811,6 @@ server <- function(input, output, session) {
     req(input$riskInput, input$yearInput)
     feat.name <- chartr(" ", "_", feat)
     file <- sprintf("%s_%s", input$riskInput, tolower(feat.name))
-    
     sub_table %>% hchart("column", hcaes(x = factor(!!as.symbol(reverse_map[[input$riskInput]])), y = count, group=!!as.symbol(feat)), stacking="percent") %>%
       hc_add_theme(hc_theme_flat()) %>%
       hc_colors(colors) %>%
@@ -2895,8 +2880,7 @@ server <- function(input, output, session) {
     
     file_path <- sprintf("data/database%s/%s_tables/%s.rds", database, tablename, input$riskInput)
     if (input$riskInput %in% c("fullterm_birth", "preterm_birth", "extreme_birth", "severe_birth", "moderate_birth")) {
-      # database = 2
-      # tablename = "age"
+
       file_path <- sprintf("data/database%s/%s_tables/%s.rds", database, tablename, "oe_gesation_10")
     }
     
