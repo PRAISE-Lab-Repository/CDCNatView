@@ -2902,5 +2902,39 @@ server <- function(input, output, session) {
   }
   
   
+  ### PTB Longitudinal plot ----------------------------------------------------
+  update_PTB_long_Plot <- reactive({
+    input$confirm 
+    
+    isolate({
+      req(input$riskInput, input$yearInput)
+      PTB.df <- read_csv("data/PTB_outcome_1995_2021.csv")
+
+      PTB.df <- PTB.df %>% filter( between(Year, input$yearInput[1], input$yearInput[2]))  
+    })
+  })
+  
+  output$PTB_long_Plot <- renderHighchart({
+    PTB.df <- update_PTB_long_Plot()
+    PTB.df %>%
+      hchart("line", hcaes(x = Year, y = Count, group = Outcome)) %>%
+      hc_add_theme(hc_theme_flat()) %>%
+      hc_colors(colors) %>%
+      hc_xAxis(title = list(text="Year")) %>%
+      hc_yAxis(title = list(text="Count")) %>%
+      hc_legend(align = "center",
+                verticalAlign = "top") %>%
+      hc_exporting(
+        enabled =TRUE,
+        filename = "PTB_incidence_1995_2021"
+      ) %>%
+      hc_plotOptions(series = list(marker = list(enabled = FALSE)))
+  })
+  
+  
+  
+  
+
+  
 }
 
