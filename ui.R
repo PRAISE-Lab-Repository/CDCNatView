@@ -121,6 +121,9 @@ ui <- dashboardPage(
       column(
         width = 12,
         introBox(
+          bsButton("PTB_visualization", 
+                   label = "PTB Incidence 1995-2021", 
+                   style = "success", type='toggle',value = TRUE, disabled=TRUE),
           bsButton("database1", 
                    label = "Database 1: 2016 - 2021 (Expanded)", 
                    style = "success", type='toggle',value = TRUE, disabled=TRUE),
@@ -138,7 +141,8 @@ ui <- dashboardPage(
                    style = "success", type='toggle')
           )
       )
-    ),    
+    ),
+    
     
     fluidRow(
       div(
