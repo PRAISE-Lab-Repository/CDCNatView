@@ -36,6 +36,7 @@ server <- function(input, output, session) {
       state_grph <- left_join(get_urbn_map(map = "states", sf = TRUE),
                               state_grph,
                               by = "state_name")
+      
     })
   })
   
@@ -193,10 +194,81 @@ server <- function(input, output, session) {
     })
   })  
   
+  
+  update_state_wise <- reactive({
+    input$confirm
+    stateselected <- input$stateLong
+    
+    isolate({
+      req(input$riskInput, input$yearInput, input$stateLong)
+      states_df <- read_csv("data/states_database1.csv")
+      print(stateselected)
+      state_grph <- states_df %>% filter(condition==input$riskInput, 
+                                         condition_status=="Yes",
+                                         state_name==stateselected)
+      
+      state_grph <- rename(state_grph, Year=year)
+    })
+    
+  })
+  
+  update_state_wise_database2 <- reactive({
+    input$confirm
+    stateselected <- input$stateLong
+    
+    isolate({
+      req(input$riskInput, input$yearInput, input$stateLong)
+      states_df <- read_csv("data/states_database2.csv")
+      print(stateselected)
+      state_grph <- states_df %>% filter(condition==input$riskInput, 
+                                         condition_status=="Yes",
+                                         state_name==stateselected)
+      
+      state_grph <- rename(state_grph, Year=year)
+    })
+    
+    
+  })
+  
+  update_state_wise_database3 <- reactive({
+    input$confirm
+    stateselected <- input$stateLong
+    
+    isolate({
+      req(input$riskInput, input$yearInput, input$stateLong)
+      states_df <- read_csv("data/states_database3.csv")
+      print(stateselected)
+      state_grph <- states_df %>% filter(condition==input$riskInput, 
+                                         condition_status=="Yes",
+                                         state_name==stateselected)
+      
+      state_grph <- rename(state_grph, Year=year)
+    })
+    
+    
+  })
+  
+  update_state_wise_database4 <- reactive({
+    input$confirm
+    stateselected <- input$stateLong
+    
+    isolate({
+      req(input$riskInput, input$yearInput, input$stateLong)
+      states_df <- read_csv("data/states_database4.csv")
+      print(stateselected)
+      state_grph <- states_df %>% filter(condition==input$riskInput, 
+                                         condition_status=="Yes",
+                                         state_name==stateselected)
+      
+      state_grph <- rename(state_grph, Year=year)
+    })
+    
+  })
+  
   # graph 2 long plots ---------------------------------------------------------
   update_long_graph <- reactive({
     input$confirm 
-    
+    print(input$confirm )
     isolate({
       req(input$riskInput, input$yearInput)
       condition <- input$riskInput
@@ -260,7 +332,7 @@ server <- function(input, output, session) {
       chart2 <- chart2  %>% filter(chart2$`Average LMP Gestational Age` != "Not Applicable") 
       chart2$`Average LMP Gestational Age` <- as.numeric(chart2$`Average LMP Gestational Age` )
       
-      print(chart2)
+
       if (condition %in% c("fullterm_birth", "preterm_birth","extreme_birth", "severe_birth", "moderate_birth")) {
         
         chart2 <- get_preg_outcome_data(2, chart2)
@@ -849,7 +921,7 @@ server <- function(input, output, session) {
       odd_table <- data.matrix(odds_sub[,-c(1) ])
       rownames(odd_table) = odds_sub$`Mother's Single Race 6`
       
-      print(odd_table)
+
       result <- epitab(odd_table, method="oddsratio")
       print(result)
       as.data.frame(result$tab[,c(1, 3, 5, 8)])
@@ -1332,6 +1404,28 @@ server <- function(input, output, session) {
     plot_per_state(state_grph)
   })
   
+  output$longStatePlot <- renderHighchart({
+    state_grph <- update_state_wise()
+    get_long_plots(state_grph, "counts")
+  })
+  
+  
+  output$longStatePlot_database2 <- renderHighchart({
+    state_grph <- update_state_wise_database2()
+    get_long_plots(state_grph, "counts")
+  })
+  
+  output$longStatePlot_database3 <- renderHighchart({
+    state_grph <- update_state_wise_database3()
+    get_long_plots(state_grph, "counts")
+  })
+  
+  output$longStatePlot_database4 <- renderHighchart({
+    state_grph <- update_state_wise_database4()
+    get_long_plots(state_grph, "counts")
+  })
+  
+  
   # graph 2 -------------------------------------------------------------
   output$longPlot <- renderHighchart({
     long_grph <- update_long_graph()
@@ -1723,19 +1817,19 @@ server <- function(input, output, session) {
   
   # panel 1: state graph
   output$box_pat <- renderUI({
-    get_graph1('box_pat', "distPlot", "statePerPlot")
+    get_graph1('box_pat', "distPlot", "statePerPlot", "longStatePlot")
   })
   
   output$box_pat5 <- renderUI({
-    get_graph1('box_pat', "distPlot_database2", "statePerPlot_database2")
+    get_graph1('box_pat', "distPlot_database2", "statePerPlot_database2", "longStatePlot_database2")
   })
   
   output$box_pat9 <- renderUI({
-    get_graph1('box_pat', "distPlot_database3", "statePerPlot_database3")
+    get_graph1('box_pat', "distPlot_database3", "statePerPlot_database3", "longStatePlot_database3")
   })
   
   output$box_pat13 <- renderUI({
-    get_graph1('box_pat', "distPlot_database4", "statePerPlot_database4")
+    get_graph1('box_pat', "distPlot_database4", "statePerPlot_database4",  "longStatePlot_database4")
   })
   
   # panel 2: longitudinal graphs 
@@ -2432,11 +2526,33 @@ server <- function(input, output, session) {
     )
   })    
   
+  output$box_pat17 <- renderUI({
+    div(
+      style = "position: relative; backgroundColor: #ecf0f5",
+      tabBox(
+        id = "box_pat17",
+        width = NULL,
+        height = 100,
+        tabPanel(
+          title = "Cases",
+          div(
+            style = "position: absolute; left: 0.5em; bottom: 0.5em;",
+          ),
+          withSpinner(
+            highchartOutput("PTB_long_Plot"),
+            type = 4,
+            color = "#d33724", 
+            size = 0.7 
+          )
+        )
+      )
+    )
+  })
   
   # Observation that react when button is clicked -----------------------------
   
   # database 1 
-  observe({
+  observeEvent(input$database1, {
     
     if (input$database1) {
       isolate({
@@ -2450,28 +2566,36 @@ server <- function(input, output, session) {
                         max = max(years1),
                         step = 1L)
       
-      req(input$riskInput, input$yearInput)
+      req(input$riskInput, input$yearInput, input$stateLong)
       
       updateButton(session, "database1", value = TRUE, disabled=TRUE)
       updateButton(session, "database2", value = FALSE, disabled=FALSE)
       updateButton(session, "database3", value = FALSE, disabled=FALSE)
       updateButton(session, "database4", value = FALSE, disabled=FALSE)
+      updateButton(session, "PTB_visualization", value = FALSE, disabled=FALSE)
       
+      freezeReactiveValue(input, "confirm")
       shinyjs::show("database1_panel")
+      freezeReactiveValue(input, "confirm")
       shinyjs::hide("database2_panel")
+      freezeReactiveValue(input, "confirm")
       shinyjs::hide("database3_panel")
+      freezeReactiveValue(input, "confirm")
       shinyjs::hide("database4_panel")
-      click("confirm")
+      freezeReactiveValue(input, "confirm")
+      shinyjs::hide("PTB_visualization_panel")
       })
     }
     
   })  
   
   # database 2 
-  observe({
+  observeEvent(input$database2, {
     
     if (input$database2) {
       isolate({
+      
+      
       updateSelectInput(session, "riskInput", label = "",
                         choices = risk_factor2,
                         selected = "chronic_htn")
@@ -2482,28 +2606,36 @@ server <- function(input, output, session) {
                         max = max(years2),
                         step = 1L)
 
-      req(input$riskInput, input$yearInput)
-      
+
+      req(input$riskInput, input$yearInput, input$stateLong)
+
       updateButton(session, "database2", value = TRUE, disabled=TRUE)
       updateButton(session, "database1", value = FALSE, disabled=FALSE)
       updateButton(session, "database3", value = FALSE, disabled=FALSE)
       updateButton(session, "database4", value = FALSE, disabled=FALSE)
+      updateButton(session, "PTB_visualization", value = FALSE, disabled=FALSE)
       
+      
+      freezeReactiveValue(input, "confirm")
       shinyjs::show("database2_panel")
+      freezeReactiveValue(input, "confirm")
       shinyjs::hide("database1_panel")
+      freezeReactiveValue(input, "confirm")
       shinyjs::hide("database3_panel")
+      freezeReactiveValue(input, "confirm")
       shinyjs::hide("database4_panel")
-      click("confirm")
+      freezeReactiveValue(input, "confirm")
+      shinyjs::hide("PTB_visualization_panel")
     })
     }
-    
-  })  
+  }, priority=99999)  
   
   # database 3 
   observe({
     
     if (input$database3) {
       isolate({
+        
       updateSelectInput(session, "riskInput", label = "",
                         choices = risk_factor3,
                         selected = "anemia")
@@ -2514,17 +2646,25 @@ server <- function(input, output, session) {
                         max = max(years3),
                         step = 1L)
       
-      req(input$riskInput, input$yearInput)
+      req(input$riskInput, input$yearInput, input$stateLong)
       updateButton(session, "database3", value = TRUE, disabled=TRUE)
       updateButton(session, "database1", value = FALSE, disabled=FALSE)
       updateButton(session, "database2", value = FALSE, disabled=FALSE)
       updateButton(session, "database4", value = FALSE, disabled=FALSE)
+      updateButton(session, "PTB_visualization", value = FALSE, disabled=FALSE)
       
+      
+      
+      freezeReactiveValue(input, "confirm")
       shinyjs::show("database3_panel")
+      freezeReactiveValue(input, "confirm")
       shinyjs::hide("database1_panel")
+      freezeReactiveValue(input, "confirm")
       shinyjs::hide("database2_panel")
+      freezeReactiveValue(input, "confirm")
       shinyjs::hide("database4_panel")
-      click("confirm")
+      freezeReactiveValue(input, "confirm")
+      shinyjs::hide("PTB_visualization_panel")
     })
     }
     
@@ -2544,26 +2684,76 @@ server <- function(input, output, session) {
                         min = min(years4),
                         max = max(years4),
                         step = 1L)
-      req(input$riskInput, input$yearInput)
+      
+      req(input$riskInput, input$yearInput, input$stateLong)
       updateButton(session, "database4", value = TRUE, disabled=TRUE)
       updateButton(session, "database1", value = FALSE, disabled=FALSE)
       updateButton(session, "database2", value = FALSE, disabled=FALSE)
       updateButton(session, "database3", value = FALSE, disabled=FALSE)
+      updateButton(session, "PTB_visualization", value = FALSE, disabled=FALSE)
       
+      freezeReactiveValue(input, "confirm")
       shinyjs::show("database4_panel")
+      freezeReactiveValue(input, "confirm")
       shinyjs::hide("database1_panel")
+      freezeReactiveValue(input, "confirm")
       shinyjs::hide("database2_panel")
+      freezeReactiveValue(input, "confirm")
       shinyjs::hide("database3_panel")
-      click("confirm")
+      freezeReactiveValue(input, "confirm")
+      shinyjs::hide("PTB_visualization_panel")
+      
+
       
       })
     }
     
   })  
   
+  observe({
+    
+    if (input$PTB_visualization) {
+      isolate({
+        updateSelectInput(session, "riskInput", label = "",
+                          choices = risk_factor5,
+                          selected = "preterm_birth")
+        
+        updateSliderInput(session, "yearInput", label = "Year",
+                          value = years5, 
+                          min = min(years5),
+                          max = max(years5),
+                          step = 1L)
+        
+        req(input$riskInput, input$yearInput, input$stateLong)
+        
+        updateButton(session, "PTB_visualization", value = TRUE, disabled=TRUE)
+        updateButton(session, "database4", value = FALSE, disabled=FALSE)
+        updateButton(session, "database1", value = FALSE, disabled=FALSE)
+        updateButton(session, "database2", value = FALSE, disabled=FALSE)
+        updateButton(session, "database3", value = FALSE, disabled=FALSE)
+        
+        freezeReactiveValue(input, "confirm")
+        shinyjs::show("PTB_visualization_panel")
+        freezeReactiveValue(input, "confirm")
+        shinyjs::hide("database4_panel")
+        freezeReactiveValue(input, "confirm")
+        shinyjs::hide("database1_panel")
+        freezeReactiveValue(input, "confirm")
+        shinyjs::hide("database2_panel")
+        freezeReactiveValue(input, "confirm")
+        shinyjs::hide("database3_panel")
+        
+        
+      })
+    }
+    
+  })  
   
-  # helper functions -----------------------------------------------------------
-  get_graph1 <- function(plot_id, plot1, plot2){
+  
+  
+  # helper functions -----------------------------------------------------------s
+  get_graph1 <- function(plot_id, plot1, plot2, plot3){
+
     div(
       style = "position: relative; backgroundColor: #ecf0f5",
       tabBox(
@@ -2578,8 +2768,8 @@ server <- function(input, output, session) {
             color = "#d33724",
             size = 0.7
           ),
-          
-        ), 
+
+        ),
         tabPanel(
           title = sprintf("Percentage of Condition in the United States "),
           div(
@@ -2588,10 +2778,22 @@ server <- function(input, output, session) {
           withSpinner(
             plotOutput(plot2),
             type = 4,
-            color = "#d33724", 
-            size = 0.7 
+            color = "#d33724",
+            size = 0.7
           )
-        ),         
+        ),
+        tabPanel(
+          title = sprintf("State-wise Incidence Rates "),
+          div(
+            style = "position: absolute; left: 0.5em; bottom: 0.5em;",
+          ),
+          withSpinner(
+            highchartOutput(plot3),
+            type = 4,
+            color = "#d33724",
+            size = 0.7
+          )
+        ),
       )
     )
   }
@@ -2693,6 +2895,40 @@ server <- function(input, output, session) {
       labs(fill = "Cases") +
       coord_sf(datum = NA) 
   }
+  
+  
+  ### PTB Longitudinal plot ----------------------------------------------------
+  update_PTB_long_Plot <- reactive({
+    input$confirm 
+    
+    isolate({
+      req(input$riskInput, input$yearInput)
+      PTB.df <- read_csv("data/PTB_outcome_1995_2021.csv")
+      
+      PTB.df <- PTB.df %>% filter( between(Year, input$yearInput[1], input$yearInput[2]))  
+    })
+  })
+  
+  output$PTB_long_Plot <- renderHighchart({
+    PTB.df <- update_PTB_long_Plot()
+    print(PTB.df)
+    PTB.df %>%
+      hchart("line", hcaes(x = Year, y = Count, group = Outcome)) %>%
+      hc_add_theme(hc_theme_flat()) %>%
+      hc_colors(colors) %>%
+      hc_xAxis(title = list(text="Year")) %>%
+      hc_yAxis(title = list(text="Count")) %>%
+      hc_legend(align = "center",
+                verticalAlign = "top") %>%
+      hc_exporting(
+        enabled =TRUE,
+        filename = "PTB_incidence_1995_2021"
+      ) %>%
+      hc_plotOptions(series = list(marker = list(enabled = FALSE)))
+  })
+  
+  
+  
   
   update_graphs <- function() {
     
@@ -2811,6 +3047,7 @@ server <- function(input, output, session) {
     req(input$riskInput, input$yearInput)
     feat.name <- chartr(" ", "_", feat)
     file <- sprintf("%s_%s", input$riskInput, tolower(feat.name))
+
     sub_table %>% hchart("column", hcaes(x = factor(!!as.symbol(reverse_map[[input$riskInput]])), y = count, group=!!as.symbol(feat)), stacking="percent") %>%
       hc_add_theme(hc_theme_flat()) %>%
       hc_colors(colors) %>%

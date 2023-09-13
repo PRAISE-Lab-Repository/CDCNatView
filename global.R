@@ -72,8 +72,14 @@ years1 = c(2016, 2021)
 years2 = c(2007, 2021)
 years3 = c(2003, 2006)
 years4 = c(1995, 2002)
+years5 = c(1995, 2021)
 
 # choices for risk factor  ----------------------------------------------------
+
+
+state_df = read_csv("data/state_example.csv")
+state_list = state_df$`state_name`
+
 
 ### 2016-2021 ##################################################################
 risk_factor1 = list(`Pregnancy risk factor` = 
@@ -279,6 +285,8 @@ risk_factor4 = list(`Pregnancy risk factor` =
                            "Moderate and Late preterm birth" = "moderate_birth")
 )
 
+risk_factor5 = list("Preterm birth" = "preterm_birth")
+
 reverse_map_4 = list("anemia" = "Anemia",
                      "cardiac_disease" = "Cardiac Disease",
                      "chronic_hypertension" = "Chronic Hypertension", 
@@ -313,61 +321,69 @@ demo_map_4 <- list("race"="D10.V2", # Mother's Race
                    "age"="D10.V1",  # Age of Mother
                    "tobacco_use" = "D10.V10")
 
-get_preg_outcome_data <- function(gestational_table) {
-  gestational_table <- gestational_table %>% mutate("Preterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "Yes",
-                                                                                `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "Yes", 
-                                                                                `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "Yes", 
-                                                                                `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "Yes", 
-                                                                                `OE Gestational Age Recode 10`== "36 weeks" ~ "Yes", 
-                                                                                `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "No", 
-                                                                                `OE Gestational Age Recode 10`== "40 weeks" ~ "No",
-                                                                                `OE Gestational Age Recode 10`== "41 weeks" ~ "No", 
-                                                                                `OE Gestational Age Recode 10`== "42 weeks or more" ~ "No", 
-                                                                                `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+get_preg_outcome_data <- function(database, gestational_table) {
+  sprintf("%s.rds", database)
+  if (database == 1) {
+    feat = "OE Gestational Age Recode 10"  
+  } else {
+    feat = "OE Gestational Age 10"  
+  }
   
-  gestational_table <- gestational_table %>% mutate("Fullterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "No",
-                                                                                 `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "No", 
-                                                                                 `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "No", 
-                                                                                 `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "No", 
-                                                                                 `OE Gestational Age Recode 10`== "36 weeks" ~ "No", 
-                                                                                 `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "Yes", 
-                                                                                 `OE Gestational Age Recode 10`== "40 weeks" ~ "Yes",
-                                                                                 `OE Gestational Age Recode 10`== "41 weeks" ~ "Yes", 
-                                                                                 `OE Gestational Age Recode 10`== "42 weeks or more" ~ "Yes", 
-                                                                                 `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+
+  gestational_table <- gestational_table %>% mutate("Preterm birth"=  case_when(!!as.symbol(feat)== "Under 20 weeks" ~ "Yes",
+                                                                                !!as.symbol(feat)== "20 - 27 weeks" ~ "Yes", 
+                                                                                !!as.symbol(feat)== "28 - 31 weeks" ~ "Yes", 
+                                                                                !!as.symbol(feat)== "32 - 35 weeks" ~ "Yes", 
+                                                                                !!as.symbol(feat)== "36 weeks" ~ "Yes", 
+                                                                                !!as.symbol(feat)== "37 - 39 weeks" ~ "No", 
+                                                                                !!as.symbol(feat)== "40 weeks" ~ "No",
+                                                                                !!as.symbol(feat)== "41 weeks" ~ "No", 
+                                                                                !!as.symbol(feat)== "42 weeks or more" ~ "No", 
+                                                                                !!as.symbol(feat)== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
   
-  gestational_table <- gestational_table %>% mutate("Extreme preterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "Yes",
-                                                                                        `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "Yse", 
-                                                                                        `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "No", 
-                                                                                        `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "No", 
-                                                                                        `OE Gestational Age Recode 10`== "36 weeks" ~ "No", 
-                                                                                        `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "No", 
-                                                                                        `OE Gestational Age Recode 10`== "40 weeks" ~ "No",
-                                                                                        `OE Gestational Age Recode 10`== "41 weeks" ~ "No", 
-                                                                                        `OE Gestational Age Recode 10`== "42 weeks or more" ~ "No", 
-                                                                                        `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+  gestational_table <- gestational_table %>% mutate("Fullterm birth"=  case_when(!!as.symbol(feat)== "Under 20 weeks" ~ "No",
+                                                                                 !!as.symbol(feat)== "20 - 27 weeks" ~ "No", 
+                                                                                 !!as.symbol(feat)== "28 - 31 weeks" ~ "No", 
+                                                                                 !!as.symbol(feat)== "32 - 35 weeks" ~ "No", 
+                                                                                 !!as.symbol(feat)== "36 weeks" ~ "No", 
+                                                                                 !!as.symbol(feat)== "37 - 39 weeks" ~ "Yes", 
+                                                                                 !!as.symbol(feat)== "40 weeks" ~ "Yes",
+                                                                                 !!as.symbol(feat)== "41 weeks" ~ "Yes", 
+                                                                                 !!as.symbol(feat)== "42 weeks or more" ~ "Yes", 
+                                                                                 !!as.symbol(feat)== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
   
-  gestational_table <- gestational_table %>% mutate("Severe preterm birth"=  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "No",
-                                                                                       `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "No", 
-                                                                                       `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "Yes", 
-                                                                                       `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "No", 
-                                                                                       `OE Gestational Age Recode 10`== "36 weeks" ~ "No", 
-                                                                                       `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "No", 
-                                                                                       `OE Gestational Age Recode 10`== "40 weeks" ~ "No",
-                                                                                       `OE Gestational Age Recode 10`== "41 weeks" ~ "No", 
-                                                                                       `OE Gestational Age Recode 10`== "42 weeks or more" ~ "No", 
-                                                                                       `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+  gestational_table <- gestational_table %>% mutate("Extreme preterm birth"=  case_when(!!as.symbol(feat)== "Under 20 weeks" ~ "Yes",
+                                                                                        !!as.symbol(feat)== "20 - 27 weeks" ~ "Yse", 
+                                                                                        !!as.symbol(feat)== "28 - 31 weeks" ~ "No", 
+                                                                                        !!as.symbol(feat)== "32 - 35 weeks" ~ "No", 
+                                                                                        !!as.symbol(feat)== "36 weeks" ~ "No", 
+                                                                                        !!as.symbol(feat)== "37 - 39 weeks" ~ "No", 
+                                                                                        !!as.symbol(feat)== "40 weeks" ~ "No",
+                                                                                        !!as.symbol(feat)== "41 weeks" ~ "No", 
+                                                                                        !!as.symbol(feat)== "42 weeks or more" ~ "No", 
+                                                                                        !!as.symbol(feat)== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
   
-  gestational_table <- gestational_table %>% mutate("Moderate and Late preterm birth" =  case_when(`OE Gestational Age Recode 10`== "Under 20 weeks" ~ "No",
-                                                                                                   `OE Gestational Age Recode 10`== "20 - 27 weeks" ~ "No", 
-                                                                                                   `OE Gestational Age Recode 10`== "28 - 31 weeks" ~ "No", 
-                                                                                                   `OE Gestational Age Recode 10`== "32 - 35 weeks" ~ "Yes", 
-                                                                                                   `OE Gestational Age Recode 10`== "36 weeks" ~ "Yes", 
-                                                                                                   `OE Gestational Age Recode 10`== "37 - 39 weeks" ~ "No", 
-                                                                                                   `OE Gestational Age Recode 10`== "40 weeks" ~ "No",
-                                                                                                   `OE Gestational Age Recode 10`== "41 weeks" ~ "No", 
-                                                                                                   `OE Gestational Age Recode 10`== "42 weeks or more" ~ "No", 
-                                                                                                   `OE Gestational Age Recode 10`== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+  gestational_table <- gestational_table %>% mutate("Severe preterm birth"=  case_when(!!as.symbol(feat)== "Under 20 weeks" ~ "No",
+                                                                                       !!as.symbol(feat)== "20 - 27 weeks" ~ "No", 
+                                                                                       !!as.symbol(feat)== "28 - 31 weeks" ~ "Yes", 
+                                                                                       !!as.symbol(feat)== "32 - 35 weeks" ~ "No", 
+                                                                                       !!as.symbol(feat)== "36 weeks" ~ "No", 
+                                                                                       !!as.symbol(feat)== "37 - 39 weeks" ~ "No", 
+                                                                                       !!as.symbol(feat)== "40 weeks" ~ "No",
+                                                                                       !!as.symbol(feat)== "41 weeks" ~ "No", 
+                                                                                       !!as.symbol(feat)== "42 weeks or more" ~ "No", 
+                                                                                       !!as.symbol(feat)== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
+  
+  gestational_table <- gestational_table %>% mutate("Moderate and Late preterm birth" =  case_when(!!as.symbol(feat)== "Under 20 weeks" ~ "No",
+                                                                                                   !!as.symbol(feat)== "20 - 27 weeks" ~ "No", 
+                                                                                                   !!as.symbol(feat)== "28 - 31 weeks" ~ "No", 
+                                                                                                   !!as.symbol(feat)== "32 - 35 weeks" ~ "Yes", 
+                                                                                                   !!as.symbol(feat)== "36 weeks" ~ "Yes", 
+                                                                                                   !!as.symbol(feat)== "37 - 39 weeks" ~ "No", 
+                                                                                                   !!as.symbol(feat)== "40 weeks" ~ "No",
+                                                                                                   !!as.symbol(feat)== "41 weeks" ~ "No", 
+                                                                                                   !!as.symbol(feat)== "42 weeks or more" ~ "No", 
+                                                                                                   !!as.symbol(feat)== "Unknown or Not Stated" ~ "Unknown or Not Stated"))
 }
 
 #condition <- get_condition(risk_factor1, "pre-pregnancy_diabetes")

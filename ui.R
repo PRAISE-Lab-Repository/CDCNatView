@@ -75,18 +75,18 @@ ui <- dashboardPage(
             selected = "pre-pregnancy_diabetes"
             # ,multiple = TRUE
           )
+        ),
+        br(),
+        menuItem(
+          "STATES",
+          tabName = "state_filter",
+          icon = icon("map"),
+          selectInput(
+            inputId = "stateLong",
+            label = "",
+            choices = state_list
+          )
         )
-        # br(),
-        # menuItem(
-        #   "STATES",
-        #   tabName = "state_filter",
-        #   icon = icon("map"),
-        #   selectInput(
-        #     inputId = "stateInput",
-        #     label = "",
-        #     choices = list("New York" = "NY", "New Jersey" = "NJ")
-        #   )
-        # ),
         # br(),
         # menuItem(
         #   "DOWNLOAD SELECTION",
@@ -132,6 +132,9 @@ ui <- dashboardPage(
                    style = "success", type='toggle'),
           bsButton("database4",
                    label = "Database 4: 1995 - 2002",
+                   style = "success", type='toggle'),
+          bsButton("PTB_visualization", 
+                   label = "PTB Incidence 1995-2021", 
                    style = "success", type='toggle')
           )
       )
@@ -144,7 +147,7 @@ ui <- dashboardPage(
           width = 6,
           introBox(
             uiOutput("box_pat"),
-            linebreaks(18),
+            linebreaks(20),
             uiOutput("box_pat3")
           )
         ),
@@ -166,7 +169,7 @@ ui <- dashboardPage(
           width = 6,
           introBox(
             uiOutput("box_pat5"),
-            linebreaks(18),
+            linebreaks(20),
             uiOutput("box_pat7")            
           )
         ),
@@ -188,7 +191,7 @@ ui <- dashboardPage(
           width = 6,
           introBox(
             uiOutput("box_pat9"),
-            linebreaks(18),
+            linebreaks(20),
             uiOutput("box_pat11")  
           )
         ),
@@ -203,6 +206,7 @@ ui <- dashboardPage(
       )
     ),
     
+
     fluidRow(
       div(
         id = "database4_panel", 
@@ -210,7 +214,7 @@ ui <- dashboardPage(
           width = 6,
           introBox(
             uiOutput("box_pat13"),
-            linebreaks(18),
+            linebreaks(20),
             uiOutput("box_pat15")  
           )
         ),
@@ -221,6 +225,18 @@ ui <- dashboardPage(
             linebreaks(18),
             uiOutput("box_pat16")  
             
+          )
+        )
+      )
+    ),
+    
+    fluidRow(
+      div(
+        id = "PTB_visualization_panel", 
+        column(
+          width = 6,
+          introBox(
+            uiOutput("box_pat17")
           )
         )
       )
